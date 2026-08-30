@@ -7,5 +7,5 @@ title: "Publications: Primary Author/Co-Author"
 **ATLAS Collaboration**  
 *Physical Review Letters* **136**, [032301 (2026)](https://journals.aps.org/prl/abstract/10.1103/ldcn-r2lq)
 
-[Project summary](projects/radial-flow-collectivity/index.qmd) ·
+[Project Summary](projects/radial-flow-collectivity/index.qmd) ·
 [arXiv](https://arxiv.org/abs/2503.24125)

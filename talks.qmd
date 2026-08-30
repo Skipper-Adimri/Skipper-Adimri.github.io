@@ -2,4 +2,11 @@
 title: "Talks"
 ---
 
-Talks will be added here.
+## 2026
+
+### Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector
+
+**22nd International Conference on Strangeness in Quark Matter ([SQM 2026](https://indico.global/event/13943/))**<br>
+Los Angeles, California · March 24, 2026
+
+[Talk Summary](projects/radial-flow-collectivity/talks/sqm-2026.qmd)

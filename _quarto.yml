@@ -19,3 +19,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    anchor-sections: false

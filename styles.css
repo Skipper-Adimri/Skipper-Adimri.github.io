@@ -36,3 +36,26 @@ h6 {
   background-color: rgba(0, 0, 0, 0.03);
   font-size: 1.05rem;
 }
+
+.publication-entry {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 1.2rem 0;
+  margin: 1rem 0 2rem 0;
+}
+
+.publication-entry h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.award-link {
+  margin-left: 0.3rem;
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.award-link:hover {
+  color: #0d6efd;
+}

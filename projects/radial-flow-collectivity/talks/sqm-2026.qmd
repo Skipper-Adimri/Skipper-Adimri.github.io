@@ -1,0 +1,42 @@
+---
+title: "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector"
+---
+
+**22nd International Conference on Strangeness in Quark Matter (SQM 2026)**<br>
+Los Angeles, California · March 24, 2026
+
+Presented on behalf of the ATLAS Collaboration.
+
+::: {.project-links}
+[Conference Contribution][sqm-talk]{.btn .btn-primary}
+[Presentation Slides][sqm-slides]{.btn .btn-outline-primary}
+[Related Project](../index.qmd){.btn .btn-outline-primary}
+:::
+
+## Summary
+
+This presentation reports the first measurement of the transverse-momentum dependence of
+radial-flow fluctuations, $v_0(p_T)$, over $0.5 < p_T < 10$ GeV in Pb+Pb collisions at
+$\sqrt{s_{\mathrm{NN}}}=5.02$ TeV with the ATLAS detector. The measurement satisfies three
+major hallmarks of collectivity: $p_T$ factorization, long-range correlations in
+pseudorapidity, and a centrality-independent response shape. Comparisons with hydrodynamic
+models further demonstrate the sensitivity of $v_0(p_T)$ to the bulk viscosity of the QGP.
+
+## Recognition
+
+::: {.project-award}
+**Andre Mischke Award — Best Experimental Talk**
+
+The Andre Mischke Award was established in memory of Andre Mischke—a friend, educator,
+and scholar whose career combined major contributions to heavy-flavour physics with a deep
+commitment to mentoring and supporting young scientists—and is awarded for the best
+experimental presentation by a young scientist at SQM.
+
+This presentation received the Andre Mischke Award at SQM 2026.
+
+[Award Presentation][sqm-award]{.btn .btn-outline-primary}
+:::
+
+[sqm-talk]: https://indico.global/event/13943/contributions/143376/
+[sqm-slides]: https://indico.global/event/13943/contributions/143376/attachments/68267/132321/Presentation_SQM_FinV0pT_V3.pdf
+[sqm-award]: https://indico.global/event/13943/contributions/143709/attachments/68482/132707/andre_mischke_award_presentation_2026_Los_Angeles.pdf
