@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Evidence for the Collective Nature of Radial Flow – Aman Dimri</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Aman Dimri</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../awards.html"> 
+<span class="menu-text">Awards</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a>
+  <ul class="collapse">
+  <li><a href="#why-establish-radial-flow-collectivity" id="toc-why-establish-radial-flow-collectivity" class="nav-link" data-scroll-target="#why-establish-radial-flow-collectivity">Why establish radial-flow collectivity?</a></li>
+  <li><a href="#differential-radial-flow" id="toc-differential-radial-flow" class="nav-link" data-scroll-target="#differential-radial-flow">Differential radial flow</a></li>
+  <li><a href="#experimental-hallmarks-of-collectivity" id="toc-experimental-hallmarks-of-collectivity" class="nav-link" data-scroll-target="#experimental-hallmarks-of-collectivity">Experimental hallmarks of collectivity</a></li>
+  <li><a href="#connection-to-qgp-transport-properties" id="toc-connection-to-qgp-transport-properties" class="nav-link" data-scroll-target="#connection-to-qgp-transport-properties">Connection to QGP transport properties</a></li>
+  <li><a href="#broader-implications" id="toc-broader-implications" class="nav-link" data-scroll-target="#broader-implications">Broader implications</a></li>
+  </ul></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Evidence for the Collective Nature of Radial Flow</h1>
+<p class="subtitle lead">Pb+Pb collisions with the ATLAS detector</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="project-meta">
+<p><strong>ATLAS Collaboration</strong><br>
+<em>Physical Review Letters</em> <strong>136</strong>, 032301 (2026)</p>
+</div>
+<div class="project-links">
+<p><a href="https://journals.aps.org/prl/abstract/10.1103/ldcn-r2lq" class="btn btn-primary">PRL</a> <a href="https://arxiv.org/abs/2503.24125" class="btn btn-outline-primary">arXiv</a> <a href="../../projects/radial-flow-collectivity/talks/sqm-2026.html" class="btn btn-outline-primary">SQM 2026 Talk</a> <a href="https://indico.global/event/13943/contributions/143376/attachments/68267/132321/Presentation_SQM_FinV0pT_V3.pdf" class="btn btn-outline-primary">Presentation Slides</a></p>
+</div>
+<div class="project-award">
+<p><strong>Andre Mischke Award — Best Experimental Talk</strong> <a href="../../projects/radial-flow-collectivity/talks/sqm-2026.html#recognition" class="award-link" title="Read about the award"><i class="bi bi-link-45deg"></i></a><br>
+Strangeness in Quark Matter 2026, Los Angeles</p>
+</div>
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
+<p>Radial flow is one of the fundamental manifestations of the collective expansion of the quark–gluon plasma (QGP). While anisotropic flow has been extensively established as a collective phenomenon and developed into a precision probe of QGP properties, comparable direct experimental evidence for the global collective nature of radial flow had been missing. This work introduces the first measurement of the transverse-momentum dependence of radial-flow fluctuations, <span class="math inline">\(v_0(p_T)\)</span>, over <span class="math inline">\(0.5 &lt; p_T &lt; 10\)</span> GeV in Pb+Pb collisions at <span class="math inline">\(\sqrt{s_{\mathrm{NN}}}=5.02\)</span> TeV with the ATLAS detector. The measurement tests radial flow against three characteristic hallmarks of collectivity: <strong>long-range correlations in pseudorapidity, factorization in <span class="math inline">\(p_T\)</span>, and a centrality-independent response shape</strong>. All three are observed in the flow-dominated regime, providing direct experimental evidence for the global collective nature of radial flow. Beyond establishing collectivity, comparisons with hydrodynamic calculations demonstrate that <span class="math inline">\(v_0(p_T)\)</span> is sensitive to the bulk viscosity of the QGP. The measurement therefore establishes differential radial flow as a new tool for studying both the collective dynamics and transport properties of the strongly interacting QGP medium.</p>
+</section>
+<section id="analysis" class="level2">
+<h2 data-anchor-id="analysis">Analysis</h2>
+<section id="why-establish-radial-flow-collectivity" class="level3">
+<h3 data-anchor-id="why-establish-radial-flow-collectivity">Why establish radial-flow collectivity?</h3>
+<p>The collective expansion of the quark–gluon plasma can manifest itself through two complementary forms of flow. <strong>Anisotropic flow</strong> reflects the hydrodynamic response to the initial spatial shape of the collision, while <strong>radial flow</strong> reflects the response to fluctuations in the transverse size and density of the system.</p>
+<p>For anisotropic flow, its collective origin has been established experimentally through a broad set of characteristic signatures, including long-range correlations, factorization, and a universal hydrodynamic response. Radial flow, despite being of comparable fundamental importance, had not been subjected to the same direct experimental tests.</p>
+<p>This distinction matters because radial-flow observables are increasingly being used to constrain properties of the QGP. Event-by-event fluctuations of the mean transverse momentum, <span class="math inline">\([p_T]\)</span>, exhibit striking behavior in ultra-central Pb+Pb collisions, including a sharp suppression of their variance and a rapid increase of <span class="math inline">\(\langle[p_T]\rangle\)</span> with multiplicity. These features have been interpreted within a hydrodynamic picture in which radial-flow fluctuations originate from both global collision geometry and local density fluctuations.</p>
+<p>Before such observables can be used as precision probes of the QGP equation of state or transport properties, however, an important logical step must be established experimentally: <strong>is radial flow itself genuinely collective?</strong></p>
+</section>
+<section id="differential-radial-flow" class="level3">
+<h3 data-anchor-id="differential-radial-flow">Differential radial flow</h3>
+<p>To answer this question, the analysis introduces the differential radial-flow observable <span class="math inline">\(v_0(p_T)\)</span>.</p>
+<p>Its physical origin can be understood by considering events with approximately fixed total entropy. An event with a smaller transverse collision area develops stronger pressure gradients and therefore experiences a larger radial push. Its particle spectrum becomes flatter and its event-by-event mean transverse momentum <span class="math inline">\([p_T]\)</span> increases. Conversely, an event with a larger transverse area experiences weaker radial expansion and develops a steeper spectrum.</p>
+<p>This produces a characteristic correlation between fluctuations of the local particle yield and fluctuations of <span class="math inline">\([p_T]\)</span>. At low <span class="math inline">\(p_T\)</span>, the two quantities are anticorrelated; near the ensemble mean transverse momentum the correlation crosses zero; and at higher <span class="math inline">\(p_T\)</span> it becomes positive.</p>
+<p>The differential observable is constructed from this correlation,</p>
+<p><span class="math display">\[
+v_0(p_T)
+=
+\frac{1}{v_0}
+\frac{
+\langle \delta n(p_T)\delta[p_T]\rangle
+}{
+\langle n(p_T)\rangle\langle[p_T]\rangle
+},
+\]</span></p>
+<p>where <span class="math inline">\(n(p_T)\)</span> is the normalized particle spectrum and <span class="math inline">\(v_0\)</span> is the corresponding integrated radial-flow fluctuation.</p>
+<div id="fig-v0-cartoon" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-v0-cartoon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Cartoon_ExplainV0pT.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-v0-cartoon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Schematic illustration of the physical origin of differential radial flow. Events with larger <span class="math inline">\([p_T]\)</span> have flatter spectra, while events with smaller <span class="math inline">\([p_T]\)</span> have steeper spectra, producing a characteristic sign change in the correlation between <span class="math inline">\(\delta n(p_T)\)</span> and <span class="math inline">\(\delta[p_T]\)</span>.
+</figcaption>
+</figure>
+</div>
+<p>A two-subevent method is used in which the local spectrum and <span class="math inline">\([p_T]\)</span> are measured using particles separated in pseudorapidity. This suppresses short-range correlations and allows the global component of the radial-flow signal to be isolated.</p>
+</section>
+<section id="experimental-hallmarks-of-collectivity" class="level3">
+<h3 data-anchor-id="experimental-hallmarks-of-collectivity">Experimental hallmarks of collectivity</h3>
+<p>The key idea of the measurement is to test radial flow against the same experimental criteria that are traditionally used to establish anisotropic collectivity.</p>
+<section id="long-range-correlations" class="level4">
+<h4 data-anchor-id="long-range-correlations">Long-range correlations</h4>
+<p>A global collective expansion should generate correlations extending over large separations in pseudorapidity. Experimentally, <span class="math inline">\(v_0(p_T)\)</span> is found to be largely insensitive to the pseudorapidity gap used between the two subevents, as shown in <a href="#fig-long-range" class="quarto-xref">Figure&nbsp;2</a>.</p>
+<div id="fig-long-range" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-long-range-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/v0-long-range.png" class="img-fluid figure-img" style="width:85.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-long-range-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Differential radial flow <span class="math inline">\(v_0(p_T)\)</span> measured for different pseudorapidity gaps in central and peripheral Pb+Pb collisions. The weak dependence on the gap size demonstrates the long-range nature of the radial-flow correlation.
+</figcaption>
+</figure>
+</div>
+<p>This behavior is observed in both central and peripheral Pb+Pb collisions. Deviations appear primarily at larger <span class="math inline">\(p_T\)</span>, where contributions from jets and other non-flow effects become increasingly important.</p>
+</section>
+<section id="centrality-independent-response" class="level4">
+<h4 data-anchor-id="centrality-independent-response">Centrality-independent response</h4>
+<p>The absolute magnitude of <span class="math inline">\(v_0(p_T)\)</span> varies strongly with collision centrality. Much of this variation reflects changes in the magnitude of the initial-state size fluctuations rather than changes in the subsequent hydrodynamic response.</p>
+<p>To reduce this dependence, the differential measurement is divided by its integrated counterpart, <span class="math inline">\(v_0\)</span>. As shown in <a href="#fig-centrality-response" class="quarto-xref">Figure&nbsp;3</a>, the resulting quantity, <span class="math inline">\(v_0(p_T)/v_0\)</span>, exhibits a striking behavior: curves from widely separated centrality intervals collapse onto an approximately common shape in the flow-dominated region.</p>
+<div id="fig-centrality-response" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-centrality-response-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/v0-centrality-response.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-centrality-response-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Differential radial flow <span class="math inline">\(v_0(p_T)\)</span> for different centrality intervals before and after normalization by the integrated radial-flow fluctuation <span class="math inline">\(v_0\)</span>. The strong centrality dependence of the absolute magnitude is substantially reduced after normalization, revealing an approximately universal response shape in the flow-dominated region.
+</figcaption>
+</figure>
+</div>
+<p>This centrality-independent shape indicates that very different initial collision geometries are being transformed into momentum space through a common underlying hydrodynamic response.</p>
+</section>
+<section id="factorization" class="level4">
+<h4 data-anchor-id="factorization">Factorization</h4>
+<p>A collective mode generated by a global hydrodynamic expansion is also expected to satisfy factorization. This is tested by changing the reference <span class="math inline">\(p_T\)</span> interval used to define <span class="math inline">\([p_T]\)</span> and its event-by-event fluctuations. For <span class="math inline">\(p_T \lesssim 3\)</span> GeV, the measured <span class="math inline">\(v_0(p_T)\)</span> is essentially insensitive to this choice, demonstrating factorization in the region dominated by soft collective physics, as shown in <a href="#fig-factorization" class="quarto-xref">Figure&nbsp;4</a>.</p>
+<div id="fig-factorization" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-factorization-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/v0-factorization.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-factorization-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Differential radial flow <span class="math inline">\(v_0(p_T)\)</span> measured using different reference <span class="math inline">\(p_T\)</span> ranges in central and peripheral Pb+Pb collisions. The agreement of the measurements at low <span class="math inline">\(p_T\)</span> demonstrates factorization in the flow-dominated regime.
+</figcaption>
+</figure>
+</div>
+<p>At larger transverse momentum, the factorization begins to break. In peripheral collisions, this behavior is consistent with increasing contamination from residual non-flow correlations, while in central collisions the high-<span class="math inline">\(p_T\)</span> response becomes sensitive to jet-quenching phenomena.</p>
+</section>
+</section>
+<section id="connection-to-qgp-transport-properties" class="level3">
+<h3 data-anchor-id="connection-to-qgp-transport-properties">Connection to QGP transport properties</h3>
+<p>Once the collective nature of radial flow is established, the differential observable can be used to investigate properties of the medium itself.</p>
+<p>The measured <span class="math inline">\(v_0(p_T)/v_0\)</span> is compared with hydrodynamic calculations based on the Trento+MUSIC framework. The ideal-hydrodynamic calculation and the calculation including shear viscosity give very similar predictions and underestimate the data at high <span class="math inline">\(p_T\)</span>, failing to reproduce the measured shape. In contrast, the inclusion of a temperature-dependent bulk viscosity, <span class="math inline">\(\zeta/s(T)\)</span>, substantially modifies the high-<span class="math inline">\(p_T\)</span> behavior and provides a much better description of the data. After additionally accounting for the difference in the mean transverse momentum between model and data by scaling the horizontal axis with <span class="math inline">\(\bar{p}_T\)</span>, the agreement improves further, as shown in <a href="#fig-bulk-viscosity" class="quarto-xref">Figure&nbsp;5</a>.</p>
+<div id="fig-bulk-viscosity" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bulk-viscosity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/v0-bulk-viscosity.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bulk-viscosity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Comparison of the measured scaled differential radial flow with Trento+MUSIC hydrodynamic calculations. The ideal and shear-only calculations underestimate the data at high <span class="math inline">\(p_T\)</span>, while including a temperature-dependent bulk viscosity significantly improves the description. Scaling the horizontal axis by the mean transverse momentum further improves the agreement.
+</figcaption>
+</figure>
+</div>
+<p>The normalization by the integrated <span class="math inline">\(v_0\)</span> suppresses much of the influence of the initial-state fluctuation magnitude and emphasizes the hydrodynamic response. The improved description of the measured shape after including bulk viscosity demonstrates the sensitivity of differential radial flow to <span class="math inline">\(\zeta/s\)</span>, establishing <span class="math inline">\(v_0(p_T)\)</span> as a new experimental probe of QGP transport properties.</p>
+</section>
+<section id="broader-implications" class="level3">
+<h3 data-anchor-id="broader-implications">Broader implications</h3>
+<p>By exhibiting long-range correlations, a centrality-independent response shape, and factorization, radial flow satisfies the same key hallmarks of collectivity established for azimuthal flow. These results elevate radial flow to the rigorous standing of azimuthal flow, establishing it as a powerful new probe for constraining QGP transport properties.</p>
+<p>The same observable also opens a path toward future system-size studies. Measurements of <span class="math inline">\(v_0(p_T)\)</span> in systems such as p+O, O+O, Ne+Ne, and other small (p+p) or exotic collision systems (<span class="math inline">\(\gamma\)</span>+Pb) could provide an independent probe of collectivity, help explore how the emergence of QGP-like behavior evolves with system size, and ultimately help identify the smallest collision systems capable of forming a QGP droplet.</p>
+</section>
+</section>
+<section id="additional-resources" class="level2">
+<h2 data-anchor-id="additional-resources">Additional Resources</h2>
+<p><strong>Official ATLAS Coverage</strong></p>
+<p>The ATLAS Collaboration featured this measurement in its public coverage of Quark Matter 2025, with an accessible discussion of the radial-flow result and its implications for collectivity and QGP transport properties.</p>
+<p><a href="https://atlas.cern/Updates/News/Highlights-Quark-Matter-2025" class="btn btn-outline-primary">ATLAS Highlight</a></p>
+<p><strong>SQM 2026 Proceedings</strong></p>
+<p>A proceedings contribution based on the SQM 2026 presentation is currently in preparation. The publication will be added here once available.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
