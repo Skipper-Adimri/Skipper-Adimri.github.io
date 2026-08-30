@@ -1,0 +1,38 @@
+/* css styles */
+body,
+.navbar,
+.navbar-brand,
+.nav-link,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.project-meta {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-links .btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.project-award {
+  border-left: 4px solid #8a6d1d;
+  padding: 0.8rem 1rem;
+  margin: 1.5rem 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  font-size: 1.05rem;
+}
