@@ -1,0 +1,34 @@
+---
+title: "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**Strangeness in Quark Matter 2022 (SQM 2022)**<br>
+Busan, South Korea · June 14, 2022 · Presented Online
+
+Poster presentation.
+
+::: {.project-links}
+[Poster][poster]{.btn .btn-primary}
+[SQM 2022][conference]{.btn .btn-outline-primary}
+[Related Project](../index.qmd){.btn .btn-outline-primary}
+:::
+
+## Summary
+
+Nuclear geometry can exhibit fluctuations beyond a fixed average deformation, including
+shape coexistence between competing nuclear configurations. This poster investigated how
+such shape fluctuations influence the initial geometry of high-energy heavy-ion
+collisions.
+
+Using a Glauber Monte Carlo model, the study examined the effect of nuclear shape
+coexistence on observables including eccentricity and transverse-area fluctuations. The
+results demonstrated that multiparticle correlations in heavy-ion collisions can retain
+sensitivity to fluctuations of the underlying nuclear shape.
+
+[poster]: https://indico.cern.ch/event/1037821/contributions/4842722/attachments/2461499/4220324/SQM2022_Aman_Dimri_ShapeCoex.pdf
+[conference]: https://indico.cern.ch/event/1037821/contributions/4842722/

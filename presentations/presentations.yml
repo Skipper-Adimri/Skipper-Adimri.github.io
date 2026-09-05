@@ -1,0 +1,62 @@
+- title: "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector"
+  type: "Talk"
+  date: 2026-03-24
+  conference: "22nd International Conference on Strangeness in Quark Matter"
+  conference-short: "SQM 2026"
+  conference-url: "https://indico.global/event/13943/"
+  location: "Los Angeles, California"
+  page-url: "projects/radial-flow-collectivity/talks/sqm-2026.qmd"
+
+- title: "Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS"
+  type: "Talk"
+  date: 2025-09-11
+  conference: "Initial Stages 2025"
+  conference-short: "Initial Stages 2025"
+  conference-url: "https://indico.cern.ch/event/1479384/"
+  location: "Taipei, Taiwan"
+  page-url: "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.qmd"
+
+- title: "Is Differential Radial Flow v0(pT) Collective? Role of Multiplicity Fluctuations and Non-Flow Bias"
+  type: "Poster"
+  date: 2025-04-08
+  conference: "Quark Matter 2025"
+  conference-short: "QM 2025"
+  conference-url: "https://indico.cern.ch/event/1334113/"
+  location: "Frankfurt am Main, Germany"
+  page-url: "projects/differential-radial-flow-shape/posters/qm-2025.qmd"
+
+- title: "Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions"
+  type: "Poster"
+  date: 2023-09-05
+  conference: "Quark Matter 2023"
+  conference-short: "QM 2023"
+  conference-url: "https://indico.cern.ch/event/1139644/"
+  location: "Houston, Texas"
+  page-url: "projects/nuclear-shape-fluctuations/posters/qm-2023.qmd"
+
+- title: "Nuclear Shape Fluctuations in Heavy-Ion Collisions"
+  type: "Talk"
+  date: 2023-02-08
+  conference: "INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions"
+  conference-short: "INT-23-1a"
+  conference-url: "https://www.int.washington.edu/programs-and-workshops/23-1a"
+  location: "Seattle, Washington"
+  page-url: "projects/nuclear-shape-fluctuations/talks/int-23-1a.qmd"
+
+- title: "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model"
+  type: "Talk"
+  date: 2022-10-28
+  conference: "Fall 2022 Meeting of the APS Division of Nuclear Physics"
+  conference-short: "APS DNP 2022"
+  conference-url: "https://meetings-archive.aps.org/dnp/2022"
+  location: "New Orleans, Louisiana"
+  page-url: "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.qmd"
+
+- title: "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model"
+  type: "Poster"
+  date: 2022-06-14
+  conference: "Strangeness in Quark Matter 2022"
+  conference-short: "SQM 2022"
+  conference-url: "https://indico.cern.ch/event/1037821/"
+  location: "Busan, South Korea · Presented Online"
+  page-url: "projects/nuclear-shape-fluctuations/posters/sqm-2022.qmd"

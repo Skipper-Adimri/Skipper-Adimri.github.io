@@ -1,0 +1,98 @@
+---
+title: "Is Differential Radial Flow Collective?"
+subtitle: "Role of multiplicity fluctuations and non-flow bias"
+toc: false
+anchor-sections: false
+---
+
+**Aman Dimri, Somadutta Bhatta, and Jiangyong Jia**  
+
+**Quark Matter 2025**  
+Frankfurt am Main, Germany · April 2025
+
+::: {.project-links}
+[Poster PDF](Poster_Final_QM2025.pdf){.btn .btn-primary}
+[Related Project](../index.qmd){.btn .btn-outline-primary}
+<!--
+[Quark Matter 2025][qm2025]{.btn .btn-outline-primary}
+-->
+:::
+
+## Overview
+
+This poster presented a differential view of radial-flow fluctuations using the observable $v_0(p_T)$. While earlier work had already established the collective nature of radial flow in Pb+Pb collisions, this poster focused on two specific issues that are essential for interpreting the measurement: the role of **non-flow contamination** and the impact of **multiplicity fluctuations**.
+
+The goal was to understand which observed features of the differential observable arise from genuine collective dynamics and which may instead reflect biases from particle production or short-range correlations.
+
+## The Differential Observable
+
+Radial flow is commonly quantified through event-by-event fluctuations of the mean transverse momentum, $[p_T]$. A differential version of this idea probes how fluctuations in the local particle spectrum at a given $p_T$ are correlated with fluctuations in the event-wise radial-flow signal.
+
+The poster discussed two related formulations of differential radial flow:
+
+- $v_0(p_T)$, based on the normalized spectrum $n(p_T)$,
+- $v_0'(p_T)$, based on the full spectrum $N(p_T)$.
+
+These two constructions are closely related, but they do not respond in the same way to multiplicity fluctuations. Their difference therefore provides a useful handle on the underlying particle-production dynamics.
+
+## What the Poster Examined
+
+The poster focused on two physics questions.
+
+First, it examined whether characteristic features seen in the measured $v_0(p_T)$ could be influenced by **non-flow effects**, especially at high $p_T$. For this purpose, HIJING was used as a non-collective baseline model.
+
+Second, it studied how **global multiplicity fluctuations** modify the differential observable, and how the comparison between $v_0(p_T)$ and $v_0'(p_T)$ can be used to isolate that contribution.
+
+## Impact of Non-Flow Bias
+
+A central point of the poster was that the behavior of $v_0(p_T)$ in HIJING differs qualitatively from the collective expectation.
+
+In particular:
+
+- the factorization behavior is broken in HIJING,
+- the result depends on the choice of the reference $p_T$ range,
+- and $v_0(p_T)$ rises approximately linearly at high $p_T$.
+
+These observations support the interpretation that some of the splitting behavior and the strong rise at large $p_T$ seen in peripheral data are likely influenced by non-flow contamination rather than pure collective radial flow.
+
+## Impact of Multiplicity Fluctuations
+
+The second major message was that $v_0(p_T)$ itself is comparatively stable across different event ensembles, while $v_0'(p_T)$ is more sensitive to multiplicity fluctuations.
+
+This makes the difference
+
+$$
+v_0'(p_T) - v_0(p_T)
+$$
+
+a useful diagnostic quantity. The poster showed that this difference is approximately constant in $p_T$, consistent with the expectation that it isolates the contribution from multiplicity fluctuations.
+
+This provides a new way to constrain fluctuations in the particle-production process, especially when varying the event classifier or rapidity interval.
+
+## Main Takeaways
+
+The poster highlighted two main conclusions:
+
+- some features of the measured differential radial-flow signal, especially the splitting behavior and the large-$p_T$ rise in peripheral events, can be attributed to **non-flow contamination**;
+- the difference between the two formulations of differential radial flow can be used to **isolate and understand multiplicity fluctuations**.
+
+Together, these results sharpen the interpretation of $v_0(p_T)$ and clarify how this observable can be used as a robust probe of collective dynamics.
+
+## Relation to the Publication
+
+This poster should be viewed as a companion presentation to the project
+
+**“The shape of differential radial flow $v_0(p_T)$, not its zero-crossing, carries physical information”**  
+*Nuclear Science and Techniques* **37**, 163 (2026).
+
+While the publication develops the main physical interpretation of the differential radial-flow observable, this poster emphasized two additional practical aspects: how to identify non-flow contributions and how to use the difference between alternative definitions to probe multiplicity fluctuations.
+
+## Related Project
+
+This poster is part of the broader project on differential radial flow:
+
+::: {.project-links}
+[Go to Project Page](../index.qmd){.btn .btn-primary}
+:::
+
+[qm2025]: https://indico.cern.ch/event/1334113/

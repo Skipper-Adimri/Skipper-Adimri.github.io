@@ -9,14 +9,16 @@ website:
         text: Home
       - href: publications.qmd
         text: Publications
-      - href: talks.qmd
-        text: Talks
+      - href: presentation.qmd
+        text: Talks & Posters
       - href: awards.qmd
         text: Awards
+      - href: about.qmd
+        text: About
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-    anchor-sections: false
+    

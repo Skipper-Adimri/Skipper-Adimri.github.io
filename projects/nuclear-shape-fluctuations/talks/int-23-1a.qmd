@@ -1,0 +1,43 @@
+---
+title: "Nuclear Shape Fluctuations in Heavy-Ion Collisions"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions**<br>
+Institute for Nuclear Theory, University of Washington · Seattle, Washington · February 8, 2023
+
+In-person presentation during the INT-23-1a program.
+
+::: {.project-links}
+[Talk Recording][video]{.btn .btn-primary}
+[Presentation Slides][slides]{.btn .btn-outline-primary}
+[INT Program][program]{.btn .btn-outline-primary}
+[Related Project](../index.qmd){.btn .btn-outline-primary}
+:::
+
+## Summary
+
+Nuclear deformation influences the geometry of the initial state created in
+heavy-ion collisions. This presentation explored what happens when the nuclear
+shape itself is allowed to fluctuate from event to event, rather than being
+described by fixed deformation parameters.
+
+Using analytical estimates and Glauber-model calculations, the study examined
+fluctuations of the quadrupole deformation magnitude and triaxiality and their
+impact on initial-state observables related to the shape and transverse size of
+the collision system. Particular attention was given to how these nuclear-shape
+fluctuations modify the moments and correlations of the eccentricity and
+inverse transverse size.
+
+The results illustrate how high-energy heavy-ion collisions can provide
+sensitivity not only to the average deformation of a nucleus, but also to
+fluctuations around its equilibrium shape, providing a connection between
+nuclear-structure physics and experimentally accessible collective observables.
+
+[video]: https://www.youtube.com/watch?v=SkYp2spbEBg
+[slides]: https://www.int.washington.edu/sites/default/files/schedule_session_files/Dimri_A.pdf
+[program]: https://www.int.washington.edu/programs-and-workshops/23-1a

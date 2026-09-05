@@ -1,0 +1,105 @@
+---
+title: "What Information Does Differential Radial Flow Carry?"
+subtitle: "Separating spectral-shape fluctuations from global multiplicity fluctuations"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**Somadutta Bhatta, Aman Dimri, Jiangyong Jia**
+
+*Nuclear Science and Techniques* **37**, 163 (2026)
+
+::: {.project-links}
+[NST][journal]{.btn .btn-primary}
+[QM 2025 Poster](posters/qm-2025.qmd){.btn .btn-outline-primary}
+[arXiv][arxiv]{.btn .btn-outline-primary}
+:::
+
+## Overview
+
+The differential radial-flow observable $v_0(p_T)$ characterizes event-by-event
+fluctuations of the transverse-momentum spectrum. Its characteristic shape contains
+information about radial-flow dynamics, but the observable is also affected by global
+event-activity and multiplicity fluctuations.
+
+This project asks a basic interpretational question: **which features of $v_0(p_T)$ are
+actually physical?**
+
+Using HIJING simulations, the study shows that changing the definition of event activity
+or the normalization of the particle spectrum can shift the entire $v_0(p_T)$ curve
+vertically. Crucially, these changes leave the shape of the curve essentially unchanged.
+The absolute vertical position, and therefore the location where $v_0(p_T)$ crosses zero,
+is consequently not a robust measure of radial-flow dynamics.
+
+## Global Multiplicity and Spectral-Shape Fluctuations
+
+Event-by-event fluctuations of a particle spectrum contain more than one contribution.
+The total number of particles in an event can fluctuate, while the shape of the
+transverse-momentum distribution can fluctuate independently.
+
+The observable $v_0(p_T)$ is sensitive to both effects. Residual fluctuations in event
+volume or centrality therefore introduce a global contribution that shifts $v_0(p_T)$
+approximately uniformly as a function of $p_T$.
+
+This means that two measurements can describe the same underlying spectral-shape
+fluctuations while appearing vertically displaced from one another.
+
+## Why the Zero Crossing Is Not Physical
+
+A commonly noted feature of $v_0(p_T)$ is the momentum at which it changes sign. This
+zero-crossing point often lies near the event-averaged transverse momentum and can appear
+to provide a characteristic momentum scale.
+
+However, the study demonstrates that the zero crossing moves when the event-activity
+definition or spectrum-normalization prescription is changed. Since these procedural
+choices do not alter the underlying radial-flow dynamics, the zero-crossing position
+cannot by itself carry unique physical information.
+
+Instead, it partly reflects the arbitrary baseline introduced by global multiplicity
+fluctuations.
+
+## The Shape Is the Robust Observable
+
+While different analysis choices generate an approximately constant vertical offset,
+the $p_T$ dependence of $v_0(p_T)$ remains stable.
+
+The physically meaningful information is therefore encoded in the **shape** of the
+differential radial-flow response, or equivalently in its derivative,
+
+$$
+\frac{d v_0(p_T)}{d p_T}.
+$$
+
+Quantities based on the slope or relative variation of $v_0(p_T)$ are insensitive to a
+constant vertical shift and therefore provide a more robust connection to the underlying
+radial-flow dynamics.
+
+## Implications for Experimental Comparisons
+
+This result has a practical consequence for comparisons between experiments and between
+data and theoretical calculations.
+
+Measurements using different centrality estimators, detector acceptances, or
+normalization conventions may acquire different vertical offsets even when they contain
+the same underlying dynamical information. Directly comparing the absolute value or zero
+crossing of $v_0(p_T)$ can therefore be misleading.
+
+Instead, measurements should first be vertically aligned, or compared through
+shape-sensitive quantities. This removes the normalization ambiguity and allows the
+differential radial-flow response to be used more reliably when constraining properties
+of the quark-gluon plasma.
+
+## Connection to the ATLAS Radial-Flow Measurement
+
+This study complements the experimental measurement establishing the collective nature
+of differential radial-flow fluctuations. The ATLAS measurement demonstrates that
+$v_0(p_T)$ exhibits the characteristic signatures of collectivity, while this work
+clarifies which features of the observable provide robust dynamical information.
+
+[ATLAS Radial-Flow Project](../radial-flow-collectivity/index.qmd){.btn .btn-outline-primary}
+
+[journal]: https://doi.org/10.1007/s41365-026-01998-z
+[arxiv]: https://arxiv.org/abs/2504.20008

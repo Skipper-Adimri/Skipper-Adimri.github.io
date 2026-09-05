@@ -1,5 +1,40 @@
 ---
-title: "About"
+pagetitle: "About | Aman Dimri"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
 ---
 
-About this site
+# About Me
+
+I am a physicist and graduate researcher at Stony Brook University studying the
+quark-gluon plasma created in high-energy nuclear collisions. My research focuses on
+collective phenomena and event-by-event fluctuations, with the goal of understanding how
+the initial geometry of a nuclear collision and the transport properties of the resulting
+medium are encoded in experimentally measurable momentum correlations.
+
+I am a member of both the **ATLAS Collaboration** at the Large Hadron Collider (LHC) at
+CERN and the **STAR Collaboration** at the Relativistic Heavy Ion Collider (RHIC) at
+Brookhaven National Laboratory (BNL). My research combines experimental measurements
+with hydrodynamic calculations and initial-state models to study the connection between
+collision geometry, fluctuations, and the dynamical response of the quark-gluon plasma.
+
+## Research
+
+A central theme of my current work is the study of **radial-flow fluctuations**. These
+measurements provide a complementary perspective on collective dynamics and offer new
+ways to probe the transport properties of the quark-gluon plasma, including its bulk
+viscosity.
+
+I am also interested in nuclear structure, initial-state fluctuations, system-size
+dependence, and the emergence of collective behavior across different collision systems.
+
+## Affiliation
+
+**Stony Brook University**  
+Department of Chemistry
+
+Member of the **ATLAS Collaboration** — LHC, CERN  
+Member of the **STAR Collaboration** — RHIC, Brookhaven National Laboratory

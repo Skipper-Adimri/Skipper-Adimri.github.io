@@ -1,0 +1,49 @@
+- title: "The shape of differential radial flow v0(pT), not its zero-crossing, carries physical information"
+  title-html: 'The shape of differential radial flow <i>v</i><sub>0</sub>(<i>p</i><sub>T</sub>), not its zero-crossing, carries physical information'
+  author: "Somadutta Bhatta, Aman Dimri, Jiangyong Jia"
+  date: 2026-09-01
+  journal: "Nuclear Science and Techniques"
+  journal-short: "NST"
+  volume: "37"
+  article: "163"
+  year: "2026"
+  journal-url: "https://doi.org/10.1007/s41365-026-01998-z"
+  arxiv-url: "https://arxiv.org/abs/2504.20008"
+  project-url: "projects/differential-radial-flow-shape/index.qmd"
+
+- title: "Measurement of the azimuthal anisotropy of charged particles in 5.36 TeV O+O and Ne+Ne collisions with the ATLAS detector"
+  title-html: 'Measurement of the azimuthal anisotropy of charged particles in √<i>s</i><sub>NN</sub> = 5.36 TeV <sup>16</sup>O+<sup>16</sup>O and <sup>20</sup>Ne+<sup>20</sup>Ne collisions with the ATLAS detector'
+  author: "ATLAS Collaboration"
+  date: 2026-04-13
+  journal: "Physical Review C"
+  journal-short: "PRC"
+  volume: "113"
+  article: "045205"
+  year: "2026"
+  journal-url: "https://journals.aps.org/prc/abstract/10.1103/xqxz-8bhf"
+  arxiv-url: "https://arxiv.org/abs/2509.05171"
+  project-url: "projects/oxygen-neon-nuclear-structure/index.qmd"
+
+- title: "Evidence for the Collective Nature of Radial Flow in Pb+Pb Collisions with the ATLAS Detector"
+  author: "ATLAS Collaboration"
+  date: 2026-01-22
+  journal: "Physical Review Letters"
+  journal-short: "PRL"
+  volume: "136"
+  article: "032301"
+  year: "2026"
+  journal-url: "https://journals.aps.org/prl/abstract/10.1103/ldcn-r2lq"
+  arxiv-url: "https://arxiv.org/abs/2503.24125"
+  project-url: "projects/radial-flow-collectivity/index.qmd"
+
+- title: "Impact of nuclear shape fluctuations in high-energy heavy ion collisions"
+  author: "Aman Dimri, Somadutta Bhatta, Jiangyong Jia"
+  date: 2023-03-15
+  journal: "The European Physical Journal A"
+  journal-short: "EPJ A"
+  volume: "59"
+  article: "45"
+  year: "2023"
+  journal-url: "https://doi.org/10.1140/epja/s10050-023-00965-1"
+  arxiv-url: "https://arxiv.org/abs/2301.03556"
+  project-url: "projects/nuclear-shape-fluctuations/index.qmd"

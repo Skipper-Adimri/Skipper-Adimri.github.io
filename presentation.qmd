@@ -1,0 +1,18 @@
+---
+pagetitle: "Talks & Posters | Aman Dimri"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+
+listing:
+  contents:
+    - presentations/presentations.yml
+  template: presentations/_presentation.ejs.md
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  field-types:
+    date: date
+---

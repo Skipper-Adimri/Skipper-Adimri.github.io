@@ -1,11 +1,18 @@
 ---
-title: "Publications: Primary Author/Co-Author"
+title: "Publications"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+
+listing:
+  contents:
+    - publications/publications.yml
+  template: publications/_publication.ejs.md
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  field-types:
+    date: date
 ---
-
-## Evidence for the Collective Nature of Radial Flow in Pb+Pb Collisions with the ATLAS Detector
-
-**ATLAS Collaboration**  
-*Physical Review Letters* **136**, [032301 (2026)](https://journals.aps.org/prl/abstract/10.1103/ldcn-r2lq)
-
-[Project Summary](projects/radial-flow-collectivity/index.qmd) ·
-[arXiv](https://arxiv.org/abs/2503.24125)

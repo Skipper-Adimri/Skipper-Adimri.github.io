@@ -1,0 +1,35 @@
+---
+title: "Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**Quark Matter 2023**<br>
+Houston, Texas · September 5, 2023
+
+Poster presentation in the Initial State category.
+
+::: {.project-links}
+[Poster][poster]{.btn .btn-primary}
+[Quark Matter 2023][conference]{.btn .btn-outline-primary}
+[Related Project](../index.qmd){.btn .btn-outline-primary}
+:::
+
+## Summary
+
+The initial geometry of a heavy-ion collision is influenced by several properties of the
+colliding nuclei, including quadrupole deformation, triaxiality, nuclear radius, and skin
+depth. This poster examined how variations and fluctuations of these nuclear-shape
+parameters modify observables related to elliptic and radial flow.
+
+The study focused on the initial-state eccentricity and inverse transverse size,
+investigating their dependence on nuclear deformation across different collision systems.
+The results showed that fluctuations of the quadrupole deformation enhance the
+fluctuations of these observables, while triaxiality fluctuations reduce the differences
+between prolate and oblate nuclear configurations.
+
+[poster]: https://indico.cern.ch/event/1139644/contributions/5539667/attachments/2707559/4701137/Aman_Poster_8_Final.pdf
+[conference]: https://indico.cern.ch/event/1139644/contributions/5539667/

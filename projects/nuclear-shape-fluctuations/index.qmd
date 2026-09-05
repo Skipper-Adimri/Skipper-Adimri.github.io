@@ -1,0 +1,84 @@
+---
+title: "Impact of Nuclear Shape Fluctuations in High-Energy Heavy-Ion Collisions"
+subtitle: "Connecting fluctuating nuclear structure to heavy-ion initial-state geometry"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**Aman Dimri, Somadutta Bhatta, Jiangyong Jia**
+
+*The European Physical Journal A* **59**, 45 (2023)
+
+::: {.project-links}
+[EPJ A][journal]{.btn .btn-primary}
+[INT-23-1a Talk](talks/int-23-1a.qmd){.btn .btn-outline-primary}
+[arXiv][arxiv]{.btn .btn-outline-primary}
+:::
+
+## Overview
+
+The geometry of an atomic nucleus is commonly characterized by deformation parameters
+describing its average shape. However, the nuclear shape itself can fluctuate around this
+average configuration. This project investigates how such fluctuations propagate into the
+initial geometry of high-energy heavy-ion collisions.
+
+The study focuses on two important initial-state quantities: the eccentricity
+$\varepsilon_2$, which is closely connected to elliptic flow, and the inverse transverse
+size $d_\perp$, which is related to fluctuations of radial flow. By varying both the
+magnitude of the quadrupole deformation and its triaxiality, the work explores how
+fluctuating nuclear structure modifies the event-by-event distributions of these
+observables.
+
+## Nuclear Shape Fluctuations
+
+A quadrupole-deformed nucleus is usually described in terms of an overall deformation
+magnitude and a triaxiality parameter. Rather than treating these quantities as fixed,
+this work considers the possibility that they fluctuate from event to event around their
+mean values.
+
+These fluctuations introduce an additional source of variation in the geometry of the
+colliding nuclei. Heavy-ion collisions therefore provide a way to study not only the
+average nuclear shape, but also fluctuations around that average configuration.
+
+## Impact on the Initial State
+
+Fluctuations in the overall quadrupole deformation enhance the variances of both
+$\varepsilon_2$ and $d_\perp$ and modify the higher moments of their distributions,
+including the skewness and kurtosis.
+
+Fluctuations in triaxiality have a qualitatively different effect. They reduce the
+difference between observables obtained from prolate and oblate nuclear configurations.
+In the limit of large triaxiality fluctuations, the resulting observables approach those
+obtained from collisions involving rigid triaxial nuclei.
+
+These behaviors provide a systematic connection between fluctuations of the intrinsic
+nuclear shape and experimentally accessible fluctuations of collective flow.
+
+## Broader Implications
+
+The results illustrate how high-energy nuclear collisions can provide information about
+nuclear structure that is complementary to conventional low-energy measurements. In
+particular, the study discusses how the mean quadrupole deformation and fluctuations
+around that mean may be disentangled through suitable combinations of heavy-ion
+observables.
+
+This connection between nuclear structure and heavy-ion phenomenology has since become an
+important part of the broader program of using relativistic collisions to probe the shape
+and fluctuations of atomic nuclei.
+
+## Related Presentations
+
+This work was presented and developed through several conference contributions.
+
+::: {.project-links}
+[APS DNP 2022 Talk](talks/aps-dnp-2022.qmd){.btn .btn-outline-primary}
+[INT-23-1a Talk](talks/int-23-1a.qmd){.btn .btn-primary}
+[SQM 2022 Poster](posters/sqm-2022.qmd){.btn .btn-outline-primary}
+[QM 2023 Poster](posters/qm-2023.qmd){.btn .btn-outline-primary}
+:::
+
+[journal]: https://doi.org/10.1140/epja/s10050-023-00965-1
+[arxiv]: https://arxiv.org/abs/2301.03556

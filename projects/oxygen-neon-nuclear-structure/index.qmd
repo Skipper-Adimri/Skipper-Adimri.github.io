@@ -1,0 +1,110 @@
+---
+title: "Revealing Nuclear Geometry with O+O and Ne+Ne Collisions"
+subtitle: "Using anisotropic flow to probe the shape of light nuclei"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**ATLAS Collaboration**
+
+*Physical Review C* **113**, 045205 (2026)
+
+::: {.project-links}
+[PRC][journal]{.btn .btn-primary}
+[ATLAS Physics Briefing][atlas-briefing]{.btn .btn-outline-primary}
+[arXiv][arxiv]{.btn .btn-outline-primary}
+:::
+
+::: {.project-plenary}
+**Plenary Talk — Initial Stages 2025**
+
+Presented the first ATLAS results from the O+O and Ne+Ne collision program at
+Initial Stages 2025 in Taipei, Taiwan.
+
+[Initial Stages 2025 Talk](talks/initial-stages-2025.qmd){.btn .btn-outline-primary}
+:::
+
+## Overview
+
+High-energy collisions of light nuclei provide a particularly clean way to study how
+nuclear geometry is translated into collective motion. In 2025, the LHC delivered
+oxygen–oxygen and neon–neon collisions at a nucleon-pair center-of-mass energy of
+5.36 TeV, allowing ATLAS to compare two systems of similar size but with markedly
+different predicted nuclear shapes.
+
+The key observable is anisotropic flow, quantified through the coefficients $v_n$.
+These coefficients describe angular modulations in the particles produced after the
+collision and retain information about the geometry of the initial overlap region.
+
+Because oxygen and neon have similar masses, many effects associated simply with system
+size are reduced in their comparison. This makes differences between the two systems
+especially sensitive to the underlying nuclear structure.
+
+## Bowling Balls and Bowling Pins
+
+Nuclear-structure calculations predict that $^{20}$Ne has a pronounced prolate
+deformation, giving it an elongated, bowling-pin-like shape. By contrast, $^{16}$O is
+expected to have a much less elongated geometry.
+
+In the most central collisions, where geometry associated with the impact parameter is
+minimized, the intrinsic shape of the colliding nuclei becomes particularly important.
+ATLAS observes a clear enhancement of elliptic flow, $v_2$, in Ne+Ne relative to O+O
+collisions. This behavior is consistent with the larger intrinsic deformation expected
+for neon. The official ATLAS Physics Briefing describes this result as the experimental
+confirmation of neon's elongated, "bowling pin" geometry.
+
+## Measuring the Collective Response
+
+The analysis measures the anisotropic-flow coefficients $v_2$, $v_3$, and $v_4$ as
+functions of transverse momentum, collision centrality, and event multiplicity.
+
+Two complementary techniques are used. Two-particle correlations provide precise
+measurements of the flow harmonics after suppressing short-range non-flow contributions,
+while four-particle subevent cumulants provide additional sensitivity to event-by-event
+flow fluctuations.
+
+The measurements show the characteristic hierarchy
+
+$$
+v_2 > v_3 > v_4,
+$$
+
+together with a non-monotonic transverse-momentum dependence similar to that observed in
+larger heavy-ion systems. These features demonstrate that collective behavior remains
+prominent even in these much smaller collision systems.
+
+## Sensitivity to Nuclear Structure
+
+The strongest nuclear-structure signature appears in the comparison between O+O and
+Ne+Ne collisions.
+
+In central events, $v_2$ is significantly larger in Ne+Ne collisions than in O+O
+collisions, consistent with the predicted prolate deformation of $^{20}$Ne. Measurements
+using four-particle cumulants further expose strong event-by-event fluctuations and
+provide enhanced sensitivity to differences in the underlying nuclear geometry.
+
+By comparing two nuclei of similar mass, the measurement reduces many common systematic
+and dynamical effects. The remaining differences therefore provide a comparatively clean
+probe of how intrinsic nuclear geometry is converted into final-state collective flow.
+
+## Broader Implications
+
+These measurements connect two traditionally distinct areas of nuclear physics: the
+structure of atomic nuclei and the dynamical evolution of the quark-gluon plasma.
+
+The results provide new experimental constraints on models of light-nucleus structure
+while simultaneously testing the hydrodynamic response of small collision systems. They
+also demonstrate how relativistic nuclear collisions can act as an imaging tool,
+revealing properties of nuclei on timescales far shorter than those accessible through
+conventional nuclear-structure measurements.
+
+The O+O and Ne+Ne program therefore provides a new laboratory for studying both the
+emergence of collectivity and the geometry of light nuclei.
+
+
+[journal]: https://journals.aps.org/prc/abstract/10.1103/xqxz-8bhf
+[arxiv]: https://arxiv.org/abs/2509.05171
+[atlas-briefing]: https://atlas.cern/Updates/Briefing/Oxygen-Neon-Flow

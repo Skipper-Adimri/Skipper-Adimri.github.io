@@ -1,0 +1,33 @@
+---
+title: "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**Fall 2022 Meeting of the APS Division of Nuclear Physics**<br>
+New Orleans, Louisiana · October 28, 2022
+
+Oral presentation in the *Mini-Symposium: The Initial State of Heavy-Ion Collisions I*.
+
+::: {.project-links}
+[APS Abstract][aps-abstract]{.btn .btn-primary}
+[Related Project](../index.qmd){.btn .btn-outline-primary}
+:::
+
+## Summary
+
+Nuclear deformation can influence both the initial geometry and final-state observables
+in high-energy heavy-ion collisions. This presentation explored an additional aspect of
+nuclear structure: **shape coexistence**, in which a nucleus can exhibit multiple
+competing geometric configurations.
+
+Using a Glauber-model description of the collision geometry, the study investigated how
+shape coexistence modifies initial-state observables relevant for heavy-ion collisions,
+including eccentricity and transverse-area fluctuations. The work provided an early step
+toward connecting nuclear-structure information from low-energy measurements with
+observables accessible in relativistic nuclear collisions.
+
+[aps-abstract]: https://meetings-archive.aps.org/dnp/2022/df/5/

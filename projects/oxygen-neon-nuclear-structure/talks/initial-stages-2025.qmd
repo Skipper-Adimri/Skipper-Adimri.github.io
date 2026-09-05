@@ -1,0 +1,39 @@
+---
+title: "Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS"
+toc: false
+
+format:
+  html:
+    anchor-sections: false
+---
+
+**The 8th International Conference on the Initial Stages of High-Energy Nuclear Collisions
+(Initial Stages 2025)**<br>
+Taipei, Taiwan · September 11, 2025
+
+**Plenary Talk** · Presented on behalf of the ATLAS Collaboration.
+
+::: {.project-links}
+[Presentation Slides][slides]{.btn .btn-primary}
+[Conference Contribution][contribution]{.btn .btn-outline-primary}
+[Related Project](../index.qmd){.btn .btn-outline-primary}
+[ATLAS Physics Briefing][atlas-briefing]{.btn .btn-outline-primary}
+:::
+
+## Summary
+
+This presentation reported the first ATLAS measurements of azimuthal flow in O+O and
+Ne+Ne collisions at a nucleon-pair center-of-mass energy of 5.36 TeV. By comparing two
+light nuclei of similar size but different predicted intrinsic shapes, the measurement
+uses collective flow as a probe of nuclear geometry.
+
+In the most central collisions, Ne+Ne exhibits approximately 10% larger elliptic flow
+than O+O while the triangular flow of the two systems remains similar. Together with
+multi-particle cumulant measurements, these observations provide evidence for the
+elongated, bowling-pin-like geometry of the neon nucleus. The measured transverse-momentum
+dependence of the flow harmonics also displays behavior qualitatively similar to that seen
+in larger heavy-ion systems, supporting a collective origin for the observed anisotropy.
+
+[slides]: https://indico.cern.ch/event/1479384/contributions/6663131/attachments/3133663/5560724/IS_2025_Final.pdf
+[contribution]: https://indico.cern.ch/event/1479384/contributions/6663131/
+[atlas-briefing]: https://atlas.cern/Updates/Briefing/Oxygen-Neon-Flow
