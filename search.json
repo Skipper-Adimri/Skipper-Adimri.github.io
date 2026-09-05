@@ -1,52 +1,122 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "awards.html",
+    "href": "awards.html",
+    "title": "Awards",
     "section": "",
-    "text": "I am a physicist and graduate researcher at Stony Brook University studying the quark-gluon plasma created in high-energy nuclear collisions. My research focuses on collective phenomena and event-by-event fluctuations, with the goal of understanding how the initial geometry of a nuclear collision and the transport properties of the resulting medium are encoded in experimentally measurable momentum correlations.\nI am a member of both the ATLAS Collaboration at the Large Hadron Collider (LHC) at CERN and the STAR Collaboration at the Relativistic Heavy Ion Collider (RHIC) at Brookhaven National Laboratory (BNL). My research combines experimental measurements with hydrodynamic calculations and initial-state models to study the connection between collision geometry, fluctuations, and the dynamical response of the quark-gluon plasma.\n\n\nA central theme of my current work is the study of radial-flow fluctuations. These measurements provide a complementary perspective on collective dynamics and offer new ways to probe the transport properties of the quark-gluon plasma, including its bulk viscosity.\nI am also interested in nuclear structure, initial-state fluctuations, system-size dependence, and the emergence of collective behavior across different collision systems.\n\n\n\nStony Brook University\nDepartment of Chemistry\nMember of the ATLAS Collaboration — LHC, CERN\nMember of the STAR Collaboration — RHIC, Brookhaven National Laboratory"
+    "text": "22nd International Conference on Strangeness in Quark Matter (SQM 2026)\nLos Angeles, California · 2026\nThe Andre Mischke Award was established in memory of Andre Mischke—a friend, educator, and scholar whose career combined major contributions to heavy-flavour physics with a deep commitment to mentoring and supporting young scientists. The award recognizes the best experimental presentation by a young scientist at the Strangeness in Quark Matter conference.\n\n\n\n\n\nI received the award at SQM 2026 for my presentation on the ATLAS measurement of radial-flow fluctuations in Pb+Pb collisions.\n\nView the Talk Award Presentation"
   },
   {
-    "objectID": "about.html#research",
-    "href": "about.html#research",
-    "title": "About Me",
+    "objectID": "awards.html#andre-mischke-award-best-experimental-talk",
+    "href": "awards.html#andre-mischke-award-best-experimental-talk",
+    "title": "Awards",
     "section": "",
-    "text": "A central theme of my current work is the study of radial-flow fluctuations. These measurements provide a complementary perspective on collective dynamics and offer new ways to probe the transport properties of the quark-gluon plasma, including its bulk viscosity.\nI am also interested in nuclear structure, initial-state fluctuations, system-size dependence, and the emergence of collective behavior across different collision systems."
+    "text": "22nd International Conference on Strangeness in Quark Matter (SQM 2026)\nLos Angeles, California · 2026\nThe Andre Mischke Award was established in memory of Andre Mischke—a friend, educator, and scholar whose career combined major contributions to heavy-flavour physics with a deep commitment to mentoring and supporting young scientists. The award recognizes the best experimental presentation by a young scientist at the Strangeness in Quark Matter conference.\n\n\n\n\n\nI received the award at SQM 2026 for my presentation on the ATLAS measurement of radial-flow fluctuations in Pb+Pb collisions.\n\nView the Talk Award Presentation"
   },
   {
-    "objectID": "about.html#affiliation",
-    "href": "about.html#affiliation",
-    "title": "About Me",
-    "section": "",
-    "text": "Stony Brook University\nDepartment of Chemistry\nMember of the ATLAS Collaboration — LHC, CERN\nMember of the STAR Collaboration — RHIC, Brookhaven National Laboratory"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "presentation.html",
+    "href": "presentation.html",
     "title": "Aman Dimri",
     "section": "",
-    "text": "I study collective phenomena in high-energy nuclear collisions and use them to probe the properties of the quark-gluon plasma. My work combines experimental measurements with the ATLAS Collaboration at the Large Hadron Collider with phenomenological studies using hydrodynamic and initial-state models."
+    "text": "Talks\n\n    \n\n    \n\n        Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector\n\n        \n        22nd International Conference on Strangeness in Quark Matter\n        \n\n        \n        Los Angeles, California ·\n        March 24, 2026\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            SQM 2026\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS\n\n        \n        Initial Stages 2025\n        \n\n        \n        Taipei, Taiwan ·\n        September 11, 2025\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            Initial Stages 2025\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Nuclear Shape Fluctuations in Heavy-Ion Collisions\n\n        \n        INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions\n        \n\n        \n        Seattle, Washington ·\n        February 8, 2023\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            INT-23-1a\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model\n\n        \n        Fall 2022 Meeting of the APS Division of Nuclear Physics\n        \n\n        \n        New Orleans, Louisiana ·\n        October 28, 2022\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            APS DNP 2022\n            \n            \n\n        \n\n    \n\n    \n\n    Posters\n\n    \n\n    \n\n        Is Differential Radial Flow v0(pT) Collective? Role of Multiplicity Fluctuations and Non-Flow Bias\n\n        \n        Quark Matter 2025\n        \n\n        \n        Frankfurt am Main, Germany ·\n        April 8, 2025\n        \n\n        \n\n            \n            \n            Poster Summary\n            \n            \n\n            \n            \n            QM 2025\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions\n\n        \n        Quark Matter 2023\n        \n\n        \n        Houston, Texas ·\n        September 5, 2023\n        \n\n        \n\n            \n            \n            Poster Summary\n            \n            \n\n            \n            \n            QM 2023\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model\n\n        \n        Strangeness in Quark Matter 2022\n        \n\n        \n        Busan, South Korea · Presented Online ·\n        June 14, 2022\n        \n\n        \n\n            \n            \n            Poster Summary\n            \n            \n\n            \n            \n            SQM 2022\n            \n            \n\n        \n\n    \n\n    \n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Aman Dimri",
-    "section": "Research Interests",
-    "text": "Research Interests\nMy research explores how the geometry and fluctuations of nuclear collisions are translated through relativistic hydrodynamics into experimentally measurable momentum correlations.\nCurrent interests include:\n\nRadial-flow fluctuations and differential radial flow;\nCollective behavior in heavy-ion and small collision systems;\nEvent-by-event fluctuations of the quark-gluon plasma;\nInitial-state geometry and nuclear structure;\nHydrodynamic response and QGP transport properties."
+    "objectID": "projects/radial-flow-collectivity/talks/sqm-2026.html",
+    "href": "projects/radial-flow-collectivity/talks/sqm-2026.html",
+    "title": "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector",
+    "section": "",
+    "text": "22nd International Conference on Strangeness in Quark Matter (SQM 2026) Los Angeles, California · March 24, 2026\nPresented on behalf of the ATLAS Collaboration."
   },
   {
-    "objectID": "index.html#featured-research",
-    "href": "index.html#featured-research",
-    "title": "Aman Dimri",
-    "section": "Featured Research",
-    "text": "Featured Research\n\nEvidence for the Collective Nature of Radial Flow\n\n\n\nRadial flow characterizes the outward expansion of the quark-gluon plasma produced in heavy-ion collisions. My recent work with the ATLAS Collaboration provided evidence for the collective nature of radial-flow fluctuations through the first measurement of the differential observable \\(v_0(p_T)\\) in high-energy Pb+Pb collisions at a nucleon-pair center-of-mass energy of 5.02 TeV.\n\n\nThe observed long-range correlations, transverse-momentum factorization, and centrality-independent response shape provide complementary signatures of a collective origin for radial-flow fluctuations. Comparison with hydrodynamic calculations further revealed a distinctive sensitivity of the measured \\(v_0(p_T)\\) shape to the bulk viscosity of the quark-gluon plasma.\nExplore the Project"
+    "objectID": "projects/radial-flow-collectivity/talks/sqm-2026.html#summary",
+    "href": "projects/radial-flow-collectivity/talks/sqm-2026.html#summary",
+    "title": "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector",
+    "section": "Summary",
+    "text": "Summary\nThis presentation reports the first measurement of the transverse-momentum dependence of radial-flow fluctuations, \\(v_0(p_T)\\), over \\(0.5 &lt; p_T &lt; 10\\) GeV in Pb+Pb collisions at \\(\\sqrt{s_{\\mathrm{NN}}}=5.02\\) TeV with the ATLAS detector. The measurement satisfies three major hallmarks of collectivity: \\(p_T\\) factorization, long-range correlations in pseudorapidity, and a centrality-independent response shape. Comparisons with hydrodynamic models further demonstrate the sensitivity of \\(v_0(p_T)\\) to the bulk viscosity of the QGP."
   },
   {
-    "objectID": "index.html#recent-highlight",
-    "href": "index.html#recent-highlight",
-    "title": "Aman Dimri",
-    "section": "Recent Highlight",
-    "text": "Recent Highlight\n\nAndre Mischke Award — Best Experimental Talk\nMy presentation of the ATLAS radial-flow measurement at SQM 2026 received the Andre Mischke Award for Best Experimental Talk.\nView the Talk"
+    "objectID": "projects/radial-flow-collectivity/talks/sqm-2026.html#recognition",
+    "href": "projects/radial-flow-collectivity/talks/sqm-2026.html#recognition",
+    "title": "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector",
+    "section": "Recognition",
+    "text": "Recognition\n\nAndre Mischke Award\nThis presentation received the Andre Mischke Award for Best Experimental Talk at SQM 2026.\nView Award"
+  },
+  {
+    "objectID": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html",
+    "href": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html",
+    "title": "Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS",
+    "section": "",
+    "text": "The 8th International Conference on the Initial Stages of High-Energy Nuclear Collisions (Initial Stages 2025) Taipei, Taiwan · September 11, 2025\nPlenary Talk · Presented on behalf of the ATLAS Collaboration."
+  },
+  {
+    "objectID": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html#summary",
+    "href": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html#summary",
+    "title": "Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS",
+    "section": "Summary",
+    "text": "Summary\nThis presentation reported the first ATLAS measurements of azimuthal flow in O+O and Ne+Ne collisions at a nucleon-pair center-of-mass energy of 5.36 TeV. By comparing two light nuclei of similar size but different predicted intrinsic shapes, the measurement uses collective flow as a probe of nuclear geometry.\nIn the most central collisions, Ne+Ne exhibits approximately 10% larger elliptic flow than O+O while the triangular flow of the two systems remains similar. Together with multi-particle cumulant measurements, these observations provide evidence for the elongated, bowling-pin-like geometry of the neon nucleus. The measured transverse-momentum dependence of the flow harmonics also displays behavior qualitatively similar to that seen in larger heavy-ion systems, supporting a collective origin for the observed anisotropy."
+  },
+  {
+    "objectID": "projects/differential-radial-flow-shape/index.html",
+    "href": "projects/differential-radial-flow-shape/index.html",
+    "title": "What Information Does Differential Radial Flow Carry?",
+    "section": "",
+    "text": "Somadutta Bhatta, Aman Dimri, Jiangyong Jia\nNuclear Science and Techniques 37, 163 (2026)"
+  },
+  {
+    "objectID": "projects/differential-radial-flow-shape/index.html#overview",
+    "href": "projects/differential-radial-flow-shape/index.html#overview",
+    "title": "What Information Does Differential Radial Flow Carry?",
+    "section": "Overview",
+    "text": "Overview\nThe differential radial-flow observable \\(v_0(p_T)\\) characterizes event-by-event fluctuations of the transverse-momentum spectrum. Its characteristic shape contains information about radial-flow dynamics, but the observable is also affected by global event-activity and multiplicity fluctuations.\nThis project asks a basic interpretational question: which features of \\(v_0(p_T)\\) are actually physical?\nUsing HIJING simulations, the study shows that changing the definition of event activity or the normalization of the particle spectrum can shift the entire \\(v_0(p_T)\\) curve vertically. Crucially, these changes leave the shape of the curve essentially unchanged. The absolute vertical position, and therefore the location where \\(v_0(p_T)\\) crosses zero, is consequently not a robust measure of radial-flow dynamics."
+  },
+  {
+    "objectID": "projects/differential-radial-flow-shape/index.html#global-multiplicity-and-spectral-shape-fluctuations",
+    "href": "projects/differential-radial-flow-shape/index.html#global-multiplicity-and-spectral-shape-fluctuations",
+    "title": "What Information Does Differential Radial Flow Carry?",
+    "section": "Global Multiplicity and Spectral-Shape Fluctuations",
+    "text": "Global Multiplicity and Spectral-Shape Fluctuations\nEvent-by-event fluctuations of a particle spectrum contain more than one contribution. The total number of particles in an event can fluctuate, while the shape of the transverse-momentum distribution can fluctuate independently.\nThe observable \\(v_0(p_T)\\) is sensitive to both effects. Residual fluctuations in event volume or centrality therefore introduce a global contribution that shifts \\(v_0(p_T)\\) approximately uniformly as a function of \\(p_T\\).\nThis means that two measurements can describe the same underlying spectral-shape fluctuations while appearing vertically displaced from one another."
+  },
+  {
+    "objectID": "projects/differential-radial-flow-shape/index.html#why-the-zero-crossing-is-not-physical",
+    "href": "projects/differential-radial-flow-shape/index.html#why-the-zero-crossing-is-not-physical",
+    "title": "What Information Does Differential Radial Flow Carry?",
+    "section": "Why the Zero Crossing Is Not Physical",
+    "text": "Why the Zero Crossing Is Not Physical\nA commonly noted feature of \\(v_0(p_T)\\) is the momentum at which it changes sign. This zero-crossing point often lies near the event-averaged transverse momentum and can appear to provide a characteristic momentum scale.\nHowever, the study demonstrates that the zero crossing moves when the event-activity definition or spectrum-normalization prescription is changed. Since these procedural choices do not alter the underlying radial-flow dynamics, the zero-crossing position cannot by itself carry unique physical information.\nInstead, it partly reflects the arbitrary baseline introduced by global multiplicity fluctuations."
+  },
+  {
+    "objectID": "projects/differential-radial-flow-shape/index.html#the-shape-is-the-robust-observable",
+    "href": "projects/differential-radial-flow-shape/index.html#the-shape-is-the-robust-observable",
+    "title": "What Information Does Differential Radial Flow Carry?",
+    "section": "The Shape Is the Robust Observable",
+    "text": "The Shape Is the Robust Observable\nWhile different analysis choices generate an approximately constant vertical offset, the \\(p_T\\) dependence of \\(v_0(p_T)\\) remains stable.\nThe physically meaningful information is therefore encoded in the shape of the differential radial-flow response, or equivalently in its derivative,\n\\[\n\\frac{d v_0(p_T)}{d p_T}.\n\\]\nQuantities based on the slope or relative variation of \\(v_0(p_T)\\) are insensitive to a constant vertical shift and therefore provide a more robust connection to the underlying radial-flow dynamics."
+  },
+  {
+    "objectID": "projects/differential-radial-flow-shape/index.html#implications-for-experimental-comparisons",
+    "href": "projects/differential-radial-flow-shape/index.html#implications-for-experimental-comparisons",
+    "title": "What Information Does Differential Radial Flow Carry?",
+    "section": "Implications for Experimental Comparisons",
+    "text": "Implications for Experimental Comparisons\nThis result has a practical consequence for comparisons between experiments and between data and theoretical calculations.\nMeasurements using different centrality estimators, detector acceptances, or normalization conventions may acquire different vertical offsets even when they contain the same underlying dynamical information. Directly comparing the absolute value or zero crossing of \\(v_0(p_T)\\) can therefore be misleading.\nInstead, measurements should first be vertically aligned, or compared through shape-sensitive quantities. This removes the normalization ambiguity and allows the differential radial-flow response to be used more reliably when constraining properties of the quark-gluon plasma."
+  },
+  {
+    "objectID": "projects/differential-radial-flow-shape/index.html#connection-to-the-atlas-radial-flow-measurement",
+    "href": "projects/differential-radial-flow-shape/index.html#connection-to-the-atlas-radial-flow-measurement",
+    "title": "What Information Does Differential Radial Flow Carry?",
+    "section": "Connection to the ATLAS Radial-Flow Measurement",
+    "text": "Connection to the ATLAS Radial-Flow Measurement\nThis study complements the experimental measurement establishing the collective nature of differential radial-flow fluctuations. The ATLAS measurement demonstrates that \\(v_0(p_T)\\) exhibits the characteristic signatures of collectivity, while this work clarifies which features of the observable provide robust dynamical information.\nATLAS Radial-Flow Project"
+  },
+  {
+    "objectID": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html",
+    "href": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html",
+    "title": "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model",
+    "section": "",
+    "text": "Fall 2022 Meeting of the APS Division of Nuclear Physics New Orleans, Louisiana · October 28, 2022\nOral presentation in the Mini-Symposium: The Initial State of Heavy-Ion Collisions I."
+  },
+  {
+    "objectID": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html#summary",
+    "href": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html#summary",
+    "title": "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model",
+    "section": "Summary",
+    "text": "Summary\nNuclear deformation can influence both the initial geometry and final-state observables in high-energy heavy-ion collisions. This presentation explored an additional aspect of nuclear structure: shape coexistence, in which a nucleus can exhibit multiple competing geometric configurations.\nUsing a Glauber-model description of the collision geometry, the study investigated how shape coexistence modifies initial-state observables relevant for heavy-ion collisions, including eccentricity and transverse-area fluctuations. The work provided an early step toward connecting nuclear-structure information from low-energy measurements with observables accessible in relativistic nuclear collisions."
   },
   {
     "objectID": "projects/nuclear-shape-fluctuations/index.html",
@@ -91,18 +161,46 @@
     "text": "Related Presentations\nThis work was presented and developed through several conference contributions.\n\nAPS DNP 2022 Talk INT-23-1a Talk SQM 2022 Poster QM 2023 Poster"
   },
   {
-    "objectID": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html",
-    "href": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html",
-    "title": "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model",
+    "objectID": "projects/nuclear-shape-fluctuations/posters/qm-2023.html",
+    "href": "projects/nuclear-shape-fluctuations/posters/qm-2023.html",
+    "title": "Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions",
     "section": "",
-    "text": "Fall 2022 Meeting of the APS Division of Nuclear Physics New Orleans, Louisiana · October 28, 2022\nOral presentation in the Mini-Symposium: The Initial State of Heavy-Ion Collisions I."
+    "text": "Quark Matter 2023 Houston, Texas · September 5, 2023\nPoster presentation in the Initial State category."
   },
   {
-    "objectID": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html#summary",
-    "href": "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html#summary",
-    "title": "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model",
+    "objectID": "projects/nuclear-shape-fluctuations/posters/qm-2023.html#summary",
+    "href": "projects/nuclear-shape-fluctuations/posters/qm-2023.html#summary",
+    "title": "Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions",
     "section": "Summary",
-    "text": "Summary\nNuclear deformation can influence both the initial geometry and final-state observables in high-energy heavy-ion collisions. This presentation explored an additional aspect of nuclear structure: shape coexistence, in which a nucleus can exhibit multiple competing geometric configurations.\nUsing a Glauber-model description of the collision geometry, the study investigated how shape coexistence modifies initial-state observables relevant for heavy-ion collisions, including eccentricity and transverse-area fluctuations. The work provided an early step toward connecting nuclear-structure information from low-energy measurements with observables accessible in relativistic nuclear collisions."
+    "text": "Summary\nThe initial geometry of a heavy-ion collision is influenced by several properties of the colliding nuclei, including quadrupole deformation, triaxiality, nuclear radius, and skin depth. This poster examined how variations and fluctuations of these nuclear-shape parameters modify observables related to elliptic and radial flow.\nThe study focused on the initial-state eccentricity and inverse transverse size, investigating their dependence on nuclear deformation across different collision systems. The results showed that fluctuations of the quadrupole deformation enhance the fluctuations of these observables, while triaxiality fluctuations reduce the differences between prolate and oblate nuclear configurations."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aman Dimri",
+    "section": "",
+    "text": "I study collective phenomena in high-energy nuclear collisions and use them to probe the properties of the quark-gluon plasma. My work combines experimental measurements with the ATLAS Collaboration at the Large Hadron Collider with phenomenological studies using hydrodynamic and initial-state models."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Aman Dimri",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy research explores how the geometry and fluctuations of nuclear collisions are translated through relativistic hydrodynamics into experimentally measurable momentum correlations.\nCurrent interests include:\n\nRadial-flow fluctuations and differential radial flow;\nCollective behavior in heavy-ion and small collision systems;\nEvent-by-event fluctuations of the quark-gluon plasma;\nInitial-state geometry and nuclear structure;\nHydrodynamic response and QGP transport properties."
+  },
+  {
+    "objectID": "index.html#featured-research",
+    "href": "index.html#featured-research",
+    "title": "Aman Dimri",
+    "section": "Featured Research",
+    "text": "Featured Research\n\nEvidence for the Collective Nature of Radial Flow\n\n\n\nRadial flow characterizes the outward expansion of the quark-gluon plasma produced in heavy-ion collisions. My recent work with the ATLAS Collaboration provided evidence for the collective nature of radial-flow fluctuations through the first measurement of the differential observable \\(v_0(p_T)\\) in high-energy Pb+Pb collisions at a nucleon-pair center-of-mass energy of 5.02 TeV.\n\n\nThe observed long-range correlations, transverse-momentum factorization, and centrality-independent response shape provide complementary signatures of a collective origin for radial-flow fluctuations. Comparison with hydrodynamic calculations further revealed a distinctive sensitivity of the measured \\(v_0(p_T)\\) shape to the bulk viscosity of the quark-gluon plasma.\nExplore the Project"
+  },
+  {
+    "objectID": "index.html#recent-highlight",
+    "href": "index.html#recent-highlight",
+    "title": "Aman Dimri",
+    "section": "Recent Highlight",
+    "text": "Recent Highlight\n\nAndre Mischke Award — Best Experimental Talk\nMy presentation of the ATLAS radial-flow measurement at SQM 2026 received the Andre Mischke Award for Best Experimental Talk.\nView the Talk"
   },
   {
     "objectID": "projects/nuclear-shape-fluctuations/posters/sqm-2022.html",
@@ -119,18 +217,18 @@
     "text": "Summary\nNuclear geometry can exhibit fluctuations beyond a fixed average deformation, including shape coexistence between competing nuclear configurations. This poster investigated how such shape fluctuations influence the initial geometry of high-energy heavy-ion collisions.\nUsing a Glauber Monte Carlo model, the study examined the effect of nuclear shape coexistence on observables including eccentricity and transverse-area fluctuations. The results demonstrated that multiparticle correlations in heavy-ion collisions can retain sensitivity to fluctuations of the underlying nuclear shape."
   },
   {
-    "objectID": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html",
-    "href": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html",
-    "title": "Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS",
+    "objectID": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html",
+    "href": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html",
+    "title": "Nuclear Shape Fluctuations in Heavy-Ion Collisions",
     "section": "",
-    "text": "The 8th International Conference on the Initial Stages of High-Energy Nuclear Collisions (Initial Stages 2025) Taipei, Taiwan · September 11, 2025\nPlenary Talk · Presented on behalf of the ATLAS Collaboration."
+    "text": "INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions Institute for Nuclear Theory, University of Washington · Seattle, Washington · February 8, 2023\nIn-person presentation during the INT-23-1a program."
   },
   {
-    "objectID": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html#summary",
-    "href": "projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html#summary",
-    "title": "Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS",
+    "objectID": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html#summary",
+    "href": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html#summary",
+    "title": "Nuclear Shape Fluctuations in Heavy-Ion Collisions",
     "section": "Summary",
-    "text": "Summary\nThis presentation reported the first ATLAS measurements of azimuthal flow in O+O and Ne+Ne collisions at a nucleon-pair center-of-mass energy of 5.36 TeV. By comparing two light nuclei of similar size but different predicted intrinsic shapes, the measurement uses collective flow as a probe of nuclear geometry.\nIn the most central collisions, Ne+Ne exhibits approximately 10% larger elliptic flow than O+O while the triangular flow of the two systems remains similar. Together with multi-particle cumulant measurements, these observations provide evidence for the elongated, bowling-pin-like geometry of the neon nucleus. The measured transverse-momentum dependence of the flow harmonics also displays behavior qualitatively similar to that seen in larger heavy-ion systems, supporting a collective origin for the observed anisotropy."
+    "text": "Summary\nNuclear deformation influences the geometry of the initial state created in heavy-ion collisions. This presentation explored what happens when the nuclear shape itself is allowed to fluctuate from event to event, rather than being described by fixed deformation parameters.\nUsing analytical estimates and Glauber-model calculations, the study examined fluctuations of the quadrupole deformation magnitude and triaxiality and their impact on initial-state observables related to the shape and transverse size of the collision system. Particular attention was given to how these nuclear-shape fluctuations modify the moments and correlations of the eccentricity and inverse transverse size.\nThe results illustrate how high-energy heavy-ion collisions can provide sensitivity not only to the average deformation of a nucleus, but also to fluctuations around its equilibrium shape, providing a connection between nuclear-structure physics and experimentally accessible collective observables."
   },
   {
     "objectID": "projects/differential-radial-flow-shape/posters/qm-2025.html",
@@ -196,111 +294,6 @@
     "text": "Related Project\nThis poster is part of the broader project on differential radial flow:\n\nGo to Project Page"
   },
   {
-    "objectID": "projects/radial-flow-collectivity/talks/sqm-2026.html",
-    "href": "projects/radial-flow-collectivity/talks/sqm-2026.html",
-    "title": "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector",
-    "section": "",
-    "text": "22nd International Conference on Strangeness in Quark Matter (SQM 2026) Los Angeles, California · March 24, 2026\nPresented on behalf of the ATLAS Collaboration."
-  },
-  {
-    "objectID": "projects/radial-flow-collectivity/talks/sqm-2026.html#summary",
-    "href": "projects/radial-flow-collectivity/talks/sqm-2026.html#summary",
-    "title": "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector",
-    "section": "Summary",
-    "text": "Summary\nThis presentation reports the first measurement of the transverse-momentum dependence of radial-flow fluctuations, \\(v_0(p_T)\\), over \\(0.5 &lt; p_T &lt; 10\\) GeV in Pb+Pb collisions at \\(\\sqrt{s_{\\mathrm{NN}}}=5.02\\) TeV with the ATLAS detector. The measurement satisfies three major hallmarks of collectivity: \\(p_T\\) factorization, long-range correlations in pseudorapidity, and a centrality-independent response shape. Comparisons with hydrodynamic models further demonstrate the sensitivity of \\(v_0(p_T)\\) to the bulk viscosity of the QGP."
-  },
-  {
-    "objectID": "projects/radial-flow-collectivity/talks/sqm-2026.html#recognition",
-    "href": "projects/radial-flow-collectivity/talks/sqm-2026.html#recognition",
-    "title": "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector",
-    "section": "Recognition",
-    "text": "Recognition\n\nAndre Mischke Award\nThis presentation received the Andre Mischke Award for Best Experimental Talk at SQM 2026.\nView Award"
-  },
-  {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Aman Dimri",
-    "section": "",
-    "text": "Talks\n\n    \n\n    \n\n        Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector\n\n        \n        22nd International Conference on Strangeness in Quark Matter\n        \n\n        \n        Los Angeles, California ·\n        March 24, 2026\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            SQM 2026\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS\n\n        \n        Initial Stages 2025\n        \n\n        \n        Taipei, Taiwan ·\n        September 11, 2025\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            Initial Stages 2025\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Nuclear Shape Fluctuations in Heavy-Ion Collisions\n\n        \n        INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions\n        \n\n        \n        Seattle, Washington ·\n        February 8, 2023\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            INT-23-1a\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model\n\n        \n        Fall 2022 Meeting of the APS Division of Nuclear Physics\n        \n\n        \n        New Orleans, Louisiana ·\n        October 28, 2022\n        \n\n        \n\n            \n            \n            Talk Summary\n            \n            \n\n            \n            \n            APS DNP 2022\n            \n            \n\n        \n\n    \n\n    \n\n    Posters\n\n    \n\n    \n\n        Is Differential Radial Flow v0(pT) Collective? Role of Multiplicity Fluctuations and Non-Flow Bias\n\n        \n        Quark Matter 2025\n        \n\n        \n        Frankfurt am Main, Germany ·\n        April 8, 2025\n        \n\n        \n\n            \n            \n            Poster Summary\n            \n            \n\n            \n            \n            QM 2025\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions\n\n        \n        Quark Matter 2023\n        \n\n        \n        Houston, Texas ·\n        September 5, 2023\n        \n\n        \n\n            \n            \n            Poster Summary\n            \n            \n\n            \n            \n            QM 2023\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model\n\n        \n        Strangeness in Quark Matter 2022\n        \n\n        \n        Busan, South Korea · Presented Online ·\n        June 14, 2022\n        \n\n        \n\n            \n            \n            Poster Summary\n            \n            \n\n            \n            \n            SQM 2022\n            \n            \n\n        \n\n    \n\n    \n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/radial-flow-collectivity/index.html",
-    "href": "projects/radial-flow-collectivity/index.html",
-    "title": "Evidence for the Collective Nature of Radial Flow",
-    "section": "",
-    "text": "ATLAS Collaboration\nPhysical Review Letters 136, 032301 (2026)"
-  },
-  {
-    "objectID": "projects/radial-flow-collectivity/index.html#overview",
-    "href": "projects/radial-flow-collectivity/index.html#overview",
-    "title": "Evidence for the Collective Nature of Radial Flow",
-    "section": "Overview",
-    "text": "Overview\nRadial flow is one of the fundamental manifestations of the collective expansion of the quark–gluon plasma (QGP). While anisotropic flow has been extensively established as a collective phenomenon and developed into a precision probe of QGP properties, comparable direct experimental evidence for the global collective nature of radial flow had been missing. This work introduces the first measurement of the transverse-momentum dependence of radial-flow fluctuations, \\(v_0(p_T)\\), over \\(0.5 &lt; p_T &lt; 10\\) GeV in Pb+Pb collisions at \\(\\sqrt{s_{\\mathrm{NN}}}=5.02\\) TeV with the ATLAS detector. The measurement tests radial flow against three characteristic hallmarks of collectivity: long-range correlations in pseudorapidity, factorization in \\(p_T\\), and a centrality-independent response shape. All three are observed in the flow-dominated regime, providing direct experimental evidence for the global collective nature of radial flow. Beyond establishing collectivity, comparisons with hydrodynamic calculations demonstrate that \\(v_0(p_T)\\) is sensitive to the bulk viscosity of the QGP. The measurement therefore establishes differential radial flow as a new tool for studying both the collective dynamics and transport properties of the strongly interacting QGP medium."
-  },
-  {
-    "objectID": "projects/radial-flow-collectivity/index.html#analysis",
-    "href": "projects/radial-flow-collectivity/index.html#analysis",
-    "title": "Evidence for the Collective Nature of Radial Flow",
-    "section": "Analysis",
-    "text": "Analysis\n\nWhy establish radial-flow collectivity?\nThe collective expansion of the quark–gluon plasma can manifest itself through two complementary forms of flow. Anisotropic flow reflects the hydrodynamic response to the initial spatial shape of the collision, while radial flow reflects the response to fluctuations in the transverse size and density of the system.\nFor anisotropic flow, its collective origin has been established experimentally through a broad set of characteristic signatures, including long-range correlations, factorization, and a universal hydrodynamic response. Radial flow, despite being of comparable fundamental importance, had not been subjected to the same direct experimental tests.\nThis distinction matters because radial-flow observables are increasingly being used to constrain properties of the QGP. Event-by-event fluctuations of the mean transverse momentum, \\([p_T]\\), exhibit striking behavior in ultra-central Pb+Pb collisions, including a sharp suppression of their variance and a rapid increase of \\(\\langle[p_T]\\rangle\\) with multiplicity. These features have been interpreted within a hydrodynamic picture in which radial-flow fluctuations originate from both global collision geometry and local density fluctuations.\nBefore such observables can be used as precision probes of the QGP equation of state or transport properties, however, an important logical step must be established experimentally: is radial flow itself genuinely collective?\n\n\nDifferential radial flow\nTo answer this question, the analysis introduces the differential radial-flow observable \\(v_0(p_T)\\).\nIts physical origin can be understood by considering events with approximately fixed total entropy. An event with a smaller transverse collision area develops stronger pressure gradients and therefore experiences a larger radial push. Its particle spectrum becomes flatter and its event-by-event mean transverse momentum \\([p_T]\\) increases. Conversely, an event with a larger transverse area experiences weaker radial expansion and develops a steeper spectrum.\nThis produces a characteristic correlation between fluctuations of the local particle yield and fluctuations of \\([p_T]\\). At low \\(p_T\\), the two quantities are anticorrelated; near the ensemble mean transverse momentum the correlation crosses zero; and at higher \\(p_T\\) it becomes positive.\nThe differential observable is constructed from this correlation,\n\\[\nv_0(p_T)\n=\n\\frac{1}{v_0}\n\\frac{\n\\langle \\delta n(p_T)\\delta[p_T]\\rangle\n}{\n\\langle n(p_T)\\rangle\\langle[p_T]\\rangle\n},\n\\]\nwhere \\(n(p_T)\\) is the normalized particle spectrum and \\(v_0\\) is the corresponding integrated radial-flow fluctuation.\n\n\n\n\n\n\nFigure 1: Schematic illustration of the physical origin of differential radial flow. Events with larger \\([p_T]\\) have flatter spectra, while events with smaller \\([p_T]\\) have steeper spectra, producing a characteristic sign change in the correlation between \\(\\delta n(p_T)\\) and \\(\\delta[p_T]\\).\n\n\n\nA two-subevent method is used in which the local spectrum and \\([p_T]\\) are measured using particles separated in pseudorapidity. This suppresses short-range correlations and allows the global component of the radial-flow signal to be isolated.\n\n\nExperimental hallmarks of collectivity\nThe key idea of the measurement is to test radial flow against the same experimental criteria that are traditionally used to establish anisotropic collectivity.\n\nLong-range correlations\nA global collective expansion should generate correlations extending over large separations in pseudorapidity. Experimentally, \\(v_0(p_T)\\) is found to be largely insensitive to the pseudorapidity gap used between the two subevents, as shown in Figure 2.\n\n\n\n\n\n\nFigure 2: Differential radial flow \\(v_0(p_T)\\) measured for different pseudorapidity gaps in central and peripheral Pb+Pb collisions. The weak dependence on the gap size demonstrates the long-range nature of the radial-flow correlation.\n\n\n\nThis behavior is observed in both central and peripheral Pb+Pb collisions. Deviations appear primarily at larger \\(p_T\\), where contributions from jets and other non-flow effects become increasingly important.\n\n\nCentrality-independent response\nThe absolute magnitude of \\(v_0(p_T)\\) varies strongly with collision centrality. Much of this variation reflects changes in the magnitude of the initial-state size fluctuations rather than changes in the subsequent hydrodynamic response.\nTo reduce this dependence, the differential measurement is divided by its integrated counterpart, \\(v_0\\). As shown in Figure 3, the resulting quantity, \\(v_0(p_T)/v_0\\), exhibits a striking behavior: curves from widely separated centrality intervals collapse onto an approximately common shape in the flow-dominated region.\n\n\n\n\n\n\nFigure 3: Differential radial flow \\(v_0(p_T)\\) for different centrality intervals before and after normalization by the integrated radial-flow fluctuation \\(v_0\\). The strong centrality dependence of the absolute magnitude is substantially reduced after normalization, revealing an approximately universal response shape in the flow-dominated region.\n\n\n\nThis centrality-independent shape indicates that very different initial collision geometries are being transformed into momentum space through a common underlying hydrodynamic response.\n\n\nFactorization\nA collective mode generated by a global hydrodynamic expansion is also expected to satisfy factorization. This is tested by changing the reference \\(p_T\\) interval used to define \\([p_T]\\) and its event-by-event fluctuations. For \\(p_T \\lesssim 3\\) GeV, the measured \\(v_0(p_T)\\) is essentially insensitive to this choice, demonstrating factorization in the region dominated by soft collective physics, as shown in Figure 4.\n\n\n\n\n\n\nFigure 4: Differential radial flow \\(v_0(p_T)\\) measured using different reference \\(p_T\\) ranges in central and peripheral Pb+Pb collisions. The agreement of the measurements at low \\(p_T\\) demonstrates factorization in the flow-dominated regime.\n\n\n\nAt larger transverse momentum, the factorization begins to break. In peripheral collisions, this behavior is consistent with increasing contamination from residual non-flow correlations, while in central collisions the high-\\(p_T\\) response becomes sensitive to jet-quenching phenomena.\n\n\n\nConnection to QGP transport properties\nOnce the collective nature of radial flow is established, the differential observable can be used to investigate properties of the medium itself.\nThe measured \\(v_0(p_T)/v_0\\) is compared with hydrodynamic calculations based on the Trento+MUSIC framework. The ideal-hydrodynamic calculation and the calculation including shear viscosity give very similar predictions and underestimate the data at high \\(p_T\\), failing to reproduce the measured shape. In contrast, the inclusion of a temperature-dependent bulk viscosity, \\(\\zeta/s(T)\\), substantially modifies the high-\\(p_T\\) behavior and provides a much better description of the data. After additionally accounting for the difference in the mean transverse momentum between model and data by scaling the horizontal axis with \\(\\bar{p}_T\\), the agreement improves further, as shown in Figure 5.\n\n\n\n\n\n\nFigure 5: Comparison of the measured scaled differential radial flow with Trento+MUSIC hydrodynamic calculations. The ideal and shear-only calculations underestimate the data at high \\(p_T\\), while including a temperature-dependent bulk viscosity significantly improves the description. Scaling the horizontal axis by the mean transverse momentum further improves the agreement.\n\n\n\nThe normalization by the integrated \\(v_0\\) suppresses much of the influence of the initial-state fluctuation magnitude and emphasizes the hydrodynamic response. The improved description of the measured shape after including bulk viscosity demonstrates the sensitivity of differential radial flow to \\(\\zeta/s\\), establishing \\(v_0(p_T)\\) as a new experimental probe of QGP transport properties.\n\n\nBroader implications\nBy exhibiting long-range correlations, a centrality-independent response shape, and factorization, radial flow satisfies the same key hallmarks of collectivity established for azimuthal flow. These results elevate radial flow to the rigorous standing of azimuthal flow, establishing it as a powerful new probe for constraining QGP transport properties.\nThe same observable also opens a path toward future system-size studies. Measurements of \\(v_0(p_T)\\) in systems such as p+O, O+O, Ne+Ne, and other small (p+p) or exotic collision systems (\\(\\gamma\\)+Pb) could provide an independent probe of collectivity, help explore how the emergence of QGP-like behavior evolves with system size, and ultimately help identify the smallest collision systems capable of forming a QGP droplet."
-  },
-  {
-    "objectID": "projects/radial-flow-collectivity/index.html#additional-resources",
-    "href": "projects/radial-flow-collectivity/index.html#additional-resources",
-    "title": "Evidence for the Collective Nature of Radial Flow",
-    "section": "Additional Resources",
-    "text": "Additional Resources\nOfficial ATLAS Coverage\nThe ATLAS Collaboration featured this measurement in its public coverage of Quark Matter 2025, with an accessible discussion of the radial-flow result and its implications for collectivity and QGP transport properties.\nATLAS Highlight\nSQM 2026 Proceedings\nA proceedings contribution based on the SQM 2026 presentation is currently in preparation. The publication will be added here once available."
-  },
-  {
-    "objectID": "projects/differential-radial-flow-shape/index.html",
-    "href": "projects/differential-radial-flow-shape/index.html",
-    "title": "What Information Does Differential Radial Flow Carry?",
-    "section": "",
-    "text": "Somadutta Bhatta, Aman Dimri, Jiangyong Jia\nNuclear Science and Techniques 37, 163 (2026)"
-  },
-  {
-    "objectID": "projects/differential-radial-flow-shape/index.html#overview",
-    "href": "projects/differential-radial-flow-shape/index.html#overview",
-    "title": "What Information Does Differential Radial Flow Carry?",
-    "section": "Overview",
-    "text": "Overview\nThe differential radial-flow observable \\(v_0(p_T)\\) characterizes event-by-event fluctuations of the transverse-momentum spectrum. Its characteristic shape contains information about radial-flow dynamics, but the observable is also affected by global event-activity and multiplicity fluctuations.\nThis project asks a basic interpretational question: which features of \\(v_0(p_T)\\) are actually physical?\nUsing HIJING simulations, the study shows that changing the definition of event activity or the normalization of the particle spectrum can shift the entire \\(v_0(p_T)\\) curve vertically. Crucially, these changes leave the shape of the curve essentially unchanged. The absolute vertical position, and therefore the location where \\(v_0(p_T)\\) crosses zero, is consequently not a robust measure of radial-flow dynamics."
-  },
-  {
-    "objectID": "projects/differential-radial-flow-shape/index.html#global-multiplicity-and-spectral-shape-fluctuations",
-    "href": "projects/differential-radial-flow-shape/index.html#global-multiplicity-and-spectral-shape-fluctuations",
-    "title": "What Information Does Differential Radial Flow Carry?",
-    "section": "Global Multiplicity and Spectral-Shape Fluctuations",
-    "text": "Global Multiplicity and Spectral-Shape Fluctuations\nEvent-by-event fluctuations of a particle spectrum contain more than one contribution. The total number of particles in an event can fluctuate, while the shape of the transverse-momentum distribution can fluctuate independently.\nThe observable \\(v_0(p_T)\\) is sensitive to both effects. Residual fluctuations in event volume or centrality therefore introduce a global contribution that shifts \\(v_0(p_T)\\) approximately uniformly as a function of \\(p_T\\).\nThis means that two measurements can describe the same underlying spectral-shape fluctuations while appearing vertically displaced from one another."
-  },
-  {
-    "objectID": "projects/differential-radial-flow-shape/index.html#why-the-zero-crossing-is-not-physical",
-    "href": "projects/differential-radial-flow-shape/index.html#why-the-zero-crossing-is-not-physical",
-    "title": "What Information Does Differential Radial Flow Carry?",
-    "section": "Why the Zero Crossing Is Not Physical",
-    "text": "Why the Zero Crossing Is Not Physical\nA commonly noted feature of \\(v_0(p_T)\\) is the momentum at which it changes sign. This zero-crossing point often lies near the event-averaged transverse momentum and can appear to provide a characteristic momentum scale.\nHowever, the study demonstrates that the zero crossing moves when the event-activity definition or spectrum-normalization prescription is changed. Since these procedural choices do not alter the underlying radial-flow dynamics, the zero-crossing position cannot by itself carry unique physical information.\nInstead, it partly reflects the arbitrary baseline introduced by global multiplicity fluctuations."
-  },
-  {
-    "objectID": "projects/differential-radial-flow-shape/index.html#the-shape-is-the-robust-observable",
-    "href": "projects/differential-radial-flow-shape/index.html#the-shape-is-the-robust-observable",
-    "title": "What Information Does Differential Radial Flow Carry?",
-    "section": "The Shape Is the Robust Observable",
-    "text": "The Shape Is the Robust Observable\nWhile different analysis choices generate an approximately constant vertical offset, the \\(p_T\\) dependence of \\(v_0(p_T)\\) remains stable.\nThe physically meaningful information is therefore encoded in the shape of the differential radial-flow response, or equivalently in its derivative,\n\\[\n\\frac{d v_0(p_T)}{d p_T}.\n\\]\nQuantities based on the slope or relative variation of \\(v_0(p_T)\\) are insensitive to a constant vertical shift and therefore provide a more robust connection to the underlying radial-flow dynamics."
-  },
-  {
-    "objectID": "projects/differential-radial-flow-shape/index.html#implications-for-experimental-comparisons",
-    "href": "projects/differential-radial-flow-shape/index.html#implications-for-experimental-comparisons",
-    "title": "What Information Does Differential Radial Flow Carry?",
-    "section": "Implications for Experimental Comparisons",
-    "text": "Implications for Experimental Comparisons\nThis result has a practical consequence for comparisons between experiments and between data and theoretical calculations.\nMeasurements using different centrality estimators, detector acceptances, or normalization conventions may acquire different vertical offsets even when they contain the same underlying dynamical information. Directly comparing the absolute value or zero crossing of \\(v_0(p_T)\\) can therefore be misleading.\nInstead, measurements should first be vertically aligned, or compared through shape-sensitive quantities. This removes the normalization ambiguity and allows the differential radial-flow response to be used more reliably when constraining properties of the quark-gluon plasma."
-  },
-  {
-    "objectID": "projects/differential-radial-flow-shape/index.html#connection-to-the-atlas-radial-flow-measurement",
-    "href": "projects/differential-radial-flow-shape/index.html#connection-to-the-atlas-radial-flow-measurement",
-    "title": "What Information Does Differential Radial Flow Carry?",
-    "section": "Connection to the ATLAS Radial-Flow Measurement",
-    "text": "Connection to the ATLAS Radial-Flow Measurement\nThis study complements the experimental measurement establishing the collective nature of differential radial-flow fluctuations. The ATLAS measurement demonstrates that \\(v_0(p_T)\\) exhibits the characteristic signatures of collectivity, while this work clarifies which features of the observable provide robust dynamical information.\nATLAS Radial-Flow Project"
-  },
-  {
     "objectID": "projects/oxygen-neon-nuclear-structure/index.html",
     "href": "projects/oxygen-neon-nuclear-structure/index.html",
     "title": "Revealing Nuclear Geometry with O+O and Ne+Ne Collisions",
@@ -343,46 +336,32 @@
     "text": "Broader Implications\nThese measurements connect two traditionally distinct areas of nuclear physics: the structure of atomic nuclei and the dynamical evolution of the quark-gluon plasma.\nThe results provide new experimental constraints on models of light-nucleus structure while simultaneously testing the hydrodynamic response of small collision systems. They also demonstrate how relativistic nuclear collisions can act as an imaging tool, revealing properties of nuclei on timescales far shorter than those accessible through conventional nuclear-structure measurements.\nThe O+O and Ne+Ne program therefore provides a new laboratory for studying both the emergence of collectivity and the geometry of light nuclei."
   },
   {
-    "objectID": "projects/nuclear-shape-fluctuations/posters/qm-2023.html",
-    "href": "projects/nuclear-shape-fluctuations/posters/qm-2023.html",
-    "title": "Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions",
+    "objectID": "projects/radial-flow-collectivity/index.html",
+    "href": "projects/radial-flow-collectivity/index.html",
+    "title": "Evidence for the Collective Nature of Radial Flow",
     "section": "",
-    "text": "Quark Matter 2023 Houston, Texas · September 5, 2023\nPoster presentation in the Initial State category."
+    "text": "ATLAS Collaboration\nPhysical Review Letters 136, 032301 (2026)"
   },
   {
-    "objectID": "projects/nuclear-shape-fluctuations/posters/qm-2023.html#summary",
-    "href": "projects/nuclear-shape-fluctuations/posters/qm-2023.html#summary",
-    "title": "Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions",
-    "section": "Summary",
-    "text": "Summary\nThe initial geometry of a heavy-ion collision is influenced by several properties of the colliding nuclei, including quadrupole deformation, triaxiality, nuclear radius, and skin depth. This poster examined how variations and fluctuations of these nuclear-shape parameters modify observables related to elliptic and radial flow.\nThe study focused on the initial-state eccentricity and inverse transverse size, investigating their dependence on nuclear deformation across different collision systems. The results showed that fluctuations of the quadrupole deformation enhance the fluctuations of these observables, while triaxiality fluctuations reduce the differences between prolate and oblate nuclear configurations."
+    "objectID": "projects/radial-flow-collectivity/index.html#overview",
+    "href": "projects/radial-flow-collectivity/index.html#overview",
+    "title": "Evidence for the Collective Nature of Radial Flow",
+    "section": "Overview",
+    "text": "Overview\nRadial flow is one of the fundamental manifestations of the collective expansion of the quark–gluon plasma (QGP). While anisotropic flow has been extensively established as a collective phenomenon and developed into a precision probe of QGP properties, comparable direct experimental evidence for the global collective nature of radial flow had been missing. This work introduces the first measurement of the transverse-momentum dependence of radial-flow fluctuations, \\(v_0(p_T)\\), over \\(0.5 &lt; p_T &lt; 10\\) GeV in Pb+Pb collisions at \\(\\sqrt{s_{\\mathrm{NN}}}=5.02\\) TeV with the ATLAS detector. The measurement tests radial flow against three characteristic hallmarks of collectivity: long-range correlations in pseudorapidity, factorization in \\(p_T\\), and a centrality-independent response shape. All three are observed in the flow-dominated regime, providing direct experimental evidence for the global collective nature of radial flow. Beyond establishing collectivity, comparisons with hydrodynamic calculations demonstrate that \\(v_0(p_T)\\) is sensitive to the bulk viscosity of the QGP. The measurement therefore establishes differential radial flow as a new tool for studying both the collective dynamics and transport properties of the strongly interacting QGP medium."
   },
   {
-    "objectID": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html",
-    "href": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html",
-    "title": "Nuclear Shape Fluctuations in Heavy-Ion Collisions",
-    "section": "",
-    "text": "INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions Institute for Nuclear Theory, University of Washington · Seattle, Washington · February 8, 2023\nIn-person presentation during the INT-23-1a program."
+    "objectID": "projects/radial-flow-collectivity/index.html#analysis",
+    "href": "projects/radial-flow-collectivity/index.html#analysis",
+    "title": "Evidence for the Collective Nature of Radial Flow",
+    "section": "Analysis",
+    "text": "Analysis\n\nWhy establish radial-flow collectivity?\nThe collective expansion of the quark–gluon plasma can manifest itself through two complementary forms of flow. Anisotropic flow reflects the hydrodynamic response to the initial spatial shape of the collision, while radial flow reflects the response to fluctuations in the transverse size and density of the system.\nFor anisotropic flow, its collective origin has been established experimentally through a broad set of characteristic signatures, including long-range correlations, factorization, and a universal hydrodynamic response. Radial flow, despite being of comparable fundamental importance, had not been subjected to the same direct experimental tests.\nThis distinction matters because radial-flow observables are increasingly being used to constrain properties of the QGP. Event-by-event fluctuations of the mean transverse momentum, \\([p_T]\\), exhibit striking behavior in ultra-central Pb+Pb collisions, including a sharp suppression of their variance and a rapid increase of \\(\\langle[p_T]\\rangle\\) with multiplicity. These features have been interpreted within a hydrodynamic picture in which radial-flow fluctuations originate from both global collision geometry and local density fluctuations.\nBefore such observables can be used as precision probes of the QGP equation of state or transport properties, however, an important logical step must be established experimentally: is radial flow itself genuinely collective?\n\n\nDifferential radial flow\nTo answer this question, the analysis introduces the differential radial-flow observable \\(v_0(p_T)\\).\nIts physical origin can be understood by considering events with approximately fixed total entropy. An event with a smaller transverse collision area develops stronger pressure gradients and therefore experiences a larger radial push. Its particle spectrum becomes flatter and its event-by-event mean transverse momentum \\([p_T]\\) increases. Conversely, an event with a larger transverse area experiences weaker radial expansion and develops a steeper spectrum.\nThis produces a characteristic correlation between fluctuations of the local particle yield and fluctuations of \\([p_T]\\). At low \\(p_T\\), the two quantities are anticorrelated; near the ensemble mean transverse momentum the correlation crosses zero; and at higher \\(p_T\\) it becomes positive.\nThe differential observable is constructed from this correlation,\n\\[\nv_0(p_T)\n=\n\\frac{1}{v_0}\n\\frac{\n\\langle \\delta n(p_T)\\delta[p_T]\\rangle\n}{\n\\langle n(p_T)\\rangle\\langle[p_T]\\rangle\n},\n\\]\nwhere \\(n(p_T)\\) is the normalized particle spectrum and \\(v_0\\) is the corresponding integrated radial-flow fluctuation.\n\n\n\n\n\n\nFigure 1: Schematic illustration of the physical origin of differential radial flow. Events with larger \\([p_T]\\) have flatter spectra, while events with smaller \\([p_T]\\) have steeper spectra, producing a characteristic sign change in the correlation between \\(\\delta n(p_T)\\) and \\(\\delta[p_T]\\).\n\n\n\nA two-subevent method is used in which the local spectrum and \\([p_T]\\) are measured using particles separated in pseudorapidity. This suppresses short-range correlations and allows the global component of the radial-flow signal to be isolated.\n\n\nExperimental hallmarks of collectivity\nThe key idea of the measurement is to test radial flow against the same experimental criteria that are traditionally used to establish anisotropic collectivity.\n\nLong-range correlations\nA global collective expansion should generate correlations extending over large separations in pseudorapidity. Experimentally, \\(v_0(p_T)\\) is found to be largely insensitive to the pseudorapidity gap used between the two subevents, as shown in Figure 2.\n\n\n\n\n\n\nFigure 2: Differential radial flow \\(v_0(p_T)\\) measured for different pseudorapidity gaps in central and peripheral Pb+Pb collisions. The weak dependence on the gap size demonstrates the long-range nature of the radial-flow correlation.\n\n\n\nThis behavior is observed in both central and peripheral Pb+Pb collisions. Deviations appear primarily at larger \\(p_T\\), where contributions from jets and other non-flow effects become increasingly important.\n\n\nCentrality-independent response\nThe absolute magnitude of \\(v_0(p_T)\\) varies strongly with collision centrality. Much of this variation reflects changes in the magnitude of the initial-state size fluctuations rather than changes in the subsequent hydrodynamic response.\nTo reduce this dependence, the differential measurement is divided by its integrated counterpart, \\(v_0\\). As shown in Figure 3, the resulting quantity, \\(v_0(p_T)/v_0\\), exhibits a striking behavior: curves from widely separated centrality intervals collapse onto an approximately common shape in the flow-dominated region.\n\n\n\n\n\n\nFigure 3: Differential radial flow \\(v_0(p_T)\\) for different centrality intervals before and after normalization by the integrated radial-flow fluctuation \\(v_0\\). The strong centrality dependence of the absolute magnitude is substantially reduced after normalization, revealing an approximately universal response shape in the flow-dominated region.\n\n\n\nThis centrality-independent shape indicates that very different initial collision geometries are being transformed into momentum space through a common underlying hydrodynamic response.\n\n\nFactorization\nA collective mode generated by a global hydrodynamic expansion is also expected to satisfy factorization. This is tested by changing the reference \\(p_T\\) interval used to define \\([p_T]\\) and its event-by-event fluctuations. For \\(p_T \\lesssim 3\\) GeV, the measured \\(v_0(p_T)\\) is essentially insensitive to this choice, demonstrating factorization in the region dominated by soft collective physics, as shown in Figure 4.\n\n\n\n\n\n\nFigure 4: Differential radial flow \\(v_0(p_T)\\) measured using different reference \\(p_T\\) ranges in central and peripheral Pb+Pb collisions. The agreement of the measurements at low \\(p_T\\) demonstrates factorization in the flow-dominated regime.\n\n\n\nAt larger transverse momentum, the factorization begins to break. In peripheral collisions, this behavior is consistent with increasing contamination from residual non-flow correlations, while in central collisions the high-\\(p_T\\) response becomes sensitive to jet-quenching phenomena.\n\n\n\nConnection to QGP transport properties\nOnce the collective nature of radial flow is established, the differential observable can be used to investigate properties of the medium itself.\nThe measured \\(v_0(p_T)/v_0\\) is compared with hydrodynamic calculations based on the Trento+MUSIC framework. The ideal-hydrodynamic calculation and the calculation including shear viscosity give very similar predictions and underestimate the data at high \\(p_T\\), failing to reproduce the measured shape. In contrast, the inclusion of a temperature-dependent bulk viscosity, \\(\\zeta/s(T)\\), substantially modifies the high-\\(p_T\\) behavior and provides a much better description of the data. After additionally accounting for the difference in the mean transverse momentum between model and data by scaling the horizontal axis with \\(\\bar{p}_T\\), the agreement improves further, as shown in Figure 5.\n\n\n\n\n\n\nFigure 5: Comparison of the measured scaled differential radial flow with Trento+MUSIC hydrodynamic calculations. The ideal and shear-only calculations underestimate the data at high \\(p_T\\), while including a temperature-dependent bulk viscosity significantly improves the description. Scaling the horizontal axis by the mean transverse momentum further improves the agreement.\n\n\n\nThe normalization by the integrated \\(v_0\\) suppresses much of the influence of the initial-state fluctuation magnitude and emphasizes the hydrodynamic response. The improved description of the measured shape after including bulk viscosity demonstrates the sensitivity of differential radial flow to \\(\\zeta/s\\), establishing \\(v_0(p_T)\\) as a new experimental probe of QGP transport properties.\n\n\nBroader implications\nBy exhibiting long-range correlations, a centrality-independent response shape, and factorization, radial flow satisfies the same key hallmarks of collectivity established for azimuthal flow. These results elevate radial flow to the rigorous standing of azimuthal flow, establishing it as a powerful new probe for constraining QGP transport properties.\nThe same observable also opens a path toward future system-size studies. Measurements of \\(v_0(p_T)\\) in systems such as p+O, O+O, Ne+Ne, and other small (p+p) or exotic collision systems (\\(\\gamma\\)+Pb) could provide an independent probe of collectivity, help explore how the emergence of QGP-like behavior evolves with system size, and ultimately help identify the smallest collision systems capable of forming a QGP droplet."
   },
   {
-    "objectID": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html#summary",
-    "href": "projects/nuclear-shape-fluctuations/talks/int-23-1a.html#summary",
-    "title": "Nuclear Shape Fluctuations in Heavy-Ion Collisions",
-    "section": "Summary",
-    "text": "Summary\nNuclear deformation influences the geometry of the initial state created in heavy-ion collisions. This presentation explored what happens when the nuclear shape itself is allowed to fluctuate from event to event, rather than being described by fixed deformation parameters.\nUsing analytical estimates and Glauber-model calculations, the study examined fluctuations of the quadrupole deformation magnitude and triaxiality and their impact on initial-state observables related to the shape and transverse size of the collision system. Particular attention was given to how these nuclear-shape fluctuations modify the moments and correlations of the eccentricity and inverse transverse size.\nThe results illustrate how high-energy heavy-ion collisions can provide sensitivity not only to the average deformation of a nucleus, but also to fluctuations around its equilibrium shape, providing a connection between nuclear-structure physics and experimentally accessible collective observables."
-  },
-  {
-    "objectID": "awards.html",
-    "href": "awards.html",
-    "title": "Awards",
-    "section": "",
-    "text": "22nd International Conference on Strangeness in Quark Matter (SQM 2026)\nLos Angeles, California · 2026\nThe Andre Mischke Award was established in memory of Andre Mischke—a friend, educator, and scholar whose career combined major contributions to heavy-flavour physics with a deep commitment to mentoring and supporting young scientists. The award recognizes the best experimental presentation by a young scientist at the Strangeness in Quark Matter conference.\n\n\n\n\n\nI received the award at SQM 2026 for my presentation on the ATLAS measurement of radial-flow fluctuations in Pb+Pb collisions.\n\nView the Talk Award Presentation"
-  },
-  {
-    "objectID": "awards.html#andre-mischke-award-best-experimental-talk",
-    "href": "awards.html#andre-mischke-award-best-experimental-talk",
-    "title": "Awards",
-    "section": "",
-    "text": "22nd International Conference on Strangeness in Quark Matter (SQM 2026)\nLos Angeles, California · 2026\nThe Andre Mischke Award was established in memory of Andre Mischke—a friend, educator, and scholar whose career combined major contributions to heavy-flavour physics with a deep commitment to mentoring and supporting young scientists. The award recognizes the best experimental presentation by a young scientist at the Strangeness in Quark Matter conference.\n\n\n\n\n\nI received the award at SQM 2026 for my presentation on the ATLAS measurement of radial-flow fluctuations in Pb+Pb collisions.\n\nView the Talk Award Presentation"
+    "objectID": "projects/radial-flow-collectivity/index.html#additional-resources",
+    "href": "projects/radial-flow-collectivity/index.html#additional-resources",
+    "title": "Evidence for the Collective Nature of Radial Flow",
+    "section": "Additional Resources",
+    "text": "Additional Resources\nOfficial ATLAS Coverage\nThe ATLAS Collaboration featured this measurement in its public coverage of Quark Matter 2025, with an accessible discussion of the radial-flow result and its implications for collectivity and QGP transport properties.\nATLAS Highlight\nSQM 2026 Proceedings\nA proceedings contribution based on the SQM 2026 presentation is currently in preparation. The publication will be added here once available."
   },
   {
     "objectID": "publications.html",
@@ -390,5 +369,26 @@
     "title": "Publications",
     "section": "",
     "text": "The shape of differential radial flow v0(pT), not its zero-crossing, carries physical information\n        \n        \n\n        \n        Somadutta Bhatta, Aman Dimri, Jiangyong Jia\n        \n\n        \n        Nuclear Science and Techniques\n        \n        37,\n        \n        \n        163\n        \n        \n        (2026)\n        \n        \n\n        \n\n            \n            \n            NST\n            \n            \n\n            \n            \n            Project Summary\n            \n            \n\n            \n            \n            arXiv\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        \n        \n        Measurement of the azimuthal anisotropy of charged particles in √sNN = 5.36 TeV 16O+16O and 20Ne+20Ne collisions with the ATLAS detector\n        \n        \n\n        \n        ATLAS Collaboration\n        \n\n        \n        Physical Review C\n        \n        113,\n        \n        \n        045205\n        \n        \n        (2026)\n        \n        \n\n        \n\n            \n            \n            PRC\n            \n            \n\n            \n            \n            Project Summary\n            \n            \n\n            \n            \n            arXiv\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        \n        \n        Evidence for the Collective Nature of Radial Flow in Pb+Pb Collisions with the ATLAS Detector\n        \n        \n\n        \n        ATLAS Collaboration\n        \n\n        \n        Physical Review Letters\n        \n        136,\n        \n        \n        032301\n        \n        \n        (2026)\n        \n        \n\n        \n\n            \n            \n            PRL\n            \n            \n\n            \n            \n            Project Summary\n            \n            \n\n            \n            \n            arXiv\n            \n            \n\n        \n\n    \n\n    \n\n    \n\n        \n        \n        Impact of nuclear shape fluctuations in high-energy heavy ion collisions\n        \n        \n\n        \n        Aman Dimri, Somadutta Bhatta, Jiangyong Jia\n        \n\n        \n        The European Physical Journal A\n        \n        59,\n        \n        \n        45\n        \n        \n        (2023)\n        \n        \n\n        \n\n            \n            \n            EPJ A\n            \n            \n\n            \n            \n            Project Summary\n            \n            \n\n            \n            \n            arXiv\n            \n            \n\n        \n\n    \n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a physicist and graduate researcher at Stony Brook University studying the quark-gluon plasma created in high-energy nuclear collisions. My research focuses on collective phenomena and event-by-event fluctuations, with the goal of understanding how the initial geometry of a nuclear collision and the transport properties of the resulting medium are encoded in experimentally measurable momentum correlations.\nI am a member of both the ATLAS Collaboration at the Large Hadron Collider (LHC) at CERN and the STAR Collaboration at the Relativistic Heavy Ion Collider (RHIC) at Brookhaven National Laboratory (BNL). My research combines experimental measurements with hydrodynamic calculations and initial-state models to study the connection between collision geometry, fluctuations, and the dynamical response of the quark-gluon plasma.\n\n\nA central theme of my current work is the study of radial-flow fluctuations. These measurements provide a complementary perspective on collective dynamics and offer new ways to probe the transport properties of the quark-gluon plasma, including its bulk viscosity.\nI am also interested in nuclear structure, initial-state fluctuations, system-size dependence, and the emergence of collective behavior across different collision systems.\n\n\n\nStony Brook University\nDepartment of Chemistry\nMember of the ATLAS Collaboration — LHC, CERN\nMember of the STAR Collaboration — RHIC, Brookhaven National Laboratory"
+  },
+  {
+    "objectID": "about.html#research",
+    "href": "about.html#research",
+    "title": "About Me",
+    "section": "",
+    "text": "A central theme of my current work is the study of radial-flow fluctuations. These measurements provide a complementary perspective on collective dynamics and offer new ways to probe the transport properties of the quark-gluon plasma, including its bulk viscosity.\nI am also interested in nuclear structure, initial-state fluctuations, system-size dependence, and the emergence of collective behavior across different collision systems."
+  },
+  {
+    "objectID": "about.html#affiliation",
+    "href": "about.html#affiliation",
+    "title": "About Me",
+    "section": "",
+    "text": "Stony Brook University\nDepartment of Chemistry\nMember of the ATLAS Collaboration — LHC, CERN\nMember of the STAR Collaboration — RHIC, Brookhaven National Laboratory"
   }
 ]
