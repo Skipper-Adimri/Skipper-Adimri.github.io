@@ -1,8 +1,10 @@
 [
   {
-    "listing": "/talks.html",
-    "items": [
-      "/projects/radial-flow-collectivity/talks/sqm-2026.html"
-    ]
+    "listing": "/presentation.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   }
 ]

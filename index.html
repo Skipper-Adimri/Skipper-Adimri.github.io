@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -73,11 +74,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,12 +133,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
-<span class="menu-text">Talks</span></a>
+    <a class="nav-link" href="./presentation.html"> 
+<span class="menu-text">Talks &amp; Posters</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./awards.html"> 
 <span class="menu-text">Awards</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -121,15 +155,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Aman Dimri</h1>
+<p class="subtitle lead">Physicist</p>
 </div>
 
 
@@ -146,14 +179,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>I study collective phenomena in high-energy nuclear collisions and use them to probe the properties of the quark-gluon plasma. My work combines experimental measurements with the <strong>ATLAS Collaboration</strong> at the Large Hadron Collider with phenomenological studies using hydrodynamic and initial-state models.</p>
+<div class="project-links">
+<p><a href="./publications.html" class="btn btn-primary">Publications</a> <a href="./presentation.html" class="btn btn-outline-primary">Talks &amp; Posters</a> <!--
+[CV](files/CV_AmanDimri.pdf){.btn .btn-outline-primary}
+--></p>
+</div>
+<section id="research-interests" class="level2">
+<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
+<p>My research explores how the geometry and fluctuations of nuclear collisions are translated through relativistic hydrodynamics into experimentally measurable momentum correlations.</p>
+<p>Current interests include:</p>
+<ul>
+<li>Radial-flow fluctuations and differential radial flow;</li>
+<li>Collective behavior in heavy-ion and small collision systems;</li>
+<li>Event-by-event fluctuations of the quark-gluon plasma;</li>
+<li>Initial-state geometry and nuclear structure;</li>
+<li>Hydrodynamic response and QGP transport properties.</li>
+</ul>
+</section>
+<section id="featured-research" class="level2">
+<h2 class="anchored" data-anchor-id="featured-research">Featured Research</h2>
+<section id="evidence-for-the-collective-nature-of-radial-flow" class="level3 featured-research">
+<h3 class="anchored" data-anchor-id="evidence-for-the-collective-nature-of-radial-flow">Evidence for the Collective Nature of Radial Flow</h3>
+<div class="featured-research-top">
+<p><img src="projects/radial-flow-collectivity/images/Cartoon_ExplainV0pT.png" class="featured-research-image img-fluid"></p>
+<div class="featured-research-intro">
+<p>Radial flow characterizes the outward expansion of the quark-gluon plasma produced in heavy-ion collisions. My recent work with the ATLAS Collaboration provided evidence for the collective nature of radial-flow fluctuations through the first measurement of the differential observable <span class="math inline">\(v_0(p_T)\)</span> in high-energy Pb+Pb collisions at a nucleon-pair center-of-mass energy of 5.02 TeV.</p>
+</div>
+</div>
+<p>The observed long-range correlations, transverse-momentum factorization, and centrality-independent response shape provide complementary signatures of a collective origin for radial-flow fluctuations. Comparison with hydrodynamic calculations further revealed a distinctive sensitivity of the measured <span class="math inline">\(v_0(p_T)\)</span> shape to the bulk viscosity of the quark-gluon plasma.</p>
+<p><a href="./projects/radial-flow-collectivity/index.html" class="btn btn-primary">Explore the Project</a></p>
+</section>
+</section>
+<section id="recent-highlight" class="level2">
+<h2 class="anchored" data-anchor-id="recent-highlight">Recent Highlight</h2>
+<div class="project-award">
+<p><strong>Andre Mischke Award — Best Experimental Talk</strong></p>
+<p>My presentation of the ATLAS radial-flow measurement at SQM 2026 received the Andre Mischke Award for Best Experimental Talk.</p>
+<p><a href="./projects/radial-flow-collectivity/talks/sqm-2026.html" class="btn btn-outline-primary">View the Talk</a></p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -218,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Skipper-Adimri\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

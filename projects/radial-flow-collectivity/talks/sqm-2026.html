@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -106,7 +107,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -132,12 +133,16 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../talks.html"> 
-<span class="menu-text">Talks</span></a>
+    <a class="nav-link" href="../../../presentation.html"> 
+<span class="menu-text">Talks &amp; Posters</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../awards.html"> 
 <span class="menu-text">Awards</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -150,16 +155,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#recognition" id="toc-recognition" class="nav-link" data-scroll-target="#recognition">Recognition</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -188,16 +184,15 @@ window.Quarto = {
 <p><a href="https://indico.global/event/13943/contributions/143376/" class="btn btn-primary">Conference Contribution</a> <a href="https://indico.global/event/13943/contributions/143376/attachments/68267/132321/Presentation_SQM_FinV0pT_V3.pdf" class="btn btn-outline-primary">Presentation Slides</a> <a href="../../../projects/radial-flow-collectivity/index.html" class="btn btn-outline-primary">Related Project</a></p>
 </div>
 <section id="summary" class="level2">
-<h2 data-anchor-id="summary">Summary</h2>
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p>This presentation reports the first measurement of the transverse-momentum dependence of radial-flow fluctuations, <span class="math inline">\(v_0(p_T)\)</span>, over <span class="math inline">\(0.5 &lt; p_T &lt; 10\)</span> GeV in Pb+Pb collisions at <span class="math inline">\(\sqrt{s_{\mathrm{NN}}}=5.02\)</span> TeV with the ATLAS detector. The measurement satisfies three major hallmarks of collectivity: <span class="math inline">\(p_T\)</span> factorization, long-range correlations in pseudorapidity, and a centrality-independent response shape. Comparisons with hydrodynamic models further demonstrate the sensitivity of <span class="math inline">\(v_0(p_T)\)</span> to the bulk viscosity of the QGP.</p>
 </section>
 <section id="recognition" class="level2">
-<h2 data-anchor-id="recognition">Recognition</h2>
+<h2 class="anchored" data-anchor-id="recognition">Recognition</h2>
 <div class="project-award">
-<p><strong>Andre Mischke Award — Best Experimental Talk</strong></p>
-<p>The Andre Mischke Award was established in memory of Andre Mischke—a friend, educator, and scholar whose career combined major contributions to heavy-flavour physics with a deep commitment to mentoring and supporting young scientists—and is awarded for the best experimental presentation by a young scientist at SQM.</p>
-<p>This presentation received the Andre Mischke Award at SQM 2026.</p>
-<p><a href="https://indico.global/event/13943/contributions/143709/attachments/68482/132707/andre_mischke_award_presentation_2026_Los_Angeles.pdf" class="btn btn-outline-primary">Award Presentation</a></p>
+<p><strong>Andre Mischke Award</strong></p>
+<p>This presentation received the Andre Mischke Award for Best Experimental Talk at SQM 2026.</p>
+<p><a href="../../../awards.html" class="btn btn-primary">View Award</a></p>
 </div>
 
 
@@ -206,6 +201,13 @@ window.Quarto = {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -270,7 +272,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Skipper-Adimri\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

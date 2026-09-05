@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -77,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,12 +104,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
-<span class="menu-text">Talks</span></a>
+    <a class="nav-link" href="./presentation.html"> 
+<span class="menu-text">Talks &amp; Posters</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./awards.html" aria-current="page"> 
 <span class="menu-text">Awards</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -121,9 +126,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -146,13 +149,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Awards will be added here.</p>
+<section id="andre-mischke-award-best-experimental-talk" class="level2">
+<h2 class="anchored" data-anchor-id="andre-mischke-award-best-experimental-talk">Andre Mischke Award — Best Experimental Talk</h2>
+<div class="award-feature">
+<div class="award-feature-top">
+<div class="award-feature-text">
+<p><strong>22nd International Conference on Strangeness in Quark Matter (SQM 2026)</strong><br>
+Los Angeles, California · 2026</p>
+<p>The Andre Mischke Award was established in memory of Andre Mischke—a friend, educator, and scholar whose career combined major contributions to heavy-flavour physics with a deep commitment to mentoring and supporting young scientists. The award recognizes the best experimental presentation by a young scientist at the Strangeness in Quark Matter conference.</p>
+</div>
+<div class="award-feature-image">
+<p><img src="projects/radial-flow-collectivity/award/images/andre-mischke-award-presentation.jpeg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<p>I received the award at SQM 2026 for my presentation on the ATLAS measurement of radial-flow fluctuations in Pb+Pb collisions.</p>
+<div class="project-links">
+<p><a href="./projects/radial-flow-collectivity/talks/sqm-2026.html" class="btn btn-primary">View the Talk</a> <a href="https://indico.global/event/13943/contributions/143709/attachments/68482/132707/andre_mischke_award_presentation_2026_Los_Angeles.pdf" class="btn btn-outline-primary">Award Presentation</a></p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -217,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Skipper-Adimri\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
