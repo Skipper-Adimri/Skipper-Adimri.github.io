@@ -2,13 +2,21 @@
 title: "Aman Dimri"
 subtitle: "Physicist"
 toc: false
+body-classes: homepage
+
+format:
+  html:
+    anchor-sections: false
 ---
 
+::: {.homepage-intro}
 I study collective phenomena in high-energy nuclear collisions and use them to probe the
-properties of the quark-gluon plasma. My work combines experimental measurements with the **ATLAS Collaboration** at the Large
-Hadron Collider with phenomenological studies using hydrodynamic and initial-state models.
+properties of the quark-gluon plasma. My work combines experimental measurements with the
+**ATLAS Collaboration** at the Large Hadron Collider with phenomenological studies using
+hydrodynamic and initial-state models.
+:::
 
-::: {.project-links}
+::: {.homepage-links}
 [Publications](publications.qmd){.btn .btn-primary}
 [Talks & Posters](presentation.qmd){.btn .btn-outline-primary}
 <!--

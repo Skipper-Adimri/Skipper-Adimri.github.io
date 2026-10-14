@@ -1,0 +1,278 @@
+---
+title: "Curriculum Vitae"
+pagetitle: "Curriculum Vitae | Aman Dimri"
+toc: false
+format:
+  html:
+    anchor-sections: false
+    body-classes: academic-cv-page
+    css:
+      - styles.css
+      - cv.css
+---
+
+::: {.academic-cv}
+
+::: {.cv-intro}
+**Aman Dimri**  
+Graduate Researcher, Stony Brook University  
+ATLAS Collaboration, CERN · STAR Collaboration, Brookhaven National Laboratory
+
+::: {.cv-contact-links}
+[Email](mailto:aman.dimri@stonybrook.edu){.btn .btn-outline-primary .cv-small-btn .cv-icon-email}
+[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.btn .btn-outline-primary .cv-small-btn .cv-icon-inspire}
+[GitHub](https://github.com/Skipper-Adimri){.btn .btn-outline-primary .cv-small-btn .cv-icon-github}
+:::
+
+[Download CV (PDF)](files/CV_Aman_Dimri.pdf){.btn .btn-primary}
+
+*Updated October 2026*
+:::
+
+::: {.cv-topics}
+[Collective Flow & Fluctuations]{.cv-topic}
+[Nuclear Structure through Heavy-Ion Collisions]{.cv-topic}
+[Phenomenology & Modeling]{.cv-topic}
+:::
+
+## Education
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**Ph.D. in Nuclear Chemistry**
+:::
+::: {.cv-date}
+2021–Present
+:::
+:::
+Stony Brook University · Advisor: Prof. Jiangyong Jia
+::::
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**Integrated M.Sc. in Physics** (Five-Year Combined Bachelor's–Master's Program)
+:::
+::: {.cv-date}
+2016–2021
+:::
+:::
+National Institute of Science Education and Research (NISER), Bhubaneswar, India  
+Minor in Computer Science · Advisor: Prof. Bedangadas Mohanty
+::::
+
+## Selected Research Contributions
+
+**Radial Flow & Event-by-Event Fluctuations**
+
+:::: {.cv-research-row}
+::: {.cv-research-description}
+- Developing an ATLAS analysis of event-by-event mean transverse-momentum fluctuations in Pb+Pb collisions, aimed at disentangling intrinsic and geometry-driven contributions across collision centrality.
+:::
+::::
+
+:::: {.cv-research-row}
+::: {.cv-research-description}
+- Performed data analysis for the ATLAS measurement of differential radial flow in Pb+Pb collisions as a contributing member of the primary analysis group.
+:::
+::: {.cv-research-action}
+[Related Project](projects/radial-flow-collectivity/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+:::
+::::
+
+**Nuclear Structure through Heavy-Ion Collisions**
+
+:::: {.cv-research-row}
+::: {.cv-research-description}
+- Served as the main analyzer for multi-particle cumulant measurements in O+O and Ne+Ne collisions within the ATLAS primary analysis group.
+:::
+::: {.cv-research-action}
+[Related Project](projects/oxygen-neon-nuclear-structure/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+:::
+::::
+
+:::: {.cv-research-row}
+::: {.cv-research-description}
+- Investigated the effects of nuclear quadrupole deformation and triaxiality fluctuations on initial-state geometry using Monte Carlo simulations.
+:::
+::: {.cv-research-action}
+[Related Project](projects/nuclear-shape-fluctuations/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+:::
+::::
+
+**Phenomenology & Modeling**
+
+:::: {.cv-research-row}
+::: {.cv-research-description}
+- Proposed the constant-offset interpretation of $v_0(p_{\mathrm{T}})$ induced by global multiplicity fluctuations and derived the underlying analytical framework.
+:::
+::: {.cv-research-action}
+[Related Project](projects/differential-radial-flow-shape/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+:::
+::::
+
+## Selected Publications
+
+::: {.cv-publications}
+:::: {.cv-publication}
+::: {.cv-publication-content}
+**The shape of differential radial flow $v_0(p_{\mathrm{T}})$, not its zero-crossing, carries physical information**
+
+S. Bhatta, **A. Dimri**, and J. Jia. *Nucl. Sci. Tech.* **37**, 163 (2026).
+:::
+::: {.cv-publication-actions}
+[NST](https://doi.org/10.1007/s41365-026-01998-z){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
+[arXiv](https://arxiv.org/abs/2504.20008){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+:::
+::::
+
+:::: {.cv-publication}
+::: {.cv-publication-content}
+**Measurement of the azimuthal anisotropy of charged particles in $\sqrt{s_{\mathrm{NN}}}=5.36\,\mathrm{TeV}$ ${}^{16}\mathrm{O}+{}^{16}\mathrm{O}$ and ${}^{20}\mathrm{Ne}+{}^{20}\mathrm{Ne}$ collisions with the ATLAS detector**
+
+ATLAS Collaboration. *Phys. Rev. C* **113**, 045205 (2026).
+:::
+::: {.cv-publication-actions}
+[PRC](https://doi.org/10.1103/xqxz-8bhf){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
+[arXiv](https://arxiv.org/abs/2509.05171){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+:::
+::::
+
+:::: {.cv-publication}
+::: {.cv-publication-content}
+**Evidence for the Collective Nature of Radial Flow in Pb+Pb Collisions with the ATLAS Detector**
+
+ATLAS Collaboration. *Phys. Rev. Lett.* **136**, 032301 (2026).
+:::
+::: {.cv-publication-actions}
+[PRL](https://doi.org/10.1103/ldcn-r2lq){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
+[arXiv](https://arxiv.org/abs/2503.24125){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+:::
+::::
+
+:::: {.cv-publication}
+::: {.cv-publication-content}
+**Impact of nuclear shape fluctuations in high-energy heavy ion collisions**
+
+**A. Dimri**, S. Bhatta, and J. Jia. *Eur. Phys. J. A* **59**, 45 (2023).
+:::
+::: {.cv-publication-actions}
+[EPJ A](https://doi.org/10.1140/epja/s10050-023-00965-1){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
+[arXiv](https://arxiv.org/abs/2301.03556){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+:::
+::::
+:::
+
+[View Publications](publications.qmd){.btn .btn-outline-primary}
+
+## Selected Presentations
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**SQM 2026 — Oral Presentation**
+:::
+::: {.cv-date}
+2026
+:::
+:::
+::: {.cv-presentation-title}
+Measurements of radial and anisotropic flow in Pb+Pb collisions with the ATLAS detector
+:::
+::: {.cv-location}
+Los Angeles, USA
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**Initial Stages 2025 — Oral Presentation · Plenary**
+:::
+::: {.cv-date}
+2025
+:::
+:::
+::: {.cv-presentation-title}
+Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS
+:::
+::: {.cv-location}
+Taipei, Taiwan
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**INT-23-1a — Oral Presentation**
+:::
+::: {.cv-date}
+2023
+:::
+:::
+::: {.cv-presentation-title}
+Nuclear Shape Fluctuations in Heavy-Ion Collisions
+:::
+::: {.cv-location}
+Seattle, USA
+:::
+::::
+
+[View Talks & Posters](presentation.qmd){.btn .btn-outline-primary}
+
+## Honors & Awards
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**Andre-Mischke Award for Best Experimental Talk** · Strangeness in Quark Matter (SQM 2026).
+:::
+::: {.cv-date}
+2026
+:::
+:::
+::::
+
+**Other Honors:** Indian Academy of Sciences Summer Research Fellowship (2019); Academic Excellence Award, School of Physical Sciences, NISER (2016–2019); KVPY Fellowship (2017–2021); INSPIRE Scholarship for Higher Education (2016–2017).
+
+## Experimental Collaboration & Service
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**ATLAS Collaboration, CERN**
+:::
+::: {.cv-date}
+2022–Current
+:::
+:::
+Completed ATLAS authorship qualification through Run 3 heavy-ion electron and photon trigger-performance validation; also studied the effects of disabling the Insertable B-Layer on tracking for O+O running.
+::::
+
+:::: {.cv-entry}
+::: {.cv-entry-head}
+::: {.cv-entry-title}
+**STAR Collaboration, Brookhaven National Laboratory**
+:::
+::: {.cv-date}
+2022–Current
+:::
+:::
+Served as Shift Leader during STAR data-taking operations, coordinating detector operations, data acquisition, and shift-crew responsibilities. Trained and supervised incoming Shift Leaders.
+::::
+
+## Teaching
+
+**Graduate Teaching Assistant**, Stony Brook University  
+General Chemistry Laboratory II (CHE 134): Spring 2022, Spring 2024  
+Molecular Science I (CHE 152): Fall 2021
+
+## Technical Skills
+
+**Programming & Data Analysis:** C++, Python, ROOT, Bash  
+**Scientific Computing:** Linux, Git/GitHub, HTCondor/OSPool  
+**Simulation & Modeling:** HIJING, TRENTo, Glauber Monte Carlo, MUSIC, iEBE-MUSIC, UrQMD  
+**ATLAS Software & Computing:** Athena, Rucio, PanDA
+
+:::

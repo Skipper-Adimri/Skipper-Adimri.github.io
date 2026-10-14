@@ -1,6 +1,12 @@
 ---
 title: "Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector"
+subtitle: ""
 toc: false
+
+format:
+  html:
+    anchor-sections: false
+    body-classes: sqm-2026-page
 ---
 
 **22nd International Conference on Strangeness in Quark Matter (SQM 2026)**<br>
