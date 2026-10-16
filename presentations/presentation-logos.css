@@ -1,0 +1,88 @@
+/* Talks & Posters: conference artwork at the far-right of each entry. */
+.presentation-list > h2 {
+  border-bottom-color: var(--forest);
+}
+
+.presentation-list .presentation-item {
+  margin-bottom: 2rem;
+}
+
+.presentation-list .presentation-entry-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 13rem;
+  column-gap: 1.75rem;
+  align-items: stretch;
+}
+
+.presentation-list .presentation-entry-details {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.presentation-list .presentation-conference {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.presentation-list .presentation-meta {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.presentation-list .presentation-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+}
+
+.presentation-list .presentation-entry-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.presentation-list .presentation-entry-logo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 7.5rem;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 650px) {
+  .presentation-list .presentation-entry-body {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.8rem;
+  }
+
+  .presentation-list .presentation-entry-logo {
+    justify-content: flex-start;
+  }
+
+  .presentation-list .presentation-entry-logo img {
+    max-width: 12rem;
+    max-height: 6rem;
+  }
+}
+
+/* Adjust visual size while keeping logos right-aligned. */
+@media (min-width: 900px) {
+
+  /* Enlarge the two wide conference logos by 20%. */
+  .presentation-list .presentation-entry-logo img[src$="sqm-2022.png"],
+  .presentation-list .presentation-entry-logo img[src$="aps-dnp-2022.png"] {
+    transform: scale(1.20);
+    transform-origin: right center;
+  }
+
+  /* Reduce the QM 2023 logo by 12%. */
+  .presentation-list .presentation-entry-logo img[src$="qm-2023.png"] {
+    transform: scale(0.88);
+    transform-origin: right center;
+  }
+
+}

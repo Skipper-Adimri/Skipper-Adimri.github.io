@@ -84,9 +84,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-date','listing-conference','listing-conference-short','listing-conference-url','listing-location','listing-page-url',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-date','listing-conference','listing-conference-short','listing-conference-url','listing-location','listing-page-url','listing-logo','listing-logo-alt',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-date","listing-conference","listing-conference-short","listing-conference-url","listing-location","listing-page-url"],
+      searchColumns: ["listing-title","listing-type","listing-date","listing-conference","listing-conference-short","listing-conference-url","listing-location","listing-page-url","listing-logo","listing-logo-alt"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -135,6 +135,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="presentations/presentation-logos.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -211,31 +212,36 @@ window.Quarto = {
 
         <h3 class="listing-title">Probing The Nature Of Radial Flow: Evidence of its collective origin in Pb+Pb collisions with the ATLAS detector</h3>
 
-        <p class="presentation-conference">
-        <strong>22nd International Conference on Strangeness in Quark Matter</strong>
-        </p>
+        <div class="presentation-entry-body">
+            <div class="presentation-entry-details">
+                <p class="presentation-conference">
+                    <strong>22nd International Conference on Strangeness in Quark Matter</strong>
+                </p>
+                <p class="presentation-meta">
+                    Los Angeles, California ·
+                    March 24, 2026
+                </p>
 
-        <p class="presentation-meta">
-        Los Angeles, California ·
-        March 24, 2026
-        </p>
-
-        <div class="presentation-links">
+                <div class="presentation-links">
+                    
+                    <a href="./projects/radial-flow-collectivity/talks/sqm-2026.html" class="btn btn-primary btn-sm">
+                        Talk Summary
+                    </a>
+                    
+                    
+                    <a href="https://indico.global/event/13943/" class="btn btn-outline-primary btn-sm">
+                        SQM 2026
+                    </a>
+                    
+                </div>
+            </div>
 
             
-            <a href="./projects/radial-flow-collectivity/talks/sqm-2026.html" class="btn btn-primary btn-sm">
-            Talk Summary
-            </a>
+            <div class="presentation-entry-logo">
+                <img src="presentations/logos/sqm-2026.png" alt="SQM 2026 conference logo" loading="lazy" decoding="async">
+            </div>
             
-
-            
-            <a href="https://indico.global/event/13943/" class="btn btn-outline-primary btn-sm">
-            SQM 2026
-            </a>
-            
-
         </div>
-
     </div>
 
     
@@ -244,31 +250,36 @@ window.Quarto = {
 
         <h3 class="listing-title">Revealing the Bowling-Pin Geometry of Ne via O+O and Ne+Ne Collisions with ATLAS</h3>
 
-        <p class="presentation-conference">
-        <strong>Initial Stages 2025</strong>
-        </p>
+        <div class="presentation-entry-body">
+            <div class="presentation-entry-details">
+                <p class="presentation-conference">
+                    <strong>Initial Stages 2025</strong>
+                </p>
+                <p class="presentation-meta">
+                    Taipei, Taiwan ·
+                    September 11, 2025
+                </p>
 
-        <p class="presentation-meta">
-        Taipei, Taiwan ·
-        September 11, 2025
-        </p>
-
-        <div class="presentation-links">
+                <div class="presentation-links">
+                    
+                    <a href="./projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html" class="btn btn-primary btn-sm">
+                        Talk Summary
+                    </a>
+                    
+                    
+                    <a href="https://indico.cern.ch/event/1479384/" class="btn btn-outline-primary btn-sm">
+                        Initial Stages 2025
+                    </a>
+                    
+                </div>
+            </div>
 
             
-            <a href="./projects/oxygen-neon-nuclear-structure/talks/initial-stages-2025.html" class="btn btn-primary btn-sm">
-            Talk Summary
-            </a>
+            <div class="presentation-entry-logo">
+                <img src="presentations/logos/initial-stages-2025.png" alt="Initial Stages 2025 conference artwork" loading="lazy" decoding="async">
+            </div>
             
-
-            
-            <a href="https://indico.cern.ch/event/1479384/" class="btn btn-outline-primary btn-sm">
-            Initial Stages 2025
-            </a>
-            
-
         </div>
-
     </div>
 
     
@@ -277,31 +288,36 @@ window.Quarto = {
 
         <h3 class="listing-title">Nuclear Shape Fluctuations in Heavy-Ion Collisions</h3>
 
-        <p class="presentation-conference">
-        <strong>INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions</strong>
-        </p>
+        <div class="presentation-entry-body">
+            <div class="presentation-entry-details">
+                <p class="presentation-conference">
+                    <strong>INT-23-1a: Intersection of Nuclear Structure and High-Energy Nuclear Collisions</strong>
+                </p>
+                <p class="presentation-meta">
+                    Seattle, Washington ·
+                    February 8, 2023
+                </p>
 
-        <p class="presentation-meta">
-        Seattle, Washington ·
-        February 8, 2023
-        </p>
-
-        <div class="presentation-links">
+                <div class="presentation-links">
+                    
+                    <a href="./projects/nuclear-shape-fluctuations/talks/int-23-1a.html" class="btn btn-primary btn-sm">
+                        Talk Summary
+                    </a>
+                    
+                    
+                    <a href="https://www.int.washington.edu/programs-and-workshops/23-1a" class="btn btn-outline-primary btn-sm">
+                        INT-23-1a
+                    </a>
+                    
+                </div>
+            </div>
 
             
-            <a href="./projects/nuclear-shape-fluctuations/talks/int-23-1a.html" class="btn btn-primary btn-sm">
-            Talk Summary
-            </a>
+            <div class="presentation-entry-logo">
+                <img src="presentations/logos/int-logo.jpg" alt="Institute for Nuclear Theory emblem and name" loading="lazy" decoding="async">
+            </div>
             
-
-            
-            <a href="https://www.int.washington.edu/programs-and-workshops/23-1a" class="btn btn-outline-primary btn-sm">
-            INT-23-1a
-            </a>
-            
-
         </div>
-
     </div>
 
     
@@ -310,31 +326,36 @@ window.Quarto = {
 
         <h3 class="listing-title">Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model</h3>
 
-        <p class="presentation-conference">
-        <strong>Fall 2022 Meeting of the APS Division of Nuclear Physics</strong>
-        </p>
+        <div class="presentation-entry-body">
+            <div class="presentation-entry-details">
+                <p class="presentation-conference">
+                    <strong>Fall 2022 Meeting of the APS Division of Nuclear Physics</strong>
+                </p>
+                <p class="presentation-meta">
+                    New Orleans, Louisiana ·
+                    October 28, 2022
+                </p>
 
-        <p class="presentation-meta">
-        New Orleans, Louisiana ·
-        October 28, 2022
-        </p>
-
-        <div class="presentation-links">
+                <div class="presentation-links">
+                    
+                    <a href="./projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html" class="btn btn-primary btn-sm">
+                        Talk Summary
+                    </a>
+                    
+                    
+                    <a href="https://meetings-archive.aps.org/dnp/2022" class="btn btn-outline-primary btn-sm">
+                        APS DNP 2022
+                    </a>
+                    
+                </div>
+            </div>
 
             
-            <a href="./projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.html" class="btn btn-primary btn-sm">
-            Talk Summary
-            </a>
+            <div class="presentation-entry-logo">
+                <img src="presentations/logos/aps-dnp-2022.png" alt="APS DNP 2022 meeting banner" loading="lazy" decoding="async">
+            </div>
             
-
-            
-            <a href="https://meetings-archive.aps.org/dnp/2022" class="btn btn-outline-primary btn-sm">
-            APS DNP 2022
-            </a>
-            
-
         </div>
-
     </div>
 
     
@@ -347,31 +368,36 @@ window.Quarto = {
 
         <h3 class="listing-title">Is Differential Radial Flow v0(pT) Collective? Role of Multiplicity Fluctuations and Non-Flow Bias</h3>
 
-        <p class="presentation-conference">
-        <strong>Quark Matter 2025</strong>
-        </p>
+        <div class="presentation-entry-body">
+            <div class="presentation-entry-details">
+                <p class="presentation-conference">
+                    <strong>Quark Matter 2025</strong>
+                </p>
+                <p class="presentation-meta">
+                    Frankfurt am Main, Germany ·
+                    April 8, 2025
+                </p>
 
-        <p class="presentation-meta">
-        Frankfurt am Main, Germany ·
-        April 8, 2025
-        </p>
-
-        <div class="presentation-links">
+                <div class="presentation-links">
+                    
+                    <a href="./projects/differential-radial-flow-shape/posters/qm-2025.html" class="btn btn-primary btn-sm">
+                        Poster Summary
+                    </a>
+                    
+                    
+                    <a href="https://indico.cern.ch/event/1334113/" class="btn btn-outline-primary btn-sm">
+                        QM 2025
+                    </a>
+                    
+                </div>
+            </div>
 
             
-            <a href="./projects/differential-radial-flow-shape/posters/qm-2025.html" class="btn btn-primary btn-sm">
-            Poster Summary
-            </a>
+            <div class="presentation-entry-logo">
+                <img src="presentations/logos/qm-2025.png" alt="Quark Matter 2025 conference logo" loading="lazy" decoding="async">
+            </div>
             
-
-            
-            <a href="https://indico.cern.ch/event/1334113/" class="btn btn-outline-primary btn-sm">
-            QM 2025
-            </a>
-            
-
         </div>
-
     </div>
 
     
@@ -380,31 +406,36 @@ window.Quarto = {
 
         <h3 class="listing-title">Effect of Nuclear Shape Parameters On Initial State Observables In Heavy Ion Collisions</h3>
 
-        <p class="presentation-conference">
-        <strong>Quark Matter 2023</strong>
-        </p>
+        <div class="presentation-entry-body">
+            <div class="presentation-entry-details">
+                <p class="presentation-conference">
+                    <strong>Quark Matter 2023</strong>
+                </p>
+                <p class="presentation-meta">
+                    Houston, Texas ·
+                    September 5, 2023
+                </p>
 
-        <p class="presentation-meta">
-        Houston, Texas ·
-        September 5, 2023
-        </p>
-
-        <div class="presentation-links">
+                <div class="presentation-links">
+                    
+                    <a href="./projects/nuclear-shape-fluctuations/posters/qm-2023.html" class="btn btn-primary btn-sm">
+                        Poster Summary
+                    </a>
+                    
+                    
+                    <a href="https://indico.cern.ch/event/1139644/" class="btn btn-outline-primary btn-sm">
+                        QM 2023
+                    </a>
+                    
+                </div>
+            </div>
 
             
-            <a href="./projects/nuclear-shape-fluctuations/posters/qm-2023.html" class="btn btn-primary btn-sm">
-            Poster Summary
-            </a>
+            <div class="presentation-entry-logo">
+                <img src="presentations/logos/qm-2023.png" alt="Quark Matter 2023 conference logo" loading="lazy" decoding="async">
+            </div>
             
-
-            
-            <a href="https://indico.cern.ch/event/1139644/" class="btn btn-outline-primary btn-sm">
-            QM 2023
-            </a>
-            
-
         </div>
-
     </div>
 
     
@@ -413,31 +444,36 @@ window.Quarto = {
 
         <h3 class="listing-title">Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model</h3>
 
-        <p class="presentation-conference">
-        <strong>Strangeness in Quark Matter 2022</strong>
-        </p>
+        <div class="presentation-entry-body">
+            <div class="presentation-entry-details">
+                <p class="presentation-conference">
+                    <strong>Strangeness in Quark Matter 2022</strong>
+                </p>
+                <p class="presentation-meta">
+                    Busan, South Korea · Presented Online ·
+                    June 14, 2022
+                </p>
 
-        <p class="presentation-meta">
-        Busan, South Korea · Presented Online ·
-        June 14, 2022
-        </p>
-
-        <div class="presentation-links">
+                <div class="presentation-links">
+                    
+                    <a href="./projects/nuclear-shape-fluctuations/posters/sqm-2022.html" class="btn btn-primary btn-sm">
+                        Poster Summary
+                    </a>
+                    
+                    
+                    <a href="https://indico.cern.ch/event/1037821/" class="btn btn-outline-primary btn-sm">
+                        SQM 2022
+                    </a>
+                    
+                </div>
+            </div>
 
             
-            <a href="./projects/nuclear-shape-fluctuations/posters/sqm-2022.html" class="btn btn-primary btn-sm">
-            Poster Summary
-            </a>
+            <div class="presentation-entry-logo">
+                <img src="presentations/logos/sqm-2022.png" alt="SQM 2022 conference logo" loading="lazy" decoding="async">
+            </div>
             
-
-            
-            <a href="https://indico.cern.ch/event/1037821/" class="btn btn-outline-primary btn-sm">
-            SQM 2022
-            </a>
-            
-
         </div>
-
     </div>
 
     
