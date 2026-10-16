@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1530" height="970" viewBox="0 0 1530 970" role="img" aria-labelledby="title desc">
+<title id="title">Spectral normalization and differential radial flow</title>
+<desc id="desc">Three parallel curves demonstrate shifted zero crossings for spectral normalization intervals 0 to 10, 0.5 to 10 and 1 to 10 GeV, a common differential shape, and constant offsets.</desc>
+<style>
+.label { font-family: 'Times New Roman',Tinos,Times,serif; font-size:76px; fill:#111; font-weight:normal; }
+.axislabel { font-family: 'Times New Roman',Tinos,Times,serif; font-size:94px; font-style:italic; fill:#111; }
+.sub { font-family: 'Times New Roman',Tinos,Times,serif; font-size:58px; font-style:italic; fill:#111; }
+.curve {stroke-width:6; stroke-linecap:round;fill:none;}
+.axisstroke {stroke:#101010;stroke-width:4.2;fill:none;}
+.annotation {stroke:#151515;stroke-width:3.8;fill:none;stroke-linejoin:round;stroke-linecap:round;}
+</style>
+<rect width="1530" height="970" fill="white"/>
+
+<path d="M35 615 H1490" class="axisstroke"/>
+<polygon points="14,615 49,600 49,630" fill="#111"/><polygon points="1513,615 1485,600 1485,630" fill="#111"/>
+<path d="M145 39 V910" class="axisstroke"/>
+<polygon points="145,16 130,43 160,43" fill="#111"/><polygon points="145,937 130,908 160,908" fill="#111"/>
+<path d="M145 675 L1470 204.62" stroke="#0869F5" class="curve" id="line-blue"/>
+<path d="M145 755 L1470 284.62" stroke="#F20B8F" class="curve" id="line-pink"/>
+<path d="M145 835 L1470 364.62" stroke="#117F1F" class="curve" id="line-green"/>
+<circle cx="314.01" cy="615" r="13" fill="#0869F5"/>
+<path d="M314.01 629 V792" stroke="#0869F5" stroke-width="3.8" stroke-dasharray="13 11" fill="none"/>
+<circle cx="539.37" cy="615" r="13" fill="#F20B8F"/>
+<path d="M539.37 629 V792" stroke="#F20B8F" stroke-width="3.8" stroke-dasharray="13 11" fill="none"/>
+<circle cx="764.72" cy="615" r="13" fill="#117F1F"/>
+<path d="M764.72 629 V792" stroke="#117F1F" stroke-width="3.8" stroke-dasharray="13 11" fill="none"/>
+<path d="M314.01 805 Q314.01 851 339.01 851 L507.37 851 Q539.37 851 539.37 865 Q539.37 851 571.37 851 L739.72 851 Q764.72 851 764.72 805" class="annotation"/>
+<text x="539.37" y="932" text-anchor="middle" class="label">Shifted zero crossing</text>
+<text x="188" y="117" class="label">Spectral normalization</text>
+<text x="188" y="201" class="label">interval</text>
+<text x="970" y="117" class="label">Same differential</text>
+<text x="970" y="201" class="label">shape</text>
+<path d="M205 262 H350" stroke="#0869F5" stroke-width="8" stroke-linecap="round"/>
+<text x="396" y="285" class="label">0 – 10 GeV</text>
+<path d="M205 344 H350" stroke="#F20B8F" stroke-width="8" stroke-linecap="round"/>
+<text x="396" y="367" class="label">0.5 – 10 GeV</text>
+<path d="M205 426 H350" stroke="#117F1F" stroke-width="8" stroke-linecap="round"/>
+<text x="396" y="449" class="label">1 – 10 GeV</text>
+<path d="M1107 215 C1160 205 1330 205 1365.00 241.90" class="annotation"/><polygon points="1365.00,241.90 1344.67,235.00 1359.18,221.23" fill="#141414"/>
+<path d="M1107 215 C1110 269 1200 305 1255.00 360.95" class="annotation"/><polygon points="1255.00,360.95 1234.55,354.41 1248.81,340.39" fill="#141414"/>
+<path d="M1107 215 C1082 292 1145 411 1195.00 462.25" class="annotation"/><polygon points="1195.00,462.25 1173.18,454.20 1187.49,440.23" fill="#141414"/>
+<path id="constant-offset-arrow" d="M958.37 478.25 V534.25" class="annotation"/>
+<polygon points="958.37,466.25 947.37,487.25 969.37,487.25" fill="#111"/>
+<polygon points="958.37,546.25 947.37,525.25 969.37,525.25" fill="#111"/>
+<text x="991" y="597" class="label">Constant offset</text>
+<text x="1380" y="705" class="axislabel">p</text><text x="1434" y="732" class="sub">T</text>
+<g transform="translate(72 282) rotate(-90)">
+<text x="0" y="0" class="axislabel">v</text>
+<text x="45" y="27" class="sub">0</text>
+<text x="77" y="0" class="axislabel">(p</text>
+<text x="158" y="27" class="sub">T</text>
+<text x="195" y="0" class="axislabel">)</text>
+</g>
+</svg>

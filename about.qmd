@@ -1,3 +1,4 @@
+
 ---
 pagetitle: "About | Aman Dimri"
 toc: false
@@ -9,32 +10,24 @@ format:
 
 # About Me
 
-I am a physicist and graduate researcher at Stony Brook University studying the
-quark-gluon plasma created in high-energy nuclear collisions. My research focuses on
-collective phenomena and event-by-event fluctuations, with the goal of understanding how
-the initial geometry of a nuclear collision and the transport properties of the resulting
-medium are encoded in experimentally measurable momentum correlations.
+I am a physicist pursuing a Ph.D. in Nuclear Chemistry at Stony Brook University, working with Prof. Jiangyong Jia. My research explores how nuclear geometry and the dynamics of the quark-gluon plasma are reflected in the particles produced in high-energy nuclear collisions.
 
-I am a member of both the **ATLAS Collaboration** at the Large Hadron Collider (LHC) at
-CERN and the **STAR Collaboration** at the Relativistic Heavy Ion Collider (RHIC) at
-Brookhaven National Laboratory (BNL). My research combines experimental measurements
-with hydrodynamic calculations and initial-state models to study the connection between
-collision geometry, fluctuations, and the dynamical response of the quark-gluon plasma.
+I work primarily with the **ATLAS Collaboration** at CERN and am also a member of the **STAR Collaboration** at Brookhaven National Laboratory. My research combines experimental data analysis with phenomenological modeling, with particular emphasis on collective flow, event-by-event fluctuations, and nuclear structure.
 
-## Research
+## Research Approach
 
-A central theme of my current work is the study of **radial-flow fluctuations**. These
-measurements provide a complementary perspective on collective dynamics and offer new
-ways to probe the transport properties of the quark-gluon plasma, including its bulk
-viscosity.
+A central question in my research is how to connect experimentally measured observables to the underlying physics of a nuclear collision. In particular, I am interested in separating the influence of the initial nuclear geometry from the collective response of the evolving medium.
 
-I am also interested in nuclear structure, initial-state fluctuations, system-size
-dependence, and the emergence of collective behavior across different collision systems.
+Addressing these questions requires a combination of experimental measurements, analytical calculations, Monte Carlo simulations, and hydrodynamic modeling. This approach connects my work on radial-flow fluctuations in Pb+Pb collisions with studies of nuclear-structure effects in smaller systems such as O+O and Ne+Ne collisions.
 
-## Affiliation
+I am also interested in understanding which features of an observable provide robust physical information and how different sources of fluctuations can be disentangled.
 
-**Stony Brook University**  
-Department of Chemistry
+## Background
 
-Member of the **ATLAS Collaboration** — LHC, CERN  
-Member of the **STAR Collaboration** — RHIC, Brookhaven National Laboratory
+I completed a five-year Integrated M.Sc. in Physics at the **National Institute of Science Education and Research (NISER)**, Bhubaneswar, India, in 2021, with a minor in Computer Science. I subsequently joined Stony Brook University to pursue my doctoral research in nuclear chemistry.
+
+## Contact
+
+For research-related inquiries, I can be reached at [aman.dimri@stonybrook.edu](mailto:aman.dimri@stonybrook.edu).
+
+My [Curriculum Vitae](cv.qmd) provides a more detailed record of my research, publications, presentations, and academic activities.

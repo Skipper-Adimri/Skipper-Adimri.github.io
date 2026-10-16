@@ -16,12 +16,10 @@ properties of the quark-gluon plasma. My work combines experimental measurements
 hydrodynamic and initial-state models.
 :::
 
-::: {.homepage-links}
+::: {.project-links}
+[CV](cv.qmd){.btn .btn-outline-primary}
 [Publications](publications.qmd){.btn .btn-primary}
 [Talks & Posters](presentation.qmd){.btn .btn-outline-primary}
-<!--
-[CV](files/CV_AmanDimri.pdf){.btn .btn-outline-primary}
--->
 :::
 
 ## Research Interests

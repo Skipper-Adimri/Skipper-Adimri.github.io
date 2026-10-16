@@ -10,6 +10,8 @@
   journal-url: "https://doi.org/10.1007/s41365-026-01998-z"
   arxiv-url: "https://arxiv.org/abs/2504.20008"
   project-url: "projects/differential-radial-flow-shape/index.qmd"
+  image: "publications/images/nst-spectral-normalization.png"
+  image-alt: "Three parallel differential radial-flow curves illustrating constant offsets, shifted zero crossings and different spectral normalization intervals"
 
 - title: "Measurement of the azimuthal anisotropy of charged particles in 5.36 TeV O+O and Ne+Ne collisions with the ATLAS detector"
   title-html: 'Measurement of the azimuthal anisotropy of charged particles in √<i>s</i><sub>NN</sub> = 5.36 TeV <sup>16</sup>O+<sup>16</sup>O and <sup>20</sup>Ne+<sup>20</sup>Ne collisions with the ATLAS detector'
@@ -23,6 +25,8 @@
   journal-url: "https://journals.aps.org/prc/abstract/10.1103/xqxz-8bhf"
   arxiv-url: "https://arxiv.org/abs/2509.05171"
   project-url: "projects/oxygen-neon-nuclear-structure/index.qmd"
+  image: "publications/images/prc-oxygen-neon-elliptic-flow.png"
+  image-alt: "Illustrated comparison of elliptic flow in lead, oxygen and neon collisions, with nuclear density profiles"
 
 - title: "Evidence for the Collective Nature of Radial Flow in Pb+Pb Collisions with the ATLAS Detector"
   author: "ATLAS Collaboration"
@@ -35,6 +39,8 @@
   journal-url: "https://journals.aps.org/prl/abstract/10.1103/ldcn-r2lq"
   arxiv-url: "https://arxiv.org/abs/2503.24125"
   project-url: "projects/radial-flow-collectivity/index.qmd"
+  image: "publications/images/prl-collective-radial-flow.png"
+  image-alt: "ATLAS cartoon illustrating how event-by-event changes in mean transverse momentum modify charged-particle spectra"
 
 - title: "Impact of nuclear shape fluctuations in high-energy heavy ion collisions"
   author: "Aman Dimri, Somadutta Bhatta, Jiangyong Jia"
@@ -47,3 +53,5 @@
   journal-url: "https://doi.org/10.1140/epja/s10050-023-00965-1"
   arxiv-url: "https://arxiv.org/abs/2301.03556"
   project-url: "projects/nuclear-shape-fluctuations/index.qmd"
+  image: "publications/images/epja-nuclear-shape-fluctuations.png"
+  image-alt: "Nuclear shape fluctuations: a spherical reference surrounded by prolate, oblate, triaxial and irregular deformed configurations"
