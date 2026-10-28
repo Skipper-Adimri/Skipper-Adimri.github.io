@@ -1,0 +1,103 @@
+## Follow a Particle {#follow-a-particle .particle-explorer-section data-particle-explorer="atlas"}
+
+Different particles leave different signatures. For example, an electron usually
+deposits much of its energy in the electromagnetic calorimeter, while a muon can
+travel through the calorimeters and reach the outer muon chambers. Choose one or
+more particles to compare these responses.
+
+```{=html}
+<div class="particle-explorer" aria-label="ATLAS particle detection explorer">
+  <div class="particle-explorer__visual">
+    <h3 class="particle-explorer__visual-heading">Interactive ATLAS Schematic</h3>
+    <div class="particle-explorer__image-wrap">
+      <img src="../images/atlas/slice-clean.png" alt="Clean ATLAS detector cross-section with outer muon chambers, hadronic and electromagnetic calorimeters, solenoid, inner tracker and beam pipe." data-particle-image loading="lazy" decoding="async">
+      <img class="particle-explorer__label-overlay" src="../images/atlas/slice-annotations.svg" data-particle-labels alt="" aria-hidden="true" hidden>
+      <svg class="particle-explorer__overlay" data-particle-overlay xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Conceptual particle detector response"></svg>
+    </div>
+    <div data-particle-toolbar-host></div>
+  </div>
+  <div class="particle-explorer__controls-host" data-particle-controls-host></div>
+</div>
+```
+
+**Field direction:** In this transverse view, the solenoidal magnetic field points
+**into the page (⊗)**. The magnetic force bends negatively and positively charged
+particles in opposite directions.
+
+<div class="particle-explorer__empty" data-particle-empty-state><p>Select one or more particles to overlay their conceptual paths through the ATLAS detector.</p></div>
+
+```{=html}
+<dialog class="particle-explorer__animation-dialog" data-particle-animation-dialog aria-labelledby="atlas-animation-title">
+  <div class="particle-explorer__animation-head">
+    <h3 id="atlas-animation-title">How particles interact with ATLAS</h3>
+    <form method="dialog"><button type="submit" class="particle-explorer__animation-close" aria-label="Close animation">×</button></form>
+  </div>
+  <div class="particle-explorer__animation-media">
+    <img data-particle-animation-image data-src="../images/atlas/Atlas_Simulation.gif" alt="Official ATLAS detector-slice animation illustrating the interactions of particles with the detector" decoding="async">
+  </div>
+  <p class="particle-explorer__animation-error" data-particle-animation-error hidden>The animation file could not be loaded.</p>
+</dialog>
+```
+
+Animation by Sascha Mehlhase / ATLAS Collaboration © CERN. Based on earlier work
+by Rebecca Pitt and João Pequenão. [View the official CERN source](https://cds.cern.ch/record/2770815){#atlas-animation-source}.
+
+*Particle-detection schematic: S. Mehlhase / ATLAS Experiment © CERN.
+[Official illustration](https://cds.cern.ch/record/2770815). The colored paths are conceptual guides,
+not measured trajectories; their positions are calibrated teaching overlays.*
+
+### Electron ($e^-$) {.particle-explorer__details-entry data-particle-card="electron"}
+
+An electron curves rightward in the solenoidal field, then deposits its energy in an electromagnetic shower in the liquid-argon calorimeter.
+
+**Typical signature:** A right-curving inner-detector track matched to an electromagnetic calorimeter cluster.
+
+*Blue solid line: electron track · Branches: electromagnetic shower*
+
+### Positron ($e^+$) {.particle-explorer__details-entry data-particle-card="positron"}
+
+A positron bends leftward, opposite to an electron, before producing an electromagnetic shower in the liquid-argon calorimeter.
+
+**Typical signature:** A left-curving inner-detector track matched to an electromagnetic calorimeter cluster.
+
+*Orange solid line: positron track · Branches: electromagnetic shower*
+
+### Photon ($\gamma$) {.particle-explorer__details-entry data-particle-card="photon"}
+
+A photon has no electric charge, so its flight is straight. It leaves no primary charged track and starts an electromagnetic shower in the liquid-argon calorimeter.
+
+**Typical signature:** An electromagnetic shower with no matching primary charged-particle track.
+
+*Gold dashed straight line: neutral flight · Branches: electromagnetic shower*
+
+### Charged Hadron ($h^+$) {.particle-explorer__details-entry data-particle-card="charged-hadron-plus"}
+
+A positively charged hadron curves gently left in the solenoid and then mainly deposits its energy in a hadronic calorimeter shower.
+
+**Typical signature:** A mildly left-curving charged track associated with a hadronic shower.
+
+*Teal solid line: positive-hadron track · Branches: hadronic shower*
+
+### Charged Hadron ($h^-$) {.particle-explorer__details-entry data-particle-card="charged-hadron-minus"}
+
+A negatively charged hadron bends gently rightward in the solenoid and develops most of its shower in the hadronic calorimeter.
+
+**Typical signature:** A mildly right-curving charged track associated with a hadronic shower.
+
+*Red-orange solid line: negative-hadron track · Branches: hadronic shower*
+
+### Neutral Hadron ($h^0$) {.particle-explorer__details-entry data-particle-card="neutral-hadron"}
+
+A neutral hadron travels in a straight line without a primary tracking signal and interacts mainly in the hadronic calorimeter.
+
+**Typical signature:** A hadronic calorimeter shower without an associated primary charged track.
+
+*Green dashed straight line: neutral flight · Branches: hadronic shower*
+
+### Muon ($\mu^-$) {.particle-explorer__details-entry data-particle-card="muon"}
+
+A high-energy negative muon bends gently rightward in the solenoid, passes through both calorimeters with little energy loss, undergoes a modest additional deflection in the muon system, and exits the detector.
+
+**Typical signature:** A continuing inner-detector trajectory through the outer muon chambers, with no large calorimeter shower.
+
+*Purple solid line: continuing $\mu^-$ · Arrow: muon exits the spectrometer*

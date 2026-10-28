@@ -1,0 +1,81 @@
+## Explore the Detector {#explore-the-detector .detector-explorer-section data-detector="atlas"}
+
+Choose a subsystem from the image or the component list. The view will focus on
+that part of the detector and explain what it measures. Select **Full Detector**
+to return to the complete cutaway.
+
+```{=html}
+<div class="detector-explorer" aria-label="ATLAS detector component explorer">
+  <div class="detector-explorer__controls-host" data-detector-controls-host></div>
+  <div class="detector-explorer__visual">
+    <div class="detector-explorer__viewport" data-detector-viewport>
+      <div class="detector-explorer__stage" data-detector-stage>
+        <img src="../images/atlas/cutaway.png" data-detector-image data-labelled-src="../images/atlas/cutaway_labelled_ATLAS.png" alt="Three-dimensional cutaway of the ATLAS detector, showing concentric tracking and calorimeter systems surrounded by the large outer magnets and muon detectors." loading="lazy" decoding="async">
+        <svg class="detector-explorer__overlay" data-detector-overlay aria-label="Selectable detector components and annotations"></svg>
+      </div>
+    </div>
+    <div data-detector-toolbar-host></div>
+  </div>
+</div>
+```
+
+<div class="detector-explorer__empty" data-detector-empty-state><p>Select a subsystem above or in the illustration to see what it measures and why it matters.</p></div>
+
+*Illustration: ATLAS Experiment © CERN, [2022 detector schematic](https://cds.cern.ch/record/2837191).
+Focus markers are approximate educational annotations calibrated to this illustration.*
+
+### Inner Tracking Detector {.detector-explorer__component-card data-detector-card="inner"}
+
+The first clues are the paths charged particles leave behind.
+
+**What it measures:** Positions of charged particles moving through a magnetic field.
+
+**Why it matters:** The curved tracks help reveal particle momenta and where the particles came from.
+
+### Electromagnetic Calorimeter {.detector-explorer__component-card data-detector-card="em"}
+
+The barrel forms a cylindrical layer. The end-cap calorimeter assemblies also contain electromagnetic sections.
+
+**What it measures:** Energy deposited by electromagnetic showers from electrons and photons.
+
+**Why it matters:** Together with tracking information, the deposited energy helps identify electrons and photons. The end-cap assemblies also contain hadronic calorimetry.
+
+### Hadronic Calorimeter {.detector-explorer__component-card data-detector-card="hadronic"}
+
+Outside the electromagnetic calorimeter sits a much thicker layer built to measure hadronic showers.
+
+**What it measures:** Energy deposited by hadrons, including protons, neutrons, and particles produced in jets.
+
+**Why it matters:** Its measurements complement the electromagnetic calorimeter and help reconstruct jets and the total energy balance of a collision.
+
+### Solenoid Magnet {.detector-explorer__component-card data-detector-card="solenoid"}
+
+A thin superconducting coil encircles the inner tracking detector.
+
+**What it does:** The solenoid produces a magnetic field that bends charged tracks; it does not directly detect particles.
+
+**Why it matters:** The bending direction reveals electric charge, while the curvature helps determine momentum.
+
+### Barrel Toroid Magnet {.detector-explorer__component-card data-detector-card="barrelToroid"}
+
+Huge superconducting coils wrap around the central ATLAS detector.
+
+**What it does:** The barrel toroid provides a magnetic field for the surrounding muon spectrometer.
+
+**Why it matters:** It bends muon trajectories so the outer chambers can measure muon momenta independently of the inner tracker.
+
+### End-cap Toroid Magnet {.detector-explorer__component-card data-detector-card="endcapToroid"}
+
+Toroid magnets at both ends of ATLAS extend the magnetic field into the forward regions.
+
+**What it does:** Like the barrel toroid, these magnets bend charged muons rather than directly recording their energy.
+
+**Why it matters:** They enable momentum measurements for muons that leave the detector closer to the beam direction.
+
+### Muon Chambers {.detector-explorer__component-card data-detector-card="muon"}
+
+Muons can reach detectors far beyond the calorimeters.
+
+**What it measures:** Muon trajectories in barrel and end-cap chambers, including the New Small Wheel system.
+
+**Why it matters:** Together with the magnetic field, these measurements help identify muons and determine their momenta.
