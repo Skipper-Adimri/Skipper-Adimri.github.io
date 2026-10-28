@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Aman Dimri"
+  favicon: favicon.svg
   navbar:
     left:
       - href: index.qmd
@@ -23,4 +24,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    
+

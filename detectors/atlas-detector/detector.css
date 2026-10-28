@@ -8,6 +8,7 @@
 
 .atlas-detector-page [hidden] { display: none !important; }
 .atlas-detector-page .column-body { width: 100%; }
+.atlas-detector-page .project-links .btn { display: inline-flex; align-items: center; min-height: 44px; }
 
 .detector-explorer,
 .particle-explorer {
@@ -143,7 +144,7 @@
 .detector-explorer__toolbar-buttons,
 .particle-explorer__toolbar-buttons { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
 .detector-explorer__toolbar button,
-.particle-explorer__toolbar button { margin: 0; padding: .35rem .7rem; font-family: inherit; font-size: .9rem; }
+.particle-explorer__toolbar button { display: inline-flex; align-items: center; min-height: 44px; margin: 0; padding: .35rem .7rem; font-family: inherit; font-size: .9rem; }
 .detector-explorer__labelled[aria-pressed="true"],
 .particle-explorer__labelled[aria-pressed="true"] { background: #a4d647; border-color: #699824; color: #294718; box-shadow: none; }
 .detector-explorer__zoom,
@@ -203,9 +204,10 @@
 .particle-explorer__animation-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .65rem .95rem; border-bottom: 1px solid var(--atlas-border); background: var(--atlas-paper); }
 .particle-explorer__animation-head h3 { margin: 0; color: #345e32; font-size: 1.18rem; }
 .particle-explorer__animation-head form { margin: 0; }
-.particle-explorer__animation-close { margin: 0; padding: 0 .35rem; border: 1px solid transparent; border-radius: .25rem; background: transparent; color: #345e32; cursor: pointer; font-size: 1.8rem; line-height: 1.15; }
+.particle-explorer__animation-close { display: inline-flex; align-items: center; justify-content: center; width: 44px; min-height: 44px; margin: 0; padding: 0; border: 1px solid transparent; border-radius: .25rem; background: transparent; color: #345e32; cursor: pointer; font-size: 1.8rem; line-height: 1.15; }
 .particle-explorer__animation-media { margin: 0; padding: 1rem; text-align: center; }
 .particle-explorer__animation-media img { display: block; width: 100%; height: auto; max-height: 68vh; object-fit: contain; }
+.particle-explorer__animation-toggle { display: inline-flex; align-items: center; min-height: 44px; margin-top: .8rem; }
 .particle-explorer__animation-credit { margin: 0; padding-top: .8rem; color: var(--atlas-muted); font-size: .87rem; line-height: 1.35; }
 .particle-explorer__animation-error { margin: 0 1rem 1rem; color: #914436; }
 
@@ -213,6 +215,8 @@
   margin: 1rem 0;
   font-family: inherit;
 }
+.atlas-view-panel,
+.atlas-momentum { scroll-margin-top: 5.75rem; }
 .atlas-view-panel { margin: .75rem 0; padding: .8rem; border: 1px solid var(--atlas-border); border-radius: .4rem; background: #fff; overflow: hidden; }
 .atlas-view-panel__title { margin: .15rem 0 .7rem; color: #345e32; font-size: 1.05rem; }
 .atlas-view-panel img { display: block; width: 100%; height: auto; object-fit: contain; }
@@ -223,7 +227,7 @@
 .atlas-view-switch.is-enhanced .atlas-view-panel > h4:first-child { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .tracking-continuation > h4:first-child { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .atlas-view-switch__controls { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: .55rem; margin: -.76rem 0 .85rem; padding: .7rem .85rem; border: 1px solid var(--atlas-border); border-top: 0; border-radius: 0 0 .4rem .4rem; background: var(--atlas-paper); }
-.atlas-view-switch__button { margin: 0; padding: .35rem .7rem; border: 1px solid #5a873f; border-radius: .2rem; background: #fff; color: #345e32; font: inherit; font-size: .9rem; cursor: pointer; }
+.atlas-view-switch__button { display: inline-flex; align-items: center; min-height: 44px; margin: 0; padding: .35rem .7rem; border: 1px solid #5a873f; border-radius: .2rem; background: #fff; color: #345e32; font: inherit; font-size: .9rem; cursor: pointer; }
 .atlas-view-switch__button[aria-pressed="true"] { background: var(--atlas-accent); border-color: var(--atlas-accent); color: #fff; }
 .atlas-tracking-switch { max-width: 900px; margin-inline: auto; }
 
@@ -240,6 +244,8 @@
 .atlas-momentum__sagitta img { border-radius: .3rem; }
 .atlas-momentum__sagitta p { color: var(--atlas-muted); font-size: .86rem; text-align: center; }
 .atlas-momentum math[display="block"] { display: block; max-width: 100%; margin: .7rem auto; overflow-x: auto; color: #2e552c; font-size: 1.08em; }
+.atlas-source-note { margin: .8rem 0 1.1rem; padding: .7rem .85rem; border-left: 3px solid var(--atlas-border); background: var(--atlas-paper); color: var(--atlas-muted); font-size: .84rem; line-height: 1.45; }
+.atlas-source-note p { margin: 0; }
 
 @media (max-width: 1200px) {
   .particle-explorer__choices { grid-template-columns: repeat(4, minmax(0, 1fr)); }

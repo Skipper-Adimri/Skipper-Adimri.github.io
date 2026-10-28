@@ -120,8 +120,10 @@ function initializeDetector(root) {
   const status = toolbar.querySelector('[data-detector-zoom]');
   const labelledButton = toolbar.querySelector('[data-detector-labelled]');
   const cleanSrc = image.getAttribute('src');
+  const cleanSrcset = image.getAttribute('srcset');
   const cleanAlt = image.alt;
   const labelledSrc = image.dataset.labelledSrc;
+  const labelledSrcset = image.dataset.labelledSrcset;
   let selection = null;
   let labelled = false;
   let cleanSize = image.complete && image.naturalWidth ? [image.naturalWidth, image.naturalHeight] : null;
@@ -246,6 +248,7 @@ function initializeDetector(root) {
     selection = null;
     labelled = false;
     image.src = cleanSrc;
+    image.srcset = cleanSrcset;
     image.alt = cleanAlt;
     render();
   }
@@ -256,6 +259,7 @@ function initializeDetector(root) {
     labelled = false;
     selection = key;
     image.src = cleanSrc;
+    image.srcset = cleanSrcset;
     image.alt = cleanAlt;
     render();
   }
@@ -272,6 +276,7 @@ function initializeDetector(root) {
     labelled = !labelled;
     selection = null;
     image.src = labelled ? labelledSrc : cleanSrc;
+    image.srcset = labelled ? labelledSrcset : cleanSrcset;
     image.alt = labelled ? 'Official labelled 2022 ATLAS detector cutaway with people for scale and subsystem callouts.' : cleanAlt;
     render();
   });

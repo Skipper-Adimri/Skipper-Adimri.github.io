@@ -9,11 +9,13 @@ const outputDirectory = path.join(projectRoot, '_site/detectors/atlas-detector')
 const html = await readFile(path.join(outputDirectory, 'index.html'), 'utf8');
 const css = await readFile(path.join(outputDirectory, 'detector.css'), 'utf8');
 const detectorExplorer = await readFile(path.join(outputDirectory, '_scripts/detector-explorer.js'), 'utf8');
+const particleExplorer = await readFile(path.join(outputDirectory, '_scripts/particle-explorer.js'), 'utf8');
+const viewSwitch = await readFile(path.join(outputDirectory, '_scripts/view-switch.js'), 'utf8');
 
 assert.match(html, /<main class="content" id="quarto-document-content">/);
 assert.match(html, /<math[^>]+xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/);
 assert.doesNotMatch(html, /MathJax|mathjax/);
-assert.match(html, /<script type="module" src="_scripts\/detector-page\.js\?v=2"><\/script>/);
+assert.match(html, /<script type="module" src="_scripts\/detector-page\.js\?v=3"><\/script>/);
 assert.equal((html.match(/<section[^>]+data-detector-card=/g) || []).length, 7);
 assert.equal((html.match(/<section[^>]+data-particle-card=/g) || []).length, 7);
 const detectorStageStart = html.indexOf('data-detector-stage');
@@ -52,14 +54,17 @@ for (const resource of [
 }
 
 for (const image of [
-  'cutaway.png',
-  'cutaway_labelled_ATLAS.png',
-  'slice-clean.png',
+  'cutaway-1600.webp',
+  'cutaway-3200.webp',
+  'cutaway-labelled-1600.webp',
+  'cutaway-labelled-3200.webp',
+  'slice-clean.webp',
   'slice-annotations.svg',
-  'Atlas_Simulation.gif',
-  'calorimeter-run3-labelled.png',
+  'Atlas_Simulation.webp',
+  'atlas-simulation-poster.webp',
+  'calorimeter-run3-labelled.webp',
   'tracking-principle.svg',
-  'tracking-detector-details.png',
+  'tracking-detector-details.webp',
   'sagitta-geometry.svg',
   'fcal-longitudinal-layout.svg'
 ]) {
@@ -69,5 +74,13 @@ for (const image of [
 assert.doesNotMatch(html, /Reuse permission for this image remains unresolved/);
 assert.match(html, /ATLAS Experiment © CERN/);
 assert.match(html, /detector paper, Figure 4\.2/);
+assert.match(html, /alt="Cutaway of the ATLAS calorimeter with callouts identifying/);
+assert.match(html, /alt="Concentric Pixel, SCT, and TRT tracking layers crossed/);
+assert.doesNotMatch(html, /Atlas_Simulation\.gif|cutaway_labelled_ATLAS\.png/);
+assert.match(html, /srcset="\.\.\/images\/atlas\/cutaway-1600\.webp 1600w, \.\.\/images\/atlas\/cutaway-3200\.webp 3200w"/);
+assert.match(html, /data-particle-animation-toggle/);
+assert.match(particleExplorer, /animationImage\.dataset\.poster/);
+assert.match(viewSwitch, /panel\.scrollIntoView\(\{behavior:/);
+assert.match(css, /\.atlas-view-switch__button\s*\{[^}]*min-height:\s*44px/s);
 
 console.log('rendered page tests: PASS');

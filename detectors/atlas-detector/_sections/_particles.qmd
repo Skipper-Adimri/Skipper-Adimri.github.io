@@ -10,7 +10,7 @@ more particles to compare these responses.
   <div class="particle-explorer__visual">
     <h3 class="particle-explorer__visual-heading">Interactive ATLAS Schematic</h3>
     <div class="particle-explorer__image-wrap">
-      <img src="../images/atlas/slice-clean.png" alt="Clean ATLAS detector cross-section with outer muon chambers, hadronic and electromagnetic calorimeters, solenoid, inner tracker and beam pipe." data-particle-image loading="lazy" decoding="async">
+      <img src="../images/atlas/slice-clean.webp" alt="Clean ATLAS detector cross-section with outer muon chambers, hadronic and electromagnetic calorimeters, solenoid, inner tracker and beam pipe." data-particle-image loading="lazy" decoding="async">
       <img class="particle-explorer__label-overlay" src="../images/atlas/slice-annotations.svg" data-particle-labels alt="" aria-hidden="true" hidden>
       <svg class="particle-explorer__overlay" data-particle-overlay xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Conceptual particle detector response"></svg>
     </div>
@@ -33,7 +33,8 @@ particles in opposite directions.
     <form method="dialog"><button type="submit" class="particle-explorer__animation-close" aria-label="Close animation">×</button></form>
   </div>
   <div class="particle-explorer__animation-media">
-    <img data-particle-animation-image data-src="../images/atlas/Atlas_Simulation.gif" alt="Official ATLAS detector-slice animation illustrating the interactions of particles with the detector" decoding="async">
+    <img data-particle-animation-image src="../images/atlas/atlas-simulation-poster.webp" data-poster="../images/atlas/atlas-simulation-poster.webp" data-src="../images/atlas/Atlas_Simulation.webp" alt="ATLAS detector slice used for an animation showing how different particles interact with detector layers" decoding="async">
+    <button type="button" class="btn btn-outline-primary particle-explorer__animation-toggle" data-particle-animation-toggle aria-pressed="false">Play animation</button>
   </div>
   <p class="particle-explorer__animation-error" data-particle-animation-error hidden>The animation file could not be loaded.</p>
 </dialog>

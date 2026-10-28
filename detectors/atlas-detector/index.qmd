@@ -17,14 +17,17 @@ resources:
   - "_scripts/detector-explorer.js"
   - "_scripts/particle-explorer.js"
   - "_scripts/momentum.js"
-  - "../images/atlas/cutaway.png"
-  - "../images/atlas/cutaway_labelled_ATLAS.png"
-  - "../images/atlas/slice-clean.png"
+  - "../images/atlas/cutaway-1600.webp"
+  - "../images/atlas/cutaway-3200.webp"
+  - "../images/atlas/cutaway-labelled-1600.webp"
+  - "../images/atlas/cutaway-labelled-3200.webp"
+  - "../images/atlas/slice-clean.webp"
   - "../images/atlas/slice-annotations.svg"
-  - "../images/atlas/Atlas_Simulation.gif"
-  - "../images/atlas/calorimeter-run3-labelled.png"
+  - "../images/atlas/Atlas_Simulation.webp"
+  - "../images/atlas/atlas-simulation-poster.webp"
+  - "../images/atlas/calorimeter-run3-labelled.webp"
   - "../images/atlas/tracking-principle.svg"
-  - "../images/atlas/tracking-detector-details.png"
+  - "../images/atlas/tracking-detector-details.webp"
   - "../images/atlas/sagitta-geometry.svg"
   - "../images/atlas/fcal-longitudinal-layout.svg"
 ---
@@ -40,10 +43,14 @@ ATLAS is approximately 46 metres long and 25 metres in diameter. The illustratio
 below shows a cutaway of this enormous instrument, revealing systems that would
 normally be hidden inside its outer structure.
 
+*Configuration note: this page describes the ATLAS Run 3 detector, including the
+Pixel, SCT, and TRT tracking systems used in the analyses discussed below.*
+
 ::: {.project-links}
 [Explore the Detector](#explore-the-detector){.btn .btn-primary}
 [Calorimetry](#calorimetry){.btn .btn-outline-primary}
 [Follow a Particle](#follow-a-particle){.btn .btn-outline-primary}
+[My Analysis](#what-parts-of-the-detector-i-use-in-my-analysis){.btn .btn-outline-primary}
 :::
 
 {{< include /detectors/atlas-detector/_sections/_explorer.qmd >}}
@@ -69,4 +76,4 @@ Together, these measurements help reconstruct the particles produced in a collis
 [ATLAS Detector Schematics](https://atlas.cern/Resources/Schematics){.btn .btn-outline-primary}
 :::
 
-<script type="module" src="_scripts/detector-page.js?v=2"></script>
+<script type="module" src="_scripts/detector-page.js?v=3"></script>

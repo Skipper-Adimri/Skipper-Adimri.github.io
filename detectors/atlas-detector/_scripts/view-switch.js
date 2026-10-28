@@ -28,12 +28,12 @@ export function initializeViewSwitch(root) {
   panels.forEach(panel => {
     const key = panel.dataset.viewPanel;
     const button = controlButton(panel, key);
-    button.addEventListener('click', () => select(key));
+    button.addEventListener('click', () => select(key, {scroll: true}));
     controls.appendChild(button);
     buttons.set(key, button);
   });
 
-  function select(key) {
+  function select(key, {scroll = false} = {}) {
     if (!available.has(key)) return;
     selected = key;
     panels.forEach(panel => {
@@ -44,6 +44,11 @@ export function initializeViewSwitch(root) {
     buttons.forEach((button, buttonKey) => {
       button.setAttribute('aria-pressed', String(buttonKey === selected));
     });
+    if (scroll) {
+      const panel = available.get(selected);
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      requestAnimationFrame(() => panel.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block: 'start'}));
+    }
   }
 
   panels.at(-1).insertAdjacentElement('afterend', controls);

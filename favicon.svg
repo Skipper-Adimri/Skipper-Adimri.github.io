@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Aman Dimri</title>
+  <circle cx="32" cy="32" r="30" fill="#315d3a"/>
+  <path d="M18 47 29 16h7l11 31h-7l-2.5-7.5h-11L24 47Zm10.5-13.5h7L32 23Z" fill="#fff"/>
+  <circle cx="49" cy="15" r="6" fill="#b8d440"/>
+</svg>

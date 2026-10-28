@@ -4,17 +4,24 @@ My heavy-ion analyses mainly combine two detector measurements: **charged-partic
 tracks in the Inner Detector** and **forward transverse energy in the FCal**.
 They probe different regions of a collision and serve distinct purposes.
 
+| Detector region | Measurement used | Role in the analysis |
+|---|---|---|
+| Inner Detector, $|\eta| < 2.5$ | Charged-particle tracks | Multiplicity, mean transverse momentum, and correlations |
+| Forward Calorimeter, $3.1 < |\eta| < 4.9$ | Summed transverse energy, $\Sigma E_{\mathrm{T}}$ | Event selection and centrality classification |
+
 ### Inner Detector: Charged-Particle Tracking {.atlas-view-switch}
 
 The Inner Detector is the main ATLAS system for reconstructing charged particles
-near midrapidity. It surrounds the beam pipe with several nested tracking layers,
+near **midrapidity**—the central detector region, away from the beam directions.
+It provides precision tracking over approximately $|\eta| < 2.5$ and surrounds
+the beam pipe with several nested tracking layers,
 so particles emerging from the collision leave a sequence of spatial measurements
 as they move outward through the detector.
 
 ::: {.atlas-view-panel data-view-panel="concept" data-view-label="Concept"}
 #### Tracking concept {.atlas-view-panel__title}
 
-![Simplified transverse view of ATLAS tracking. A curved red trajectory passes through Pixel and SCT silicon measurements and TRT straw-tube measurements; a legend identifies each detector.](/detectors/images/atlas/tracking-principle.svg){loading="lazy" decoding="async"}
+![Simplified transverse view of ATLAS tracking.](/detectors/images/atlas/tracking-principle.svg){fig-alt="Concentric Pixel, SCT, and TRT tracking layers crossed by a curved red trajectory with measurement points; a legend identifies the detector technologies." loading="lazy" decoding="async"}
 
 *Conceptual tracking illustration (not to scale). The curved track is fitted using measurements from successive detector layers.*
 :::
@@ -22,7 +29,7 @@ as they move outward through the detector.
 ::: {.atlas-view-panel data-view-panel="details" data-view-label="Details"}
 #### Detector-layer details {.atlas-view-panel__title}
 
-![ATLAS tracking detector cutaway showing the radii of Pixel, SCT, and TRT components, alongside diagrams of pixel hit measurements, paired silicon strips, and straw tubes with drift-time measurements.](/detectors/images/atlas/tracking-detector-details.png){loading="lazy" decoding="async"}
+![Detailed ATLAS tracking detector cutaway and measurement diagrams.](/detectors/images/atlas/tracking-detector-details.webp){fig-alt="ATLAS tracking detector cutaway showing the radii of Pixel, SCT, and TRT components beside diagrams of pixel hits, paired silicon-strip measurements, and straw-tube drift-time measurements." loading="lazy" decoding="async"}
 
 *Pixel sensors provide two-dimensional measurements; stereo SCT modules combine strip measurements; TRT straws provide drift-time measurements and transition-radiation information. Detector geometry: [ATLAS Collaboration, detector paper, Figure 4.2](https://cds.cern.ch/record/1129811/files/jinst8_08_s08003.pdf). This measurement-principle composite is reproduced in [X. Ai et al., ACTS for gaseous tracking detectors (FTCF 2024), slide 6](https://indico.pnp.ustc.edu.cn/event/91/contributions/6669/attachments/1933/3183/ACTS_Xiaocong_FTCF.pdf). ATLAS Experiment © CERN.*
 :::
@@ -53,11 +60,13 @@ observables.
 
 The forward calorimeters measure transverse energy at large pseudorapidity,
 separated from the midrapidity tracks used in my analysis. Their summed energy
-provides an estimator of **collision centrality**, which is closely related to the
-overlap geometry of the colliding nuclei.
+$\Sigma E_{\mathrm{T}}$ defines event-activity or **centrality percentiles**.
+The relationship between those percentiles and the overlap geometry of the
+colliding nuclei is inferred with a Glauber-based collision model rather than
+measured directly by the FCal.
 
 Using forward energy for event classification and inner-detector tracks for the
-physics observables helps reduce **self-correlations**: if the same particles were
-used both to select an event class and to calculate the observable, the selection
-could introduce artificial correlations. The separation between tracking and
-forward calorimetry is therefore an important part of the analysis strategy.
+physics observables helps reduce **self-correlations**—artificial relationships
+that can appear when the same particles influence both the event class and the
+observable. The separation between tracking and forward calorimetry is therefore
+an important part of the analysis strategy.
