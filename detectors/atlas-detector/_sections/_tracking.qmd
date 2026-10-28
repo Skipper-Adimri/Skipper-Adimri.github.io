@@ -24,7 +24,7 @@ as they move outward through the detector.
 
 ![ATLAS tracking detector cutaway showing the radii of Pixel, SCT, and TRT components, alongside diagrams of pixel hit measurements, paired silicon strips, and straw tubes with drift-time measurements.](/detectors/images/atlas/tracking-detector-details.png){loading="lazy" decoding="async"}
 
-*Pixel sensors provide two-dimensional measurements; stereo SCT modules combine strip measurements; TRT straws provide drift-time measurements and transition-radiation information. Source: [X. Ai et al., ACTS for gaseous tracking detectors (FTCF 2024), slide 6](https://indico.pnp.ustc.edu.cn/event/91/contributions/6669/attachments/1933/3183/ACTS_Xiaocong_FTCF.pdf). Reuse permission for this image remains unresolved.*
+*Pixel sensors provide two-dimensional measurements; stereo SCT modules combine strip measurements; TRT straws provide drift-time measurements and transition-radiation information. Detector geometry: [ATLAS Collaboration, detector paper, Figure 4.2](https://cds.cern.ch/record/1129811/files/jinst8_08_s08003.pdf). This measurement-principle composite is reproduced in [X. Ai et al., ACTS for gaseous tracking detectors (FTCF 2024), slide 6](https://indico.pnp.ustc.edu.cn/event/91/contributions/6669/attachments/1933/3183/ACTS_Xiaocong_FTCF.pdf). ATLAS Experiment © CERN.*
 :::
 
 {{< include /detectors/atlas-detector/_sections/_momentum.qmd >}}

@@ -61,8 +61,9 @@ geometry. Do not duplicate explanatory prose in JavaScript.
   case.
 - There is no JSON content store, OJS runtime, framework, build package, or
   `_metadata.yml` for this one-page directory.
-- The tracking-details image must not be treated as cleared for publication until
-  its reuse permission is confirmed or it is replaced with an original diagram.
+- Keep the detector-paper source, conference-slide source, and
+  `ATLAS Experiment © CERN` credit with the tracking-details image whenever it
+  is reused.
 
 The full migration record, validation evidence, snapshots, and rollback commands
 are stored in the separate `ATLAS_Quarto_Migration_2026-10-28` handoff package.

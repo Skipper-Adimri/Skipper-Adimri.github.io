@@ -52,4 +52,8 @@ for (const image of [
   await access(path.join(projectRoot, '_site/detectors/images/atlas', image));
 }
 
+assert.doesNotMatch(html, /Reuse permission for this image remains unresolved/);
+assert.match(html, /ATLAS Experiment © CERN/);
+assert.match(html, /detector paper, Figure 4\.2/);
+
 console.log('rendered page tests: PASS');
