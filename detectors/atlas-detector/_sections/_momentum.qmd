@@ -4,6 +4,8 @@
   <p class="atlas-momentum__fallback-note">The interactive curvature diagram is an optional enhancement. The complete derivation remains below.</p>
 </div>
 
+::: {.atlas-momentum__explanation}
+
 ##### From detector hits to transverse momentum
 
 **1. Fit a curved track.** Position measurements across the Pixel, SCT, and TRT
@@ -54,3 +56,5 @@ variations, measurement uncertainties, material interactions, and multiple scatt
 Layer radii follow the [ATLAS Inner Detector documentation](https://atlas.cern/Discover/Detector/Inner-Detector)
 and published [barrel geometry specifications](https://inspirehep.net/files/4f89a06d335df8bf2f25b8974799be9f).
 Field strength: [ATLAS Magnet System](https://www.atlas.cern/Discover/Detector/Magnet-System).
+
+:::

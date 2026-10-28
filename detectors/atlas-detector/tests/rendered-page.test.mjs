@@ -7,6 +7,7 @@ const testDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(testDirectory, '../../..');
 const outputDirectory = path.join(projectRoot, '_site/detectors/atlas-detector');
 const html = await readFile(path.join(outputDirectory, 'index.html'), 'utf8');
+const css = await readFile(path.join(outputDirectory, 'detector.css'), 'utf8');
 
 assert.match(html, /<main class="content" id="quarto-document-content">/);
 assert.match(html, /<math[^>]+xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/);
@@ -16,6 +17,13 @@ assert.equal((html.match(/<section[^>]+data-detector-card=/g) || []).length, 7);
 assert.equal((html.match(/<section[^>]+data-particle-card=/g) || []).length, 7);
 assert.doesNotMatch(html, /id="toc-electron-e-"/);
 assert.doesNotMatch(html, /<section[^>]+data-(?:detector|particle)-card=[^>]+hidden/);
+assert.match(html, /<section[^>]+class="[^"]*atlas-momentum__explanation[^"]*"/);
+assert.doesNotMatch(
+  css,
+  /\.atlas-view-switch\.is-enhanced\s+\.atlas-view-panel__title\s*\{/,
+  'never collapse the panel section when visually hiding its Quarto heading'
+);
+assert.match(css, /\.atlas-view-switch\.is-enhanced\s+\.atlas-view-panel\s*>\s*h4:first-child/);
 
 for (const resource of [
   '_scripts/detector-page.js',
