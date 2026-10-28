@@ -74,6 +74,11 @@ for (const image of [
 assert.doesNotMatch(html, /Reuse permission for this image remains unresolved/);
 assert.match(html, /ATLAS Experiment © CERN/);
 assert.match(html, /detector paper, Figure 4\.2/);
+assert.match(html, /<td>Track <math[^>]*>.*p_\{\\mathrm\{T\}\}.*\\eta.*\\phi.*<\/td>/s);
+assert.match(html, /Multiplicity, mean transverse momentum, and flow vectors/);
+assert.match(html, /Zero Degree Calorimeters/);
+assert.match(html, /Pileup rejection using the ZDC–FCal energy correlation/);
+assert.match(html, /10\.1103\/PhysRevLett\.133\.252301/);
 assert.match(html, /alt="Cutaway of the ATLAS calorimeter with callouts identifying/);
 assert.match(html, /alt="Concentric Pixel, SCT, and TRT tracking layers crossed/);
 assert.doesNotMatch(html, /Atlas_Simulation\.gif|cutaway_labelled_ATLAS\.png/);

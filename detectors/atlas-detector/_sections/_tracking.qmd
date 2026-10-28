@@ -1,13 +1,15 @@
 ## What Parts of the Detector I Use in My Analysis
 
-My heavy-ion analyses mainly combine two detector measurements: **charged-particle
-tracks in the Inner Detector** and **forward transverse energy in the FCal**.
-They probe different regions of a collision and serve distinct purposes.
+My heavy-ion analyses combine **charged-particle tracks in the Inner Detector**,
+**forward transverse energy in the FCal**, and **very-forward neutron energy in
+the Zero Degree Calorimeters (ZDCs)**. Together, these measurements provide the
+physics observables, event classification, and pileup rejection used in the analysis.
 
 | Detector region | Measurement used | Role in the analysis |
 |---|---|---|
-| Inner Detector, $|\eta| < 2.5$ | Charged-particle tracks | Multiplicity, mean transverse momentum, and correlations |
+| Inner Detector, $|\eta| < 2.5$ | Track $p_{\mathrm{T}}$, $\eta$, and $\phi$ | Multiplicity, mean transverse momentum, and flow vectors |
 | Forward Calorimeter, $3.1 < |\eta| < 4.9$ | Summed transverse energy, $\Sigma E_{\mathrm{T}}$ | Event selection and centrality classification |
+| Zero Degree Calorimeters, $|\eta| > 8.3$ | Very-forward neutron energy, $E_{\mathrm{ZDC}}$ | Pileup rejection using the ZDC--FCal energy correlation |
 
 ### Inner Detector: Charged-Particle Tracking {.atlas-view-switch}
 
@@ -50,11 +52,11 @@ the transverse momentum $p_{\mathrm{T}}$, while the direction of curvature ident
 the sign of the electric charge. The fitted trajectory also gives the particle's
 direction and point of closest approach to the collision vertex.
 
-For my analyses, these reconstructed tracks provide the charged particles whose
-event-by-event kinematics are used to study multiplicity, mean transverse momentum,
-and collective behavior in heavy-ion collisions. The tracking system is therefore
-the detector element that directly measures the particles entering the core physics
-observables.
+For my analyses, each reconstructed track supplies its transverse momentum
+$p_{\mathrm{T}}$, pseudorapidity $\eta$, and azimuthal angle $\phi$. These
+quantities are used to measure charged-particle multiplicity, event-by-event mean
+transverse momentum, and flow vectors. The tracking system is therefore the detector
+element that directly measures the particles entering the core physics observables.
 
 ### Forward Calorimeters: Event Selection and Centrality
 
@@ -70,3 +72,14 @@ physics observables helps reduce **self-correlations**—artificial relationship
 that can appear when the same particles influence both the event class and the
 observable. The separation between tracking and forward calorimetry is therefore
 an important part of the analysis strategy.
+
+### Zero Degree Calorimeters: Pileup Rejection
+
+The Zero Degree Calorimeters are located about 140 m from the interaction point,
+close to the outgoing beam directions. They measure very-forward neutral particles,
+primarily spectator neutrons that continue along the beam line after the collision.
+In the Pb+Pb analysis, the correlation between the energy recorded in the ZDCs and
+the FCal $\Sigma E_{\mathrm{T}}$ is used to identify events inconsistent with a
+single collision and reject them as pileup. The ZDC measurement therefore supports
+event cleaning rather than entering the final physics observables directly
+[@atlas-momentum-fluctuations-2024].
