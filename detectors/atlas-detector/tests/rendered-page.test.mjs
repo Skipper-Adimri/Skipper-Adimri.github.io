@@ -66,7 +66,9 @@ for (const image of [
   'tracking-principle.svg',
   'tracking-detector-details.webp',
   'sagitta-geometry.svg',
-  'fcal-longitudinal-layout.svg'
+  'fcal-longitudinal-layout.svg',
+  'zdc-location-run3.webp',
+  'zdc-module-schematic-run3.webp'
 ]) {
   await access(path.join(projectRoot, '_site/detectors/images/atlas', image));
 }
@@ -79,6 +81,12 @@ assert.match(html, /Multiplicity, mean transverse momentum, and flow vectors/);
 assert.match(html, /Zero Degree Calorimeters/);
 assert.match(html, /Pileup rejection using the ZDC–FCal energy correlation/);
 assert.match(html, /10\.1103\/PhysRevLett\.133\.252301/);
+assert.match(html, /Pileup.*more than one Pb\+Pb collision is recorded in the same bunch/s);
+assert.match(html, /Run 3 ATLAS ZDC paper, Figure 1/);
+assert.match(html, /Run 3 ATLAS ZDC\s*paper, Figure 6/s);
+assert.match(html, /10\.48550\/arXiv\.2509\.05948/);
+assert.match(html, /alt="The upper panel places the central ATLAS detector between/);
+assert.match(html, /alt="A side view shows the ZDC photomultiplier tube/);
 assert.match(html, /alt="Cutaway of the ATLAS calorimeter with callouts identifying/);
 assert.match(html, /alt="Concentric Pixel, SCT, and TRT tracking layers crossed/);
 assert.doesNotMatch(html, /Atlas_Simulation\.gif|cutaway_labelled_ATLAS\.png/);

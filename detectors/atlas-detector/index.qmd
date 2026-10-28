@@ -30,6 +30,8 @@ resources:
   - "../images/atlas/tracking-detector-details.webp"
   - "../images/atlas/sagitta-geometry.svg"
   - "../images/atlas/fcal-longitudinal-layout.svg"
+  - "../images/atlas/zdc-location-run3.webp"
+  - "../images/atlas/zdc-module-schematic-run3.webp"
 ---
 
 ## Overview

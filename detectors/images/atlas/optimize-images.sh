@@ -16,6 +16,8 @@ cwebp -quiet -mt -m 6 -q 90 -resize 3200 0 "$source_dir/cutaway_labelled_ATLAS.p
 cwebp -quiet -mt -m 6 -q 88 "$source_dir/calorimeter-run3-labelled.png" -o "$asset_dir/calorimeter-run3-labelled.webp"
 cwebp -quiet -mt -m 6 -q 88 "$source_dir/tracking-detector-details.png" -o "$asset_dir/tracking-detector-details.webp"
 cwebp -quiet -mt -m 6 -q 86 "$source_dir/slice-clean.png" -o "$asset_dir/slice-clean.webp"
+cwebp -quiet -mt -m 6 -q 86 -resize 2400 0 "$source_dir/zdc-location-run3.jpg" -o "$asset_dir/zdc-location-run3.webp"
+cwebp -quiet -mt -m 6 -q 88 -resize 2000 0 "$source_dir/zdc-module-schematic-run3.jpg" -o "$asset_dir/zdc-module-schematic-run3.webp"
 
 gif2webp -quiet -lossy -q 70 -m 4 "$source_dir/Atlas_Simulation.gif" -o "$asset_dir/Atlas_Simulation.webp"
 magick "$source_dir/Atlas_Simulation.gif[0-60]" -coalesce -delete 0-59 -strip "$poster_png"
