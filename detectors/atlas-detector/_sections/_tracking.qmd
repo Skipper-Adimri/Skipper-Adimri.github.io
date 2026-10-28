@@ -97,7 +97,7 @@ energy are identified as pileup and removed. The ZDC measurement therefore suppo
 event cleaning rather than entering the final physics observables directly
 [@atlas-momentum-fluctuations-2024; @avoni-zdc-run3-2025].
 
-::: {.atlas-view-panel data-view-panel="zdc-location" data-view-label="Location"}
+::: {.atlas-view-panel data-view-panel="zdc-location" data-view-label="ZDC Location"}
 #### ZDC location {.atlas-view-panel__title}
 
 ![Location of the two ATLAS Zero Degree Calorimeters relative to the central detector.](/detectors/images/atlas/zdc-location-run3.webp){fig-alt="The upper panel places the central ATLAS detector between the side-C and side-A TAN absorbers, each 140 metres from the interaction point; the lower panel shows the ATLAS coordinate system and its position on the LHC ring." loading="lazy" decoding="async"}

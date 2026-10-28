@@ -84,7 +84,7 @@ assert.match(html, /10\.1103\/PhysRevLett\.133\.252301/);
 assert.match(html, /Pileup.*more than one Pb\+Pb collision is recorded in the same bunch/s);
 assert.match(html, /Run 3 ATLAS ZDC paper, Figure 1/);
 assert.match(html, /Run 3 ATLAS ZDC\s*paper, Figure 6/s);
-assert.match(html, /data-view-panel="zdc-location" data-view-label="Location"/);
+assert.match(html, /data-view-panel="zdc-location" data-view-label="ZDC Location"/);
 assert.match(html, /data-view-panel="zdc-schematic" data-view-label="Detector Schematic"/);
 assert.match(html, /Target Absorbers for Neutrals/);
 assert.match(viewSwitch, /Choose ZDC illustration/);
