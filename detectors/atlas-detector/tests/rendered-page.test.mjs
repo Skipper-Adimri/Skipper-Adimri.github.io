@@ -84,6 +84,15 @@ assert.match(html, /10\.1103\/PhysRevLett\.133\.252301/);
 assert.match(html, /Pileup.*more than one Pb\+Pb collision is recorded in the same bunch/s);
 assert.match(html, /Run 3 ATLAS ZDC paper, Figure 1/);
 assert.match(html, /Run 3 ATLAS ZDC\s*paper, Figure 6/s);
+assert.match(html, /data-view-panel="zdc-location" data-view-label="Location"/);
+assert.match(html, /data-view-panel="zdc-schematic" data-view-label="Detector Schematic"/);
+assert.match(html, /Target Absorbers for Neutrals/);
+assert.match(viewSwitch, /Choose ZDC illustration/);
+assert.ok(
+  html.indexOf('event cleaning rather than entering the final physics observables') <
+    html.indexOf('data-view-panel="zdc-location"'),
+  'the complete ZDC explanation must appear before the image switcher'
+);
 assert.match(html, /10\.48550\/arXiv\.2509\.05948/);
 assert.match(html, /alt="The upper panel places the central ATLAS detector between/);
 assert.match(html, /alt="A side view shows the ZDC photomultiplier tube/);

@@ -73,7 +73,7 @@ that can appear when the same particles influence both the event class and the
 observable. The separation between tracking and forward calorimetry is therefore
 an important part of the analysis strategy.
 
-### Zero Degree Calorimeters: Pileup Rejection
+### Zero Degree Calorimeters: Pileup Rejection {.atlas-view-switch}
 
 **Pileup** occurs when more than one Pb+Pb collision is recorded in the same bunch
 crossing. Signals from those collisions overlap, so the detector can appear to have
@@ -86,19 +86,9 @@ ATLAS interaction point, close to the outgoing beam directions. They measure
 very-forward neutral particles, primarily spectator neutrons that continue along
 the beam line after the collision [@avoni-zdc-run3-2025].
 
-![Location of the two ATLAS Zero Degree Calorimeters relative to the central detector.](/detectors/images/atlas/zdc-location-run3.webp){fig-alt="The upper panel places the central ATLAS detector between the side-C and side-A TAN absorbers, each 140 metres from the interaction point; the lower panel shows the ATLAS coordinate system and its position on the LHC ring." loading="lazy" decoding="async"}
-
-*The upper panel shows the ZDCs inside the two TAN absorbers, 140 m from central ATLAS. The lower panel defines the ATLAS coordinate system. Source: [Run 3 ATLAS ZDC paper, Figure 1](https://arxiv.org/abs/2509.05948).*
-
 Each ZDC is a sampling calorimeter. Alternating tungsten absorber plates and
 fused-silica rods convert the incident neutron's shower into Cherenkov light, which
 is directed through a light guide to a photomultiplier tube.
-
-![Schematic of a Run 3 ATLAS ZDC calorimeter module.](/detectors/images/atlas/zdc-module-schematic-run3.webp){fig-alt="A side view shows the ZDC photomultiplier tube, light guide, steel plates, and tungsten absorber plates; a top view shows alternating absorber plates and rows of fused-silica Cherenkov rods." loading="lazy" decoding="async"}
-
-*Side and top views of a typical ZDC module. The green circles represent the
-fused-silica Cherenkov rods between the absorber plates. Source: [Run 3 ATLAS ZDC
-paper, Figure 6](https://arxiv.org/abs/2509.05948).*
 
 In the Pb+Pb analysis, a genuine single collision follows an expected relationship
 between the forward-neutron energy recorded in the ZDCs and the FCal
@@ -106,3 +96,23 @@ $\Sigma E_{\mathrm{T}}$. Events with an incompatible combination of ZDC and FCal
 energy are identified as pileup and removed. The ZDC measurement therefore supports
 event cleaning rather than entering the final physics observables directly
 [@atlas-momentum-fluctuations-2024; @avoni-zdc-run3-2025].
+
+::: {.atlas-view-panel data-view-panel="zdc-location" data-view-label="Location"}
+#### ZDC location {.atlas-view-panel__title}
+
+![Location of the two ATLAS Zero Degree Calorimeters relative to the central detector.](/detectors/images/atlas/zdc-location-run3.webp){fig-alt="The upper panel places the central ATLAS detector between the side-C and side-A TAN absorbers, each 140 metres from the interaction point; the lower panel shows the ATLAS coordinate system and its position on the LHC ring." loading="lazy" decoding="async"}
+
+*The upper panel shows the ZDCs housed inside the two **TANs** (**Target Absorbers for Neutrals**), 140 m from central ATLAS. Each TAN absorbs the intense flux of very-forward neutral particles and protects downstream LHC magnets. The lower panel defines the ATLAS coordinate system. Source: [Run 3 ATLAS ZDC paper, Figure 1](https://arxiv.org/abs/2509.05948).*
+:::
+
+::: {.atlas-view-panel data-view-panel="zdc-schematic" data-view-label="Detector Schematic"}
+#### ZDC detector schematic {.atlas-view-panel__title}
+
+![Schematic of a Run 3 ATLAS ZDC calorimeter module.](/detectors/images/atlas/zdc-module-schematic-run3.webp){fig-alt="A side view shows the ZDC photomultiplier tube, light guide, steel plates, and tungsten absorber plates; a top view shows alternating absorber plates and rows of fused-silica Cherenkov rods." loading="lazy" decoding="async"}
+
+*Side and top views of a typical ZDC module. The green circles represent the
+fused-silica Cherenkov rods between the absorber plates. Source: [Run 3 ATLAS ZDC
+paper, Figure 6](https://arxiv.org/abs/2509.05948).*
+:::
+
+<div data-view-controls-host></div>

@@ -22,7 +22,12 @@ export function initializeViewSwitch(root) {
   const controls = document.createElement('div');
   controls.className = 'atlas-view-switch__controls';
   controls.setAttribute('role', 'group');
-  controls.setAttribute('aria-label', root.id === 'calorimetry' ? 'Choose calorimeter view' : 'Choose tracking illustration');
+  const controlLabel = root.id === 'calorimetry'
+    ? 'Choose calorimeter view'
+    : root.id === 'zero-degree-calorimeters-pileup-rejection'
+      ? 'Choose ZDC illustration'
+      : 'Choose tracking illustration';
+  controls.setAttribute('aria-label', controlLabel);
 
   const buttons = new Map();
   panels.forEach(panel => {
