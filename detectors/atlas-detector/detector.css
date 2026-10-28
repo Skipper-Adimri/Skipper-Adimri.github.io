@@ -216,7 +216,8 @@
 .atlas-view-panel { margin: .75rem 0; padding: .8rem; border: 1px solid var(--atlas-border); border-radius: .4rem; background: #fff; overflow: hidden; }
 .atlas-view-panel__title { margin: .15rem 0 .7rem; color: #345e32; font-size: 1.05rem; }
 .atlas-view-panel img { display: block; width: 100%; height: auto; object-fit: contain; }
-.atlas-view-panel > p:last-child { margin: .55rem 0 0; color: var(--atlas-muted); font-size: .87rem; line-height: 1.45; text-align: center; }
+.atlas-view-panel figcaption { padding: .65rem 1rem 0; }
+.atlas-view-panel > p:last-child { margin: .55rem 0 0; padding-inline: 1rem; color: var(--atlas-muted); font-size: .87rem; line-height: 1.45; text-align: center; }
 .atlas-view-switch.is-enhanced .atlas-view-panel { padding: 0; }
 .atlas-view-switch.is-enhanced .atlas-view-panel > h3:first-child,
 .atlas-view-switch.is-enhanced .atlas-view-panel > h4:first-child { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

@@ -24,6 +24,7 @@ assert.doesNotMatch(
   'never collapse the panel section when visually hiding its Quarto heading'
 );
 assert.match(css, /\.atlas-view-switch\.is-enhanced\s+\.atlas-view-panel\s*>\s*h4:first-child/);
+assert.match(css, /\.atlas-view-panel\s+figcaption\s*\{[^}]*padding:\s*\.65rem\s+1rem\s+0/s);
 
 for (const resource of [
   '_scripts/detector-page.js',
