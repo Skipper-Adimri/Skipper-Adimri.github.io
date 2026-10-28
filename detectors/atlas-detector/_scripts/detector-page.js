@@ -1,6 +1,6 @@
 import {initializeViewSwitches} from './view-switch.js?v=2';
 import {initializeDetectorExplorers} from './detector-explorer.js?v=3';
-import {initializeParticleExplorers} from './particle-explorer.js?v=2';
+import {initializeParticleExplorers} from './particle-explorer.js?v=3';
 import {initializeMomentumDemos} from './momentum.js?v=1';
 
 function initializeDetectorPage() {

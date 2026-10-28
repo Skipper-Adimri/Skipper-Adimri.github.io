@@ -33,8 +33,13 @@ particles in opposite directions.
     <form method="dialog"><button type="submit" class="particle-explorer__animation-close" aria-label="Close animation">×</button></form>
   </div>
   <div class="particle-explorer__animation-media">
-    <img data-particle-animation-image src="../images/atlas/atlas-simulation-poster.webp" data-poster="../images/atlas/atlas-simulation-poster.webp" data-src="../images/atlas/Atlas_Simulation.webp" alt="ATLAS detector slice used for an animation showing how different particles interact with detector layers" decoding="async">
-    <button type="button" class="btn btn-outline-primary particle-explorer__animation-toggle" data-particle-animation-toggle aria-pressed="false">Play animation</button>
+    <div class="particle-explorer__animation-frame">
+      <img data-particle-animation-image src="../images/atlas/atlas-simulation-poster-v2.webp" data-poster="../images/atlas/atlas-simulation-poster-v2.webp" data-src="../images/atlas/Atlas_Simulation.webp" alt="ATLAS detector slice used for an animation showing how different particles interact with detector layers" decoding="async">
+      <button type="button" class="particle-explorer__animation-toggle" data-particle-animation-toggle aria-label="Play animation" aria-pressed="false">
+        <span class="particle-explorer__play-icon" aria-hidden="true"></span>
+        <span class="particle-explorer__pause-icon" aria-hidden="true"></span>
+      </button>
+    </div>
   </div>
   <p class="particle-explorer__animation-error" data-particle-animation-error hidden>The animation file could not be loaded.</p>
 </dialog>

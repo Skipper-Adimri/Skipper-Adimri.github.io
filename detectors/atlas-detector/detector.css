@@ -206,8 +206,36 @@
 .particle-explorer__animation-head form { margin: 0; }
 .particle-explorer__animation-close { display: inline-flex; align-items: center; justify-content: center; width: 44px; min-height: 44px; margin: 0; padding: 0; border: 1px solid transparent; border-radius: .25rem; background: transparent; color: #345e32; cursor: pointer; font-size: 1.8rem; line-height: 1.15; }
 .particle-explorer__animation-media { margin: 0; padding: 1rem; text-align: center; }
+.particle-explorer__animation-frame { position: relative; overflow: hidden; background: #000; }
 .particle-explorer__animation-media img { display: block; width: 100%; height: auto; max-height: 68vh; object-fit: contain; }
-.particle-explorer__animation-toggle { display: inline-flex; align-items: center; min-height: 44px; margin-top: .8rem; }
+.particle-explorer__animation-toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 84px;
+  min-height: 84px;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgb(255 255 255 / 92%);
+  border-radius: 50%;
+  background: rgb(30 54 31 / 88%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 3px 18px rgb(0 0 0 / 42%);
+  transition: opacity 160ms ease, background 160ms ease, transform 160ms ease;
+}
+.particle-explorer__animation-toggle:hover,
+.particle-explorer__animation-toggle:focus-visible { background: rgb(49 93 58 / 96%); transform: translate(-50%, -50%) scale(1.06); }
+.particle-explorer__animation-toggle:focus-visible { outline: 3px solid var(--lime, #b8d440); outline-offset: 3px; }
+.particle-explorer__play-icon { width: 0; height: 0; margin-left: 6px; border-top: 17px solid transparent; border-bottom: 17px solid transparent; border-left: 27px solid currentcolor; }
+.particle-explorer__pause-icon { display: none; width: 25px; height: 31px; border-right: 8px solid currentcolor; border-left: 8px solid currentcolor; }
+.particle-explorer__animation-toggle[aria-pressed="true"] { opacity: .22; }
+.particle-explorer__animation-frame:hover .particle-explorer__animation-toggle[aria-pressed="true"],
+.particle-explorer__animation-toggle[aria-pressed="true"]:focus-visible { opacity: 1; }
+.particle-explorer__animation-toggle[aria-pressed="true"] .particle-explorer__play-icon { display: none; }
+.particle-explorer__animation-toggle[aria-pressed="true"] .particle-explorer__pause-icon { display: block; }
 .particle-explorer__animation-credit { margin: 0; padding-top: .8rem; color: var(--atlas-muted); font-size: .87rem; line-height: 1.35; }
 .particle-explorer__animation-error { margin: 0 1rem 1rem; color: #914436; }
 
@@ -274,6 +302,9 @@
   .atlas-momentum__slider-group { padding: .75rem; }
   .atlas-momentum__range-labels { font-size: .73rem; }
   .particle-explorer__animation-dialog { width: 96vw; max-width: 96vw; }
+  .particle-explorer__animation-toggle { width: 68px; min-height: 68px; }
+  .particle-explorer__play-icon { border-top-width: 14px; border-bottom-width: 14px; border-left-width: 22px; }
+  .particle-explorer__pause-icon { width: 21px; height: 26px; border-right-width: 7px; border-left-width: 7px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

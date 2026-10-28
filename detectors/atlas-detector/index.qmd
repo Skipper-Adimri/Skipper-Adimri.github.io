@@ -24,7 +24,7 @@ resources:
   - "../images/atlas/slice-clean.webp"
   - "../images/atlas/slice-annotations.svg"
   - "../images/atlas/Atlas_Simulation.webp"
-  - "../images/atlas/atlas-simulation-poster.webp"
+  - "../images/atlas/atlas-simulation-poster-v2.webp"
   - "../images/atlas/calorimeter-run3-labelled.webp"
   - "../images/atlas/tracking-principle.svg"
   - "../images/atlas/tracking-detector-details.webp"
@@ -76,4 +76,4 @@ Together, these measurements help reconstruct the particles produced in a collis
 [ATLAS Detector Schematics](https://atlas.cern/Resources/Schematics){.btn .btn-outline-primary}
 :::
 
-<script type="module" src="_scripts/detector-page.js?v=3"></script>
+<script type="module" src="_scripts/detector-page.js?v=4"></script>

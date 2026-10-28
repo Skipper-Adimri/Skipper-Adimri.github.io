@@ -280,30 +280,29 @@ function initializeParticles(root) {
   const animationCredit = root.querySelector('#atlas-animation-source')?.closest('p');
   const openButton = toolbar.querySelector('[data-particle-animation-open]');
   if (dialog && animationImage && animationToggle && openButton) {
+    function setAnimationPlaying(playing) {
+      animationImage.src = playing ? animationImage.dataset.src : animationImage.dataset.poster;
+      animationToggle.setAttribute('aria-label', playing ? 'Pause animation' : 'Play animation');
+      animationToggle.setAttribute('aria-pressed', String(playing));
+    }
     if (animationCredit) {
       animationCredit.classList.add('particle-explorer__animation-credit');
       dialog.querySelector('.particle-explorer__animation-media')?.appendChild(animationCredit);
     }
     openButton.addEventListener('click', () => {
       if (typeof dialog.showModal !== 'function') return;
-      animationImage.src = animationImage.dataset.poster;
-      animationToggle.textContent = 'Play animation';
-      animationToggle.setAttribute('aria-pressed', 'false');
+      setAnimationPlaying(false);
       dialog.showModal();
     });
     animationToggle.addEventListener('click', () => {
       const playing = animationToggle.getAttribute('aria-pressed') === 'true';
-      animationImage.src = playing ? animationImage.dataset.poster : animationImage.dataset.src;
-      animationToggle.textContent = playing ? 'Play animation' : 'Pause animation';
-      animationToggle.setAttribute('aria-pressed', String(!playing));
+      setAnimationPlaying(!playing);
     });
     animationImage.addEventListener('error', () => { if (animationError) animationError.hidden = false; });
     animationImage.addEventListener('load', () => { if (animationError) animationError.hidden = true; });
     dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
     dialog.addEventListener('close', () => {
-      animationImage.src = animationImage.dataset.poster;
-      animationToggle.textContent = 'Play animation';
-      animationToggle.setAttribute('aria-pressed', 'false');
+      setAnimationPlaying(false);
       openButton.focus();
     });
   }

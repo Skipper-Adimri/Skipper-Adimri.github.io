@@ -15,7 +15,7 @@ const viewSwitch = await readFile(path.join(outputDirectory, '_scripts/view-swit
 assert.match(html, /<main class="content" id="quarto-document-content">/);
 assert.match(html, /<math[^>]+xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/);
 assert.doesNotMatch(html, /MathJax|mathjax/);
-assert.match(html, /<script type="module" src="_scripts\/detector-page\.js\?v=3"><\/script>/);
+assert.match(html, /<script type="module" src="_scripts\/detector-page\.js\?v=4"><\/script>/);
 assert.equal((html.match(/<section[^>]+data-detector-card=/g) || []).length, 7);
 assert.equal((html.match(/<section[^>]+data-particle-card=/g) || []).length, 7);
 const detectorStageStart = html.indexOf('data-detector-stage');
@@ -61,7 +61,7 @@ for (const image of [
   'slice-clean.webp',
   'slice-annotations.svg',
   'Atlas_Simulation.webp',
-  'atlas-simulation-poster.webp',
+  'atlas-simulation-poster-v2.webp',
   'calorimeter-run3-labelled.webp',
   'tracking-principle.svg',
   'tracking-detector-details.webp',
@@ -79,7 +79,9 @@ assert.match(html, /alt="Concentric Pixel, SCT, and TRT tracking layers crossed/
 assert.doesNotMatch(html, /Atlas_Simulation\.gif|cutaway_labelled_ATLAS\.png/);
 assert.match(html, /srcset="\.\.\/images\/atlas\/cutaway-1600\.webp 1600w, \.\.\/images\/atlas\/cutaway-3200\.webp 3200w"/);
 assert.match(html, /data-particle-animation-toggle/);
+assert.match(html, /aria-label="Play animation"/);
 assert.match(particleExplorer, /animationImage\.dataset\.poster/);
+assert.match(css, /\.particle-explorer__animation-toggle\s*\{[^}]*position:\s*absolute/s);
 assert.match(viewSwitch, /panel\.scrollIntoView\(\{behavior:/);
 assert.match(css, /\.atlas-view-switch__button\s*\{[^}]*min-height:\s*44px/s);
 
