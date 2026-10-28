@@ -8,13 +8,22 @@ const projectRoot = path.resolve(testDirectory, '../../..');
 const outputDirectory = path.join(projectRoot, '_site/detectors/atlas-detector');
 const html = await readFile(path.join(outputDirectory, 'index.html'), 'utf8');
 const css = await readFile(path.join(outputDirectory, 'detector.css'), 'utf8');
+const detectorExplorer = await readFile(path.join(outputDirectory, '_scripts/detector-explorer.js'), 'utf8');
 
 assert.match(html, /<main class="content" id="quarto-document-content">/);
 assert.match(html, /<math[^>]+xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/);
 assert.doesNotMatch(html, /MathJax|mathjax/);
-assert.match(html, /<script type="module" src="_scripts\/detector-page\.js\?v=1"><\/script>/);
+assert.match(html, /<script type="module" src="_scripts\/detector-page\.js\?v=2"><\/script>/);
 assert.equal((html.match(/<section[^>]+data-detector-card=/g) || []).length, 7);
 assert.equal((html.match(/<section[^>]+data-particle-card=/g) || []).length, 7);
+const detectorStageStart = html.indexOf('data-detector-stage');
+const detectorStageEnd = html.indexOf('</div>', detectorStageStart);
+const detectorOverlay = html.indexOf('<svg class="detector-explorer__overlay"');
+assert.ok(detectorStageStart >= 0 && detectorStageEnd > detectorStageStart);
+assert.ok(
+  detectorOverlay > detectorStageEnd,
+  'detector overlay must remain outside the zooming image stage'
+);
 assert.doesNotMatch(html, /id="toc-electron-e-"/);
 assert.doesNotMatch(html, /<section[^>]+data-(?:detector|particle)-card=[^>]+hidden/);
 assert.match(html, /<section[^>]+class="[^"]*atlas-momentum__explanation[^"]*"/);
@@ -25,6 +34,11 @@ assert.doesNotMatch(
 );
 assert.match(css, /\.atlas-view-switch\.is-enhanced\s+\.atlas-view-panel\s*>\s*h4:first-child/);
 assert.match(css, /\.atlas-view-panel\s+figcaption\s*\{[^}]*padding:\s*\.65rem\s+1rem\s+0/s);
+assert.match(
+  detectorExplorer,
+  /text\.style\.fontSize\s*=\s*`\$\{font\}px`/,
+  'detector callout labels must retain their calibrated size inside Quarto'
+);
 
 for (const resource of [
   '_scripts/detector-page.js',

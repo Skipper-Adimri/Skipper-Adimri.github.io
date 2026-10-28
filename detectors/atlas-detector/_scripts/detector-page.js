@@ -1,5 +1,5 @@
 import {initializeViewSwitches} from './view-switch.js?v=1';
-import {initializeDetectorExplorers} from './detector-explorer.js?v=1';
+import {initializeDetectorExplorers} from './detector-explorer.js?v=2';
 import {initializeParticleExplorers} from './particle-explorer.js?v=1';
 import {initializeMomentumDemos} from './momentum.js?v=1';
 

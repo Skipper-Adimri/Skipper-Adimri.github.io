@@ -69,4 +69,4 @@ Together, these measurements help reconstruct the particles produced in a collis
 [ATLAS Detector Schematics](https://atlas.cern/Resources/Schematics){.btn .btn-outline-primary}
 :::
 
-<script type="module" src="_scripts/detector-page.js?v=1"></script>
+<script type="module" src="_scripts/detector-page.js?v=2"></script>

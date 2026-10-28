@@ -11,8 +11,8 @@ to return to the complete cutaway.
     <div class="detector-explorer__viewport" data-detector-viewport>
       <div class="detector-explorer__stage" data-detector-stage>
         <img src="../images/atlas/cutaway.png" data-detector-image data-labelled-src="../images/atlas/cutaway_labelled_ATLAS.png" alt="Three-dimensional cutaway of the ATLAS detector, showing concentric tracking and calorimeter systems surrounded by the large outer magnets and muon detectors." loading="lazy" decoding="async">
-        <svg class="detector-explorer__overlay" data-detector-overlay aria-label="Selectable detector components and annotations"></svg>
       </div>
+      <svg class="detector-explorer__overlay" data-detector-overlay aria-label="Selectable detector components and annotations"></svg>
     </div>
     <div data-detector-toolbar-host></div>
   </div>

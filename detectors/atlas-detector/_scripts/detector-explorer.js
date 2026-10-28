@@ -170,6 +170,10 @@ function initializeDetector(root) {
     group.appendChild(svgElement('rect', {x: left, y: top, width: boxWidth, height: boxHeight, rx: font * 0.17, class: 'detector-explorer__callout-box'}));
     const firstBaseline = centerY - (annotation.label.length - 1) * leading / 2;
     const text = svgElement('text', {x: centerX, y: firstBaseline, 'font-size': font, 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'detector-explorer__callout-label'});
+    // Keep Quarto's global SVG typography from overriding the calibrated label
+    // size. The original detector explorer used this inline declaration too.
+    text.style.fontSize = `${font}px`;
+    text.dataset.fontFraction = String(LABEL_FONT_FRACTION);
     annotation.label.forEach((line, index) => {
       const span = svgElement('tspan', {x: centerX, y: firstBaseline + index * leading});
       span.textContent = line;
