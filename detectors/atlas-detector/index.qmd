@@ -1,0 +1,183 @@
+---
+title: "ATLAS Detector"
+subtitle: "Exploring how ATLAS measures particles at CERN"
+toc: true
+format:
+  html:
+    anchor-sections: false
+    body-classes: atlas-detector-page
+    css:
+      - ../detector-explorer.css
+    include-after-body:
+      - file: ../components/detector-scripts.html
+resources:
+  - "../images/atlas/cutaway.png"
+  - "../images/atlas/cutaway_labelled_ATLAS.png"
+  - "../images/atlas/slice.png"
+  - "../detector-explorer.js"
+  - "../detector-momentum.js"
+  - "../images/atlas/slice-clean.png"
+  - "../images/atlas/slice-annotations.svg"
+  - "../images/atlas/Atlas_Simulation.gif"
+  - "../images/atlas/calorimeter-run3-labelled.png"
+  - "../images/atlas/inner-detector-focus.png"
+  - "../images/atlas/tracking-principle.svg"
+  - "../images/atlas/tracking-detector-details.png"
+  - "../images/atlas/sagitta-geometry.svg"
+  - "../images/atlas/fcal-longitudinal-layout.svg"
+---
+
+## Overview
+
+The **ATLAS detector** is a large particle detector at CERN's Large Hadron Collider.
+Protons or heavy ions collide near its center, producing particles that travel
+through several specialized layers. Each layer supplies a different piece of
+information, helping scientists reconstruct what happened in a collision.
+
+ATLAS is approximately 46 metres long and 25 metres in diameter. The illustration
+below shows a cutaway of this enormous instrument, revealing systems that would
+normally be hidden inside its outer structure.
+
+::: {.project-links}
+[Explore the Detector](#explore-the-detector){.btn .btn-primary}
+[Calorimetry](#calorimetry){.btn .btn-outline-primary}
+[Follow a Particle](#follow-a-particle){.btn .btn-outline-primary}
+:::
+
+## Explore the Detector
+
+Choose a subsystem from the image or the component list. The view will focus on
+that part of the detector and explain what it measures. Select **Full Detector**
+to return to the complete cutaway.
+
+::: {.column-body}
+
+```{=html}
+{{< include /detectors/components/atlas-explorer.html >}}
+```
+
+:::
+
+*Illustration: ATLAS Experiment © CERN, [2022 detector schematic](https://cds.cern.ch/record/2837191).
+Focus markers in this first prototype are approximate and must be calibrated against the full-resolution image.*
+
+## How the Detector Works
+
+The innermost tracking system records the paths of charged particles. A magnetic
+field bends those trajectories, allowing their momenta to be reconstructed.
+Calorimeters measure the energy deposited by electrons, photons, and hadrons.
+Farther out, muon chambers record muons that pass through the inner systems.
+Together, these measurements help reconstruct the particles produced in a collision.
+
+## Calorimetry
+
+ATLAS calorimeters measure particle energy by sampling the showers produced as
+particles pass through alternating **absorber** and **active** layers. The system
+combines a central steel-and-scintillator Tile calorimeter with liquid-argon (LAr)
+calorimeters covering the electromagnetic, hadronic end-cap, and forward regions.
+
+Select **Full Detector** to view the official labelled calorimeter cutaway, or choose
+**R–z Layout** to examine the longitudinal arrangement near the beam axis.
+
+::: {.column-body}
+
+```{=html}
+{{< include /detectors/components/atlas-calorimetry.html >}}
+```
+
+:::
+
+**Electromagnetic calorimeters (EMB and EMEC).** The LAr electromagnetic barrel
+(EMB) and electromagnetic end-cap (EMEC) measure showers initiated primarily by
+electrons and photons. Layers of lead absorbers and liquid argon provide fine spatial
+sampling of deposited energy.
+
+**Tile hadronic calorimeters.** A central barrel and two extended barrels use steel
+absorbers and scintillating tiles to sample hadronic showers. These measure much
+of the energy carried by strongly interacting particles in the central region.
+
+**Hadronic end-cap calorimeters (HEC).** Located at larger angles to the beam than
+the FCal, the HEC uses copper absorbers and liquid argon to measure hadronic energy
+in the end-cap region.
+
+**Forward calorimeters (FCal).** Close to the beam axis, the FCal extends coverage
+to approximately $3.1 < |\eta| < 4.9$. Each end-cap contains three LAr modules:
+**FCal1** uses copper absorbers for electromagnetic showers, while **FCal2** and
+**FCal3** use tungsten absorbers for hadronic showers. In the R–z view, their order
+along the beam direction is visible alongside the EMEC and HEC modules.
+
+## Follow a Particle
+
+Different particles leave different signatures. For example, an electron
+usually deposits much of its energy in the electromagnetic calorimeter, while
+a muon can travel through the calorimeters and reach the outer muon chambers.
+Choose a particle to compare these responses.
+
+::: {.column-body}
+
+```{=html}
+{{< include /detectors/components/atlas-particles.html >}}
+```
+
+:::
+
+*Particle-detection schematic: S. Mehlhase / ATLAS Experiment © CERN.
+[Official illustration](https://cds.cern.ch/record/2770815). The colored paths are conceptual guides,
+not measured trajectories; their positions require visual calibration.*
+
+## What Parts of the Detector I Use in My Analysis
+
+My heavy-ion analyses mainly combine two detector measurements: **charged-particle
+tracks in the Inner Detector** and **forward transverse energy in the FCal**.
+They probe different regions of a collision and serve distinct purposes.
+
+### Inner Detector: Charged-Particle Tracking
+
+The Inner Detector is the main ATLAS system for reconstructing charged particles
+near midrapidity. It surrounds the beam pipe with several nested tracking layers,
+so particles emerging from the collision leave a sequence of spatial measurements
+as they move outward through the detector.
+
+::: {.column-body}
+
+```{=html}
+{{< include /detectors/components/atlas-tracking.html >}}
+```
+
+:::
+
+In broad terms, tracking works in three steps. First, the **Pixel detector**, the
+**silicon microstrip tracker (SCT)**, and the **transition radiation tracker (TRT)**
+record discrete position measurements, usually called **hits**. Second, pattern-
+recognition algorithms identify groups of hits that belong to the same particle and
+fit them to a common trajectory. Third, because the particle moves in the ATLAS
+solenoidal magnetic field, the trajectory bends: the amount of curvature determines
+the transverse momentum $p_{\mathrm{T}}$, while the direction of curvature identifies
+the sign of the electric charge. The fitted trajectory also gives the particle's
+direction and point of closest approach to the collision vertex.
+
+For my analyses, these reconstructed tracks provide the charged particles whose
+event-by-event kinematics are used to study multiplicity, mean transverse momentum,
+and collective behavior in heavy-ion collisions. The tracking system is therefore
+the detector element that directly measures the particles entering the core physics
+observables.
+
+### Forward Calorimeters: Event Selection and Centrality
+
+The forward calorimeters measure transverse energy at large pseudorapidity,
+separated from the midrapidity tracks used in my analysis. Their summed energy
+provides an estimator of **collision centrality**, which is closely related to the
+overlap geometry of the colliding nuclei.
+
+Using forward energy for event classification and inner-detector tracks for the
+physics observables helps reduce **self-correlations**: if the same particles were
+used both to select an event class and to calculate the observable, the selection
+could introduce artificial correlations. The separation between tracking and
+forward calorimetry is therefore an important part of the analysis strategy.
+
+## Additional Resources
+
+::: {.project-links}
+[Official ATLAS Detector Guide](https://atlas.cern/Discover/Detector){.btn .btn-outline-primary}
+[ATLAS Detector Schematics](https://atlas.cern/Resources/Schematics){.btn .btn-outline-primary}
+:::

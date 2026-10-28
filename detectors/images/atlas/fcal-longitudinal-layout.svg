@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 550" role="img" aria-labelledby="fcal-title fcal-desc">
+  <title id="fcal-title">ATLAS Forward Calorimeter inside the end-cap cryostat</title>
+  <desc id="fcal-desc">Schematic longitudinal R-z arrangement. The EMEC lies toward the interaction point, and the hadronic end-cap calorimeter lies above the three forward calorimeter modules. FCal1 is electromagnetic and copper based; FCal2 and FCal3 are hadronic and tungsten based. Shielding lies behind the modules. Diagram adapted from the ATLAS detector paper Figure 5.19.</desc>
+  <rect width="1320" height="550" fill="#ffffff"/>
+  <g font-family="'Times New Roman', Times, serif">
+    <text x="68" y="32" font-size="19" font-weight="bold" fill="#315c37">End-cap calorimeter assembly · longitudinal R–z schematic</text>
+    <text x="1217" y="32" text-anchor="end" font-size="17" fill="#56645d">not to scale</text>
+
+    <!-- Cryostat wall and major mechanical enclosure -->
+    <rect x="94" y="62" width="1120" height="420" rx="8" fill="#f8faf7" stroke="#677c79" stroke-width="3"/>
+    <rect x="105" y="72" width="16" height="382" fill="#5e7272"/>
+    <rect x="1193" y="72" width="15" height="382" fill="#5e7272"/>
+    <rect x="124" y="74" width="1065" height="11" fill="#a9b6b4"/>
+    <rect x="124" y="457" width="1065" height="12" fill="#a9b6b4"/>
+
+    <!-- EMEC: broad face near front of end-cap -->
+    <path d="M154 114 H418 V337 L320 357 H154 Z" fill="#dce9df" stroke="#466e55" stroke-width="2.8"/>
+    <path d="M166 326 L392 326" fill="none" stroke="#8ab39a" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="284" y="201" text-anchor="middle" font-size="39" font-weight="bold" fill="#244c31">EMEC</text>
+    <text x="284" y="233" text-anchor="middle" font-size="20" fill="#3f5f48">Electromagnetic</text>
+    <text x="284" y="258" text-anchor="middle" font-size="20" fill="#3f5f48">end-cap</text>
+
+    <!-- HEC front and back lie radially outside FCal -->
+    <rect x="431" y="97" width="309" height="150" fill="#e4e7e4" stroke="#5c6766" stroke-width="2.7"/>
+    <rect x="748" y="97" width="299" height="150" fill="#cfd5d0" stroke="#5c6766" stroke-width="2.7"/>
+    <text x="586" y="163" text-anchor="middle" font-size="39" font-weight="bold" fill="#374441">HEC</text>
+    <text x="586" y="198" text-anchor="middle" font-size="22" fill="#495753">(front)</text>
+    <text x="897" y="163" text-anchor="middle" font-size="39" font-weight="bold" fill="#374441">HEC</text>
+    <text x="897" y="198" text-anchor="middle" font-size="22" fill="#495753">(back)</text>
+
+    <!-- Three longitudinal FCal modules -->
+    <rect x="431" y="263" width="194" height="174" fill="#d7e5eb" stroke="#2f6982" stroke-width="3"/>
+    <rect x="629" y="263" width="194" height="174" fill="#f4e3c4" stroke="#9c773c" stroke-width="3"/>
+    <rect x="827" y="263" width="194" height="174" fill="#ecd2ad" stroke="#9c773c" stroke-width="3"/>
+    <text x="528" y="326" text-anchor="middle" font-weight="bold" font-size="33" fill="#174f68">FCal1</text>
+    <text x="528" y="359" text-anchor="middle" font-size="24" fill="#174f68">EM</text>
+    <text x="528" y="393" text-anchor="middle" font-size="20" fill="#376d7f">Copper</text>
+    <text x="726" y="326" text-anchor="middle" font-weight="bold" font-size="33" fill="#65491e">FCal2</text>
+    <text x="726" y="359" text-anchor="middle" font-size="24" fill="#65491e">Hadronic</text>
+    <text x="726" y="393" text-anchor="middle" font-size="20" fill="#816337">Tungsten</text>
+    <text x="924" y="326" text-anchor="middle" font-weight="bold" font-size="33" fill="#65491e">FCal3</text>
+    <text x="924" y="359" text-anchor="middle" font-size="24" fill="#65491e">Hadronic</text>
+    <text x="924" y="393" text-anchor="middle" font-size="20" fill="#816337">Tungsten</text>
+
+    <!-- Downstream shield and upstream moderator -->
+    <rect x="1030" y="263" width="153" height="174" fill="#b5bbba" stroke="#677572" stroke-width="2"/>
+    <text x="1106" y="320" text-anchor="middle" font-size="25" font-weight="bold" fill="#273735">Shielding</text>
+    <text x="1106" y="353" text-anchor="middle" font-size="21" fill="#344642">plug</text>
+    <rect x="160" y="370" width="254" height="67" rx="4" fill="#e5e9e5" stroke="#8e9e9a" stroke-width="1.6"/>
+    <text x="287" y="399" text-anchor="middle" font-size="22" fill="#596a64">Upstream shielding</text>
+    <text x="287" y="423" text-anchor="middle" font-size="17" fill="#596a64">and services</text>
+    <path d="M419 257 H1026" fill="none" stroke="#fff" stroke-width="11"/>
+    <path d="M419 251 H1026" fill="none" stroke="#667775" stroke-width="2"/>
+
+    <!-- Axis / direction annotations -->
+    <path d="M93 496 V54 M86 68 L93 53 L100 68" fill="none" stroke="#243e32" stroke-width="2.7" stroke-linejoin="round"/>
+    <text x="64" y="52" font-size="28" font-style="italic" fill="#243e32">R</text>
+    <path d="M93 494 H1223 M1208 487 L1223 494 L1208 501" fill="none" stroke="#243e32" stroke-width="2.7" stroke-linejoin="round"/>
+    <text x="1227" y="506" font-size="28" font-style="italic" fill="#243e32">z</text>
+    <text x="150" y="528" font-size="18" fill="#52625a">Toward interaction point</text>
+    <path d="M342 523 H436 M348 518 L340 523 L348 528" fill="none" stroke="#52625a" stroke-width="2"/>
+    <text x="951" y="528" font-size="18" fill="#52625a">Along beam direction</text>
+    <path d="M1138 523 H1202 M1194 517 L1202 523 L1194 529" fill="none" stroke="#52625a" stroke-width="2"/>
+  </g>
+</svg>

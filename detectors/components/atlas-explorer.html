@@ -1,0 +1,47 @@
+<section class="detector-explorer" id="atlas-explorer" data-detector="atlas" aria-label="ATLAS detector component explorer">
+  <div class="detector-explorer__selector">
+    <p class="detector-explorer__label">Detector Components</p>
+    <div class="detector-explorer__choices" role="group" aria-label="Choose a detector subsystem">
+      <button type="button" data-detector-select="inner" aria-pressed="false">Inner Tracking Detector</button>
+      <button type="button" data-detector-select="em" aria-pressed="false">Electromagnetic Calorimeter</button>
+      <button type="button" data-detector-select="hadronic" aria-pressed="false">Hadronic Calorimeter</button>
+      <button type="button" data-detector-select="solenoid" aria-pressed="false">Solenoid Magnet</button>
+      <button type="button" data-detector-select="barrelToroid" aria-pressed="false">Barrel Toroid Magnet</button>
+      <button type="button" data-detector-select="endcapToroid" aria-pressed="false">End-cap Toroid Magnet</button>
+      <button type="button" data-detector-select="muon" aria-pressed="false">Muon Chambers</button>
+    </div>
+  </div>
+  <div class="detector-explorer__visual">
+    <div class="detector-explorer__viewport" data-detector-viewport>
+      <div class="detector-explorer__stage" data-detector-stage>
+        <img src="../images/atlas/cutaway.png"
+             alt="Three-dimensional cutaway of the ATLAS detector, showing concentric tracking and calorimeter systems surrounded by the large outer magnets and muon detectors."
+             data-detector-image data-labelled-src="../images/atlas/cutaway_labelled_ATLAS.png"
+             loading="eager" decoding="async">
+      </div>
+      <svg class="detector-explorer__overlay" data-detector-overlay
+           xmlns="http://www.w3.org/2000/svg" role="group"
+           aria-label="Selectable detector components and annotations"></svg>
+    </div>
+    <div class="detector-explorer__toolbar">
+      <div class="detector-explorer__toolbar-buttons">
+        <button type="button" class="btn btn-outline-primary detector-explorer__reset" data-detector-reset>Full Detector</button>
+        <button type="button" class="btn btn-outline-primary detector-explorer__labelled" data-detector-labelled aria-pressed="false" aria-label="Show official labelled detector illustration">Labelled</button>
+      </div>
+      <span class="detector-explorer__zoom" data-detector-zoom aria-live="polite">Full-detector view</span>
+    </div>
+  </div>
+  <div class="detector-explorer__details" data-detector-details aria-live="polite" aria-atomic="true">
+    <div data-detector-empty-state>
+      <h3>Explore a Detector Component</h3>
+      <p>Select a subsystem above or in the illustration to see what it measures and why it matters.</p>
+    </div>
+    <article data-detector-details-entry hidden>
+      <h3 data-detector-details-title></h3>
+      <p data-detector-details-lead></p>
+      <p><strong data-detector-details-measures-label>What it measures:</strong> <span data-detector-details-measures></span></p>
+      <p><strong>Why it matters:</strong> <span data-detector-details-why></span></p>
+    </article>
+  </div>
+</section>
+<noscript><p>Enable JavaScript to explore individual components. The complete ATLAS cutaway remains visible above.</p></noscript>
