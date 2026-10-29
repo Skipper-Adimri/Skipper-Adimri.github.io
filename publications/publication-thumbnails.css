@@ -1,6 +1,45 @@
 /* Publications: figure thumbnails aligned to the right, matching Talks & Posters. */
+.projects-publications main.content > section.level2 > h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1.8rem, 2.8vw, 2.35rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.7rem;
+  padding-bottom: 0.65rem;
+}
+
+/* Outlined Times New Roman; browsers without text-stroke retain solid text. */
+@supports (-webkit-text-stroke: 1px currentColor) {
+  .projects-publications main.content > section.level2 > h2 {
+    -webkit-text-fill-color: var(--bs-body-color, #34383d);
+    -webkit-text-stroke: 0.8px var(--bs-body-color, #34383d);
+  }
+}
+
+.projects-publications main.content > section.level2 + section.level2 {
+  margin-top: 4rem;
+}
+
 .publication-list .publication-item {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.publication-list .publication-item + .publication-item {
+  border-top: 1px solid #d8dfd2;
+  padding-top: 2.5rem;
+}
+
+.publication-list .publication-item + .publication-item > h3 {
+  margin-top: 0;
+}
+
+/* Markdown Divs contain paragraphs; keep their spacing equal to listing metadata. */
+.publication-list .publication-author > p,
+.publication-list .publication-citation > p,
+.publication-list .publication-links > p,
+.publication-list .publication-entry-image > p {
+  margin: 0;
 }
 
 .publication-list .publication-entry-body {
@@ -43,6 +82,51 @@
   max-width: 100%;
   max-height: 9rem;
   object-fit: contain;
+}
+
+/* Fill the same thumbnail column without enlarging other publication figures. */
+.project-list .project-thumbnail {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.project-list .project-image-attribution {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: max-content;
+  max-width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #d8dfd2;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.97);
+  color: #34383d;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.project-image-attribution span,
+.project-image-attribution a {
+  display: block;
+}
+
+.project-thumbnail:hover .project-image-attribution,
+.project-thumbnail:focus-within .project-image-attribution {
+  display: block;
+}
+
+.project-thumbnail:focus-visible {
+  outline: 2px solid var(--forest, #406c24);
+  outline-offset: 4px;
+}
+
+.project-list .publication-entry-image img {
+  width: 100%;
+  max-height: 11rem;
 }
 
 @media (max-width: 650px) {

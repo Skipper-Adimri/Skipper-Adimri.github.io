@@ -1,0 +1,14 @@
+ATLAS Detector Magnet System
+Original source: https://cds.cern.ch/record/2770604
+Credit: ATLAS Experiment © CERN
+Terms: https://www.atlas.cern/Resources/Schematics
+Original 4000 x 2250 PNG: Atlas_MagnetSystem.png (untouched).
+Clean thumbnail master: atlas-magnet-system-clean.png.
+Current tightly framed thumbnail master: atlas-magnet-system-tight.png.
+Additional built-in image edit prompt (2026-10-29):
+Crop this existing ATLAS detector image tightly to the bounding rectangle of the detector itself. Remove all unused white outer margins above, below, left and right. Keep only about 1% white padding on each side; outermost detector features must nearly touch each edge without clipping. Preserve every part of the existing illustration, beam pipe ends, top towers, endcap edges, blue field loops, green lines, colors and viewpoint exactly. Do not redesign, redraw, add objects, text or labels. This is only a tightly framed crop for a thumbnail. White background, landscape.
+Thumbnail: atlas-magnet-system-thumbnail.webp, 800 pixels wide, quality 85.
+The thumbnail is an AI-assisted edit for presentation, not a new technical diagram.
+Built-in image generation/editing tool used on 2026-10-29.
+Edit prompt:
+Edit target: the supplied CERN ATLAS detector cutaway. Remove ONLY the two black text captions at bottom left and bottom right, the two straight black annotation leader lines and their black endpoint dots. Restore the background or underlying detector pixels in those small areas. Preserve the entire detector illustration, perspective, all hardware geometry, grey/blue/yellow colors, all curved blue magnetic field loops and green lines exactly as in the original. Plain white background, full landscape composition, trim unnecessary white outer margins modestly. No new text or features. This is a faithful clean thumbnail of an existing scientific image, not a redesign.

@@ -1,0 +1,16 @@
+# Overview entries for Projects: Detectors & Instrumentation.
+# Add another entry using the same fields when its detailed page is ready.
+# Paths are relative to publications.qmd (the website root), not this YAML file.
+# Lower order numbers appear first; use 10, 20, 30 to leave room for insertions.
+# Keep the two description fields brief. Detailed explanations belong in QMD.
+# image-credit is optional and appears on hover; source details stay with the asset.
+- title: "ATLAS Detector — Interactive Explorer"
+  order: 10
+  description-line-1: "An interactive guide to ATLAS detector systems and particle measurements."
+  description-line-2: "Explore tracking, calorimetry, and the detectors used in my analyses."
+  project-url: "detectors/atlas-detector/index.qmd"
+  button-text: "Explore the Detector"
+  image: "detectors/images/atlas/atlas-magnet-system-thumbnail.webp"
+  image-alt: "ATLAS cutaway showing solenoidal and toroidal magnetic-field lines."
+  image-credit: "ATLAS Experiment © CERN"
+  image-source-url: "https://cds.cern.ch/record/2770604"

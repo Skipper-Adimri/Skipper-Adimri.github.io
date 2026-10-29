@@ -14,7 +14,7 @@ I am a physicist pursuing a Ph.D. in Nuclear Chemistry at Stony Brook University
 
 I work primarily with the **ATLAS Collaboration** at CERN and am also a member of the **STAR Collaboration** at Brookhaven National Laboratory. My research combines experimental data analysis with phenomenological modeling, with particular emphasis on collective flow, event-by-event fluctuations, and nuclear structure.
 
-## Research Approach
+## Current Research
 
 A central question in my research is how to connect experimentally measured observables to the underlying physics of a nuclear collision. In particular, I am interested in separating the influence of the initial nuclear geometry from the collective response of the evolving medium.
 

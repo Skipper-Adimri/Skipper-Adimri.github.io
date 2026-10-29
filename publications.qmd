@@ -1,6 +1,6 @@
 ---
-title: "Publications"
 toc: false
+body-classes: projects-publications
 
 format:
   html:
@@ -11,14 +11,35 @@ format:
 
 resources:
   - "publications/images/*"
+  - "detectors/images/atlas/atlas-magnet-system-thumbnail.webp"
 
 listing:
-  contents:
-    - publications/publications.yml
-  template: publications/_publication.ejs.md
-  sort: "date desc"
-  sort-ui: false
-  filter-ui: false
-  field-types:
-    date: date
+  - id: research-publications
+    contents:
+      - publications/publications.yml
+    template: publications/_publication.ejs.md
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    field-types:
+      date: date
+  - id: instrumentation-projects
+    contents:
+      - projects/projects.yml
+    template: projects/_project.ejs.md
+    sort: "order asc"
+    sort-ui: false
+    filter-ui: false
+    field-types:
+      order: number
 ---
+
+## Publications: Data Analysis, Phenomenology & Modeling
+
+::: {#research-publications}
+:::
+
+## Projects: Detectors & Instrumentation
+
+::: {#instrumentation-projects}
+:::

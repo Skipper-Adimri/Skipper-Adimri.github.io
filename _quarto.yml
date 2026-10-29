@@ -11,7 +11,7 @@ website:
       - href: cv.qmd
         text: CV
       - href: publications.qmd
-        text: Publications
+        text: Projects & Publications
       - href: presentation.qmd
         text: Talks & Posters
       - href: awards.qmd
