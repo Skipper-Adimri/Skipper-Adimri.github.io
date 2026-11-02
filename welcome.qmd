@@ -13,23 +13,23 @@ format:
 
 ::: {.welcome-hero}
 ::: {.welcome-copy}
-[Physicist]{.welcome-eyebrow}
+[Physicist · Experimental Nuclear Physics]{.welcome-eyebrow}
 
 # Aman Dimri
 
 ::: {.welcome-description}
-I study collective behavior in nuclear collisions through experimental measurements and phenomenological modeling.
+Connecting atomic nuclei and neutron stars through the physics of nuclear matter.
 :::
 
 ::: {.welcome-actions}
-[Explore my work](index.qmd){.btn .btn-primary}
-[View CV](cv.qmd){.btn .btn-outline-primary}
+[Explore my work](index.qmd){.btn .btn-primary .icon-link .cv-icon-project}
+[View CV](cv.qmd){.btn .btn-outline-primary .icon-link .cv-icon-preprint}
 :::
 
-::: {.welcome-socials}
-[Email](mailto:aman.dimri@stonybrook.edu)
-[INSPIRE-HEP](https://inspirehep.net/authors/2621463)
-[GitHub](https://github.com/Skipper-Adimri)
+::: {.welcome-socials .profile-contact-links}
+[Email](mailto:aman.dimri@stonybrook.edu){.btn .btn-outline-primary .icon-link .cv-icon-email}
+[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.btn .btn-outline-primary .icon-link .cv-icon-inspire}
+[GitHub](https://github.com/Skipper-Adimri){.btn .btn-outline-primary .icon-link .cv-icon-github}
 :::
 :::
 :::

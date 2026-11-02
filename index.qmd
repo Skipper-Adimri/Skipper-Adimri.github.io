@@ -33,9 +33,11 @@ properties of the quark-gluon plasma. My work combines experimental measurements
 Stony Brook University
 :::
 
-- [Email](mailto:aman.dimri@stonybrook.edu)
-- [INSPIRE-HEP](https://inspirehep.net/authors/2621463)
-- [GitHub](https://github.com/Skipper-Adimri)
+::: {.profile-contact-links}
+[Email](mailto:aman.dimri@stonybrook.edu){.icon-link .cv-icon-email}
+[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.icon-link .cv-icon-inspire}
+[GitHub](https://github.com/Skipper-Adimri){.icon-link .cv-icon-github}
+:::
 
 :::
 
@@ -50,13 +52,15 @@ My research in nuclear physics has given me a strong foundation for pursuing new
 
 ## Research Interests
 
-My current research and emerging interests span four areas—from nuclear physics to artificial intelligence—connected by the challenge of understanding complex behavior and determining which conclusions the evidence truly supports.
+My current research and emerging interests span five areas—from nuclear physics to artificial intelligence—connected by the challenge of understanding complex behavior and determining which conclusions the evidence truly supports.
 
 - **Collective Flow & Its Fluctuations:** Investigating how transverse momentum correlations and their event-by-event fluctuations reveal the collective dynamics and transport properties of the quark–gluon plasma.
 
 - **Constraining Nuclear Structure Through High Energy Collisions:** Investigating how nuclear structure, particularly nuclear deformation, influences measurable observables in high-energy collisions, and using this sensitivity to constrain the properties of nuclei that are difficult to characterize through conventional methods.
 
 - **Phenomenology & Modeling:** Developing analytical and computational approaches to connect initial-state physics, subsequent hydrodynamic evolution, and the final experimental measurements in high-energy nuclear collisions.
+
+- **Nuclear Matter & the Equation of State:** I am interested in how the nuclear equation of state, relating pressure to density, temperature, and composition, connects atomic nuclei, heavy-ion collisions, and neutron stars. These systems probe complementary regimes of strongly interacting matter.
 
 - **Artificial Intelligence & Reliable Reasoning:** Exploring how AI systems reason with scientific evidence, handle uncertainty and conflicting information, and how their reliability and robustness can be evaluated and improved.
 
