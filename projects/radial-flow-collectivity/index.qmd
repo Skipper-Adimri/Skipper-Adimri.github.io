@@ -10,10 +10,10 @@ toc: true
 :::
 
 ::: {.project-links}
-[PRL][prl]{.btn .btn-primary}
-[arXiv][arxiv]{.btn .btn-outline-primary}
-[SQM 2026 Talk](talks/sqm-2026.qmd){.btn .btn-outline-primary}
-[Presentation Slides][sqm-slides]{.btn .btn-outline-primary}
+[PRL][prl]{.btn .btn-primary .icon-link .icon-journal}
+[arXiv][arxiv]{.btn .btn-outline-primary .icon-link .icon-preprint}
+[SQM 2026 Talk](talks/sqm-2026.qmd){.btn .btn-outline-primary .icon-link .icon-talk}
+[Presentation Slides][sqm-slides]{.btn .btn-outline-primary .icon-link .icon-slides}
 :::
 
 ::: {.project-award}
@@ -236,7 +236,7 @@ The ATLAS Collaboration featured this measurement in its public coverage of
 Quark Matter 2025, with an accessible discussion of the radial-flow result and
 its implications for collectivity and QGP transport properties.
 
-[ATLAS Highlight][atlas-highlight]{.btn .btn-outline-primary}
+[ATLAS Highlight][atlas-highlight]{.btn .btn-outline-primary .icon-link .icon-news}
 
 
 **SQM 2026 Proceedings**

@@ -15,7 +15,7 @@ Eighth semester | Collaborative project with Divyanshu Gupta
 :::
 
 ::: {.project-links}
-[Full Project Report](files/scintillator-report.pdf){.btn .btn-outline-primary}
+[Full Project Report](files/scintillator-report.pdf){.btn .btn-outline-primary .icon-link .icon-report}
 :::
 
 ## Overview

@@ -11,10 +11,10 @@ anchor-sections: false
 Frankfurt am Main, Germany · April 2025
 
 ::: {.project-links}
-[Poster PDF](Poster_Final_QM2025.pdf){.btn .btn-primary}
-[Related Project](../index.qmd){.btn .btn-outline-primary}
+[Poster PDF](Poster_Final_QM2025.pdf){.btn .btn-primary .icon-link .icon-poster}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
 <!--
-[Quark Matter 2025][qm2025]{.btn .btn-outline-primary}
+[Quark Matter 2025][qm2025]{.btn .btn-outline-primary .icon-link .icon-conference}
 -->
 :::
 
@@ -92,7 +92,7 @@ While the publication develops the main physical interpretation of the different
 This poster is part of the broader project on differential radial flow:
 
 ::: {.project-links}
-[Go to Project Page](../index.qmd){.btn .btn-primary}
+[Go to Project Page](../index.qmd){.btn .btn-primary .icon-link .icon-project}
 :::
 
 [qm2025]: https://indico.cern.ch/event/1334113/

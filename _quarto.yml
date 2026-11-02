@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "images/icons/*"
   render:
     - "**/*.qmd"
     - "!**/_*/**"
@@ -26,6 +28,8 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css:
+      - styles.css
+      - icons.css
     toc: true
 

@@ -17,10 +17,10 @@
           </p>
           <div class="catalogue-entry-links">
             <% if (item['page-url']) { %>
-            <a href="<%- item['page-url'] %>" class="btn btn-primary btn-sm"><%= group.type %> Summary</a>
+            <a href="<%- item['page-url'] %>" class="btn btn-primary btn-sm icon-link icon-<%= group.type === 'Talk' ? 'talk' : 'poster' %>"><%= group.type %> Summary</a>
             <% } %>
             <% if (item['conference-url'] && item['conference-short']) { %>
-            <a href="<%- item['conference-url'] %>" class="btn btn-outline-primary btn-sm"><%= item['conference-short'] %></a>
+            <a href="<%- item['conference-url'] %>" class="btn btn-outline-primary btn-sm icon-link icon-conference"><%= item['conference-short'] %></a>
             <% } %>
           </div>
         </div>

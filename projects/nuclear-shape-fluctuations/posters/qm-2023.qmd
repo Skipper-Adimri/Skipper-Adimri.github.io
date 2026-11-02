@@ -13,9 +13,9 @@ Houston, Texas · September 5, 2023
 Poster presentation in the Initial State category.
 
 ::: {.project-links}
-[Poster][poster]{.btn .btn-primary}
-[Quark Matter 2023][conference]{.btn .btn-outline-primary}
-[Related Project](../index.qmd){.btn .btn-outline-primary}
+[Poster][poster]{.btn .btn-primary .icon-link .icon-poster}
+[Quark Matter 2023][conference]{.btn .btn-outline-primary .icon-link .icon-conference}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
 :::
 
 ## Summary

@@ -1,0 +1,51 @@
+/* Shared button/profile icons. SVGs are local; no icon font or JavaScript runtime. */
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45em;
+}
+.icon-link::before {
+  content: "";
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  flex: 0 0 1.1em;
+  background-color: currentColor;
+  -webkit-mask: var(--site-icon) center / contain no-repeat;
+  mask: var(--site-icon) center / contain no-repeat;
+}
+.icon-cv { --site-icon: url("images/icons/file-user.svg"); }
+.icon-download { --site-icon: url("images/icons/file-down.svg"); }
+.icon-publications { --site-icon: url("images/icons/library.svg"); }
+.icon-presentations { --site-icon: url("images/icons/presentation.svg"); }
+.icon-project { --site-icon: url("images/icons/folder-open.svg"); }
+.icon-thesis { --site-icon: url("images/icons/graduation-cap.svg"); }
+.icon-report { --site-icon: url("images/icons/file-text.svg"); }
+.icon-journal { --site-icon: url("images/icons/book-open.svg"); }
+.icon-preprint { --site-icon: url("images/icons/file-text.svg"); }
+.icon-talk { --site-icon: url("images/icons/mic.svg"); }
+.icon-slides { --site-icon: url("images/icons/presentation.svg"); }
+.icon-video { --site-icon: url("images/icons/circle-play.svg"); }
+.icon-poster { --site-icon: url("images/icons/panels-top-left.svg"); }
+.icon-conference { --site-icon: url("images/icons/calendar-days.svg"); }
+.icon-abstract { --site-icon: url("images/icons/file-text.svg"); }
+.icon-award { --site-icon: url("images/icons/trophy.svg"); }
+.icon-news { --site-icon: url("images/icons/newspaper.svg"); }
+.icon-guide { --site-icon: url("images/icons/book-open.svg"); }
+.icon-schematic { --site-icon: url("images/icons/drafting-compass.svg"); }
+.icon-expand { --site-icon: url("images/icons/expand.svg"); }
+.icon-detector { --site-icon: url("images/icons/atom.svg"); }
+.icon-calorimetry { --site-icon: url("images/icons/layers.svg"); }
+.icon-particle { --site-icon: url("images/icons/route.svg"); }
+.icon-analysis { --site-icon: url("images/icons/chart-column.svg"); }
+.icon-overview { --site-icon: url("images/icons/scan-line.svg"); }
+.icon-labels { --site-icon: url("images/icons/tag.svg"); }
+.icon-concept { --site-icon: url("images/icons/lightbulb.svg"); }
+.icon-details { --site-icon: url("images/icons/list.svg"); }
+.icon-momentum { --site-icon: url("images/icons/orbit.svg"); }
+.icon-location { --site-icon: url("images/icons/map-pin.svg"); }
+.icon-email { --site-icon: url("images/icons/email.svg"); }
+.icon-inspire { --site-icon: url("images/icons/inspire.svg"); }
+.icon-github { --site-icon: url("images/icons/github.svg"); }
+.icon-linkedin { --site-icon: url("images/icons/linkedin.svg"); }

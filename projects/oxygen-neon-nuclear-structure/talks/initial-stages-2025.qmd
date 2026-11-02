@@ -14,10 +14,10 @@ Taipei, Taiwan · September 11, 2025
 **Plenary Talk** · Presented on behalf of the ATLAS Collaboration.
 
 ::: {.project-links}
-[Presentation Slides][slides]{.btn .btn-primary}
-[Conference Contribution][contribution]{.btn .btn-outline-primary}
-[Related Project](../index.qmd){.btn .btn-outline-primary}
-[ATLAS Physics Briefing][atlas-briefing]{.btn .btn-outline-primary}
+[Presentation Slides][slides]{.btn .btn-primary .icon-link .icon-slides}
+[Conference Contribution][contribution]{.btn .btn-outline-primary .icon-link .icon-conference}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
+[ATLAS Physics Briefing][atlas-briefing]{.btn .btn-outline-primary .icon-link .icon-news}
 :::
 
 ## Summary

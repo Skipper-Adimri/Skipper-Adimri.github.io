@@ -37,8 +37,8 @@ I received the award at SQM 2026 for my presentation on the ATLAS measurement of
 radial-flow fluctuations in Pb+Pb collisions.
 
 ::: {.project-links}
-[View the Talk](projects/radial-flow-collectivity/talks/sqm-2026.qmd){.btn .btn-primary}
-[Award Presentation][sqm-award]{.btn .btn-outline-primary}
+[View the Talk](projects/radial-flow-collectivity/talks/sqm-2026.qmd){.btn .btn-primary .icon-link .icon-talk}
+[Award Presentation][sqm-award]{.btn .btn-outline-primary .icon-link .icon-award}
 :::
 
 ::::

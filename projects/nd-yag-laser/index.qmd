@@ -23,7 +23,7 @@ Seventh semester
 :::
 
 ::: {.project-links}
-[Full Project Report](files/nd-yag-report.pdf){.btn .btn-outline-primary}
+[Full Project Report](files/nd-yag-report.pdf){.btn .btn-outline-primary .icon-link .icon-report}
 :::
 
 ## Overview
@@ -197,7 +197,7 @@ clear two-lobed example.
 
 ![Illustrative transverse laser modes of the frequency-doubled Nd:YAG laser. Each pair shows a representative beam pattern (left) and an idealized three-dimensional intensity surface (right): **(a,b)** $\mathrm{TEM}_{00}$; **(c,d)** $\mathrm{TEM}_{10}$; **(e,f)** $\mathrm{TEM}_{20}$; **(g,h)** $\mathrm{TEM}_{02}$; **(i,j)** $\mathrm{TEM}_{30}$; **(k,l)** $\mathrm{TEM}_{22}$. The images are illustrative, enhanced for clarity, and are not the original measured intensity profiles. Experimental photographs and profiles appear in the laboratory report.](images/transverse-modes.webp){#fig-ndyag-modes fig-align="center" width="100%" fig-alt="Six pairs of illustrative green laser transverse modes and idealized intensity surfaces: TEM00, TEM10, TEM20, TEM02, TEM30 and TEM22."}
 
-[Enlarged Figure](images/transverse-modes.webp){#ndyag-enlarge-modes .btn .btn-outline-primary target="_blank" rel="noopener noreferrer"}
+[Enlarged Figure](images/transverse-modes.webp){#ndyag-enlarge-modes .btn .btn-outline-primary target="_blank" rel="noopener noreferrer" .icon-link .icon-expand}
 
 ## Conclusions
 

@@ -17,9 +17,9 @@ properties of the quark-gluon plasma. My work combines experimental measurements
 :::
 
 ::: {.homepage-links}
-[CV](cv.qmd){.btn .btn-outline-primary}
-[Projects & Publications](publications.qmd){.btn .btn-primary}
-[Talks & Posters](presentation.qmd){.btn .btn-outline-primary}
+[CV](cv.qmd){.btn .btn-outline-primary .icon-link .icon-cv}
+[Projects & Publications](publications.qmd){.btn .btn-primary .icon-link .icon-publications}
+[Talks & Posters](presentation.qmd){.btn .btn-outline-primary .icon-link .icon-presentations}
 :::
 
 :::: {.homepage-research}
@@ -34,10 +34,10 @@ Stony Brook University
 :::
 
 ::: {.profile-contact-links}
-[Email](mailto:aman.dimri@stonybrook.edu){.icon-link .cv-icon-email}
-[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.icon-link .cv-icon-inspire}
-[GitHub](https://github.com/Skipper-Adimri){.icon-link .cv-icon-github}
-[LinkedIn](https://www.linkedin.com/in/aman-dimri/){.icon-link .cv-icon-linkedin}
+[Email](mailto:aman.dimri@stonybrook.edu){.icon-link .icon-email}
+[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.icon-link .icon-inspire}
+[GitHub](https://github.com/Skipper-Adimri){.icon-link .icon-github}
+[LinkedIn](https://www.linkedin.com/in/aman-dimri/){.icon-link .icon-linkedin}
 :::
 
 :::
@@ -94,7 +94,7 @@ origin for radial-flow fluctuations. Comparison with hydrodynamic calculations f
 revealed a distinctive sensitivity of the measured $v_0(p_T)$ shape to the bulk viscosity
 of the quark-gluon plasma.
 
-[Explore the Project](projects/radial-flow-collectivity/index.qmd){.btn .btn-primary}
+[Explore the Project](projects/radial-flow-collectivity/index.qmd){.btn .btn-primary .icon-link .icon-project}
 
 ::::
 
@@ -106,7 +106,7 @@ of the quark-gluon plasma.
 My presentation of the ATLAS radial-flow measurement at SQM 2026 received the
 Andre Mischke Award for Best Experimental Talk.
 
-[View the Talk](projects/radial-flow-collectivity/talks/sqm-2026.qmd){.btn .btn-outline-primary}
+[View the Talk](projects/radial-flow-collectivity/talks/sqm-2026.qmd){.btn .btn-outline-primary .icon-link .icon-talk}
 :::
 
 :::

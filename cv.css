@@ -132,22 +132,7 @@ body.academic-cv-page #title-block-header {
   text-decoration: none;
 }
 
-.academic-cv .cv-small-btn::before {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  flex-shrink: 0;
-  background-color: currentColor;
-  -webkit-mask-image: var(--cv-icon);
-  mask-image: var(--cv-icon);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
+/* Icon drawing is shared in icons.css. */
 
 /* Topic pills: Pandoc wraps all three spans in one paragraph, so the gap belongs here. */
 .academic-cv .cv-topics {

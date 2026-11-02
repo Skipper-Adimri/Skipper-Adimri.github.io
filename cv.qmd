@@ -19,12 +19,12 @@ Graduate Researcher, Stony Brook University
 ATLAS Collaboration, CERN · STAR Collaboration, Brookhaven National Laboratory
 
 ::: {.cv-contact-links}
-[Email](mailto:aman.dimri@stonybrook.edu){.btn .btn-outline-primary .cv-small-btn .cv-icon-email}
-[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.btn .btn-outline-primary .cv-small-btn .cv-icon-inspire}
-[GitHub](https://github.com/Skipper-Adimri){.btn .btn-outline-primary .cv-small-btn .cv-icon-github}
+[Email](mailto:aman.dimri@stonybrook.edu){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-email}
+[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-inspire}
+[GitHub](https://github.com/Skipper-Adimri){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-github}
 :::
 
-[Download CV (PDF)](files/CV_Aman_Dimri.pdf){.btn .btn-primary}
+[Download CV (PDF)](files/CV_Aman_Dimri.pdf){.btn .btn-primary .icon-link .icon-download}
 
 *Updated October 2026*
 :::
@@ -77,7 +77,7 @@ Minor in Computer Science · Advisor: Prof. Bedangadas Mohanty
 - Performed data analysis for the ATLAS measurement of differential radial flow in Pb+Pb collisions as a contributing member of the primary analysis group.
 :::
 ::: {.cv-research-action}
-[Related Project](projects/radial-flow-collectivity/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+[Related Project](projects/radial-flow-collectivity/index.qmd){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-project}
 :::
 ::::
 
@@ -88,7 +88,7 @@ Minor in Computer Science · Advisor: Prof. Bedangadas Mohanty
 - Served as the main analyzer for multi-particle cumulant measurements in O+O and Ne+Ne collisions within the ATLAS primary analysis group.
 :::
 ::: {.cv-research-action}
-[Related Project](projects/oxygen-neon-nuclear-structure/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+[Related Project](projects/oxygen-neon-nuclear-structure/index.qmd){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-project}
 :::
 ::::
 
@@ -97,7 +97,7 @@ Minor in Computer Science · Advisor: Prof. Bedangadas Mohanty
 - Investigated the effects of nuclear quadrupole deformation and triaxiality fluctuations on initial-state geometry using Monte Carlo simulations.
 :::
 ::: {.cv-research-action}
-[Related Project](projects/nuclear-shape-fluctuations/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+[Related Project](projects/nuclear-shape-fluctuations/index.qmd){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-project}
 :::
 ::::
 
@@ -108,7 +108,7 @@ Minor in Computer Science · Advisor: Prof. Bedangadas Mohanty
 - Proposed the constant-offset interpretation of $v_0(p_{\mathrm{T}})$ induced by global multiplicity fluctuations and derived the underlying analytical framework.
 :::
 ::: {.cv-research-action}
-[Related Project](projects/differential-radial-flow-shape/index.qmd){.btn .btn-outline-primary .cv-small-btn .cv-icon-project}
+[Related Project](projects/differential-radial-flow-shape/index.qmd){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-project}
 :::
 ::::
 
@@ -122,8 +122,8 @@ Minor in Computer Science · Advisor: Prof. Bedangadas Mohanty
 S. Bhatta, **A. Dimri**, and J. Jia. *Nucl. Sci. Tech.* **37**, 163 (2026).
 :::
 ::: {.cv-publication-actions}
-[NST](https://doi.org/10.1007/s41365-026-01998-z){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
-[arXiv](https://arxiv.org/abs/2504.20008){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+[NST](https://doi.org/10.1007/s41365-026-01998-z){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-journal}
+[arXiv](https://arxiv.org/abs/2504.20008){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-preprint}
 :::
 ::::
 
@@ -134,8 +134,8 @@ S. Bhatta, **A. Dimri**, and J. Jia. *Nucl. Sci. Tech.* **37**, 163 (2026).
 ATLAS Collaboration. *Phys. Rev. C* **113**, 045205 (2026).
 :::
 ::: {.cv-publication-actions}
-[PRC](https://doi.org/10.1103/xqxz-8bhf){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
-[arXiv](https://arxiv.org/abs/2509.05171){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+[PRC](https://doi.org/10.1103/xqxz-8bhf){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-journal}
+[arXiv](https://arxiv.org/abs/2509.05171){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-preprint}
 :::
 ::::
 
@@ -146,8 +146,8 @@ ATLAS Collaboration. *Phys. Rev. C* **113**, 045205 (2026).
 ATLAS Collaboration. *Phys. Rev. Lett.* **136**, 032301 (2026).
 :::
 ::: {.cv-publication-actions}
-[PRL](https://doi.org/10.1103/ldcn-r2lq){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
-[arXiv](https://arxiv.org/abs/2503.24125){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+[PRL](https://doi.org/10.1103/ldcn-r2lq){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-journal}
+[arXiv](https://arxiv.org/abs/2503.24125){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-preprint}
 :::
 ::::
 
@@ -158,13 +158,13 @@ ATLAS Collaboration. *Phys. Rev. Lett.* **136**, 032301 (2026).
 **A. Dimri**, S. Bhatta, and J. Jia. *Eur. Phys. J. A* **59**, 45 (2023).
 :::
 ::: {.cv-publication-actions}
-[EPJ A](https://doi.org/10.1140/epja/s10050-023-00965-1){.btn .btn-outline-primary .cv-small-btn .cv-icon-journal}
-[arXiv](https://arxiv.org/abs/2301.03556){.btn .btn-outline-primary .cv-small-btn .cv-icon-preprint}
+[EPJ A](https://doi.org/10.1140/epja/s10050-023-00965-1){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-journal}
+[arXiv](https://arxiv.org/abs/2301.03556){.btn .btn-outline-primary .cv-small-btn .icon-link .icon-preprint}
 :::
 ::::
 :::
 
-[View Publications](publications.qmd){.btn .btn-outline-primary}
+[View Publications](publications.qmd){.btn .btn-outline-primary .icon-link .icon-publications}
 
 ## Selected Presentations
 
@@ -219,7 +219,7 @@ Seattle, USA
 :::
 ::::
 
-[View Talks & Posters](presentation.qmd){.btn .btn-outline-primary}
+[View Talks & Posters](presentation.qmd){.btn .btn-outline-primary .icon-link .icon-presentations}
 
 ## Honors & Awards
 

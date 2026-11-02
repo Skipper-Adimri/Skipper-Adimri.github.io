@@ -10,6 +10,7 @@
   description-line-2: "Explore tracking, calorimetry, and the detectors used in my analyses."
   project-url: "detectors/atlas-detector/index.qmd"
   button-text: "Explore the Detector"
+  button-icon: "detector"
   image: "detectors/images/atlas/atlas-magnet-system-thumbnail.webp"
   image-alt: "ATLAS cutaway showing solenoidal and toroidal magnetic-field lines."
   image-credit: "ATLAS Experiment © CERN"

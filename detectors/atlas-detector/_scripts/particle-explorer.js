@@ -173,14 +173,14 @@ function buildToolbar() {
   const buttons = document.createElement('div');
   buttons.className = 'particle-explorer__toolbar-buttons';
   const definitions = [
-    ['particleReset', 'Full Detector', 'particle-explorer__reset'],
-    ['particleLabelled', 'Labelled', 'particle-explorer__labelled'],
-    ['particleAnimationOpen', 'Watch Animation', 'particle-explorer__animation-button']
+    ['particleReset', 'Full Detector', 'particle-explorer__reset', 'overview'],
+    ['particleLabelled', 'Labelled', 'particle-explorer__labelled', 'labels'],
+    ['particleAnimationOpen', 'Watch Animation', 'particle-explorer__animation-button', 'video']
   ];
-  definitions.forEach(([datasetKey, label, className]) => {
+  definitions.forEach(([datasetKey, label, className, icon]) => {
     const button = document.createElement('button');
     button.type = 'button';
-    button.className = `btn btn-outline-primary ${className}`;
+    button.className = `btn btn-outline-primary ${className} icon-link icon-${icon}`;
     button.dataset[datasetKey] = '';
     button.textContent = label;
     if (datasetKey === 'particleLabelled') button.setAttribute('aria-pressed', 'false');

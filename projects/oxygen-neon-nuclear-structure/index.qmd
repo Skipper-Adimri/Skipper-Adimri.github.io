@@ -15,9 +15,9 @@ format:
 :::
 
 ::: {.project-links}
-[PRC][journal]{.btn .btn-primary}
-[arXiv][arxiv]{.btn .btn-outline-primary}
-[ATLAS Physics Briefing][atlas-briefing]{.btn .btn-outline-primary}
+[PRC][journal]{.btn .btn-primary .icon-link .icon-journal}
+[arXiv][arxiv]{.btn .btn-outline-primary .icon-link .icon-preprint}
+[ATLAS Physics Briefing][atlas-briefing]{.btn .btn-outline-primary .icon-link .icon-news}
 :::
 
 ::: {.project-plenary}
@@ -26,7 +26,7 @@ format:
 Presented the first ATLAS results from the O+O and Ne+Ne collision program at
 Initial Stages 2025 in Taipei, Taiwan, on September 11, 2025.
 
-[Initial Stages 2025 Talk](talks/initial-stages-2025.qmd){.btn .btn-outline-primary}
+[Initial Stages 2025 Talk](talks/initial-stages-2025.qmd){.btn .btn-outline-primary .icon-link .icon-talk}
 :::
 
 ## Overview

@@ -31,17 +31,17 @@
 
                 <div class="catalogue-entry-links publication-links">
                     <% if (item['journal-url'] && item['journal-short']) { %>
-                    <a href="<%- item['journal-url'] %>" class="btn btn-primary btn-sm">
+                    <a href="<%- item['journal-url'] %>" class="btn btn-primary btn-sm icon-link icon-journal">
                         <%= item['journal-short'] %>
                     </a>
                     <% } %>
                     <% if (item['project-url']) { %>
-                    <a href="<%- item['project-url'] %>" class="btn btn-outline-primary btn-sm">
+                    <a href="<%- item['project-url'] %>" class="btn btn-outline-primary btn-sm icon-link icon-project">
                         Project Summary
                     </a>
                     <% } %>
                     <% if (item['arxiv-url']) { %>
-                    <a href="<%- item['arxiv-url'] %>" class="btn btn-outline-primary btn-sm">
+                    <a href="<%- item['arxiv-url'] %>" class="btn btn-outline-primary btn-sm icon-link icon-preprint">
                         arXiv
                     </a>
                     <% } %>

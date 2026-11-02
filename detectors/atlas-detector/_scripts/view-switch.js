@@ -1,7 +1,12 @@
+const viewIcons = {
+  full: 'overview', rz: 'schematic', concept: 'concept', details: 'details',
+  momentum: 'momentum', 'zdc-location': 'location', 'zdc-schematic': 'schematic'
+};
+
 function controlButton(panel, key) {
   const button = document.createElement('button');
   button.type = 'button';
-  button.className = 'atlas-view-switch__button';
+  button.className = `atlas-view-switch__button icon-link icon-${viewIcons[key] || 'details'}`;
   button.dataset.viewSelect = key;
   button.textContent = panel.dataset.viewLabel || panel.querySelector('h3, h4')?.textContent.trim() || key;
   button.setAttribute('aria-pressed', 'false');

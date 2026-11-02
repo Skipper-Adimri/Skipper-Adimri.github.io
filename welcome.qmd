@@ -22,14 +22,14 @@ Connecting atomic nuclei and neutron stars through the physics of nuclear matter
 :::
 
 ::: {.welcome-actions}
-[Explore my work](index.qmd){.btn .btn-primary .icon-link .cv-icon-project}
-[View CV](cv.qmd){.btn .btn-outline-primary .icon-link .cv-icon-preprint}
+[Explore my work](index.qmd){.btn .btn-primary .icon-link .icon-project}
+[View CV](cv.qmd){.btn .btn-outline-primary .icon-link .icon-cv}
 :::
 
 ::: {.welcome-socials .profile-contact-links}
-[Email](mailto:aman.dimri@stonybrook.edu){.btn .btn-outline-primary .icon-link .cv-icon-email}
-[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.btn .btn-outline-primary .icon-link .cv-icon-inspire}
-[GitHub](https://github.com/Skipper-Adimri){.btn .btn-outline-primary .icon-link .cv-icon-github}
+[Email](mailto:aman.dimri@stonybrook.edu){.btn .btn-outline-primary .icon-link .icon-email}
+[INSPIRE-HEP](https://inspirehep.net/authors/2621463){.btn .btn-outline-primary .icon-link .icon-inspire}
+[GitHub](https://github.com/Skipper-Adimri){.btn .btn-outline-primary .icon-link .icon-github}
 :::
 :::
 :::

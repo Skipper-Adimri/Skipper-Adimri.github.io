@@ -15,9 +15,9 @@ format:
 :::
 
 ::: {.project-links}
-[EPJ A][journal]{.btn .btn-primary}
-[arXiv][arxiv]{.btn .btn-outline-primary}
-[INT-23-1a Talk](talks/int-23-1a.qmd){.btn .btn-outline-primary}
+[EPJ A][journal]{.btn .btn-primary .icon-link .icon-journal}
+[arXiv][arxiv]{.btn .btn-outline-primary .icon-link .icon-preprint}
+[INT-23-1a Talk](talks/int-23-1a.qmd){.btn .btn-outline-primary .icon-link .icon-talk}
 :::
 
 ## Overview
@@ -200,7 +200,7 @@ the ATLAS O+O and Ne+Ne flow measurement, which tests the sensitivity of
 collective flow to the intrinsic shapes of light nuclei.
 
 ::: {.project-links}
-[Oxygen-Neon Nuclear Structure](../oxygen-neon-nuclear-structure/index.qmd){.btn .btn-outline-primary}
+[Oxygen-Neon Nuclear Structure](../oxygen-neon-nuclear-structure/index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
 :::
 
 ## Related Presentations
@@ -208,10 +208,10 @@ collective flow to the intrinsic shapes of light nuclei.
 The study was presented through the following talks and posters:
 
 ::: {.project-links}
-[APS DNP 2022 Talk](talks/aps-dnp-2022.qmd){.btn .btn-outline-primary}
-[INT-23-1a Talk](talks/int-23-1a.qmd){.btn .btn-primary}
-[SQM 2022 Poster](posters/sqm-2022.qmd){.btn .btn-outline-primary}
-[QM 2023 Poster](posters/qm-2023.qmd){.btn .btn-outline-primary}
+[APS DNP 2022 Talk](talks/aps-dnp-2022.qmd){.btn .btn-outline-primary .icon-link .icon-talk}
+[INT-23-1a Talk](talks/int-23-1a.qmd){.btn .btn-primary .icon-link .icon-talk}
+[SQM 2022 Poster](posters/sqm-2022.qmd){.btn .btn-outline-primary .icon-link .icon-poster}
+[QM 2023 Poster](posters/qm-2023.qmd){.btn .btn-outline-primary .icon-link .icon-poster}
 :::
 
 [journal]: https://doi.org/10.1140/epja/s10050-023-00965-1

@@ -13,10 +13,10 @@ Institute for Nuclear Theory, University of Washington · Seattle, Washington ·
 In-person presentation during the INT-23-1a program.
 
 ::: {.project-links}
-[Talk Recording][video]{.btn .btn-primary}
-[Presentation Slides][slides]{.btn .btn-outline-primary}
-[INT Program][program]{.btn .btn-outline-primary}
-[Related Project](../index.qmd){.btn .btn-outline-primary}
+[Talk Recording][video]{.btn .btn-primary .icon-link .icon-video}
+[Presentation Slides][slides]{.btn .btn-outline-primary .icon-link .icon-slides}
+[INT Program][program]{.btn .btn-outline-primary .icon-link .icon-conference}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
 :::
 
 ## Summary

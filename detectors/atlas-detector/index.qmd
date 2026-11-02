@@ -49,10 +49,10 @@ normally be hidden inside its outer structure.
 Pixel, SCT, and TRT tracking systems used in the analyses discussed below.*
 
 ::: {.project-links}
-[Explore the Detector](#explore-the-detector){.btn .btn-primary}
-[Calorimetry](#calorimetry){.btn .btn-outline-primary}
-[Follow a Particle](#follow-a-particle){.btn .btn-outline-primary}
-[My Analysis](#what-parts-of-the-detector-i-use-in-my-analysis){.btn .btn-outline-primary}
+[Explore the Detector](#explore-the-detector){.btn .btn-primary .icon-link .icon-detector}
+[Calorimetry](#calorimetry){.btn .btn-outline-primary .icon-link .icon-calorimetry}
+[Follow a Particle](#follow-a-particle){.btn .btn-outline-primary .icon-link .icon-particle}
+[My Analysis](#what-parts-of-the-detector-i-use-in-my-analysis){.btn .btn-outline-primary .icon-link .icon-analysis}
 :::
 
 {{< include /detectors/atlas-detector/_sections/_explorer.qmd >}}
@@ -74,8 +74,8 @@ Together, these measurements help reconstruct the particles produced in a collis
 ## Additional Resources
 
 ::: {.project-links}
-[Official ATLAS Detector Guide](https://atlas.cern/Discover/Detector){.btn .btn-outline-primary}
-[ATLAS Detector Schematics](https://atlas.cern/Resources/Schematics){.btn .btn-outline-primary}
+[Official ATLAS Detector Guide](https://atlas.cern/Discover/Detector){.btn .btn-outline-primary .icon-link .icon-guide}
+[ATLAS Detector Schematics](https://atlas.cern/Resources/Schematics){.btn .btn-outline-primary .icon-link .icon-schematic}
 :::
 
 <script type="module" src="_scripts/detector-page.js?v=4"></script>

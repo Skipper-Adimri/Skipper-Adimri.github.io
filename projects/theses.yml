@@ -7,6 +7,7 @@
   description-line-2: "Applied thermal, transport, and hydrodynamic models to hadronic matter, particle yields, and collective flow."
   project-url: "projects/masters-thesis/index.qmd"
   button-text: "Explore Thesis"
+  button-icon: "thesis"
   image: "projects/masters-thesis/images/niser-thesis-thumbnail-v5.webp"
   image-alt: "Blue NISER institutional emblem above the words Master's Thesis."
   image-credit: "NISER emblem from the original 2021 Master's thesis cover"

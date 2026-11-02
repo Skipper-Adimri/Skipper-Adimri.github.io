@@ -15,9 +15,9 @@ Los Angeles, California · March 24, 2026
 Presented on behalf of the ATLAS Collaboration.
 
 ::: {.project-links}
-[Conference Contribution][sqm-talk]{.btn .btn-primary}
-[Presentation Slides][sqm-slides]{.btn .btn-outline-primary}
-[Related Project](../index.qmd){.btn .btn-outline-primary}
+[Conference Contribution][sqm-talk]{.btn .btn-primary .icon-link .icon-conference}
+[Presentation Slides][sqm-slides]{.btn .btn-outline-primary .icon-link .icon-slides}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
 :::
 
 ## Summary
@@ -36,7 +36,7 @@ models further demonstrate the sensitivity of $v_0(p_T)$ to the bulk viscosity o
 
 This presentation received the Andre Mischke Award for Best Experimental Talk at SQM 2026.
 
-[View Award](../../../awards.qmd){.btn .btn-primary}
+[View Award](../../../awards.qmd){.btn .btn-primary .icon-link .icon-award}
 :::
 
 [sqm-talk]: https://indico.global/event/13943/contributions/143376/

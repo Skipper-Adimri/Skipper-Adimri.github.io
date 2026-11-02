@@ -13,8 +13,8 @@ New Orleans, Louisiana · October 28, 2022
 Oral presentation in the *Mini-Symposium: The Initial State of Heavy-Ion Collisions I*.
 
 ::: {.project-links}
-[APS Abstract][aps-abstract]{.btn .btn-primary}
-[Related Project](../index.qmd){.btn .btn-outline-primary}
+[APS Abstract][aps-abstract]{.btn .btn-primary .icon-link .icon-abstract}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
 :::
 
 ## Summary

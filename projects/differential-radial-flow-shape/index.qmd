@@ -15,9 +15,9 @@ format:
 :::
 
 ::: {.project-links}
-[NST][journal]{.btn .btn-primary}
-[arXiv][arxiv]{.btn .btn-outline-primary}
-[QM 2025 Poster](posters/qm-2025.qmd){.btn .btn-outline-primary}
+[NST][journal]{.btn .btn-primary .icon-link .icon-journal}
+[arXiv][arxiv]{.btn .btn-outline-primary .icon-link .icon-preprint}
+[QM 2025 Poster](posters/qm-2025.qmd){.btn .btn-outline-primary .icon-link .icon-poster}
 :::
 
 ## Overview
@@ -205,8 +205,8 @@ observable. Together, they clarify what should be compared when using
 $v_0(p_T)$ to study the collective medium.
 
 ::: {.project-links}
-[Related Project](../radial-flow-collectivity/index.qmd){.btn .btn-outline-primary}
-[QM 2025 Poster](posters/qm-2025.qmd){.btn .btn-outline-primary}
+[Related Project](../radial-flow-collectivity/index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
+[QM 2025 Poster](posters/qm-2025.qmd){.btn .btn-outline-primary .icon-link .icon-poster}
 :::
 
 ## Broader Implications

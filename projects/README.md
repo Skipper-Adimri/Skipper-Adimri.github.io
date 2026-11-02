@@ -131,3 +131,20 @@ Wide conference logos can set `logo-layout: banner` in
 with an 18rem desktop image column and natural image height. Banners stack at
 full available width on mobile. Ordinary thumbnails retain the common limits.
 Avoid filename selectors or transform-based logo enlargement.
+
+## Button icons
+
+Global `icons.css` defines action icons using local SVGs in `images/icons/`.
+Keep an icon before its visible label, using the same action class on every page:
+
+```markdown
+[View CV](../../cv.qmd){.btn .btn-outline-primary .icon-link .icon-cv}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
+```
+
+Use `icon-journal`, `icon-preprint`, `icon-talk`, `icon-slides`, `icon-poster`,
+`icon-conference`, `icon-report`, and `icon-video` for their corresponding actions.
+The shared listing templates already select the appropriate icons for their buttons.
+Project entries can set `button-icon: "detector"` or `button-icon: "thesis"`
+in their listing YAML; the default is `project`.
+No JavaScript icon library is required. The Lucide license stays beside its SVGs.

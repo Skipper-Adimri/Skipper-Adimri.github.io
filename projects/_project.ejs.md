@@ -9,7 +9,7 @@
         <p class="catalogue-entry-meta publication-author"><%- item['description-line-1'] %></p>
         <p class="catalogue-entry-meta publication-citation"><%- item['description-line-2'] %></p>
         <div class="catalogue-entry-links publication-links">
-          <a href="<%- item['project-url'] %>" class="btn btn-primary btn-sm"><%- item['button-text'] || 'Explore Project' %></a>
+          <a href="<%- item['project-url'] %>" class="btn btn-primary btn-sm icon-link icon-<%- item['button-icon'] || 'project' %>"><%- item['button-text'] || 'Explore Project' %></a>
         </div>
       </div>
       <% if (item.image) { %>

@@ -13,9 +13,9 @@ Busan, South Korea · June 14, 2022 · Presented Online
 Poster presentation.
 
 ::: {.project-links}
-[Poster][poster]{.btn .btn-primary}
-[SQM 2022][conference]{.btn .btn-outline-primary}
-[Related Project](../index.qmd){.btn .btn-outline-primary}
+[Poster][poster]{.btn .btn-primary .icon-link .icon-poster}
+[SQM 2022][conference]{.btn .btn-outline-primary .icon-link .icon-conference}
+[Related Project](../index.qmd){.btn .btn-outline-primary .icon-link .icon-project}
 :::
 
 ## Summary

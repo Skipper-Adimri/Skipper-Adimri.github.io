@@ -18,7 +18,7 @@ July 2021 | Supervisor: **Prof. Bedangadas Mohanty**
 :::
 
 ::: {.project-links}
-[Read Full Thesis (PDF)](files/masters-thesis.pdf){.btn .btn-outline-primary target="_blank" rel="noopener"}
+[Read Full Thesis (PDF)](files/masters-thesis.pdf){.btn .btn-outline-primary target="_blank" rel="noopener" .icon-link .icon-report}
 :::
 
 ## Overview

@@ -83,12 +83,12 @@ function buildToolbar() {
   buttons.className = 'detector-explorer__toolbar-buttons';
   const reset = document.createElement('button');
   reset.type = 'button';
-  reset.className = 'btn btn-outline-primary detector-explorer__reset';
+  reset.className = 'btn btn-outline-primary detector-explorer__reset icon-link icon-overview';
   reset.dataset.detectorReset = '';
   reset.textContent = 'Full Detector';
   const labelled = document.createElement('button');
   labelled.type = 'button';
-  labelled.className = 'btn btn-outline-primary detector-explorer__labelled';
+  labelled.className = 'btn btn-outline-primary detector-explorer__labelled icon-link icon-labels';
   labelled.dataset.detectorLabelled = '';
   labelled.setAttribute('aria-pressed', 'false');
   labelled.textContent = 'Labelled';
