@@ -1,4 +1,5 @@
 ---
+pagetitle: "Projects & Publications"
 toc: false
 body-classes: projects-publications catalogue-page
 

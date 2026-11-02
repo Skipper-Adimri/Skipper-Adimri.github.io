@@ -348,3 +348,12 @@ body.sqm-2026-page #quarto-content {
 }
 
 /* SQM background page */
+
+/* Wide scientific equations scroll within their own block on narrow screens. */
+main .math.display {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.15em;
+}

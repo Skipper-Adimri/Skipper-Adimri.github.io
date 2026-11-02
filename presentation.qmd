@@ -1,5 +1,5 @@
 ---
-pagetitle: "Talks & Posters | Aman Dimri"
+pagetitle: "Talks & Posters"
 toc: false
 body-classes: catalogue-page
 

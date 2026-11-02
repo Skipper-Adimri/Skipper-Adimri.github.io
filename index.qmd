@@ -1,5 +1,6 @@
 ---
 title: "Aman Dimri"
+pagetitle: "Home"
 subtitle: "Physicist"
 toc: false
 body-classes: homepage
@@ -37,7 +38,7 @@ My current research and emerging interests span four areas—from nuclear physic
 
 - **Constraining Nuclear Structure Through High Energy Collisions:** Investigating how nuclear structure, particularly nuclear deformation, influences measurable observables in high-energy collisions, and using this sensitivity to constrain the properties of nuclei that are difficult to characterize through conventional methods.
 
-- **Phenomenology & Modeling:** Developing analytical and computational approaches to connect initial-state physics, subsequent hydrodynamic evolution, and the final experimental measurements in high-energy nculear collisions.
+- **Phenomenology & Modeling:** Developing analytical and computational approaches to connect initial-state physics, subsequent hydrodynamic evolution, and the final experimental measurements in high-energy nuclear collisions.
 
 - **Artificial Intelligence & Reliable Reasoning:** Exploring how AI systems reason with scientific evidence, handle uncertainty and conflicting information, and how their reliability and robustness can be evaluated and improved.
 
@@ -50,7 +51,7 @@ My current research and emerging interests span four areas—from nuclear physic
 
 ::: {.featured-research-top}
 
-![](projects/radial-flow-collectivity/images/Cartoon_ExplainV0pT.png){.featured-research-image}
+![](projects/radial-flow-collectivity/images/Cartoon_ExplainV0pT.png){.featured-research-image fig-alt="Schematic comparison of flatter and steeper particle spectra associated with higher and lower mean transverse momentum."}
 
 ::: {.featured-research-intro}
 Radial flow characterizes the outward expansion of the quark-gluon plasma produced in

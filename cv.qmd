@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-pagetitle: "Curriculum Vitae | Aman Dimri"
+pagetitle: "Curriculum Vitae"
 toc: false
 format:
   html:

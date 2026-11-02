@@ -103,7 +103,7 @@ where $n(p_T)$ is the normalized particle spectrum and $v_0$ is the correspondin
 radial-flow fluctuation.
 
 ::: {#fig-v0-cartoon}
-![](images/Cartoon_ExplainV0pT.png){width=90%}
+![](images/Cartoon_ExplainV0pT.png){width=90% fig-alt="Schematic comparison of flatter and steeper particle spectra associated with higher and lower mean transverse momentum."}
 
 Schematic illustration of the physical origin of differential radial flow. Events with
 larger $[p_T]$ have flatter spectra, while events with smaller $[p_T]$ have steeper spectra,
@@ -128,7 +128,7 @@ in pseudorapidity. Experimentally, $v_0(p_T)$ is found to be largely insensitive
 pseudorapidity gap used between the two subevents, as shown in @fig-long-range.
 
 ::: {#fig-long-range}
-![](images/v0-long-range.png){width=85%}
+![](images/v0-long-range.png){width=85% fig-alt="Differential radial-flow measurements compared across pseudorapidity gaps in central and peripheral Pb+Pb collisions."}
 
 Differential radial flow $v_0(p_T)$ measured for different pseudorapidity gaps in central
 and peripheral Pb+Pb collisions. The weak dependence on the gap size demonstrates the
@@ -151,7 +151,7 @@ $v_0(p_T)/v_0$, exhibits a striking behavior: curves from widely separated centr
 intervals collapse onto an approximately common shape in the flow-dominated region.
 
 ::: {#fig-centrality-response}
-![](images/v0-centrality-response.png){width=95%}
+![](images/v0-centrality-response.png){width=95% fig-alt="Differential radial-flow curves across centrality intervals, before and after normalization by the integrated fluctuation."}
 
 Differential radial flow $v_0(p_T)$ for different centrality intervals before and after
 normalization by the integrated radial-flow fluctuation $v_0$. The strong centrality
@@ -171,7 +171,7 @@ $v_0(p_T)$ is essentially insensitive to this choice, demonstrating factorizatio
 region dominated by soft collective physics, as shown in @fig-factorization.
 
 ::: {#fig-factorization}
-![](images/v0-factorization.png){width=50%}
+![](images/v0-factorization.png){width=50% fig-alt="Differential radial-flow measurements compared using different reference transverse-momentum ranges."}
 
 Differential radial flow $v_0(p_T)$ measured using different reference $p_T$ ranges in
 central and peripheral Pb+Pb collisions. The agreement of the measurements at low $p_T$
@@ -199,7 +199,7 @@ mean transverse momentum between model and data by scaling the horizontal axis w
 $\bar{p}_T$, the agreement improves further, as shown in @fig-bulk-viscosity.
 
 ::: {#fig-bulk-viscosity}
-![](images/v0-bulk-viscosity.png){width=90%}
+![](images/v0-bulk-viscosity.png){width=90% fig-alt="Measured scaled differential radial flow compared with hydrodynamic calculations using different viscosity assumptions."}
 
 Comparison of the measured scaled differential radial flow with Trento+MUSIC hydrodynamic
 calculations. The ideal and shear-only calculations underestimate the data at high $p_T$,

@@ -1,6 +1,6 @@
 
 ---
-pagetitle: "About | Aman Dimri"
+pagetitle: "About"
 toc: false
 
 format:

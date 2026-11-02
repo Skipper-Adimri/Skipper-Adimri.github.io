@@ -3,3 +3,7 @@
 
 _site/
 .DS_Store
+
+# Local Python bytecode is not website source.
+__pycache__/
+*.pyc
