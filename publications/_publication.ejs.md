@@ -1,8 +1,8 @@
 ```{=html}
-<div class="publication-list list">
+<div class="catalogue-list publication-list list">
     <% for (const item of items) { %>
 
-    <div class="publication-item" <%= metadataAttrs(item) %>>
+    <div class="catalogue-item publication-item" <%= metadataAttrs(item) %>>
         <h3 class="listing-title">
             <% if (item['title-html']) { %>
             <%= item['title-html'] %>
@@ -11,12 +11,12 @@
             <% } %>
         </h3>
 
-        <div class="publication-entry-body">
-            <div class="publication-entry-details">
-                <p class="publication-author">
+        <div class="catalogue-entry-body publication-entry-body">
+            <div class="catalogue-entry-details publication-entry-details">
+                <p class="catalogue-entry-meta publication-author">
                     <strong><%= item.author %></strong>
                 </p>
-                <p class="publication-citation">
+                <p class="catalogue-entry-meta publication-citation">
                     <em><%= item.journal %></em>
                     <% if (item.volume) { %>
                     <strong><%= item.volume %></strong>,
@@ -29,7 +29,7 @@
                     <% } %>
                 </p>
 
-                <div class="publication-links">
+                <div class="catalogue-entry-links publication-links">
                     <% if (item['journal-url'] && item['journal-short']) { %>
                     <a href="<%- item['journal-url'] %>" class="btn btn-primary btn-sm">
                         <%= item['journal-short'] %>
@@ -49,7 +49,7 @@
             </div>
 
             <% if (item.image) { %>
-            <div class="publication-entry-image">
+            <div class="catalogue-entry-image publication-entry-image">
                 <img src="<%- item.image %>"
                      alt="<%- item['image-alt'] || item.title %>"
                      loading="lazy" decoding="async">

@@ -1,13 +1,14 @@
 ---
 pagetitle: "Talks & Posters | Aman Dimri"
 toc: false
+body-classes: catalogue-page
 
 format:
   html:
     anchor-sections: false
     css:
       - styles.css
-      - presentations/presentation-logos.css
+      - listing.css
 
 resources:
   - "presentations/logos/*"

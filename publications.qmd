@@ -1,12 +1,13 @@
 ---
 toc: false
-body-classes: projects-publications
+body-classes: projects-publications catalogue-page
 
 format:
   html:
     anchor-sections: false
     css:
       - styles.css
+      - listing.css
       - publications/publication-thumbnails.css
 
 resources:
@@ -32,6 +33,15 @@ listing:
     filter-ui: false
     field-types:
       order: number
+  - id: theses-dissertations
+    contents:
+      - projects/theses.yml
+    template: projects/_project.ejs.md
+    sort: "order asc"
+    sort-ui: false
+    filter-ui: false
+    field-types:
+      order: number
 ---
 
 ## Publications: Data Analysis, Phenomenology & Modeling
@@ -42,4 +52,9 @@ listing:
 ## Projects: Detectors & Instrumentation
 
 ::: {#instrumentation-projects}
+:::
+
+## Theses & Dissertations
+
+::: {#theses-dissertations}
 :::

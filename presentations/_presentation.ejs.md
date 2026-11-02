@@ -1,99 +1,40 @@
 ```{=html}
-<div class="presentation-list list">
-
-    <h2>Talks</h2>
-
-    <% for (const item of items.filter(item => item.type === "Talk")) { %>
-
-    <div class="presentation-item" <%= metadataAttrs(item) %>>
-
-        <h3 class="listing-title"><%= item.title %></h3>
-
-        <div class="presentation-entry-body">
-            <div class="presentation-entry-details">
-                <p class="presentation-conference">
-                    <strong><%= item.conference %></strong>
-                </p>
-                <p class="presentation-meta">
-                    <%= item.location %> ·
-                    <%= new Date(item.date).toLocaleDateString("en-US", {
-                        month: "long", day: "numeric", year: "numeric",
-                        timeZone: "UTC"
-                    }) %>
-                </p>
-
-                <div class="presentation-links">
-                    <% if (item['page-url']) { %>
-                    <a href="<%- item['page-url'] %>" class="btn btn-primary btn-sm">
-                        Talk Summary
-                    </a>
-                    <% } %>
-                    <% if (item['conference-url'] && item['conference-short']) { %>
-                    <a href="<%- item['conference-url'] %>" class="btn btn-outline-primary btn-sm">
-                        <%= item['conference-short'] %>
-                    </a>
-                    <% } %>
-                </div>
-            </div>
-
-            <% if (item.logo) { %>
-            <div class="presentation-entry-logo">
-                <img src="<%- item.logo %>"
-                     alt="<%- item['logo-alt'] || item['conference-short'] || item.conference %>"
-                     loading="lazy" decoding="async">
-            </div>
+<div class="catalogue-list list">
+  <% for (const group of [{type: "Talk", label: "Talks"}, {type: "Poster", label: "Posters"}]) { %>
+  <section class="catalogue-section" aria-labelledby="<%= group.type.toLowerCase() %>-heading">
+    <h2 id="<%= group.type.toLowerCase() %>-heading"><%= group.label %></h2>
+    <% for (const item of items.filter(item => item.type === group.type)) { %>
+    <div class="catalogue-item<%= item['logo-layout'] === 'banner' ? ' catalogue-item--banner' : '' %>" <%= metadataAttrs(item) %>>
+      <h3 class="listing-title"><%= item.title %></h3>
+      <div class="catalogue-entry-body">
+        <div class="catalogue-entry-details">
+          <p class="catalogue-entry-meta"><strong><%= item.conference %></strong></p>
+          <p class="catalogue-entry-meta">
+            <%= item.location %> ·
+            <%= new Date(item.date).toLocaleDateString("en-US", {
+              month: "long", day: "numeric", year: "numeric", timeZone: "UTC"
+            }) %>
+          </p>
+          <div class="catalogue-entry-links">
+            <% if (item['page-url']) { %>
+            <a href="<%- item['page-url'] %>" class="btn btn-primary btn-sm"><%= group.type %> Summary</a>
             <% } %>
-        </div>
-    </div>
-
-    <% } %>
-
-    <h2>Posters</h2>
-
-    <% for (const item of items.filter(item => item.type === "Poster")) { %>
-
-    <div class="presentation-item" <%= metadataAttrs(item) %>>
-
-        <h3 class="listing-title"><%= item.title %></h3>
-
-        <div class="presentation-entry-body">
-            <div class="presentation-entry-details">
-                <p class="presentation-conference">
-                    <strong><%= item.conference %></strong>
-                </p>
-                <p class="presentation-meta">
-                    <%= item.location %> ·
-                    <%= new Date(item.date).toLocaleDateString("en-US", {
-                        month: "long", day: "numeric", year: "numeric",
-                        timeZone: "UTC"
-                    }) %>
-                </p>
-
-                <div class="presentation-links">
-                    <% if (item['page-url']) { %>
-                    <a href="<%- item['page-url'] %>" class="btn btn-primary btn-sm">
-                        Poster Summary
-                    </a>
-                    <% } %>
-                    <% if (item['conference-url'] && item['conference-short']) { %>
-                    <a href="<%- item['conference-url'] %>" class="btn btn-outline-primary btn-sm">
-                        <%= item['conference-short'] %>
-                    </a>
-                    <% } %>
-                </div>
-            </div>
-
-            <% if (item.logo) { %>
-            <div class="presentation-entry-logo">
-                <img src="<%- item.logo %>"
-                     alt="<%- item['logo-alt'] || item['conference-short'] || item.conference %>"
-                     loading="lazy" decoding="async">
-            </div>
+            <% if (item['conference-url'] && item['conference-short']) { %>
+            <a href="<%- item['conference-url'] %>" class="btn btn-outline-primary btn-sm"><%= item['conference-short'] %></a>
             <% } %>
+          </div>
         </div>
+        <% if (item.logo) { %>
+        <div class="catalogue-entry-image">
+          <img src="<%- item.logo %>"
+               alt="<%- item['logo-alt'] || item['conference-short'] || item.conference %>"
+               loading="lazy" decoding="async">
+        </div>
+        <% } %>
+      </div>
     </div>
-
     <% } %>
-
+  </section>
+  <% } %>
 </div>
 ```

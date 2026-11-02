@@ -57,6 +57,7 @@
   location: "New Orleans, Louisiana"
   page-url: "projects/nuclear-shape-fluctuations/talks/aps-dnp-2022.qmd"
   logo: "presentations/logos/aps-dnp-2022.png"
+  logo-layout: banner
   logo-alt: "APS DNP 2022 meeting banner"
 - title: "Probing Effect of Nuclear Shape Coexistence in Heavy-Ion Collisions using Glauber Model"
   type: "Poster"
@@ -67,4 +68,5 @@
   location: "Busan, South Korea · Presented Online"
   page-url: "projects/nuclear-shape-fluctuations/posters/sqm-2022.qmd"
   logo: "presentations/logos/sqm-2022.png"
+  logo-layout: banner
   logo-alt: "SQM 2022 conference logo"

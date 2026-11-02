@@ -1,0 +1,108 @@
+/* Shared listing typography; Awards opts into title styling only. */
+.catalogue-page main.content > section.level2 > h2,
+.catalogue-page .catalogue-section > h2,
+.award-page main.content > section.level2 > h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1.8rem, 2.8vw, 2.35rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.catalogue-page main.content > section.level2 > h2,
+.catalogue-page .catalogue-section > h2 {
+  margin-top: 0;
+  margin-bottom: 1.7rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--forest);
+}
+
+@supports (-webkit-text-stroke: 1px currentColor) {
+  .catalogue-page main.content > section.level2 > h2,
+  .catalogue-page .catalogue-section > h2,
+  .award-page main.content > section.level2 > h2 {
+    -webkit-text-fill-color: var(--bs-body-color, #34383d);
+    -webkit-text-stroke: 0.8px var(--bs-body-color, #34383d);
+  }
+}
+
+.catalogue-page main.content > section.level2 + section.level2,
+.catalogue-list > .catalogue-section + .catalogue-section {
+  margin-top: 4rem;
+}
+
+.catalogue-list .catalogue-item { margin-bottom: 2.5rem; }
+.catalogue-list .catalogue-item + .catalogue-item {
+  border-top: 1px solid #d8dfd2;
+  padding-top: 2.5rem;
+}
+.catalogue-list .catalogue-item + .catalogue-item > h3 { margin-top: 0; }
+.catalogue-list .listing-title { margin-bottom: 0.45rem; }
+
+.catalogue-list .catalogue-entry-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 14rem;
+  column-gap: 1.5rem;
+  align-items: stretch;
+}
+.catalogue-list .catalogue-entry-details {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.catalogue-list .catalogue-entry-meta {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+.catalogue-entry-meta > p,
+.catalogue-entry-links > p,
+.catalogue-entry-image > p { margin: 0; }
+.catalogue-entry-links > p { display: contents; }
+.catalogue-entry-image figure { margin: 0; }
+.catalogue-list .catalogue-entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 0.55rem;
+}
+.catalogue-list .catalogue-entry-image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+}
+.catalogue-list .catalogue-entry-image img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 9rem;
+  object-fit: contain;
+}
+
+@media (max-width: 650px) {
+  .catalogue-list .catalogue-entry-body {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.8rem;
+  }
+  .catalogue-list .catalogue-entry-image { justify-content: flex-start; }
+  .catalogue-list .catalogue-entry-image img {
+    max-width: 12rem;
+    max-height: 8rem;
+  }
+}
+
+/* Wide conference banners need more width than ordinary thumbnails. */
+@media (min-width: 651px) {
+  .catalogue-list .catalogue-item--banner .catalogue-entry-body {
+    grid-template-columns: minmax(0, 1fr) 18rem;
+  }
+}
+.catalogue-list .catalogue-item--banner .catalogue-entry-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: none;
+  object-fit: contain;
+}

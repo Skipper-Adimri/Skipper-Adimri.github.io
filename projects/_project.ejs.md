@@ -1,19 +1,19 @@
 ```{=html}
 <!-- Share publication layout classes so both listings use the same spacing and thumbnails. -->
-<div class="publication-list project-list list">
+<div class="catalogue-list publication-list project-list list">
   <% for (const item of items) { %>
-  <div class="publication-item" <%= metadataAttrs(item) %>>
+  <div class="catalogue-item publication-item<%= item['image-layout'] === 'wide' ? ' project-item--wide-image' : '' %>" <%= metadataAttrs(item) %>>
     <h3 class="listing-title"><%- item.title %></h3>
-    <div class="publication-entry-body">
-      <div class="publication-entry-details">
-        <p class="publication-author"><%- item['description-line-1'] %></p>
-        <p class="publication-citation"><%- item['description-line-2'] %></p>
-        <div class="publication-links">
+    <div class="catalogue-entry-body publication-entry-body">
+      <div class="catalogue-entry-details publication-entry-details">
+        <p class="catalogue-entry-meta publication-author"><%- item['description-line-1'] %></p>
+        <p class="catalogue-entry-meta publication-citation"><%- item['description-line-2'] %></p>
+        <div class="catalogue-entry-links publication-links">
           <a href="<%- item['project-url'] %>" class="btn btn-primary btn-sm"><%- item['button-text'] || 'Explore Project' %></a>
         </div>
       </div>
       <% if (item.image) { %>
-      <div class="publication-entry-image">
+      <div class="catalogue-entry-image publication-entry-image">
         <div class="project-thumbnail"<% if (item['image-credit']) { %> tabindex="0" aria-label="Image credit: <%- item['image-credit'] %>"<% } %>>
           <img src="<%- item.image %>" alt="<%- item['image-alt'] || item.title %>" loading="lazy" decoding="async">
           <% if (item['image-credit']) { %>

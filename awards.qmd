@@ -1,5 +1,12 @@
 ---
 toc: false
+body-classes: award-page
+format:
+  html:
+    anchor-sections: false
+    css:
+      - styles.css
+      - listing.css
 ---
 
 ## Andre Mischke Award — Best Experimental Talk
@@ -20,7 +27,7 @@ conference.
 :::
 
 ::: {.award-feature-image}
-![](projects/radial-flow-collectivity/award/images/andre-mischke-award-presentation.jpeg){width=100%}
+![](projects/radial-flow-collectivity/award/images/andre-mischke-award-presentation.jpeg){width=100% fig-alt="Photograph of the Andre Mischke Award presentation at SQM 2026."}
 :::
 
 :::

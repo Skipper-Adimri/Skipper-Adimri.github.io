@@ -14,3 +14,22 @@
   image-alt: "ATLAS cutaway showing solenoidal and toroidal magnetic-field lines."
   image-credit: "ATLAS Experiment © CERN"
   image-source-url: "https://cds.cern.ch/record/2770604"
+
+- title: "Building and Testing a Scintillation Detector"
+  order: 20
+  description-line-1: "Constructed and tested a plastic scintillation detector coupled to a photomultiplier tube."
+  description-line-2: "Measured stopped cosmic-muon lifetimes using timing electronics and exponential fits."
+  project-url: "projects/scintillator-detector/index.qmd"
+  button-text: "Explore Project"
+  image: "projects/scintillator-detector/images/thumbnail.webp"
+  image-alt: "Transparent cutout of the plastic scintillator detector with its photomultiplier tube."
+
+- title: "Building and Characterizing a Diode-Pumped Nd:YAG Laser"
+  order: 30
+  description-line-1: "Assembled and aligned a diode-pumped Nd:YAG laser and measured its threshold and output characteristics."
+  description-line-2: "Investigated transient spiking, 532 nm frequency doubling, and transverse laser modes."
+  project-url: "projects/nd-yag-laser/index.qmd"
+  button-text: "Explore Project"
+  image: "projects/nd-yag-laser/images/thumbnail.webp"
+  image-layout: wide
+  image-alt: "Perspective drawing of the diode-pumped Nd:YAG laser apparatus mounted on an optical rail."
