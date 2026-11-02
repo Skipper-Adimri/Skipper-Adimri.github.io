@@ -10,9 +10,9 @@ website:
   title: "Aman Dimri"
   favicon: favicon.svg
   navbar:
-    logo-href: /welcome.qmd
+    logo-href: /index.qmd
     left:
-      - href: index.qmd
+      - href: home.qmd
         text: Home
       - href: cv.qmd
         text: CV
