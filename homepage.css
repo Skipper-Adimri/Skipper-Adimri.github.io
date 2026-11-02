@@ -1,0 +1,71 @@
+/* A small profile in the existing left gutter; the reading column keeps its width. */
+.homepage-research { position: relative; }
+.homepage-profile {
+  --profile-size: 14rem;       /* Circle diameter; 1rem follows the base font size. */
+  --profile-shift: -.5rem;    /* Desktop: negative moves left; positive moves right. */
+  --profile-sticky-top: 5rem; /* Space above the profile once it sticks. */
+  margin: 1.5rem 0 2rem;
+  color: #4a4a4a;
+  text-align: center;
+}
+.homepage-profile .profile-photo {
+  width: var(--profile-size);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 0 0 1px #d6dfcc;
+}
+.homepage-profile .quarto-figure { margin-bottom: 1rem; }
+.homepage-profile p { margin-bottom: .65rem; }
+.homepage-profile .profile-affiliation { font-size: .95rem; line-height: 1.45; }
+.homepage-profile a:focus-visible { outline: 2px solid var(--forest); outline-offset: 4px; }
+/* Both cells share a row: the article keeps its original reading column,
+   and the profile sits in the left gutter with a native sticky scroll boundary. */
+@media (min-width: 1280px) {
+  .homepage-research { display: grid; grid-template-columns: minmax(0, 1fr); }
+  .homepage-article { grid-area: 1 / 1; min-width: 0; }
+  .homepage-profile {
+    grid-area: 1 / 1;
+    align-self: start;
+    justify-self: start;
+    position: sticky;
+    top: var(--profile-sticky-top);
+    /* Gutter midpoint plus a small optical offset; keep the left edge on-screen. */
+    margin-left: max(
+      calc(1px - 50vw + 50%),
+      calc(25% - 25vw - var(--profile-size) * .5 + var(--profile-shift))
+    );
+    width: var(--profile-size);
+    margin-top: 0;
+    max-height: calc(100svh - 6rem);
+    overflow-y: auto;
+    padding: 1px;
+  }
+}
+@media (max-width: 1279px) {
+  .homepage-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #d6dfcc;
+  }
+
+  .homepage-profile .profile-photo { --profile-size: 11rem; }
+  .homepage-profile .profile-contact-links p { margin: .5rem 0 0; }
+}
+@media (max-width: 420px) {
+  .homepage-profile .profile-photo { --profile-size: 8rem; }
+  .homepage .homepage-links { flex-wrap: wrap; }
+}
+
+/* Quarto wraps Markdown links in a paragraph. Let that paragraph wrap the buttons. */
+.homepage .homepage-links p { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem; }
+
+.homepage-profile .profile-contact-links p { flex-direction: column; align-items: center; }
+
+.homepage-profile .profile-contact-links a { color: #4a4a4a; text-decoration: none; padding-block: .2rem; }
+.homepage-profile .profile-contact-links a:hover { color: var(--forest); text-decoration: underline; text-underline-offset: .2em; }

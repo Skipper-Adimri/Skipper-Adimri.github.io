@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 325" role="img" aria-labelledby="sg-title sg-desc">
+<title id="sg-title">Sagitta method for estimating track curvature</title>
+<desc id="sg-desc">A circular track fitted through measured points. The chord L joins the outer points. The sagitta s is the largest distance between the chord and arc, and R is the distance from the circle center to the arc. Right triangle geometry gives R squared equals (R minus s) squared plus (L over two) squared.</desc>
+<rect x="1" y="1" width="828" height="323" rx="10" fill="#fbfcf9" stroke="#d7dfd1"/>
+<g font-family="Times New Roman,Times,serif">
+  <path d="M165.00,215.00 L166.60,216.19 L168.20,217.35 L169.80,218.49 L171.40,219.61 L173.00,220.70 L174.60,221.77 L176.20,222.82 L177.80,223.84 L179.40,224.85 L181.00,225.83 L182.60,226.80 L184.20,227.74 L185.80,228.66 L187.40,229.57 L189.00,230.45 L190.60,231.32 L192.20,232.17 L193.80,233.00 L195.40,233.81 L197.00,234.60 L198.60,235.37 L200.20,236.13 L201.80,236.87 L203.40,237.60 L205.00,238.30 L206.60,238.99 L208.20,239.67 L209.80,240.32 L211.40,240.97 L213.00,241.59 L214.60,242.20 L216.20,242.79 L217.80,243.37 L219.40,243.94 L221.00,244.48 L222.60,245.02 L224.20,245.53 L225.80,246.04 L227.40,246.53 L229.00,247.00 L230.60,247.46 L232.20,247.90 L233.80,248.34 L235.40,248.75 L237.00,249.15 L238.60,249.54 L240.20,249.92 L241.80,250.28 L243.40,250.63 L245.00,250.96 L246.60,251.28 L248.20,251.59 L249.80,251.88 L251.40,252.16 L253.00,252.42 L254.60,252.68 L256.20,252.92 L257.80,253.14 L259.40,253.35 L261.00,253.55 L262.60,253.74 L264.20,253.92 L265.80,254.08 L267.40,254.22 L269.00,254.36 L270.60,254.48 L272.20,254.59 L273.80,254.69 L275.40,254.77 L277.00,254.84 L278.60,254.90 L280.20,254.94 L281.80,254.97 L283.40,254.99 L285.00,255.00 L286.60,254.99 L288.20,254.97 L289.80,254.94 L291.40,254.90 L293.00,254.84 L294.60,254.77 L296.20,254.69 L297.80,254.59 L299.40,254.48 L301.00,254.36 L302.60,254.22 L304.20,254.08 L305.80,253.92 L307.40,253.74 L309.00,253.55 L310.60,253.35 L312.20,253.14 L313.80,252.92 L315.40,252.68 L317.00,252.42 L318.60,252.16 L320.20,251.88 L321.80,251.59 L323.40,251.28 L325.00,250.96 L326.60,250.63 L328.20,250.28 L329.80,249.92 L331.40,249.54 L333.00,249.15 L334.60,248.75 L336.20,248.34 L337.80,247.90 L339.40,247.46 L341.00,247.00 L342.60,246.53 L344.20,246.04 L345.80,245.53 L347.40,245.02 L349.00,244.48 L350.60,243.94 L352.20,243.37 L353.80,242.79 L355.40,242.20 L357.00,241.59 L358.60,240.97 L360.20,240.32 L361.80,239.67 L363.40,238.99 L365.00,238.30 L366.60,237.60 L368.20,236.87 L369.80,236.13 L371.40,235.37 L373.00,234.60 L374.60,233.81 L376.20,233.00 L377.80,232.17 L379.40,231.32 L381.00,230.45 L382.60,229.57 L384.20,228.66 L385.80,227.74 L387.40,226.80 L389.00,225.83 L390.60,224.85 L392.20,223.84 L393.80,222.82 L395.40,221.77 L397.00,220.70 L398.60,219.61 L400.20,218.49 L401.80,217.35 L403.40,216.19 L405.00,215.00" fill="none" stroke="#2f6e95" stroke-width="3.8" stroke-linecap="round"/>
+  <line x1="165.00" y1="215.00" x2="405.00" y2="215.00" stroke="#657d63" stroke-width="2.2"/>
+  <line x1="285.0" y1="55.0" x2="405.0" y2="215.00" stroke="#b38a3d" stroke-width="2.4"/>
+  <line x1="285.0" y1="55.0" x2="285.0" y2="215.00" stroke="#8e9c8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <line x1="285.0" y1="215.00" x2="285.0" y2="255.0" stroke="#c55348" stroke-width="3"/>
+  <path d="M 279.0,209.0 v 6 h 6" fill="none" stroke="#8e9c8a" stroke-width="1.4"/>
+  <circle cx="285.0" cy="55.0" r="4.5" fill="#b38a3d"/>
+  <circle cx="165.0" cy="215.00" r="5.8" fill="#2f6e95" stroke="#fff" stroke-width="2.3"/><circle cx="220.0" cy="244.14" r="5.8" fill="#2f6e95" stroke="#fff" stroke-width="2.3"/><circle cx="285.0" cy="255.00" r="5.8" fill="#2f6e95" stroke="#fff" stroke-width="2.3"/><circle cx="350.0" cy="244.14" r="5.8" fill="#2f6e95" stroke="#fff" stroke-width="2.3"/><circle cx="405.0" cy="215.00" r="5.8" fill="#2f6e95" stroke="#fff" stroke-width="2.3"/>
+  <text x="293.0" y="47.0" font-size="17" fill="#52634c">Circle center</text>
+  <text x="365.0" y="125.0" font-size="26" font-style="italic" fill="#926922">R</text>
+  <text x="216" y="130" font-size="18" fill="#627663">R − s</text>
+  <text x="210.0" y="203.0" text-anchor="middle" font-size="23" font-style="italic" fill="#476942">L</text>
+  <text x="298.0" y="243.0" font-size="23" font-style="italic" fill="#bd493e">s</text>
+  <text x="55" y="289" font-size="17" fill="#52634c">Illustrative circular arc fitted to measured hit positions</text>
+  <line x1="512" y1="40" x2="512" y2="282" stroke="#d7dfd1" stroke-width="1.5"/>
+  <text x="539" y="74" fill="#30572e" font-size="24" font-weight="700">From hits to curvature</text>
+  <circle cx="547" cy="116" r="5" fill="#2f6e95"/>
+  <text x="564" y="122" fill="#435a44" font-size="19">Hits constrain a fitted arc</text>
+  <path d="M 537 163 H 560" stroke="#657d63" stroke-width="2"/>
+  <text x="569" y="170" fill="#435a44" font-size="19">Chord length <tspan font-style="italic">L</tspan></text>
+  <path d="M 537 207 H 560" stroke="#c55348" stroke-width="3"/>
+  <text x="569" y="214" fill="#435a44" font-size="19">Sagitta <tspan font-style="italic">s</tspan></text>
+  <path d="M 537 250 H 560" stroke="#b38a3d" stroke-width="2.5"/>
+  <text x="569" y="257" fill="#435a44" font-size="19">Curvature radius <tspan font-style="italic">R</tspan></text>
+</g>
+</svg>

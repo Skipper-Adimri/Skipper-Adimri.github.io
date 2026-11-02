@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.20">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ATLAS Detector – Aman Dimri</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a14d652b86e00f03abd5043129e363d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../icons.css">
+<link rel="stylesheet" href="detector.css">
+</head>
+
+<body class="nav-fixed atlas-detector-page quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../welcome.html">
+    <span class="navbar-title">Aman Dimri</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Projects &amp; Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../presentation.html"> 
+<span class="menu-text">Talks &amp; Posters</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../awards.html"> 
+<span class="menu-text">Awards</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#explore-the-detector" id="toc-explore-the-detector" class="nav-link" data-scroll-target="#explore-the-detector">Explore the Detector</a></li>
+  <li><a href="#how-the-detector-works" id="toc-how-the-detector-works" class="nav-link" data-scroll-target="#how-the-detector-works">How the Detector Works</a></li>
+  <li><a href="#calorimetry" id="toc-calorimetry" class="nav-link" data-scroll-target="#calorimetry">Calorimetry</a></li>
+  <li><a href="#follow-a-particle" id="toc-follow-a-particle" class="nav-link" data-scroll-target="#follow-a-particle">Follow a Particle</a></li>
+  <li><a href="#what-parts-of-the-detector-i-use-in-my-analysis" id="toc-what-parts-of-the-detector-i-use-in-my-analysis" class="nav-link" data-scroll-target="#what-parts-of-the-detector-i-use-in-my-analysis">What Parts of the Detector I Use in My Analysis</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ATLAS Detector</h1>
+<p class="subtitle lead">Exploring how ATLAS measures particles at CERN</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
+<p>The <strong>ATLAS detector</strong> is a large particle detector at CERN’s Large Hadron Collider. Protons or heavy ions collide near its center, producing particles that travel through several specialized layers. Each layer supplies a different piece of information, helping scientists reconstruct what happened in a collision.</p>
+<p>ATLAS is approximately 46 metres long and 25 metres in diameter. The illustration below shows a cutaway of this enormous instrument, revealing systems that would normally be hidden inside its outer structure.</p>
+<p><em>Configuration note: this page describes the ATLAS Run 3 detector, including the Pixel, SCT, and TRT tracking systems used in the analyses discussed below.</em></p>
+<div class="project-links">
+<p><a href="#explore-the-detector" class="btn btn-primary icon-link icon-detector">Explore the Detector</a> <a href="#calorimetry" class="btn btn-outline-primary icon-link icon-calorimetry">Calorimetry</a> <a href="#follow-a-particle" class="btn btn-outline-primary icon-link icon-particle">Follow a Particle</a> <a href="#what-parts-of-the-detector-i-use-in-my-analysis" class="btn btn-outline-primary icon-link icon-analysis">My Analysis</a></p>
+</div>
+</section>
+<section id="explore-the-detector" class="level2 detector-explorer-section" data-detector="atlas">
+<h2 class="detector-explorer-section" data-detector="atlas" data-anchor-id="explore-the-detector">Explore the Detector</h2>
+<p>Choose a subsystem from the image or the component list. The view will focus on that part of the detector and explain what it measures. Select <strong>Full Detector</strong> to return to the complete cutaway.</p>
+<div class="detector-explorer" aria-label="ATLAS detector component explorer">
+  <div class="detector-explorer__controls-host" data-detector-controls-host=""></div>
+  <div class="detector-explorer__visual">
+    <div class="detector-explorer__viewport" data-detector-viewport="">
+      <div class="detector-explorer__stage" data-detector-stage="">
+        <img src="../images/atlas/cutaway-1600.webp" srcset="../images/atlas/cutaway-1600.webp 1600w, ../images/atlas/cutaway-3200.webp 3200w" sizes="(max-width: 900px) 100vw, 1400px" data-detector-image="" data-labelled-src="../images/atlas/cutaway-labelled-1600.webp" data-labelled-srcset="../images/atlas/cutaway-labelled-1600.webp 1600w, ../images/atlas/cutaway-labelled-3200.webp 3200w" alt="Three-dimensional cutaway of the ATLAS detector, showing concentric tracking and calorimeter systems surrounded by the large outer magnets and muon detectors." loading="lazy" decoding="async">
+      </div>
+      <svg class="detector-explorer__overlay" data-detector-overlay="" aria-label="Selectable detector components and annotations"></svg>
+    </div>
+    <div data-detector-toolbar-host=""></div>
+  </div>
+</div>
+<div class="detector-explorer__empty" data-detector-empty-state="">
+<p>
+Select a subsystem above or in the illustration to see what it measures and why it matters.
+</p>
+</div>
+<p><em>Illustration: ATLAS Experiment © CERN, <a href="https://cds.cern.ch/record/2837191">2022 detector schematic</a>. Focus markers are approximate educational annotations calibrated to this illustration.</em></p>
+<section id="inner-tracking-detector" class="level3 detector-explorer__component-card" data-detector-card="inner">
+<h3 class="detector-explorer__component-card" data-detector-card="inner" data-anchor-id="inner-tracking-detector">Inner Tracking Detector</h3>
+<p>The first clues are the paths charged particles leave behind.</p>
+<p><strong>What it measures:</strong> Positions of charged particles moving through a magnetic field.</p>
+<p><strong>Why it matters:</strong> The curved tracks help reveal particle momenta and where the particles came from.</p>
+</section>
+<section id="electromagnetic-calorimeter" class="level3 detector-explorer__component-card" data-detector-card="em">
+<h3 class="detector-explorer__component-card" data-detector-card="em" data-anchor-id="electromagnetic-calorimeter">Electromagnetic Calorimeter</h3>
+<p>The barrel forms a cylindrical layer. The end-cap calorimeter assemblies also contain electromagnetic sections.</p>
+<p><strong>What it measures:</strong> Energy deposited by electromagnetic showers from electrons and photons.</p>
+<p><strong>Why it matters:</strong> Together with tracking information, the deposited energy helps identify electrons and photons. The end-cap assemblies also contain hadronic calorimetry.</p>
+</section>
+<section id="hadronic-calorimeter" class="level3 detector-explorer__component-card" data-detector-card="hadronic">
+<h3 class="detector-explorer__component-card" data-detector-card="hadronic" data-anchor-id="hadronic-calorimeter">Hadronic Calorimeter</h3>
+<p>Outside the electromagnetic calorimeter sits a much thicker layer built to measure hadronic showers.</p>
+<p><strong>What it measures:</strong> Energy deposited by hadrons, including protons, neutrons, and particles produced in jets.</p>
+<p><strong>Why it matters:</strong> Its measurements complement the electromagnetic calorimeter and help reconstruct jets and the total energy balance of a collision.</p>
+</section>
+<section id="solenoid-magnet" class="level3 detector-explorer__component-card" data-detector-card="solenoid">
+<h3 class="detector-explorer__component-card" data-detector-card="solenoid" data-anchor-id="solenoid-magnet">Solenoid Magnet</h3>
+<p>A thin superconducting coil encircles the inner tracking detector.</p>
+<p><strong>What it does:</strong> The solenoid produces a magnetic field that bends charged tracks; it does not directly detect particles.</p>
+<p><strong>Why it matters:</strong> The bending direction reveals electric charge, while the curvature helps determine momentum.</p>
+</section>
+<section id="barrel-toroid-magnet" class="level3 detector-explorer__component-card" data-detector-card="barrelToroid">
+<h3 class="detector-explorer__component-card" data-detector-card="barrelToroid" data-anchor-id="barrel-toroid-magnet">Barrel Toroid Magnet</h3>
+<p>Huge superconducting coils wrap around the central ATLAS detector.</p>
+<p><strong>What it does:</strong> The barrel toroid provides a magnetic field for the surrounding muon spectrometer.</p>
+<p><strong>Why it matters:</strong> It bends muon trajectories so the outer chambers can measure muon momenta independently of the inner tracker.</p>
+</section>
+<section id="end-cap-toroid-magnet" class="level3 detector-explorer__component-card" data-detector-card="endcapToroid">
+<h3 class="detector-explorer__component-card" data-detector-card="endcapToroid" data-anchor-id="end-cap-toroid-magnet">End-cap Toroid Magnet</h3>
+<p>Toroid magnets at both ends of ATLAS extend the magnetic field into the forward regions.</p>
+<p><strong>What it does:</strong> Like the barrel toroid, these magnets bend charged muons rather than directly recording their energy.</p>
+<p><strong>Why it matters:</strong> They enable momentum measurements for muons that leave the detector closer to the beam direction.</p>
+</section>
+<section id="muon-chambers" class="level3 detector-explorer__component-card" data-detector-card="muon">
+<h3 class="detector-explorer__component-card" data-detector-card="muon" data-anchor-id="muon-chambers">Muon Chambers</h3>
+<p>Muons can reach detectors far beyond the calorimeters.</p>
+<p><strong>What it measures:</strong> Muon trajectories in barrel and end-cap chambers, including the New Small Wheel system.</p>
+<p><strong>Why it matters:</strong> Together with the magnetic field, these measurements help identify muons and determine their momenta.</p>
+</section>
+</section>
+<section id="how-the-detector-works" class="level2">
+<h2 data-anchor-id="how-the-detector-works">How the Detector Works</h2>
+<p>The innermost tracking system records the paths of charged particles. A magnetic field bends those trajectories, allowing their momenta to be reconstructed. Calorimeters measure the energy deposited by electrons, photons, and hadrons. Farther out, muon chambers record muons that pass through the inner systems. Together, these measurements help reconstruct the particles produced in a collision.</p>
+</section>
+<section id="calorimetry" class="level2 atlas-view-switch">
+<h2 class="atlas-view-switch" data-anchor-id="calorimetry">Calorimetry</h2>
+<p>ATLAS calorimeters measure particle energy by sampling the showers produced as particles pass through alternating <strong>absorber</strong> and <strong>active</strong> layers. The system combines a central steel-and-scintillator Tile calorimeter with liquid-argon (LAr) calorimeters covering the electromagnetic, hadronic end-cap, and forward regions.</p>
+<p>Select <strong>Full Detector</strong> to view the official labelled calorimeter cutaway, or choose <strong>R–z Layout</strong> to examine the longitudinal arrangement near the beam axis.</p>
+<section id="full-detector-calorimeter-view" class="level3 atlas-view-panel__title atlas-view-panel" data-view-panel="full" data-view-label="Full Detector">
+<h3 class="atlas-view-panel__title" data-anchor-id="full-detector-calorimeter-view">Full detector calorimeter view</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../detectors/images/atlas/calorimeter-run3-labelled.webp" class="img-fluid figure-img" loading="lazy" decoding="async" alt="Cutaway of the ATLAS calorimeter with callouts identifying the Tile barrel and extended barrel, electromagnetic barrel and end-cap, hadronic end-cap, and forward electromagnetic and hadronic calorimeters."></p>
+<figcaption>Official labelled ATLAS Run 3 calorimeter cutaway.</figcaption>
+</figure>
+</div>
+<p><em>Official ATLAS calorimeter cutaway, Figure 5 of the Run 3 detector paper.</em></p>
+</section>
+<section id="longitudinal-rz-calorimeter-layout" class="level3 atlas-view-panel__title atlas-view-panel" data-view-panel="rz" data-view-label="R–z Layout">
+<h3 class="atlas-view-panel__title" data-anchor-id="longitudinal-rz-calorimeter-layout">Longitudinal R–z calorimeter layout</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../detectors/images/atlas/fcal-longitudinal-layout.svg" class="img-fluid figure-img" loading="lazy" decoding="async" alt="Longitudinal schematic of one ATLAS end-cap showing the electromagnetic end-cap calorimeter, hadronic end-cap calorimeter, and three forward-calorimeter modules arranged along the beam axis."></p>
+<figcaption>Longitudinal R–z layout of an ATLAS calorimeter end-cap.</figcaption>
+</figure>
+</div>
+<p><em>Longitudinal R–z schematic of one end-cap, adapted from the 2008 ATLAS detector paper; not to scale.</em></p>
+</section>
+<div data-view-controls-host="">
+
+</div>
+<div class="atlas-source-note">
+<p><strong>Figure sources:</strong> ATLAS Collaboration, <a href="https://doi.org/10.1088/1748-0221/19/05/P05063">Run 3 detector paper, Figure 5</a> <span class="citation" data-cites="atlas-run3-detector">(<a href="#ref-atlas-run3-detector" role="doc-biblioref">ATLAS Collaboration 2024b</a>)</span> · ATLAS Experiment © CERN · <a href="https://cds.cern.ch/record/2900788">Official image</a>. R–z schematic adapted from the <a href="https://doi.org/10.1088/1748-0221/3/08/S08003">ATLAS detector paper, Figure 5.19</a> <span class="citation" data-cites="atlas-detector-2008">(<a href="#ref-atlas-detector-2008" role="doc-biblioref">ATLAS Collaboration 2008</a>)</span>.</p>
+</div>
+<p><strong>Electromagnetic calorimeters (EMB and EMEC).</strong> The LAr electromagnetic barrel (EMB) and electromagnetic end-cap (EMEC) measure showers initiated primarily by electrons and photons. Layers of lead absorbers and liquid argon provide fine spatial sampling of deposited energy.</p>
+<p><strong>Tile hadronic calorimeters.</strong> A central barrel and two extended barrels use steel absorbers and scintillating tiles to sample hadronic showers. These measure much of the energy carried by strongly interacting particles in the central region.</p>
+<p><strong>Hadronic end-cap calorimeters (HEC).</strong> Located at larger angles to the beam than the FCal, the HEC uses copper absorbers and liquid argon to measure hadronic energy in the end-cap region.</p>
+<p><strong>Forward calorimeters (FCal).</strong> Close to the beam axis, the FCal extends coverage to approximately <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3.1</mn><mo>&lt;</mo><mo stretchy="false" form="prefix">|</mo><mi>η</mi><mo stretchy="false" form="prefix">|</mo><mo>&lt;</mo><mn>4.9</mn></mrow><annotation encoding="application/x-tex">3.1 &lt; |\eta| &lt; 4.9</annotation></semantics></math>. Each end-cap contains three LAr modules: <strong>FCal1</strong> uses copper absorbers for electromagnetic showers, while <strong>FCal2</strong> and <strong>FCal3</strong> use tungsten absorbers for hadronic showers. In the R–z view, their order along the beam direction is visible alongside the EMEC and HEC modules.</p>
+<p>Here, <strong>pseudorapidity</strong> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>η</mi><annotation encoding="application/x-tex">\eta</annotation></semantics></math> describes direction relative to the beam: larger <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>η</mi><mo stretchy="false" form="prefix">|</mo></mrow><annotation encoding="application/x-tex">|\eta|</annotation></semantics></math> corresponds to particles travelling closer to the beam axis.</p>
+</section>
+<section id="follow-a-particle" class="level2 particle-explorer-section" data-particle-explorer="atlas">
+<h2 class="particle-explorer-section" data-particle-explorer="atlas" data-anchor-id="follow-a-particle">Follow a Particle</h2>
+<p>Different particles leave different signatures. For example, an electron usually deposits much of its energy in the electromagnetic calorimeter, while a muon can travel through the calorimeters and reach the outer muon chambers. Choose one or more particles to compare these responses.</p>
+<div class="particle-explorer" aria-label="ATLAS particle detection explorer">
+  <div class="particle-explorer__visual">
+    <h3 class="particle-explorer__visual-heading">Interactive ATLAS Schematic</h3>
+    <div class="particle-explorer__image-wrap">
+      <img src="../images/atlas/slice-clean.webp" alt="Clean ATLAS detector cross-section with outer muon chambers, hadronic and electromagnetic calorimeters, solenoid, inner tracker and beam pipe." data-particle-image="" loading="lazy" decoding="async">
+      <img class="particle-explorer__label-overlay" src="../images/atlas/slice-annotations.svg" data-particle-labels="" alt="" aria-hidden="true" hidden="">
+      <svg class="particle-explorer__overlay" data-particle-overlay="" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1672 941" preserveaspectratio="xMidYMid meet" role="img" aria-label="Conceptual particle detector response"></svg>
+    </div>
+    <div data-particle-toolbar-host=""></div>
+  </div>
+  <div class="particle-explorer__controls-host" data-particle-controls-host=""></div>
+</div>
+<p><strong>Field direction:</strong> In this transverse view, the solenoidal magnetic field points <strong>into the page (⊗)</strong>. The magnetic force bends negatively and positively charged particles in opposite directions.</p>
+<div class="particle-explorer__empty" data-particle-empty-state="">
+<p>
+Select one or more particles to overlay their conceptual paths through the ATLAS detector.
+</p>
+</div>
+<dialog class="particle-explorer__animation-dialog" data-particle-animation-dialog="" aria-labelledby="atlas-animation-title">
+  <div class="particle-explorer__animation-head">
+    <h3 id="atlas-animation-title">How particles interact with ATLAS</h3>
+    <form method="dialog"><button type="submit" class="particle-explorer__animation-close" aria-label="Close animation">×</button></form>
+  </div>
+  <div class="particle-explorer__animation-media">
+    <div class="particle-explorer__animation-frame">
+      <img data-particle-animation-image="" src="../images/atlas/atlas-simulation-poster-v2.webp" data-poster="../images/atlas/atlas-simulation-poster-v2.webp" data-src="../images/atlas/Atlas_Simulation.webp" alt="ATLAS detector slice used for an animation showing how different particles interact with detector layers" decoding="async">
+      <button type="button" class="particle-explorer__animation-toggle" data-particle-animation-toggle="" aria-label="Play animation" aria-pressed="false">
+        <span class="particle-explorer__play-icon" aria-hidden="true"></span>
+        <span class="particle-explorer__pause-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+  <p class="particle-explorer__animation-error" data-particle-animation-error="" hidden="">The animation file could not be loaded.</p>
+</dialog>
+<p>Animation by Sascha Mehlhase / ATLAS Collaboration © CERN. Based on earlier work by Rebecca Pitt and João Pequenão. <a href="https://cds.cern.ch/record/2770815" id="atlas-animation-source">View the official CERN source</a>.</p>
+<p><em>Particle-detection schematic: S. Mehlhase / ATLAS Experiment © CERN. <a href="https://cds.cern.ch/record/2770815">Official illustration</a>. The colored paths are conceptual guides, not measured trajectories; their positions are calibrated teaching overlays.</em></p>
+<section id="electron-e-" class="level3 particle-explorer__details-entry" data-particle-card="electron">
+<h3 class="particle-explorer__details-entry" data-particle-card="electron" data-anchor-id="electron-e-">Electron (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>e</mi><mo>−</mo></msup><annotation encoding="application/x-tex">e^-</annotation></semantics></math>)</h3>
+<p>An electron curves rightward in the solenoidal field, then deposits its energy in an electromagnetic shower in the liquid-argon calorimeter.</p>
+<p><strong>Typical signature:</strong> A right-curving inner-detector track matched to an electromagnetic calorimeter cluster.</p>
+<p><em>Blue solid line: electron track · Branches: electromagnetic shower</em></p>
+</section>
+<section id="positron-e" class="level3 particle-explorer__details-entry" data-particle-card="positron">
+<h3 class="particle-explorer__details-entry" data-particle-card="positron" data-anchor-id="positron-e">Positron (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>e</mi><mo>+</mo></msup><annotation encoding="application/x-tex">e^+</annotation></semantics></math>)</h3>
+<p>A positron bends leftward, opposite to an electron, before producing an electromagnetic shower in the liquid-argon calorimeter.</p>
+<p><strong>Typical signature:</strong> A left-curving inner-detector track matched to an electromagnetic calorimeter cluster.</p>
+<p><em>Orange solid line: positron track · Branches: electromagnetic shower</em></p>
+</section>
+<section id="photon-gamma" class="level3 particle-explorer__details-entry" data-particle-card="photon">
+<h3 class="particle-explorer__details-entry" data-particle-card="photon" data-anchor-id="photon-gamma">Photon (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>γ</mi><annotation encoding="application/x-tex">\gamma</annotation></semantics></math>)</h3>
+<p>A photon has no electric charge, so its flight is straight. It leaves no primary charged track and starts an electromagnetic shower in the liquid-argon calorimeter.</p>
+<p><strong>Typical signature:</strong> An electromagnetic shower with no matching primary charged-particle track.</p>
+<p><em>Gold dashed straight line: neutral flight · Branches: electromagnetic shower</em></p>
+</section>
+<section id="charged-hadron-h" class="level3 particle-explorer__details-entry" data-particle-card="charged-hadron-plus">
+<h3 class="particle-explorer__details-entry" data-particle-card="charged-hadron-plus" data-anchor-id="charged-hadron-h">Charged Hadron (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>h</mi><mo>+</mo></msup><annotation encoding="application/x-tex">h^+</annotation></semantics></math>)</h3>
+<p>A positively charged hadron curves gently left in the solenoid and then mainly deposits its energy in a hadronic calorimeter shower.</p>
+<p><strong>Typical signature:</strong> A mildly left-curving charged track associated with a hadronic shower.</p>
+<p><em>Teal solid line: positive-hadron track · Branches: hadronic shower</em></p>
+</section>
+<section id="charged-hadron-h-" class="level3 particle-explorer__details-entry" data-particle-card="charged-hadron-minus">
+<h3 class="particle-explorer__details-entry" data-particle-card="charged-hadron-minus" data-anchor-id="charged-hadron-h-">Charged Hadron (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>h</mi><mo>−</mo></msup><annotation encoding="application/x-tex">h^-</annotation></semantics></math>)</h3>
+<p>A negatively charged hadron bends gently rightward in the solenoid and develops most of its shower in the hadronic calorimeter.</p>
+<p><strong>Typical signature:</strong> A mildly right-curving charged track associated with a hadronic shower.</p>
+<p><em>Red-orange solid line: negative-hadron track · Branches: hadronic shower</em></p>
+</section>
+<section id="neutral-hadron-h0" class="level3 particle-explorer__details-entry" data-particle-card="neutral-hadron">
+<h3 class="particle-explorer__details-entry" data-particle-card="neutral-hadron" data-anchor-id="neutral-hadron-h0">Neutral Hadron (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>h</mi><mn>0</mn></msup><annotation encoding="application/x-tex">h^0</annotation></semantics></math>)</h3>
+<p>A neutral hadron travels in a straight line without a primary tracking signal and interacts mainly in the hadronic calorimeter.</p>
+<p><strong>Typical signature:</strong> A hadronic calorimeter shower without an associated primary charged track.</p>
+<p><em>Green dashed straight line: neutral flight · Branches: hadronic shower</em></p>
+</section>
+<section id="muon-mu-" class="level3 particle-explorer__details-entry" data-particle-card="muon">
+<h3 class="particle-explorer__details-entry" data-particle-card="muon" data-anchor-id="muon-mu-">Muon (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>μ</mi><mo>−</mo></msup><annotation encoding="application/x-tex">\mu^-</annotation></semantics></math>)</h3>
+<p>A high-energy negative muon bends gently rightward in the solenoid, passes through both calorimeters with little energy loss, undergoes a modest additional deflection in the muon system, and exits the detector.</p>
+<p><strong>Typical signature:</strong> A continuing inner-detector trajectory through the outer muon chambers, with no large calorimeter shower.</p>
+<p><em>Purple solid line: continuing <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>μ</mi><mo>−</mo></msup><annotation encoding="application/x-tex">\mu^-</annotation></semantics></math> · Arrow: muon exits the spectrometer</em></p>
+</section>
+</section>
+<section id="what-parts-of-the-detector-i-use-in-my-analysis" class="level2">
+<h2 data-anchor-id="what-parts-of-the-detector-i-use-in-my-analysis">What Parts of the Detector I Use in My Analysis</h2>
+<p>My heavy-ion analyses combine <strong>charged-particle tracks in the Inner Detector</strong>, <strong>forward transverse energy in the FCal</strong>, and <strong>very-forward neutron energy in the Zero Degree Calorimeters (ZDCs)</strong>. Together, these measurements provide the physics observables, event classification, and pileup rejection used in the analysis.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Detector region</th>
+<th>Measurement used</th>
+<th>Role in the analysis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inner Detector, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>η</mi><mo stretchy="false" form="prefix">|</mo><mo>&lt;</mo><mn>2.5</mn></mrow><annotation encoding="application/x-tex">|\eta| &lt; 2.5</annotation></semantics></math></td>
+<td>Track <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>p</mi><mi mathvariant="normal">T</mi></msub><annotation encoding="application/x-tex">p_{\mathrm{T}}</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>η</mi><annotation encoding="application/x-tex">\eta</annotation></semantics></math>, and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ϕ</mi><annotation encoding="application/x-tex">\phi</annotation></semantics></math></td>
+<td>Multiplicity, mean transverse momentum, and flow vectors</td>
+</tr>
+<tr class="even">
+<td>Forward Calorimeter, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3.1</mn><mo>&lt;</mo><mo stretchy="false" form="prefix">|</mo><mi>η</mi><mo stretchy="false" form="prefix">|</mo><mo>&lt;</mo><mn>4.9</mn></mrow><annotation encoding="application/x-tex">3.1 &lt; |\eta| &lt; 4.9</annotation></semantics></math></td>
+<td>Summed transverse energy, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Σ</mi><msub><mi>E</mi><mi mathvariant="normal">T</mi></msub></mrow><annotation encoding="application/x-tex">\Sigma E_{\mathrm{T}}</annotation></semantics></math></td>
+<td>Event selection and centrality classification</td>
+</tr>
+<tr class="odd">
+<td>Zero Degree Calorimeters, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>η</mi><mo stretchy="false" form="prefix">|</mo><mo>&gt;</mo><mn>8.3</mn></mrow><annotation encoding="application/x-tex">|\eta| &gt; 8.3</annotation></semantics></math></td>
+<td>Very-forward neutron energy, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>E</mi><mrow><mi mathvariant="normal">Z</mi><mi mathvariant="normal">D</mi><mi mathvariant="normal">C</mi></mrow></msub><annotation encoding="application/x-tex">E_{\mathrm{ZDC}}</annotation></semantics></math></td>
+<td>Pileup rejection using the ZDC–FCal energy correlation</td>
+</tr>
+</tbody>
+</table>
+<section id="inner-detector-charged-particle-tracking" class="level3 atlas-view-switch">
+<h3 class="atlas-view-switch" data-anchor-id="inner-detector-charged-particle-tracking">Inner Detector: Charged-Particle Tracking</h3>
+<p>The Inner Detector is the main ATLAS system for reconstructing charged particles near <strong>midrapidity</strong>—the central detector region, away from the beam directions. It provides precision tracking over approximately <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>η</mi><mo stretchy="false" form="prefix">|</mo><mo>&lt;</mo><mn>2.5</mn></mrow><annotation encoding="application/x-tex">|\eta| &lt; 2.5</annotation></semantics></math> and surrounds the beam pipe with several nested tracking layers, so particles emerging from the collision leave a sequence of spatial measurements as they move outward through the detector.</p>
+<section id="tracking-concept" class="level4 atlas-view-panel__title atlas-view-panel" data-view-panel="concept" data-view-label="Concept">
+<h4 class="atlas-view-panel__title" data-anchor-id="tracking-concept">Tracking concept</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../detectors/images/atlas/tracking-principle.svg" class="img-fluid figure-img" loading="lazy" decoding="async" alt="Concentric Pixel, SCT, and TRT tracking layers crossed by a curved red trajectory with measurement points; a legend identifies the detector technologies."></p>
+<figcaption>Simplified transverse view of ATLAS tracking.</figcaption>
+</figure>
+</div>
+<p><em>Conceptual tracking illustration (not to scale). The curved track is fitted using measurements from successive detector layers.</em></p>
+</section>
+<section id="detector-layer-details" class="level4 atlas-view-panel__title atlas-view-panel" data-view-panel="details" data-view-label="Details">
+<h4 class="atlas-view-panel__title" data-anchor-id="detector-layer-details">Detector-layer details</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../detectors/images/atlas/tracking-detector-details.webp" class="img-fluid figure-img" loading="lazy" decoding="async" alt="ATLAS tracking detector cutaway showing the radii of Pixel, SCT, and TRT components beside diagrams of pixel hits, paired silicon-strip measurements, and straw-tube drift-time measurements."></p>
+<figcaption>Detailed ATLAS tracking detector cutaway and measurement diagrams.</figcaption>
+</figure>
+</div>
+<p><em>Pixel sensors provide two-dimensional measurements; stereo SCT modules combine strip measurements; TRT straws provide drift-time measurements and transition-radiation information. Detector geometry: <a href="https://cds.cern.ch/record/1129811/files/jinst8_08_s08003.pdf">ATLAS Collaboration, detector paper, Figure 4.2</a>. This measurement-principle composite is reproduced in <a href="https://indico.pnp.ustc.edu.cn/event/91/contributions/6669/attachments/1933/3183/ACTS_Xiaocong_FTCF.pdf">X. Ai et al., ACTS for gaseous tracking detectors (FTCF 2024), slide 6</a>. ATLAS Experiment © CERN.</em></p>
+</section>
+<section id="momentum-measurement" class="level4 atlas-view-panel atlas-momentum">
+<h4 class="atlas-view-panel atlas-momentum" data-anchor-id="momentum-measurement">Momentum Measurement</h4>
+<div class="atlas-momentum__interactive" data-momentum-interactive="">
+<p class="atlas-momentum__fallback-note">
+The interactive curvature diagram is an optional enhancement. The complete derivation remains below.
+</p>
+</div>
+<section id="from-detector-hits-to-transverse-momentum" class="level5 atlas-momentum__explanation">
+<h5 data-anchor-id="from-detector-hits-to-transverse-momentum">From detector hits to transverse momentum</h5>
+<p><strong>1. Fit a curved track.</strong> Position measurements across the Pixel, SCT, and TRT layers are combined into a trajectory. The track fit determines its curvature using the known magnetic field. The geometry below explains the basic idea with a circular arc.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../detectors/images/atlas/sagitta-geometry.svg" class="atlas-momentum__sagitta img-fluid figure-img" loading="lazy" decoding="async" alt="Circular arc through measured hit positions. The chord L joins the outer points, sagitta s measures the arc's displacement from the chord, and R extends from the circle center to the arc."></p>
+<figcaption>Sagitta construction for a curved trajectory.</figcaption>
+</figure>
+</div>
+<p><em>Original explanatory SVG. The three-point sagitta construction illustrates the geometry of curvature; ATLAS fits many detector measurements.</em></p>
+<p><strong>2. Determine the curvature radius.</strong> For a circle, the chord length <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> and sagitta <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math> form a right triangle. The Pythagorean theorem gives</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>R</mi><mo>−</mo><mi>s</mi><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mi>L</mi><mn>2</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>2</mn></msup><mo>,</mo><mspace width="2.0em"></mspace><mi>R</mi><mo>=</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>8</mn><mi>s</mi></mrow></mfrac><mo>+</mo><mfrac><mi>s</mi><mn>2</mn></mfrac><mi>.</mi></mrow><annotation encoding="application/x-tex">
+R^2 = (R-s)^2 + \left(\frac{L}{2}\right)^2,
+\qquad
+R = \frac{L^2}{8s} + \frac{s}{2}.
+</annotation></semantics></math></p>
+<p>For a small sagitta, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mo>≪</mo><mi>L</mi></mrow><annotation encoding="application/x-tex">s \ll L</annotation></semantics></math>, the second term is small, so <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>≈</mo><msup><mi>L</mi><mn>2</mn></msup><mi>/</mi><mo stretchy="false" form="prefix">(</mo><mn>8</mn><mi>s</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">R \approx L^2/(8s)</annotation></semantics></math>. Less bending means a smaller sagitta and a larger curvature radius.</p>
+<p><strong>3. Convert curvature to momentum.</strong> In a uniform magnetic field, the transverse Lorentz force is the force required to bend the transverse momentum:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>q</mi><mo stretchy="false" form="prefix">|</mo><msub><mi>v</mi><mi mathvariant="normal">T</mi></msub><mi>B</mi><mo>=</mo><mfrac><mrow><msub><mi>p</mi><mi mathvariant="normal">T</mi></msub><msub><mi>v</mi><mi mathvariant="normal">T</mi></msub></mrow><mi>R</mi></mfrac><mspace width="1.0em"></mspace><mo>⇒</mo><mspace width="1.0em"></mspace><msub><mi>p</mi><mi mathvariant="normal">T</mi></msub><mo>=</mo><mo stretchy="false" form="prefix">|</mo><mi>q</mi><mo stretchy="false" form="prefix">|</mo><mi>B</mi><mi>R</mi><mo>,</mo></mrow><annotation encoding="application/x-tex">
+|q|v_{\mathrm{T}}B = \frac{p_{\mathrm{T}}v_{\mathrm{T}}}{R}
+\quad\Longrightarrow\quad
+p_{\mathrm{T}} = |q|BR,
+</annotation></semantics></math></p>
+<p>and in practical high-energy-physics units,</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mi mathvariant="normal">T</mi></msub><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">[</mo><mrow><mi mathvariant="normal">G</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">V</mi></mrow><mi>/</mi><mi>c</mi><mo stretchy="false" form="postfix">]</mo><mo>≈</mo><mn>0.2998</mn><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">|</mo><mi>z</mi><mo stretchy="false" form="prefix">|</mo><mspace width="0.167em"></mspace><mi>B</mi><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">[</mo><mi mathvariant="normal">T</mi><mo stretchy="false" form="postfix">]</mo><mspace width="0.167em"></mspace><mi>R</mi><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">[</mo><mi mathvariant="normal">m</mi><mo stretchy="false" form="postfix">]</mo><mi>.</mi></mrow><annotation encoding="application/x-tex">
+p_{\mathrm{T}}\,[\mathrm{GeV}/c]
+\approx 0.2998\,|z|\,B\,[\mathrm{T}]\,R\,[\mathrm{m}].
+</annotation></semantics></math></p>
+<p>Here <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mi>q</mi><mi>/</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">z=q/e</annotation></semantics></math> is the signed charge number. With <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi><mo>≈</mo><mn>2</mn><mspace width="0.167em"></mspace><mi mathvariant="normal">T</mi></mrow><annotation encoding="application/x-tex">B \approx 2\,\mathrm{T}</annotation></semantics></math> and the usual singly charged track assumption (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>z</mi><mo stretchy="false" form="prefix">|</mo><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">|z|=1</annotation></semantics></math>), <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mi mathvariant="normal">T</mi></msub><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">[</mo><mrow><mi mathvariant="normal">G</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">V</mi></mrow><mi>/</mi><mi>c</mi><mo stretchy="false" form="postfix">]</mo><mo>≈</mo><mn>0.6</mn><mi>R</mi><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">[</mo><mi mathvariant="normal">m</mi><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">p_{\mathrm{T}}\,[\mathrm{GeV}/c] \approx 0.6R\,[\mathrm{m}]</annotation></semantics></math>. The bending direction gives the charge sign; identifying the particle species is not required under this charge assumption.</p>
+<p><em>Educational approximation:</em> the interactive arcs use a uniform 2 T solenoidal field and idealized measurements. Real ATLAS track fits account for magnetic-field variations, measurement uncertainties, material interactions, and multiple scattering. Layer radii follow the <a href="https://atlas.cern/Discover/Detector/Inner-Detector">ATLAS Inner Detector documentation</a> and published <a href="https://inspirehep.net/files/4f89a06d335df8bf2f25b8974799be9f">barrel geometry specifications</a>. Field strength: <a href="https://www.atlas.cern/Discover/Detector/Magnet-System">ATLAS Magnet System</a>.</p>
+</section>
+<div data-view-controls-host="">
+
+</div>
+</section>
+<section id="tracking-reconstruction" class="level4 tracking-continuation">
+<h4 class="tracking-continuation" data-anchor-id="tracking-reconstruction">Tracking reconstruction</h4>
+<p>In broad terms, tracking works in three steps. First, the <strong>Pixel detector</strong>, the <strong>silicon microstrip tracker (SCT)</strong>, and the <strong>transition radiation tracker (TRT)</strong> record discrete position measurements, usually called <strong>hits</strong>. Second, pattern- recognition algorithms identify groups of hits that belong to the same particle and fit them to a common trajectory. Third, because the particle moves in the ATLAS solenoidal magnetic field, the trajectory bends: the amount of curvature determines the transverse momentum <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>p</mi><mi mathvariant="normal">T</mi></msub><annotation encoding="application/x-tex">p_{\mathrm{T}}</annotation></semantics></math>, while the direction of curvature identifies the sign of the electric charge. The fitted trajectory also gives the particle’s direction and point of closest approach to the collision vertex.</p>
+<p>For my analyses, each reconstructed track supplies its transverse momentum <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>p</mi><mi mathvariant="normal">T</mi></msub><annotation encoding="application/x-tex">p_{\mathrm{T}}</annotation></semantics></math>, pseudorapidity <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>η</mi><annotation encoding="application/x-tex">\eta</annotation></semantics></math>, and azimuthal angle <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ϕ</mi><annotation encoding="application/x-tex">\phi</annotation></semantics></math>. These quantities are used to measure charged-particle multiplicity, event-by-event mean transverse momentum, and flow vectors. The tracking system is therefore the detector element that directly measures the particles entering the core physics observables.</p>
+</section>
+</section>
+<section id="forward-calorimeters-event-selection-and-centrality" class="level3">
+<h3 data-anchor-id="forward-calorimeters-event-selection-and-centrality">Forward Calorimeters: Event Selection and Centrality</h3>
+<p>The forward calorimeters measure transverse energy at large pseudorapidity, separated from the midrapidity tracks used in my analysis. Their summed energy <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Σ</mi><msub><mi>E</mi><mi mathvariant="normal">T</mi></msub></mrow><annotation encoding="application/x-tex">\Sigma E_{\mathrm{T}}</annotation></semantics></math> defines event-activity or <strong>centrality percentiles</strong>. The relationship between those percentiles and the overlap geometry of the colliding nuclei is inferred with a Glauber-based collision model rather than measured directly by the FCal.</p>
+<p>Using forward energy for event classification and inner-detector tracks for the physics observables helps reduce <strong>self-correlations</strong>—artificial relationships that can appear when the same particles influence both the event class and the observable. The separation between tracking and forward calorimetry is therefore an important part of the analysis strategy.</p>
+</section>
+<section id="zero-degree-calorimeters-pileup-rejection" class="level3 atlas-view-switch">
+<h3 class="atlas-view-switch" data-anchor-id="zero-degree-calorimeters-pileup-rejection">Zero Degree Calorimeters: Pileup Rejection</h3>
+<p><strong>Pileup</strong> occurs when more than one Pb+Pb collision is recorded in the same bunch crossing. Signals from those collisions overlap, so the detector can appear to have more activity than was produced by any one collision. This can bias centrality and other event-by-event measurements that assume each recorded event contains a single nuclear collision.</p>
+<p>The two Zero Degree Calorimeters are installed about 140 m on either side of the ATLAS interaction point, close to the outgoing beam directions. They measure very-forward neutral particles, primarily spectator neutrons that continue along the beam line after the collision <span class="citation" data-cites="avoni-zdc-run3-2025">(<a href="#ref-avoni-zdc-run3-2025" role="doc-biblioref"><span class="nocase">Avoni et al.</span> 2025</a>)</span>.</p>
+<p>Each ZDC is a sampling calorimeter. Alternating tungsten absorber plates and fused-silica rods convert the incident neutron’s shower into Cherenkov light, which is directed through a light guide to a photomultiplier tube.</p>
+<p>In the Pb+Pb analysis, a genuine single collision follows an expected relationship between the forward-neutron energy recorded in the ZDCs and the FCal <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Σ</mi><msub><mi>E</mi><mi mathvariant="normal">T</mi></msub></mrow><annotation encoding="application/x-tex">\Sigma E_{\mathrm{T}}</annotation></semantics></math>. Events with an incompatible combination of ZDC and FCal energy are identified as pileup and removed. The ZDC measurement therefore supports event cleaning rather than entering the final physics observables directly <span class="citation" data-cites="atlas-momentum-fluctuations-2024 avoni-zdc-run3-2025">(<a href="#ref-atlas-momentum-fluctuations-2024" role="doc-biblioref">ATLAS Collaboration 2024a</a>; <a href="#ref-avoni-zdc-run3-2025" role="doc-biblioref"><span class="nocase">Avoni et al.</span> 2025</a>)</span>.</p>
+<section id="zdc-location" class="level4 atlas-view-panel__title atlas-view-panel" data-view-panel="zdc-location" data-view-label="ZDC Location">
+<h4 class="atlas-view-panel__title" data-anchor-id="zdc-location">ZDC location</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../detectors/images/atlas/zdc-location-run3.webp" class="img-fluid figure-img" loading="lazy" decoding="async" alt="The upper panel places the central ATLAS detector between the side-C and side-A TAN absorbers, each 140 metres from the interaction point; the lower panel shows the ATLAS coordinate system and its position on the LHC ring."></p>
+<figcaption>Location of the two ATLAS Zero Degree Calorimeters relative to the central detector.</figcaption>
+</figure>
+</div>
+<p><em>The upper panel shows the ZDCs housed inside the two <strong>TANs</strong> (<strong>Target Absorbers for Neutrals</strong>), 140 m from central ATLAS. Each TAN absorbs the intense flux of very-forward neutral particles and protects downstream LHC magnets. The lower panel defines the ATLAS coordinate system. Source: <a href="https://arxiv.org/abs/2509.05948">Run 3 ATLAS ZDC paper, Figure 1</a>.</em></p>
+</section>
+<section id="zdc-detector-schematic" class="level4 atlas-view-panel__title atlas-view-panel" data-view-panel="zdc-schematic" data-view-label="Detector Schematic">
+<h4 class="atlas-view-panel__title" data-anchor-id="zdc-detector-schematic">ZDC detector schematic</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../detectors/images/atlas/zdc-module-schematic-run3.webp" class="img-fluid figure-img" loading="lazy" decoding="async" alt="A side view shows the ZDC photomultiplier tube, light guide, steel plates, and tungsten absorber plates; a top view shows alternating absorber plates and rows of fused-silica Cherenkov rods."></p>
+<figcaption>Schematic of a Run 3 ATLAS ZDC calorimeter module.</figcaption>
+</figure>
+</div>
+<p><em>Side and top views of a typical ZDC module. The green circles represent the fused-silica Cherenkov rods between the absorber plates. Source: <a href="https://arxiv.org/abs/2509.05948">Run 3 ATLAS ZDC paper, Figure 6</a>.</em></p>
+</section>
+<div data-view-controls-host="">
+
+</div>
+</section>
+</section>
+<section id="additional-resources" class="level2">
+<h2 data-anchor-id="additional-resources">Additional Resources</h2>
+<div class="project-links">
+<p><a href="https://atlas.cern/Discover/Detector" class="btn btn-outline-primary icon-link icon-guide">Official ATLAS Detector Guide</a> <a href="https://atlas.cern/Resources/Schematics" class="btn btn-outline-primary icon-link icon-schematic">ATLAS Detector Schematics</a></p>
+</div>
+<script type="module" src="_scripts/detector-page.js?v=4"></script>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-atlas-detector-2008" class="csl-entry" role="listitem">
+ATLAS Collaboration. 2008. <span>“The ATLAS Experiment at the CERN Large Hadron Collider.”</span> <em>Journal of Instrumentation</em> 3 (08): S08003. <a href="https://doi.org/10.1088/1748-0221/3/08/S08003">https://doi.org/10.1088/1748-0221/3/08/S08003</a>.
+</div>
+<div id="ref-atlas-momentum-fluctuations-2024" class="csl-entry" role="listitem">
+ATLAS Collaboration. 2024a. <span>“Disentangling Sources of Momentum Fluctuations in <span>Xe+Xe</span> and <span>Pb+Pb</span> Collisions with the <span>ATLAS</span> Detector.”</span> <em>Physical Review Letters</em> 133: 252301. <a href="https://doi.org/10.1103/PhysRevLett.133.252301">https://doi.org/10.1103/PhysRevLett.133.252301</a>.
+</div>
+<div id="ref-atlas-run3-detector" class="csl-entry" role="listitem">
+ATLAS Collaboration. 2024b. <span>“The ATLAS Experiment at the CERN Large Hadron Collider: A Description of the Detector Configuration for Run 3.”</span> <em>Journal of Instrumentation</em> 19 (05): P05063. <a href="https://doi.org/10.1088/1748-0221/19/05/P05063">https://doi.org/10.1088/1748-0221/19/05/P05063</a>.
+</div>
+<div id="ref-avoni-zdc-run3-2025" class="csl-entry" role="listitem">
+<span class="nocase">Avoni, Giulio et al.</span> 2025. <em>Upgrades of the <span>ATLAS</span> Zero Degree Calorimeter System for Run 3 at the Large Hadron Collider</em>. <a href="https://doi.org/10.48550/arXiv.2509.05948">https://doi.org/10.48550/arXiv.2509.05948</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/Skipper-Adimri\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

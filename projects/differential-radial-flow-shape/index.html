@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,15 +36,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../favicon.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a14d652b86e00f03abd5043129e363d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -104,16 +105,17 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../icons.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../welcome.html">
     <span class="navbar-title">Aman Dimri</span>
     </a>
   </div>
@@ -133,7 +135,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications.html"> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Projects &amp; Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../presentation.html"> 
@@ -158,7 +160,27 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a>
+  <ul class="collapse">
+  <li><a href="#what-does-differential-radial-flow-measure" id="toc-what-does-differential-radial-flow-measure" class="nav-link" data-scroll-target="#what-does-differential-radial-flow-measure">What does differential radial flow measure?</a></li>
+  <li><a href="#how-global-multiplicity-creates-an-offset" id="toc-how-global-multiplicity-creates-an-offset" class="nav-link" data-scroll-target="#how-global-multiplicity-creates-an-offset">How global multiplicity creates an offset</a></li>
+  <li><a href="#the-ambiguity-introduced-by-a-finite-normalization-range" id="toc-the-ambiguity-introduced-by-a-finite-normalization-range" class="nav-link" data-scroll-target="#the-ambiguity-introduced-by-a-finite-normalization-range">The ambiguity introduced by a finite normalization range</a></li>
+  <li><a href="#testing-the-argument-with-hijing" id="toc-testing-the-argument-with-hijing" class="nav-link" data-scroll-target="#testing-the-argument-with-hijing">Testing the argument with HIJING</a></li>
+  <li><a href="#why-the-zero-crossing-is-not-the-physical-observable" id="toc-why-the-zero-crossing-is-not-the-physical-observable" class="nav-link" data-scroll-target="#why-the-zero-crossing-is-not-the-physical-observable">Why the zero crossing is not the physical observable</a></li>
+  <li><a href="#implications-for-experimental-comparisons" id="toc-implications-for-experimental-comparisons" class="nav-link" data-scroll-target="#implications-for-experimental-comparisons">Implications for experimental comparisons</a></li>
+  </ul></li>
+  <li><a href="#my-contribution" id="toc-my-contribution" class="nav-link" data-scroll-target="#my-contribution">My Contribution</a></li>
+  <li><a href="#connection-to-the-atlas-radial-flow-measurement" id="toc-connection-to-the-atlas-radial-flow-measurement" class="nav-link" data-scroll-target="#connection-to-the-atlas-radial-flow-measurement">Connection to the ATLAS Radial-Flow Measurement</a></li>
+  <li><a href="#broader-implications" id="toc-broader-implications" class="nav-link" data-scroll-target="#broader-implications">Broader Implications</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -182,48 +204,100 @@ window.Quarto = {
 </header>
 
 
+<div class="project-meta">
 <p><strong>Somadutta Bhatta, Aman Dimri, Jiangyong Jia</strong></p>
 <p><em>Nuclear Science and Techniques</em> <strong>37</strong>, 163 (2026)</p>
+</div>
 <div class="project-links">
-<p><a href="https://doi.org/10.1007/s41365-026-01998-z" class="btn btn-primary">NST</a> <a href="../../projects/differential-radial-flow-shape/posters/qm-2025.html" class="btn btn-outline-primary">QM 2025 Poster</a> <a href="https://arxiv.org/abs/2504.20008" class="btn btn-outline-primary">arXiv</a></p>
+<p><a href="https://doi.org/10.1007/s41365-026-01998-z" class="btn btn-primary icon-link icon-journal">NST</a> <a href="https://arxiv.org/abs/2504.20008" class="btn btn-outline-primary icon-link icon-preprint">arXiv</a> <a href="../../projects/differential-radial-flow-shape/posters/qm-2025.html" class="btn btn-outline-primary icon-link icon-poster">QM 2025 Poster</a></p>
 </div>
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
-<p>The differential radial-flow observable <span class="math inline">\(v_0(p_T)\)</span> characterizes event-by-event fluctuations of the transverse-momentum spectrum. Its characteristic shape contains information about radial-flow dynamics, but the observable is also affected by global event-activity and multiplicity fluctuations.</p>
-<p>This project asks a basic interpretational question: <strong>which features of <span class="math inline">\(v_0(p_T)\)</span> are actually physical?</strong></p>
-<p>Using HIJING simulations, the study shows that changing the definition of event activity or the normalization of the particle spectrum can shift the entire <span class="math inline">\(v_0(p_T)\)</span> curve vertically. Crucially, these changes leave the shape of the curve essentially unchanged. The absolute vertical position, and therefore the location where <span class="math inline">\(v_0(p_T)\)</span> crosses zero, is consequently not a robust measure of radial-flow dynamics.</p>
+<p>The differential radial-flow observable <span class="math inline">\(v_0(p_T)\)</span> measures how fluctuations of the particle spectrum at a given transverse momentum correlate with event-by-event changes in the mean transverse momentum, <span class="math inline">\([p_T]\)</span>. Its momentum-dependent shape can provide information about collective radial expansion and the transport properties of the quark-gluon plasma (QGP). But the way a spectrum is normalized, or the way events are classified by activity, can also affect the numerical value of the observable.</p>
+<p>This project addresses a central interpretational question: <strong>which features of <span class="math inline">\(v_0(p_T)\)</span> reflect the underlying dynamics, and which depend on analysis conventions?</strong> Using analytical relations and HIJING simulations, we show that different spectral-normalization ranges and centrality estimators can produce a <strong>constant vertical offset</strong> in <span class="math inline">\(v_0(p_T)\)</span> without changing its dependence on <span class="math inline">\(p_T\)</span>. The location where the curve crosses zero is therefore not an invariant measure of radial-flow dynamics. The robust information resides in its differential shape, or equivalently in its derivative with respect to <span class="math inline">\(p_T\)</span>.</p>
 </section>
-<section id="global-multiplicity-and-spectral-shape-fluctuations" class="level2">
-<h2 data-anchor-id="global-multiplicity-and-spectral-shape-fluctuations">Global Multiplicity and Spectral-Shape Fluctuations</h2>
-<p>Event-by-event fluctuations of a particle spectrum contain more than one contribution. The total number of particles in an event can fluctuate, while the shape of the transverse-momentum distribution can fluctuate independently.</p>
-<p>The observable <span class="math inline">\(v_0(p_T)\)</span> is sensitive to both effects. Residual fluctuations in event volume or centrality therefore introduce a global contribution that shifts <span class="math inline">\(v_0(p_T)\)</span> approximately uniformly as a function of <span class="math inline">\(p_T\)</span>.</p>
-<p>This means that two measurements can describe the same underlying spectral-shape fluctuations while appearing vertically displaced from one another.</p>
-</section>
-<section id="why-the-zero-crossing-is-not-physical" class="level2">
-<h2 data-anchor-id="why-the-zero-crossing-is-not-physical">Why the Zero Crossing Is Not Physical</h2>
-<p>A commonly noted feature of <span class="math inline">\(v_0(p_T)\)</span> is the momentum at which it changes sign. This zero-crossing point often lies near the event-averaged transverse momentum and can appear to provide a characteristic momentum scale.</p>
-<p>However, the study demonstrates that the zero crossing moves when the event-activity definition or spectrum-normalization prescription is changed. Since these procedural choices do not alter the underlying radial-flow dynamics, the zero-crossing position cannot by itself carry unique physical information.</p>
-<p>Instead, it partly reflects the arbitrary baseline introduced by global multiplicity fluctuations.</p>
-</section>
-<section id="the-shape-is-the-robust-observable" class="level2">
-<h2 data-anchor-id="the-shape-is-the-robust-observable">The Shape Is the Robust Observable</h2>
-<p>While different analysis choices generate an approximately constant vertical offset, the <span class="math inline">\(p_T\)</span> dependence of <span class="math inline">\(v_0(p_T)\)</span> remains stable.</p>
-<p>The physically meaningful information is therefore encoded in the <strong>shape</strong> of the differential radial-flow response, or equivalently in its derivative,</p>
+<section id="analysis" class="level2">
+<h2 data-anchor-id="analysis">Analysis</h2>
+<section id="what-does-differential-radial-flow-measure" class="level3">
+<h3 data-anchor-id="what-does-differential-radial-flow-measure">What does differential radial flow measure?</h3>
+<p>An event contains a transverse-momentum spectrum <span class="math inline">\(N(p_T)\)</span>, whose integral gives the total number of particles <span class="math inline">\(N\)</span>. We can separate its overall normalization from its momentum-dependent shape by writing</p>
 <p><span class="math display">\[
-\frac{d v_0(p_T)}{d p_T}.
+N(p_T)=N\,n(p_T),\qquad \int n(p_T)\,dp_T=1.
 \]</span></p>
-<p>Quantities based on the slope or relative variation of <span class="math inline">\(v_0(p_T)\)</span> are insensitive to a constant vertical shift and therefore provide a more robust connection to the underlying radial-flow dynamics.</p>
+<p>The normalized spectrum <span class="math inline">\(n(p_T)\)</span> describes how the particle yield is distributed in transverse momentum, while <span class="math inline">\(N\)</span> describes the global multiplicity. A change in radial expansion typically changes the <em>shape</em> of the spectrum: stronger radial flow produces a flatter distribution and a larger event-wise mean <span class="math inline">\([p_T]\)</span>. The observable <span class="math inline">\(v_0(p_T)\)</span> quantifies the correlation of local spectral fluctuations with those of <span class="math inline">\([p_T]\)</span>.</p>
+<p>The distinction between normalization and shape is essential. In real analyses, particles are measured over finite momentum intervals, and multiplicity still fluctuates among events selected within the same centrality bin. An observed change in <span class="math inline">\(v_0(p_T)\)</span> need not therefore imply a change in the underlying radial-flow response.</p>
 </section>
-<section id="implications-for-experimental-comparisons" class="level2">
-<h2 data-anchor-id="implications-for-experimental-comparisons">Implications for Experimental Comparisons</h2>
-<p>This result has a practical consequence for comparisons between experiments and between data and theoretical calculations.</p>
-<p>Measurements using different centrality estimators, detector acceptances, or normalization conventions may acquire different vertical offsets even when they contain the same underlying dynamical information. Directly comparing the absolute value or zero crossing of <span class="math inline">\(v_0(p_T)\)</span> can therefore be misleading.</p>
-<p>Instead, measurements should first be vertically aligned, or compared through shape-sensitive quantities. This removes the normalization ambiguity and allows the differential radial-flow response to be used more reliably when constraining properties of the quark-gluon plasma.</p>
+<section id="how-global-multiplicity-creates-an-offset" class="level3">
+<h3 data-anchor-id="how-global-multiplicity-creates-an-offset">How global multiplicity creates an offset</h3>
+<p>For small correlated fluctuations, the spectrum can be decomposed to leading order as</p>
+<p><span class="math display">\[
+\delta N(p_T)\simeq
+\langle n(p_T)\rangle\,\delta N
++\langle N\rangle\,\delta n(p_T).
+\]</span></p>
+<p>The first term represents a global change in particle number, whereas the second captures a change in the normalized spectral shape. A differential observable constructed from the unnormalized spectrum <span class="math inline">\(N(p_T)\)</span> therefore contains a multiplicity contribution in addition to the shape contribution measured from <span class="math inline">\(n(p_T)\)</span>.</p>
+<p>The two definitions, denoted <span class="math inline">\(v_0'(p_T)\)</span> and <span class="math inline">\(v_0(p_T)\)</span>, obey the approximate relation</p>
+<p><span class="math display">\[
+\Delta v_0\equiv v_0'(p_T)-v_0(p_T)
+\simeq \rho(N,[p_T])\frac{\sigma_N}{\langle N\rangle},
+\]</span></p>
+<p>where <span class="math inline">\(\rho(N,[p_T])\)</span> is the correlation coefficient between multiplicity and mean transverse momentum, and <span class="math inline">\(\sigma_N\)</span> is the standard deviation of <span class="math inline">\(N\)</span>. Crucially, the right-hand side is <strong>independent of <span class="math inline">\(p_T\)</span></strong>. Residual volume or centrality fluctuations thus displace the entire curve rather than changing its shape. The relation is derived under the small-correction approximations appropriate to narrow event-activity selections.</p>
+</section>
+<section id="the-ambiguity-introduced-by-a-finite-normalization-range" class="level3">
+<h3 data-anchor-id="the-ambiguity-introduced-by-a-finite-normalization-range">The ambiguity introduced by a finite normalization range</h3>
+<p>Normalizing the spectrum does not completely remove the ambiguity, because the normalization itself depends on the accepted momentum interval. Define <span class="math inline">\(N_R=\int_R N(p_T)\,dp_T\)</span> and <span class="math inline">\(n_R(p_T)=N(p_T)/N_R\)</span> for a chosen range <span class="math inline">\(R\)</span>. Even at fixed total multiplicity, <span class="math inline">\(N_R\)</span> can fluctuate as particles enter or leave the selected interval. Changing <span class="math inline">\(R\)</span> therefore changes the residual multiplicity contribution to <span class="math inline">\(v_0(p_T)\)</span>.</p>
+<div id="fig-nst-offset" class="quarto-float quarto-figure quarto-figure-center" alt="Three parallel differential radial-flow curves for different spectral-normalization intervals, with distinct zero crossings and the same momentum-dependent shape.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-nst-offset-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../publications/images/nst-spectral-normalization.png" class="img-fluid figure-img" style="width:95.0%" alt="Three parallel differential radial-flow curves for different spectral-normalization intervals, with distinct zero crossings and the same momentum-dependent shape.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-nst-offset-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Schematic of the constant-offset result. Spectral normalization over 0-10, 0.5-10, or 1-10 GeV changes the vertical position and zero crossing of <span class="math inline">\(v_0(p_T)\)</span> while preserving its differential shape. The drawing illustrates the interpretation; it is not a plot of HIJING output.
+</figcaption>
+</figure>
+</div>
+<p>This explains why a zero crossing near the ensemble mean <span class="math inline">\(p_T\)</span> is not a unique dynamical scale: changing the normalization interval can move the crossing even when the same underlying spectral fluctuations are being studied.</p>
+</section>
+<section id="testing-the-argument-with-hijing" class="level3">
+<h3 data-anchor-id="testing-the-argument-with-hijing">Testing the argument with HIJING</h3>
+<p>We tested these relations in Pb+Pb events generated with HIJING, which provides a useful non-collective baseline rather than a hydrodynamic description of radial flow. The study varied the event-activity estimator, the momentum range used to normalize the spectrum, and the reference momentum interval used to define <span class="math inline">\([p_T]\)</span>. The correlations were constructed using separated subevents to reduce short-range biases and to test the expected multiplicity-dependent contributions.</p>
+<p>The results support the analytical picture. Changing the event-activity definition causes substantial shifts for the observable constructed from the unnormalized spectrum; using the normalized spectrum or subtracting the predicted global-multiplicity contribution largely removes those shifts. Changing the spectral-normalization interval also displaces the curves, and the calculated correction brings them into close agreement. The corresponding comparisons are shown in <a href="https://arxiv.org/html/2504.20008/">the article’s results figures</a>.</p>
+<p>The reference-<span class="math inline">\(p_T\)</span> dependence of the HIJING results additionally reveals non-flow contributions, especially at high <span class="math inline">\(p_T\)</span>. These effects should not be confused with the constant baseline ambiguity: they can alter the momentum-dependent behavior itself. HIJING is therefore used here to separate methodological and non-flow effects, <strong>not as evidence for collective expansion</strong>.</p>
+</section>
+<section id="why-the-zero-crossing-is-not-the-physical-observable" class="level3">
+<h3 data-anchor-id="why-the-zero-crossing-is-not-the-physical-observable">Why the zero crossing is not the physical observable</h3>
+<p>The measured <span class="math inline">\(v_0(p_T)\)</span> may be negative at low momentum and positive at higher momentum, with a zero crossing between the two. That crossing is visually convenient, but its location depends on the vertical baseline. Since changing analysis conventions can modify the baseline without modifying the physical spectral-shape response, the crossing point alone is not a reliable dynamical scale.</p>
+<p>Instead, a common additive offset cancels from any difference between two momentum points,</p>
+<p><span class="math display">\[
+\bigl[v_0(p_{T,1})+C\bigr]-\bigl[v_0(p_{T,2})+C\bigr]
+=v_0(p_{T,1})-v_0(p_{T,2}),
+\]</span></p>
+<p>and from the derivative</p>
+<p><span class="math display">\[
+v_{0s}(p_T)\equiv\frac{d v_0(p_T)}{dp_T}.
+\]</span></p>
+<p>These shape-sensitive quantities avoid the normalization ambiguity. The derivative is proposed as a useful alternative observable; the paper does not claim that the derivative has already been measured experimentally.</p>
+</section>
+<section id="implications-for-experimental-comparisons" class="level3">
+<h3 data-anchor-id="implications-for-experimental-comparisons">Implications for experimental comparisons</h3>
+<p>Different experiments use different detector acceptances, momentum cuts, spectrum-normalization conventions, and event-activity selections. Directly comparing the absolute positions or zero crossings of their <span class="math inline">\(v_0(p_T)\)</span> curves can therefore be misleading. A meaningful comparison should first place the measurements on a common normalization convention or align their baselines, then compare their <span class="math inline">\(p_T\)</span> dependence.</p>
+<p>This distinction is especially important when using differential radial flow to constrain the QGP’s transport properties. A model that reproduces the slope and curvature but differs by an additive offset need not have an incorrect dynamical response. Conversely, agreement in the zero-crossing position alone does not establish agreement in the physical spectral-shape fluctuations.</p>
+</section>
+</section>
+<section id="my-contribution" class="level2">
+<h2 data-anchor-id="my-contribution">My Contribution</h2>
+<p>I proposed the <strong>constant-offset interpretation</strong> of differential radial-flow curves obtained with different momentum ranges and analysis conventions. I also derived the analytical relations connecting global multiplicity fluctuations to the displacement of <span class="math inline">\(v_0(p_T)\)</span>, providing the basis for the paper’s interpretation and its HIJING-based validation. This work helped distinguish robust momentum-dependent physics from normalization-dependent features of the observable.</p>
 </section>
 <section id="connection-to-the-atlas-radial-flow-measurement" class="level2">
 <h2 data-anchor-id="connection-to-the-atlas-radial-flow-measurement">Connection to the ATLAS Radial-Flow Measurement</h2>
-<p>This study complements the experimental measurement establishing the collective nature of differential radial-flow fluctuations. The ATLAS measurement demonstrates that <span class="math inline">\(v_0(p_T)\)</span> exhibits the characteristic signatures of collectivity, while this work clarifies which features of the observable provide robust dynamical information.</p>
-<p><a href="../../projects/radial-flow-collectivity/index.html" class="btn btn-outline-primary">ATLAS Radial-Flow Project</a></p>
+<p>This study complements the ATLAS measurement that established long-range correlations, factorization, and a common differential response shape for radial flow in Pb+Pb collisions. The ATLAS work provides experimental evidence for collectivity; the present study explains how residual multiplicity fluctuations and normalization choices affect the interpretation of the differential observable. Together, they clarify what should be compared when using <span class="math inline">\(v_0(p_T)\)</span> to study the collective medium.</p>
+<div class="project-links">
+<p><a href="../../projects/radial-flow-collectivity/index.html" class="btn btn-outline-primary icon-link icon-project">Related Project</a> <a href="../../projects/differential-radial-flow-shape/posters/qm-2025.html" class="btn btn-outline-primary icon-link icon-poster">QM 2025 Poster</a></p>
+</div>
+</section>
+<section id="broader-implications" class="level2">
+<h2 data-anchor-id="broader-implications">Broader Implications</h2>
+<p>The broader lesson is that a differential observable can contain both dynamical information and an analysis-dependent baseline. Recognizing which features are invariant under changes of normalization makes comparisons between experiments and models more reliable. For radial flow, this focuses attention on the shape of <span class="math inline">\(v_0(p_T)\)</span> as the part that can be used to study the medium’s response and, ultimately, constrain properties such as bulk viscosity.</p>
 
 
 </section>

@@ -1,0 +1,64 @@
+/* This page has one photographic introduction. All text and links live in welcome.qmd. */
+body.welcome-page { display: flex; flex-direction: column; min-height: 100svh; background: #29352e; }
+.welcome-page #quarto-content { padding: 0; flex: 1; display: flex; flex-direction: column; }
+.welcome-page main.content { margin: 0; }
+.welcome-page #quarto-content > .welcome-hero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: clamp(2rem, 5vh, 4rem) clamp(.75rem, 2.25vw, 2rem);
+  background-color: #29352e;
+  background-image: linear-gradient(90deg, rgba(12, 24, 22, .8), rgba(12, 24, 22, .38) 58%, rgba(12, 24, 22, .12)), url("images/profile/landscape.webp");
+  background-size: cover;
+  background-position: center;
+  color: #fffdf6;
+}
+.welcome-copy { max-width: 38rem; }
+.welcome-eyebrow {
+  font-size: 1rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.welcome-copy h1 {
+  color: inherit;
+  font-size: clamp(3.7rem, 7.8vw, 7rem);
+  line-height: 1.02;
+  margin: .6rem 0 1.3rem;
+}
+.welcome-description {
+  font-size: clamp(1.3rem, 2.4vw, 1.85rem);
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+.welcome-actions p, .welcome-socials p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .8rem;
+}
+.welcome-actions { margin-top: 2rem; }
+.welcome-actions .btn { padding: .65rem 1.25rem; font-size: 1.1rem; }
+.welcome-actions .btn-outline-primary { background: transparent; border-color: #fffdf6; color: #fffdf6; }
+.welcome-socials { margin-top: 1.8rem; }
+.welcome-socials .btn { background: transparent; border-color: #fffdf6; color: #fffdf6; }
+.welcome-actions .btn-outline-primary:hover,
+.welcome-actions .btn-outline-primary:focus-visible,
+.welcome-socials .btn:hover, .welcome-socials .btn:focus-visible {
+  background: var(--lime); border-color: var(--lime); color: #303030;
+}
+.welcome-page a:focus-visible { outline: 3px solid var(--lime); outline-offset: 5px; }
+/* On a phone, show the photograph above the text rather than covering the face. */
+@media (max-width: 991px) {
+  .welcome-page #quarto-content > .welcome-hero {
+    --welcome-photo-height: min(42svh, 22rem);
+    display: block;
+    padding: calc(var(--welcome-photo-height) + 1rem) 1.5rem 2rem;
+    background-image: linear-gradient(to bottom, transparent 65%, #29352e 100%), url("images/profile/landscape.webp");
+    background-size: 100% var(--welcome-photo-height), auto var(--welcome-photo-height);
+    background-position: center top, 72% top;
+    background-repeat: no-repeat;
+  }
+  .welcome-copy h1 { font-size: clamp(2.6rem, 12vw, 3.7rem); }
+  .welcome-description { font-size: 1.3rem; }
+  .welcome-actions { margin-top: 1.5rem; }
+}

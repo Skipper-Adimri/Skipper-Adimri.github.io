@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – Aman Dimri</title>
+<title>Projects &amp; Publications – Aman Dimri</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -43,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a14d652b86e00f03abd5043129e363d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-research-publications .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -90,7 +91,63 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-research-publications'] = new List('listing-research-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-instrumentation-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-order','listing-description-line-1','listing-description-line-2','listing-project-url','listing-button-text','listing-button-icon','listing-image','listing-image-alt','listing-image-credit','listing-image-source-url','listing-image-layout',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-order-sort'] }],
+      
+      searchColumns: ["listing-title","listing-order","listing-description-line-1","listing-description-line-2","listing-project-url","listing-button-text","listing-button-icon","listing-image","listing-image-alt","listing-image-credit","listing-image-source-url","listing-image-layout"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-instrumentation-projects'] = new List('listing-instrumentation-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-theses-dissertations .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-order','listing-description-line-1','listing-description-line-2','listing-project-url','listing-button-text','listing-button-icon','listing-image','listing-image-alt','listing-image-credit',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-order-sort'] }],
+      
+      searchColumns: ["listing-title","listing-order","listing-description-line-1","listing-description-line-2","listing-project-url","listing-button-text","listing-button-icon","listing-image","listing-image-alt","listing-image-credit"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-theses-dissertations'] = new List('listing-theses-dissertations', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -135,17 +192,19 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="icons.css">
+<link rel="stylesheet" href="listing.css">
 <link rel="stylesheet" href="publications/publication-thumbnails.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed projects-publications catalogue-page fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="./welcome.html">
     <span class="navbar-title">Aman Dimri</span>
     </a>
   </div>
@@ -165,7 +224,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Projects &amp; Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./presentation.html"> 
@@ -192,48 +251,30 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Publications</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-<div class="publication-list list">
+<section id="publications-data-analysis-phenomenology-modeling" class="level2">
+<h2 data-anchor-id="publications-data-analysis-phenomenology-modeling">Publications: Data Analysis, Phenomenology &amp; Modeling</h2>
+<div id="listing-research-publications" class="quarto-listing quarto-listing-container-custom">
+<div class="catalogue-list publication-list list">
     
 
-    <div class="publication-item" data-index="0" data-listing-date-sort="1788220800000">
+    <div class="catalogue-item publication-item" data-index="0" data-listing-date-sort="1788220800000">
         <h3 class="listing-title">
             
             The shape of differential radial flow <i>v</i><sub>0</sub>(<i>p</i><sub>T</sub>), not its zero-crossing, carries physical information
             
         </h3>
 
-        <div class="publication-entry-body">
-            <div class="publication-entry-details">
-                <p class="publication-author">
+        <div class="catalogue-entry-body publication-entry-body">
+            <div class="catalogue-entry-details publication-entry-details">
+                <p class="catalogue-entry-meta publication-author">
                     <strong>Somadutta Bhatta, Aman Dimri, Jiangyong Jia</strong>
                 </p>
-                <p class="publication-citation">
+                <p class="catalogue-entry-meta publication-citation">
                     <em>Nuclear Science and Techniques</em>
                     
                     <strong>37</strong>,
@@ -246,19 +287,19 @@ window.Quarto = {
                     
                 </p>
 
-                <div class="publication-links">
+                <div class="catalogue-entry-links publication-links">
                     
-                    <a href="https://doi.org/10.1007/s41365-026-01998-z" class="btn btn-primary btn-sm">
+                    <a href="https://doi.org/10.1007/s41365-026-01998-z" class="btn btn-primary btn-sm icon-link icon-journal">
                         NST
                     </a>
                     
                     
-                    <a href="./projects/differential-radial-flow-shape/index.html" class="btn btn-outline-primary btn-sm">
+                    <a href="./projects/differential-radial-flow-shape/index.html" class="btn btn-outline-primary btn-sm icon-link icon-project">
                         Project Summary
                     </a>
                     
                     
-                    <a href="https://arxiv.org/abs/2504.20008" class="btn btn-outline-primary btn-sm">
+                    <a href="https://arxiv.org/abs/2504.20008" class="btn btn-outline-primary btn-sm icon-link icon-preprint">
                         arXiv
                     </a>
                     
@@ -266,7 +307,7 @@ window.Quarto = {
             </div>
 
             
-            <div class="publication-entry-image">
+            <div class="catalogue-entry-image publication-entry-image">
                 <img src="publications/images/nst-spectral-normalization.png" alt="Three parallel differential radial-flow curves illustrating constant offsets, shifted zero crossings and different spectral normalization intervals" loading="lazy" decoding="async">
             </div>
             
@@ -275,19 +316,19 @@ window.Quarto = {
 
     
 
-    <div class="publication-item" data-index="1" data-listing-date-sort="1776038400000">
+    <div class="catalogue-item publication-item" data-index="1" data-listing-date-sort="1776038400000">
         <h3 class="listing-title">
             
             Measurement of the azimuthal anisotropy of charged particles in √<i>s</i><sub>NN</sub> = 5.36 TeV <sup>16</sup>O+<sup>16</sup>O and <sup>20</sup>Ne+<sup>20</sup>Ne collisions with the ATLAS detector
             
         </h3>
 
-        <div class="publication-entry-body">
-            <div class="publication-entry-details">
-                <p class="publication-author">
+        <div class="catalogue-entry-body publication-entry-body">
+            <div class="catalogue-entry-details publication-entry-details">
+                <p class="catalogue-entry-meta publication-author">
                     <strong>ATLAS Collaboration</strong>
                 </p>
-                <p class="publication-citation">
+                <p class="catalogue-entry-meta publication-citation">
                     <em>Physical Review C</em>
                     
                     <strong>113</strong>,
@@ -300,19 +341,19 @@ window.Quarto = {
                     
                 </p>
 
-                <div class="publication-links">
+                <div class="catalogue-entry-links publication-links">
                     
-                    <a href="https://journals.aps.org/prc/abstract/10.1103/xqxz-8bhf" class="btn btn-primary btn-sm">
+                    <a href="https://journals.aps.org/prc/abstract/10.1103/xqxz-8bhf" class="btn btn-primary btn-sm icon-link icon-journal">
                         PRC
                     </a>
                     
                     
-                    <a href="./projects/oxygen-neon-nuclear-structure/index.html" class="btn btn-outline-primary btn-sm">
+                    <a href="./projects/oxygen-neon-nuclear-structure/index.html" class="btn btn-outline-primary btn-sm icon-link icon-project">
                         Project Summary
                     </a>
                     
                     
-                    <a href="https://arxiv.org/abs/2509.05171" class="btn btn-outline-primary btn-sm">
+                    <a href="https://arxiv.org/abs/2509.05171" class="btn btn-outline-primary btn-sm icon-link icon-preprint">
                         arXiv
                     </a>
                     
@@ -320,7 +361,7 @@ window.Quarto = {
             </div>
 
             
-            <div class="publication-entry-image">
+            <div class="catalogue-entry-image publication-entry-image">
                 <img src="publications/images/prc-oxygen-neon-elliptic-flow.png" alt="Illustrated comparison of elliptic flow in lead, oxygen and neon collisions, with nuclear density profiles" loading="lazy" decoding="async">
             </div>
             
@@ -329,19 +370,19 @@ window.Quarto = {
 
     
 
-    <div class="publication-item" data-index="2" data-listing-date-sort="1769040000000">
+    <div class="catalogue-item publication-item" data-index="2" data-listing-date-sort="1769040000000">
         <h3 class="listing-title">
             
             Evidence for the Collective Nature of Radial Flow in Pb+Pb Collisions with the ATLAS Detector
             
         </h3>
 
-        <div class="publication-entry-body">
-            <div class="publication-entry-details">
-                <p class="publication-author">
+        <div class="catalogue-entry-body publication-entry-body">
+            <div class="catalogue-entry-details publication-entry-details">
+                <p class="catalogue-entry-meta publication-author">
                     <strong>ATLAS Collaboration</strong>
                 </p>
-                <p class="publication-citation">
+                <p class="catalogue-entry-meta publication-citation">
                     <em>Physical Review Letters</em>
                     
                     <strong>136</strong>,
@@ -354,19 +395,19 @@ window.Quarto = {
                     
                 </p>
 
-                <div class="publication-links">
+                <div class="catalogue-entry-links publication-links">
                     
-                    <a href="https://journals.aps.org/prl/abstract/10.1103/ldcn-r2lq" class="btn btn-primary btn-sm">
+                    <a href="https://journals.aps.org/prl/abstract/10.1103/ldcn-r2lq" class="btn btn-primary btn-sm icon-link icon-journal">
                         PRL
                     </a>
                     
                     
-                    <a href="./projects/radial-flow-collectivity/index.html" class="btn btn-outline-primary btn-sm">
+                    <a href="./projects/radial-flow-collectivity/index.html" class="btn btn-outline-primary btn-sm icon-link icon-project">
                         Project Summary
                     </a>
                     
                     
-                    <a href="https://arxiv.org/abs/2503.24125" class="btn btn-outline-primary btn-sm">
+                    <a href="https://arxiv.org/abs/2503.24125" class="btn btn-outline-primary btn-sm icon-link icon-preprint">
                         arXiv
                     </a>
                     
@@ -374,7 +415,7 @@ window.Quarto = {
             </div>
 
             
-            <div class="publication-entry-image">
+            <div class="catalogue-entry-image publication-entry-image">
                 <img src="publications/images/prl-collective-radial-flow.png" alt="ATLAS cartoon illustrating how event-by-event changes in mean transverse momentum modify charged-particle spectra" loading="lazy" decoding="async">
             </div>
             
@@ -383,19 +424,19 @@ window.Quarto = {
 
     
 
-    <div class="publication-item" data-index="3" data-listing-date-sort="1678838400000">
+    <div class="catalogue-item publication-item" data-index="3" data-listing-date-sort="1678838400000">
         <h3 class="listing-title">
             
             Impact of nuclear shape fluctuations in high-energy heavy ion collisions
             
         </h3>
 
-        <div class="publication-entry-body">
-            <div class="publication-entry-details">
-                <p class="publication-author">
+        <div class="catalogue-entry-body publication-entry-body">
+            <div class="catalogue-entry-details publication-entry-details">
+                <p class="catalogue-entry-meta publication-author">
                     <strong>Aman Dimri, Somadutta Bhatta, Jiangyong Jia</strong>
                 </p>
-                <p class="publication-citation">
+                <p class="catalogue-entry-meta publication-citation">
                     <em>The European Physical Journal A</em>
                     
                     <strong>59</strong>,
@@ -408,19 +449,19 @@ window.Quarto = {
                     
                 </p>
 
-                <div class="publication-links">
+                <div class="catalogue-entry-links publication-links">
                     
-                    <a href="https://doi.org/10.1140/epja/s10050-023-00965-1" class="btn btn-primary btn-sm">
+                    <a href="https://doi.org/10.1140/epja/s10050-023-00965-1" class="btn btn-primary btn-sm icon-link icon-journal">
                         EPJ A
                     </a>
                     
                     
-                    <a href="./projects/nuclear-shape-fluctuations/index.html" class="btn btn-outline-primary btn-sm">
+                    <a href="./projects/nuclear-shape-fluctuations/index.html" class="btn btn-outline-primary btn-sm icon-link icon-project">
                         Project Summary
                     </a>
                     
                     
-                    <a href="https://arxiv.org/abs/2301.03556" class="btn btn-outline-primary btn-sm">
+                    <a href="https://arxiv.org/abs/2301.03556" class="btn btn-outline-primary btn-sm icon-link icon-preprint">
                         arXiv
                     </a>
                     
@@ -428,7 +469,7 @@ window.Quarto = {
             </div>
 
             
-            <div class="publication-entry-image">
+            <div class="catalogue-entry-image publication-entry-image">
                 <img src="publications/images/epja-nuclear-shape-fluctuations.png" alt="Nuclear shape fluctuations: a spherical reference surrounded by prolate, oblate, triaxial and irregular deformed configurations" loading="lazy" decoding="async">
             </div>
             
@@ -438,7 +479,129 @@ window.Quarto = {
     
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="projects-detectors-instrumentation" class="level2">
+<h2 data-anchor-id="projects-detectors-instrumentation">Projects: Detectors &amp; Instrumentation</h2>
+<div id="listing-instrumentation-projects" class="quarto-listing quarto-listing-container-custom">
+<!-- Share publication layout classes so both listings use the same spacing and thumbnails. -->
+<div class="catalogue-list publication-list project-list list">
+  
+  <div class="catalogue-item publication-item" data-index="0" data-listing-order-sort="10">
+    <h3 class="listing-title">ATLAS Detector — Interactive Explorer</h3>
+    <div class="catalogue-entry-body publication-entry-body">
+      <div class="catalogue-entry-details publication-entry-details">
+        <p class="catalogue-entry-meta publication-author">An interactive guide to ATLAS detector systems and particle measurements.</p>
+        <p class="catalogue-entry-meta publication-citation">Explore tracking, calorimetry, and the detectors used in my analyses.</p>
+        <div class="catalogue-entry-links publication-links">
+          <a href="./detectors/atlas-detector/index.html" class="btn btn-primary btn-sm icon-link icon-detector">Explore the Detector</a>
+        </div>
+      </div>
+      
+      <div class="catalogue-entry-image publication-entry-image">
+        <div class="project-thumbnail" tabindex="0" aria-label="Image credit: ATLAS Experiment © CERN">
+          <img src="detectors/images/atlas/atlas-magnet-system-thumbnail.webp" alt="ATLAS cutaway showing solenoidal and toroidal magnetic-field lines." loading="lazy" decoding="async">
+          
+          <div class="project-image-attribution">
+            <span>ATLAS Experiment © CERN</span>
+            
+            <a href="https://cds.cern.ch/record/2770604">View CERN source</a>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="catalogue-item publication-item" data-index="1" data-listing-order-sort="20">
+    <h3 class="listing-title">Building and Testing a Scintillation Detector</h3>
+    <div class="catalogue-entry-body publication-entry-body">
+      <div class="catalogue-entry-details publication-entry-details">
+        <p class="catalogue-entry-meta publication-author">Constructed and tested a plastic scintillation detector coupled to a photomultiplier tube.</p>
+        <p class="catalogue-entry-meta publication-citation">Measured stopped cosmic-muon lifetimes using timing electronics and exponential fits.</p>
+        <div class="catalogue-entry-links publication-links">
+          <a href="./projects/scintillator-detector/index.html" class="btn btn-primary btn-sm icon-link icon-project">Explore Project</a>
+        </div>
+      </div>
+      
+      <div class="catalogue-entry-image publication-entry-image">
+        <div class="project-thumbnail">
+          <img src="projects/scintillator-detector/images/thumbnail.webp" alt="Transparent cutout of the plastic scintillator detector with its photomultiplier tube." loading="lazy" decoding="async">
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="catalogue-item publication-item project-item--wide-image" data-index="2" data-listing-order-sort="30">
+    <h3 class="listing-title">Building and Characterizing a Diode-Pumped Nd:YAG Laser</h3>
+    <div class="catalogue-entry-body publication-entry-body">
+      <div class="catalogue-entry-details publication-entry-details">
+        <p class="catalogue-entry-meta publication-author">Assembled and aligned a diode-pumped Nd:YAG laser and measured its threshold and output characteristics.</p>
+        <p class="catalogue-entry-meta publication-citation">Investigated transient spiking, 532 nm frequency doubling, and transverse laser modes.</p>
+        <div class="catalogue-entry-links publication-links">
+          <a href="./projects/nd-yag-laser/index.html" class="btn btn-primary btn-sm icon-link icon-project">Explore Project</a>
+        </div>
+      </div>
+      
+      <div class="catalogue-entry-image publication-entry-image">
+        <div class="project-thumbnail">
+          <img src="projects/nd-yag-laser/images/thumbnail.webp" alt="Perspective drawing of the diode-pumped Nd:YAG laser apparatus mounted on an optical rail." loading="lazy" decoding="async">
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="theses-dissertations" class="level2">
+<h2 data-anchor-id="theses-dissertations">Theses &amp; Dissertations</h2>
+<div id="listing-theses-dissertations" class="quarto-listing quarto-listing-container-custom">
+<!-- Share publication layout classes so both listings use the same spacing and thumbnails. -->
+<div class="catalogue-list publication-list project-list list">
+  
+  <div class="catalogue-item publication-item" data-index="0" data-listing-order-sort="10">
+    <h3 class="listing-title">Particle Production in High Energy Collisions</h3>
+    <div class="catalogue-entry-body publication-entry-body">
+      <div class="catalogue-entry-details publication-entry-details">
+        <p class="catalogue-entry-meta publication-author">Master of Science thesis, NISER (2021). Reconstructed the foundations of statistical mechanics through detailed derivations.</p>
+        <p class="catalogue-entry-meta publication-citation">Applied thermal, transport, and hydrodynamic models to hadronic matter, particle yields, and collective flow.</p>
+        <div class="catalogue-entry-links publication-links">
+          <a href="./projects/masters-thesis/index.html" class="btn btn-primary btn-sm icon-link icon-thesis">Explore Thesis</a>
+        </div>
+      </div>
+      
+      <div class="catalogue-entry-image publication-entry-image">
+        <div class="project-thumbnail" tabindex="0" aria-label="Image credit: NISER emblem from the original 2021 Master's thesis cover">
+          <img src="projects/masters-thesis/images/niser-thesis-thumbnail-v5.webp" alt="Blue NISER institutional emblem above the words Master's Thesis." loading="lazy" decoding="async">
+          
+          <div class="project-image-attribution">
+            <span>NISER emblem from the original 2021 Master's thesis cover</span>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

@@ -1,62 +1,140 @@
-/* Publications: figure thumbnails aligned to the right, matching Talks & Posters. */
-.publication-list .publication-item {
-  margin-bottom: 2rem;
-}
-
-.publication-list .publication-entry-body {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 14rem;
-  column-gap: 1.5rem;
-  align-items: stretch;
-}
-
-.publication-list .publication-entry-details {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.publication-list .publication-author,
-.publication-list .publication-citation {
-  margin-top: 0;
-  margin-bottom: 0.3rem;
-}
-
-.publication-list .publication-links {
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: auto;
-  padding-top: 0.55rem;
-}
-
-.publication-list .publication-entry-image {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  min-width: 0;
-}
-
-.publication-list .publication-entry-image img {
+/* Project-specific thumbnail variants; shared catalogue layout is in /listing.css. */
+/* Fill the same thumbnail column without enlarging other publication figures. */
+.project-list .project-thumbnail {
+  position: relative;
   display: block;
-  width: auto;
-  height: auto;
+  width: 100%;
+}
+
+.project-list .project-image-attribution {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: max-content;
   max-width: 100%;
-  max-height: 9rem;
-  object-fit: contain;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #d8dfd2;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.97);
+  color: #34383d;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.project-image-attribution span,
+.project-image-attribution a {
+  display: block;
+}
+
+.project-thumbnail:hover .project-image-attribution,
+.project-thumbnail:focus-within .project-image-attribution {
+  display: block;
+}
+
+.project-thumbnail:focus-visible {
+  outline: 2px solid var(--forest, #406c24);
+  outline-offset: 4px;
+}
+
+.project-list .publication-entry-image img { width: 100%; }
+@media (min-width: 651px) {
+  .project-list .publication-entry-image img { max-height: 11rem; }
+}
+
+
+/* Thesis card only: title and thumbnail share the same top edge.
+   The listing template places its h3 outside .publication-entry-body; positioning
+   against .publication-item fixes alignment with the title, not the description. */
+@media (min-width: 651px) {
+  .projects-publications #theses-dissertations .publication-item {
+    position: relative;
+  }
+
+  .projects-publications #theses-dissertations .publication-item > h3 {
+    max-width: calc(100% - 19.5rem);
+  }
+
+  .projects-publications #theses-dissertations .publication-entry-body {
+    grid-template-columns: minmax(0, 1fr) 18rem;
+  }
+
+  .projects-publications #theses-dissertations .publication-entry-image {
+    position: absolute;
+    top: 0.4rem;
+    right: 0;
+    width: 18rem;
+    height: calc(100% - 0.4rem);
+    display: block;
+  }
+
+  .projects-publications #theses-dissertations .project-thumbnail {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects-publications #theses-dissertations .publication-entry-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: none;
+    object-fit: contain;
+    object-position: top center;
+  }
 }
 
 @media (max-width: 650px) {
-  .publication-list .publication-entry-body {
-    grid-template-columns: minmax(0, 1fr);
-    row-gap: 0.8rem;
+  .projects-publications #theses-dissertations .publication-entry-image img {
+    width: 100%;
+    max-width: 17rem;
+    max-height: none;
+    height: auto;
+  }
+}
+
+/* Opt-in wide image card. The title stays full width; the image fills the
+   description/button row. Layout is metadata, never inferred from an image URL. */
+@media (min-width: 651px) {
+  .project-list .project-item--wide-image .publication-entry-body {
+    grid-template-columns: minmax(0, 1fr) 35%;
   }
 
-  .publication-list .publication-entry-image {
-    justify-content: flex-start;
+  .project-list .project-item--wide-image .publication-entry-image {
+    position: relative;
+    display: block;
+    min-height: 0;
   }
 
-  .publication-list .publication-entry-image img {
-    max-width: 12rem;
-    max-height: 8rem;
+  .project-list .project-item--wide-image .project-thumbnail {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .project-list .project-item--wide-image .publication-entry-image img {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+    object-position: left top;
+    /* Trim the small white perimeter in the displayed crop, not the source. */
+    transform: scale(1.05);
+    transform-origin: left center;
+  }
+}
+
+@media (max-width: 650px) {
+  .project-list .project-item--wide-image .publication-entry-image img {
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+    object-fit: contain;
   }
 }

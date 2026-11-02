@@ -1,0 +1,56 @@
+/* Page-local figure-viewer styles. Other website pages are unaffected. */
+#ndyag-enlarge-modes { margin: .75rem 0 1.25rem; font-family: inherit; }
+.ndyag-viewer-dialog {
+  border: 0;
+  /* Reserve a right-hand rail; the button aligns with the image's top edge. */
+  padding: 0 3.75rem 0 0;
+  margin: auto;
+  box-sizing: border-box;
+  background: transparent;
+  max-width: min(96vw, calc(1600px + 3.75rem));
+  max-height: 94vh;
+  overflow: visible;
+}
+.ndyag-viewer-dialog::backdrop { background: rgba(9,16,26,.87); }
+.ndyag-viewer-dialog .ndyag-viewer-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(calc(96vw - 3.75rem), 1600px);
+  max-height: 94vh;
+  object-fit: contain;
+  background: white;
+  box-shadow: 0 0.6rem 2.8rem rgba(0,0,0,.38);
+}
+.ndyag-viewer-dialog .ndyag-viewer-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.9rem;
+  height: 2.9rem;
+  padding: 0;
+  border: 2px solid var(--forest);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--forest);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 1px 9px rgba(0,0,0,.22);
+}
+@media (hover: hover) and (pointer: fine) {
+  .ndyag-viewer-dialog .ndyag-viewer-close:hover {
+    background: var(--lime);
+    border-color: var(--forest);
+    box-shadow: 0 0 0 3px var(--lime);
+  }
+}
+.ndyag-viewer-dialog .ndyag-viewer-close:focus-visible {
+  background: var(--lime);
+  outline: 3px solid var(--forest);
+  outline-offset: 3px;
+}

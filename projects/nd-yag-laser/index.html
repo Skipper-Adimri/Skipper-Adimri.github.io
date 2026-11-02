@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.20">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Building and Characterizing a Diode-Pumped Nd:YAG Laser – Aman Dimri</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a14d652b86e00f03abd5043129e363d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../icons.css">
+<link rel="stylesheet" href="ndyag-page.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../welcome.html">
+    <span class="navbar-title">Aman Dimri</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Projects &amp; Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../presentation.html"> 
+<span class="menu-text">Talks &amp; Posters</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../awards.html"> 
+<span class="menu-text">Awards</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#experimental-setup" id="toc-experimental-setup" class="nav-link" data-scroll-target="#experimental-setup">Experimental Setup</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a>
+  <ul class="collapse">
+  <li><a href="#aligning-and-characterizing-the-laser" id="toc-aligning-and-characterizing-the-laser" class="nav-link" data-scroll-target="#aligning-and-characterizing-the-laser">Aligning and characterizing the laser</a></li>
+  <li><a href="#measuring-the-excited-state-lifetime-and-transient-response" id="toc-measuring-the-excited-state-lifetime-and-transient-response" class="nav-link" data-scroll-target="#measuring-the-excited-state-lifetime-and-transient-response">Measuring the excited-state lifetime and transient response</a></li>
+  <li><a href="#frequency-doubling-and-beam-profiles" id="toc-frequency-doubling-and-beam-profiles" class="nav-link" data-scroll-target="#frequency-doubling-and-beam-profiles">Frequency doubling and beam profiles</a></li>
+  </ul></li>
+  <li><a href="#results-and-interpretation" id="toc-results-and-interpretation" class="nav-link" data-scroll-target="#results-and-interpretation">Results and Interpretation</a>
+  <ul class="collapse">
+  <li><a href="#lasing-thresholds-and-excited-state-lifetime" id="toc-lasing-thresholds-and-excited-state-lifetime" class="nav-link" data-scroll-target="#lasing-thresholds-and-excited-state-lifetime">Lasing thresholds and excited-state lifetime</a></li>
+  <li><a href="#pump-temperature-sensitivity" id="toc-pump-temperature-sensitivity" class="nav-link" data-scroll-target="#pump-temperature-sensitivity">Pump-temperature sensitivity</a></li>
+  <li><a href="#transient-spiking" id="toc-transient-spiking" class="nav-link" data-scroll-target="#transient-spiking">Transient spiking</a></li>
+  <li><a href="#second-harmonic-generation" id="toc-second-harmonic-generation" class="nav-link" data-scroll-target="#second-harmonic-generation">Second-harmonic generation</a></li>
+  <li><a href="#transverse-laser-modes" id="toc-transverse-laser-modes" class="nav-link" data-scroll-target="#transverse-laser-modes">Transverse laser modes</a></li>
+  </ul></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Building and Characterizing a Diode-Pumped Nd:YAG Laser</h1>
+<p class="subtitle lead">Optical alignment, laser dynamics, frequency doubling, and transverse modes</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="project-meta">
+<p><strong>Integrated Master’s Laboratory Project</strong><br>
+National Institute of Science Education and Research (NISER)<br>
+Seventh semester</p>
+</div>
+<div class="project-links">
+<p><a href="files/nd-yag-report.pdf" class="btn btn-outline-primary icon-link icon-report">Full Project Report</a></p>
+</div>
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
+<p>A working laser depends on more than choosing a gain medium. The optical pump, resonator geometry, and alignment must work together to establish and sustain lasing. In this Integrated Master’s laboratory project, I assembled and aligned a diode-pumped neodymium-doped yttrium aluminum garnet (Nd:YAG) laser from a modular optical setup, then investigated its output characteristics and several features of its dynamics.</p>
+<p>The experiments began with the 808 nm pump diode and the generation of 1064 nm infrared laser light. I then measured lasing thresholds and output power, examined transient spiking, and used a potassium titanyl phosphate (KTP) crystal to generate green light at 532 nm through second-harmonic generation. Finally, I studied the transverse intensity patterns of the frequency-doubled beam. The work combined patient optical alignment with quantitative measurements and numerical analysis of the results.</p>
+</section>
+<section id="experimental-setup" class="level2">
+<h2 data-anchor-id="experimental-setup">Experimental Setup</h2>
+<p>The system used a temperature-controlled diode laser to optically pump a Nd:YAG crystal. Collimating and focusing optics directed the pump light into the gain medium, which formed part of an adjustable resonator. The output was characterized using an optical power meter, a photodiode detector, and an oscilloscope. For frequency doubling, a KTP crystal was introduced into the resonator to convert part of the 1064 nm radiation into 532 nm light.</p>
+<div id="fig-ndyag-apparatus" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" alt="Original Leybold perspective optical-bench drawing with labels for the diode laser, collimator, focusing unit, Nd:YAG rod mirror-adjustment holder, KTP frequency doubler, second laser mirror adjustment holder, filter plate holder, and SiPIN photodiode.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndyag-apparatus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/optical-bench-leybold-labeled.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:94.0%" alt="Original Leybold perspective optical-bench drawing with labels for the diode laser, collimator, focusing unit, Nd:YAG rod mirror-adjustment holder, KTP frequency doubler, second laser mirror adjustment holder, filter plate holder, and SiPIN photodiode.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndyag-apparatus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Optical arrangement of the diode-pumped Nd:YAG laser. Original schematic adapted from LD DIDACTIC/LEYBOLD, <em>Diode Pumped Nd:YAG Laser</em>, manual 4747106 EN; component labels updated for clarity.
+</figcaption>
+</figure>
+</div>
+<div id="fig-ndyag-laboratory-photo" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" alt="Original laboratory photograph of the assembled Nd:YAG laser components and supporting optical mounts.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndyag-laboratory-photo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/thumbnail.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:65.0%" alt="Original laboratory photograph of the assembled Nd:YAG laser components and supporting optical mounts.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndyag-laboratory-photo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Original photograph of the optical-bench arrangement used for second-harmonic diffraction measurements (Figure 20 of the laboratory report).
+</figcaption>
+</figure>
+</div>
+<p>A major practical challenge was achieving a common optical axis through the pump optics, Nd:YAG crystal, and resonator mirrors. The alignment was refined iteratively until stable laser operation could be obtained.</p>
+</section>
+<section id="methods" class="level2">
+<h2 data-anchor-id="methods">Methods</h2>
+<section id="aligning-and-characterizing-the-laser" class="level3">
+<h3 data-anchor-id="aligning-and-characterizing-the-laser">Aligning and characterizing the laser</h3>
+<p>We first characterized the pump diode by varying its injection current and temperature. Absorption measurements through the Nd:YAG crystal helped locate a favorable pump-wavelength region; the report discusses an absorption feature consistent with pumping near 808.4 nm, while noting that the limited temperature range did not establish an unambiguous spectral assignment.</p>
+<p>After aligning the resonator, we measured the infrared output power as a function of pump-diode current. These measurements were used to identify the onset of lasing and its approximately linear operating region. Output-power measurements at different diode temperatures also illustrated the sensitivity of the laser to pump wavelength and optical alignment.</p>
+</section>
+<section id="measuring-the-excited-state-lifetime-and-transient-response" class="level3">
+<h3 data-anchor-id="measuring-the-excited-state-lifetime-and-transient-response">Measuring the excited-state lifetime and transient response</h3>
+<p>We monitored the photodetector signal after changing the pumping conditions. Assuming an exponential decay,</p>
+<p><span class="math display">\[
+V(t) = V_0 e^{-t/\tau},
+\]</span></p>
+<p>we estimated the lifetime of the Nd:YAG <span class="math inline">\(^4F_{3/2}\)</span> metastable level using the time at which the measured signal fell to <span class="math inline">\(V_0/e\)</span>. Ten repetitions were used to estimate its mean and spread. The report notes a photodetector response time of approximately <span class="math inline">\(10\ \mu\mathrm{s}\)</span> for the selected gain setting.</p>
+<p>In pulsed operation, we also recorded the time between turning on the pump and the first large laser-output spike. The relationship between this delay and pump current was investigated using empirical fits.</p>
+</section>
+<section id="frequency-doubling-and-beam-profiles" class="level3">
+<h3 data-anchor-id="frequency-doubling-and-beam-profiles">Frequency doubling and beam profiles</h3>
+<p>To explore nonlinear optical behavior, we inserted a KTP frequency-doubling crystal inside the resonator. We observed green second-harmonic light at 532 nm and measured how its external output power changed with the measured fundamental output. Finally, we recorded the shapes of several transverse laser modes and compared their intensity distributions with expected beam profiles.</p>
+</section>
+</section>
+<section id="results-and-interpretation" class="level2">
+<h2 data-anchor-id="results-and-interpretation">Results and Interpretation</h2>
+<section id="lasing-thresholds-and-excited-state-lifetime" class="level3">
+<h3 data-anchor-id="lasing-thresholds-and-excited-state-lifetime">Lasing thresholds and excited-state lifetime</h3>
+<p>The two stages of the optical system showed distinct output-power responses to pump-diode current. The measured thresholds and the excited-state lifetime are summarized below.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 43%">
+<col style="width: 56%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Measurement</th>
+<th style="text-align: right;">Reported result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Pump-diode lasing threshold</td>
+<td style="text-align: right;"><span class="math inline">\(144.004 \pm 1.756\ \mathrm{mA}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nd:YAG lasing onset, expressed as pump-diode current</td>
+<td style="text-align: right;"><span class="math inline">\(140.426 \pm 4.218\ \mathrm{mA}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nd:YAG <span class="math inline">\(^4F_{3/2}\)</span> lifetime</td>
+<td style="text-align: right;"><span class="math inline">\(263.5\ \mu\mathrm{s}\)</span> (sample standard deviation: <span class="math inline">\(10.5\ \mu\mathrm{s}\)</span>)</td>
+</tr>
+</tbody>
+</table>
+<p>The lifetime was estimated from ten oscilloscope measurements. The stated <span class="math inline">\(10.5\ \mu\mathrm{s}\)</span> characterizes the spread of those measurements, rather than a complete uncertainty budget; the detector response time was assessed separately in the report. The Nd:YAG output became approximately linear over an intermediate current range and showed signs of saturation at higher pump currents.</p>
+<div id="fig-ndyag-output" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" alt="Two panels with measured diode-pump output and Nd:YAG 1064-nanometer output versus pump-diode injection current, with dashed markers at the reported lasing thresholds.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndyag-output-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/laser-output-characteristics.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:94.0%" alt="Two panels with measured diode-pump output and Nd:YAG 1064-nanometer output versus pump-diode injection current, with dashed markers at the reported lasing thresholds.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndyag-output-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Optical output as a function of pump-diode injection current. Left: the pump diode; right: Nd:YAG output at 1064 nm. Points reproduce the measurements from the report’s Tables 12.3 and 12.4. Dashed markers indicate threshold currents quoted in the report, rather than thresholds determined by a new fit.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="pump-temperature-sensitivity" class="level3">
+<h3 data-anchor-id="pump-temperature-sensitivity">Pump-temperature sensitivity</h3>
+<p>The Nd:YAG output also depended on the diode temperature, which changes the pump wavelength and its overlap with the crystal absorption spectrum. The measured dependence varied with the fixed injection current, as illustrated below. The lines connect measured points and do not represent an additional fit or a temperature-to-wavelength calibration.</p>
+<div id="fig-ndyag-temperature" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" alt="Three measured power-versus-temperature series at pump-diode currents of 320, 470, and 600 milliamperes.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndyag-temperature-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/temperature-sensitivity.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:82.0%" alt="Three measured power-versus-temperature series at pump-diode currents of 320, 470, and 600 milliamperes.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndyag-temperature-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Nd:YAG output as a function of pump-diode temperature for injection currents of 320, 470, and 600 mA. Curves join the measured observations from Table 12.5; they are not fitted models.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="transient-spiking" class="level3">
+<h3 data-anchor-id="transient-spiking">Transient spiking</h3>
+<p>When the pump was switched on, the laser output did not immediately settle to its steady-state value. Instead, a large initial spike appeared after a measurable delay. The report found that, over the measured current range, the delay was approximately described by</p>
+<p><span class="math display">\[
+t_{\mathrm{delay}} \propto (I-I_{\mathrm{th}})^{-1/3},
+\]</span></p>
+<p>where <span class="math inline">\(I\)</span> is the pump-diode injection current and <span class="math inline">\(I_{\mathrm{th}}\)</span> is a threshold determined by the empirical fit. This behavior illustrated the transient response of the coupled population inversion and intracavity light field.</p>
+<div id="fig-ndyag-spiking" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" alt="Measured first-spike delay decreases with increasing pump current. A new free-exponent fit gives a power-law exponent of minus 0.3607, compared with a separate fitted fixed-minus-one-third curve.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndyag-spiking-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/spiking-onset-delay.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:83.0%" alt="Measured first-spike delay decreases with increasing pump current. A new free-exponent fit gives a power-law exponent of minus 0.3607, compared with a separate fitted fixed-minus-one-third curve.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndyag-spiking-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Delay before the first laser-output spike as a function of pump-diode injection current, using all 34 observations from Table 12.7. New unweighted fits compare a free exponent with a fixed exponent of <span class="math inline">\(-1/3\)</span>.
+</figcaption>
+</figure>
+</div>
+<p>For these reconstructed plots, a <strong>new unweighted fit</strong> gives an empirical exponent of approximately <span class="math inline">\(-0.361\)</span> and an onset parameter <span class="math inline">\(I_0\approx145.8\ \mathrm{mA}\)</span>. These are fit results from the tabulated spiking data, distinct from the lasing thresholds reported above. The <span class="math inline">\(-1/3\)</span> behavior remains a useful approximation over the measured current range, rather than an exact relation.</p>
+</section>
+<section id="second-harmonic-generation" class="level3">
+<h3 data-anchor-id="second-harmonic-generation">Second-harmonic generation</h3>
+<p>With the KTP crystal inside the resonator, the infrared output at 1064 nm produced visible green light at 532 nm. In this setup, the green signal was not observed when the crystal was placed outside the resonator, consistent with the importance of the higher intracavity intensity for this nonlinear process. The measured output powers followed an approximately quadratic relationship,</p>
+<p><span class="math display">\[
+P_{2\omega} \propto P_{\omega}^{2},
+\]</span></p>
+<p>as expected in the regime considered in the report. Because the fundamental and second-harmonic powers were measured at different outputs of the optical system, their numerical ratio should not be treated directly as a conversion efficiency.</p>
+<div id="fig-ndyag-shg" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" alt="Measured external second-harmonic output power increases approximately quadratically with measured fundamental output power; a smooth blue quadratic fit is superimposed.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndyag-shg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/second-harmonic-scaling.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:83.0%" alt="Measured external second-harmonic output power increases approximately quadratically with measured fundamental output power; a smooth blue quadratic fit is superimposed.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndyag-shg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Externally measured power at 532 nm versus externally measured power at 1064 nm from Table 12.6, with a new unweighted fit to <span class="math inline">\(P_{532}=a(P_{1064}-b)^2\)</span>. The output-power ratio is not a measurement of intracavity conversion efficiency.
+</figcaption>
+</figure>
+</div>
+<p>The fitted quadratic describes the tabulated external powers. Its parameters were newly estimated from the original table; they should not be interpreted as an independently calibrated optical conversion efficiency or an observed zero-power offset.</p>
+</section>
+<section id="transverse-laser-modes" class="level3">
+<h3 data-anchor-id="transverse-laser-modes">Transverse laser modes</h3>
+<p>The frequency-doubled output also exhibited distinct transverse intensity patterns. The fundamental <span class="math inline">\(\mathrm{TEM}_{00}\)</span> mode appeared as a single bright spot, with an approximately Gaussian transverse profile. Higher-order modes showed multiple lobes and nodes; the <span class="math inline">\(\mathrm{TEM}_{10}\)</span> pattern provides a clear two-lobed example.</p>
+<div id="fig-ndyag-modes" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" alt="Six pairs of illustrative green laser transverse modes and idealized intensity surfaces: TEM00, TEM10, TEM20, TEM02, TEM30 and TEM22.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ndyag-modes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/transverse-modes.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Six pairs of illustrative green laser transverse modes and idealized intensity surfaces: TEM00, TEM10, TEM20, TEM02, TEM30 and TEM22.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ndyag-modes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Illustrative transverse laser modes of the frequency-doubled Nd:YAG laser. Each pair shows a representative beam pattern (left) and an idealized three-dimensional intensity surface (right): <strong>(a,b)</strong> <span class="math inline">\(\mathrm{TEM}_{00}\)</span>; <strong>(c,d)</strong> <span class="math inline">\(\mathrm{TEM}_{10}\)</span>; <strong>(e,f)</strong> <span class="math inline">\(\mathrm{TEM}_{20}\)</span>; <strong>(g,h)</strong> <span class="math inline">\(\mathrm{TEM}_{02}\)</span>; <strong>(i,j)</strong> <span class="math inline">\(\mathrm{TEM}_{30}\)</span>; <strong>(k,l)</strong> <span class="math inline">\(\mathrm{TEM}_{22}\)</span>. The images are illustrative, enhanced for clarity, and are not the original measured intensity profiles. Experimental photographs and profiles appear in the laboratory report.
+</figcaption>
+</figure>
+</div>
+<p><a href="images/transverse-modes.webp" id="ndyag-enlarge-modes" class="btn btn-outline-primary icon-link icon-expand" target="_blank" rel="noopener noreferrer">Enlarged Figure</a></p>
+</section>
+</section>
+<section id="conclusions" class="level2">
+<h2 data-anchor-id="conclusions">Conclusions</h2>
+<p>The project connected the construction and alignment of an optical instrument with measurements of the physics it makes accessible. We established Nd:YAG laser operation, measured its power characteristics and metastable-state lifetime, observed transient spiking, generated a visible second harmonic, and investigated transverse beam modes. It was a practical introduction to how sensitive experimental systems are assembled, calibrated, and understood through careful measurement and analysis.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/Skipper-Adimri\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script type="module" src="_scripts/figure-viewer.js"></script>
+
+
+
+
+</body></html>
