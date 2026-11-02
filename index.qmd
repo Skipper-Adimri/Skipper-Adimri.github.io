@@ -37,9 +37,12 @@ Stony Brook University
 [Email](mailto:aman.dimri@stonybrook.edu){.icon-link .cv-icon-email}
 [INSPIRE-HEP](https://inspirehep.net/authors/2621463){.icon-link .cv-icon-inspire}
 [GitHub](https://github.com/Skipper-Adimri){.icon-link .cv-icon-github}
+[LinkedIn](https://www.linkedin.com/in/aman-dimri/){.icon-link .cv-icon-linkedin}
 :::
 
 :::
+
+::: {.homepage-article}
 
 ## Research Approach & Future Directions
 
@@ -104,6 +107,8 @@ My presentation of the ATLAS radial-flow measurement at SQM 2026 received the
 Andre Mischke Award for Best Experimental Talk.
 
 [View the Talk](projects/radial-flow-collectivity/talks/sqm-2026.qmd){.btn .btn-outline-primary}
+:::
+
 :::
 
 ::::
