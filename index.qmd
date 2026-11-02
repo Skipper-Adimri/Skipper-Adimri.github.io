@@ -8,6 +8,7 @@ body-classes: homepage
 format:
   html:
     anchor-sections: false
+    css: homepage.css
 ---
 
 ::: {.homepage-intro}
@@ -19,6 +20,23 @@ properties of the quark-gluon plasma. My work combines experimental measurements
 [CV](cv.qmd){.btn .btn-outline-primary}
 [Projects & Publications](publications.qmd){.btn .btn-primary}
 [Talks & Posters](presentation.qmd){.btn .btn-outline-primary}
+:::
+
+:::: {.homepage-research}
+
+::: {.homepage-profile role="complementary" aria-label="Profile and contact links"}
+
+![](images/profile/portrait.webp){.profile-photo alt="Aman Dimri standing in front of a particle detector."}
+
+::: {.profile-affiliation}
+**Graduate Researcher**\
+Stony Brook University
+:::
+
+- [Email](mailto:aman.dimri@stonybrook.edu)
+- [INSPIRE-HEP](https://inspirehep.net/authors/2621463)
+- [GitHub](https://github.com/Skipper-Adimri)
+
 :::
 
 ## Research Approach & Future Directions
@@ -83,3 +101,5 @@ Andre Mischke Award for Best Experimental Talk.
 
 [View the Talk](projects/radial-flow-collectivity/talks/sqm-2026.qmd){.btn .btn-outline-primary}
 :::
+
+::::

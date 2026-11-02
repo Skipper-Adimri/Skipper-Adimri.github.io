@@ -1,0 +1,35 @@
+---
+title: ""
+pagetitle: "Welcome"
+description: "Aman Dimri — physicist studying collective behavior in nuclear collisions."
+page-layout: custom
+toc: false
+body-classes: welcome-page
+format:
+  html:
+    css: welcome.css
+    anchor-sections: false
+---
+
+::: {.welcome-hero}
+::: {.welcome-copy}
+[Physicist]{.welcome-eyebrow}
+
+# Aman Dimri
+
+::: {.welcome-description}
+I study collective behavior in nuclear collisions through experimental measurements and phenomenological modeling.
+:::
+
+::: {.welcome-actions}
+[Explore my work](index.qmd){.btn .btn-primary}
+[View CV](cv.qmd){.btn .btn-outline-primary}
+:::
+
+::: {.welcome-socials}
+[Email](mailto:aman.dimri@stonybrook.edu)
+[INSPIRE-HEP](https://inspirehep.net/authors/2621463)
+[GitHub](https://github.com/Skipper-Adimri)
+:::
+:::
+:::
